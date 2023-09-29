@@ -67,7 +67,7 @@ data.decision.waves.long$zeitpunkt <- factor(data.decision.waves.long$zeitpunkt,
 ```
 
 
-```{r}
+```{r wave1}
 ### wave 1 ####
 data.decision <- data.decision.waves.long %>% filter (wave=="Wave 1")
 
@@ -255,7 +255,7 @@ tab_model(model.cc.d.both.excl)
 ## wave 2 
 ### H1  {.tabset}
 
-```{r}
+```{r wave2}
 ### wave 2 ####
 data.decision.wave2 <- data.decision.waves.long %>% filter (wave=="Wave 2")
 
@@ -332,7 +332,7 @@ tab_model(model.H1b.wave2)
 ## Comparisons between waves
 
 ### H1 plot both waves
-```{r}
+```{r fig1a}
 ### comparisons between waves ####
 
 ### plot all ORs in one plot for each wave
@@ -353,7 +353,7 @@ Figure1a
 
 
 ### H1 across waves {.tabset}
-```{r}
+```{r bothwaves}
 ## H1 across waves with demographics , random slope and wave as predictor, main effect 
 model.both.waves.2.c <- glmer(decision~ wave + co2 + tax + energieabhaengigkeit + zeitpunkt   +
                                 country + age + gender + education + income +
@@ -440,7 +440,7 @@ pred_H1b
 
 
 ### H1b plot both waves
-```{r}
+```{r fig1b}
 Figure1b <- plot_model(model.H1b.both.waves2, type="pred", terms=c( "concern.scaled", "zeitpunkt") , 
                        legend.title="Implementation time", colors=c("#15A000", "#0070C0"))   +
   xlim(-2,2) +
@@ -460,7 +460,7 @@ Figure1b
 ```
 
 ### both plots
-```{r, fig.width = 19, fig.height = 11,}
+```{r plots, fig.width = 19, fig.height = 11,}
 Figure1a | Figure1b
 ```
 
