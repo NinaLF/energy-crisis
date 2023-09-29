@@ -13,3 +13,4 @@ RnwWeave: Sweave
 LaTeX: pdfLaTeX
 
 BuildType: Website
+WebsitePath: /Users/nfrings/Documents/PhD/Studies/Winter studie/results/energy-crisis
