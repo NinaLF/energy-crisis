@@ -1,29 +1,24 @@
 ---
 title: "analyses policy new"
-output: html_document
 date: "`r Sys.Date()`"
 output:
-  pdf_document:
-    toc: yes
-    toc_depth: '3'
   html_document:
+    theme: lumen
     toc: yes
     toc_depth: 4
     number_sections: no
-  word_document:
-    toc: yes
-    toc_depth: '3'---
+---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(class.source = "CSSoutput",
-                      eval = TRUE, echo = FALSE, include = TRUE,      
-                      fig.align='center', fig.show='asis', fig.width = 13, fig.height = 8,
+                      eval = TRUE, echo = FALSE, include = TRUE,warning=FALSE,
+                      fig.align='center', fig.show='asis',  fig.width = 16, fig.height = 10,
                       size='footnotesize')
 
 ```
 
 
-```{r}
+```{r packages, include=FALSE}
 setwd("/Users/nfrings/Library/Mobile Documents/com~apple~CloudDocs/Documents/PhD/Studies/Winter studie/results")
 #setwd("/Users/ninafrings/Documents/PhD/Studies/Winter studie/results")
 
@@ -41,11 +36,12 @@ library(patchwork)
 library(afex)
 library(ggeffects)
 
-
+# so plot_model plots look nice
+set_theme(base=theme_classic())
 ```
 
-### wave 1 H1
-```{r}
+
+```{r data, include=FALSE}
 #### wave 1 ###
 
 data.decision.waves.long <- read_csv("wave 2 and both waves/data/data.decision.waves.long.csv")
@@ -68,6 +64,10 @@ data.decision.waves.long$energieabhaengigkeit <- factor(data.decision.waves.long
 data.decision.waves.long$zeitpunkt <- factor(data.decision.waves.long$zeitpunkt, 
                                              labels=c("in 1 year", "in 7 years"))
 
+```
+
+
+```{r}
 ### wave 1 ####
 data.decision <- data.decision.waves.long %>% filter (wave=="Wave 1")
 
@@ -85,7 +85,6 @@ model.H1.pre_reg <- glmer(decision~ co2 + tax + energieabhaengigkeit + zeitpunkt
                             age + gender + income.wave1 + country + education +
                             (1 | m),
                           data=data.decision, family="binomial")
-tab_model(model.H1.pre_reg)
 
 ## random slope for attributes
 model.H1.random_s.d <- glmer(decision~ co2 + tax + energieabhaengigkeit + zeitpunkt  +
@@ -98,12 +97,27 @@ tab_model(model.H1.random_s.d)
 model.H1.random_s <- glmer(decision~ co2 + tax + energieabhaengigkeit + zeitpunkt  +
                              (1 + co2 + tax + energieabhaengigkeit + zeitpunkt | m),
                            data=data.decision, family="binomial")
+```
+## wave 1 
+### H1 {.tabset}
+#### H1 pre-registered
+Model with random intercept and demographics
+```{r}
+tab_model(model.H1.pre_reg)
+```
+#### H1 random slopes
+Model with random slope and demographics
+```{r}
+tab_model(model.H1.random_s.d)
+```
+#### H1 random slopes no demographics
+
+```{r}
 tab_model(model.H1.random_s)
 
 ```
 
-
-
+### H1b {.tabset}
 ```{r}
 ### H1b ####
 ## adding climate change concern
@@ -114,21 +128,29 @@ model.H1b.pre_reg <- glmer(decision~ co2 + tax + energieabhaengigkeit +
                              age + gender + income.wave1 + country + education +
                              (1  | m),
                            data = data.decision,family = binomial(link = "logit"))
-tab_model(model.H1b.pre_reg)
 
 model.H1b.sd<- glmer(decision~ co2 + tax + energieabhaengigkeit +
                        (zeitpunkt * concern.scaled) +
                        age + gender + income.wave1 + country + education +
                        (1 + co2 + tax + energieabhaengigkeit + zeitpunkt | m),
                      data = data.decision,family = binomial(link = "logit"))
-tab_model(model.H1b.sd)
 
 
 ```
 
+#### H1b pre-reg
+```{r}
+tab_model(model.H1b.pre_reg)
 
+```
 
+#### H1b random slopes
+```{r}
+tab_model(model.H1b.sd)
 
+```
+
+### H1 c {.tabset}
 ```{r}
 #### H1c ####
 data.H1c <- read.csv("wave1 results and R/data/data.model.co2.c.csv")
@@ -153,27 +175,29 @@ set_label(data.H1c$co2.beta.n) <-  "CO2 attribute importance"
 # model cc concern
 model.cc.d <- lm(co2.beta.n ~  gender + age + income + country + education +
                    climate_concern , data=data.H1c )
-tab_model(model.cc.d, digits=3)
-plot_model(model.cc.d, type="emm", terms=c("climate_concern"), axis.lim=c(-0,1))
 
 # outliers?
 # mean ± 3sd
 mean(data.H1c$co2.beta.n) + 3 *sd(data.H1c$co2.beta.n)
 data.H1c.excl <- data.H1c %>% filter(co2.beta.n > -0.5718221) %>% filter(co2.beta.n < 1.610175)
-ggplot(data.H1c.excl, aes(x=co2.beta.n)) +
-  geom_boxplot() +
-  theme_minimal()
+
 
 ### rerun model with limit
 model.cc.d.excl <- lm(co2.beta.n ~  gender + age + income + country +
                         concern.scaled, data=data.H1c.excl )
-tab_model(model.cc.d.excl)
 
 
 ```
+#### H1 c wave 1
+```{r}
+tab_model(model.cc.d, digits=3)
+```
 
+#### H1 c wave1 excluding extremes
+```{r}
+tab_model(model.cc.d.excl,digits=3)
+```
 
-## H1c both waves
 
 ```{r}
 #H1c across both waves
@@ -201,29 +225,37 @@ set_label(data.H1c.waves$co2.beta.n) <-  "CO2 attribute importance"
 model.cc.d.waves <- lm(co2.beta.n ~  wave +  gender + age + income + country + education +
                    concern.scaled , 
                    data=data.H1c.waves )
-tab_model(model.cc.d.waves, digits=3)
-plot_model(model.cc.d.waves, type="emm", terms=c("concern.scaled"), axis.lim=c(-0,1))
 
 # outliers?
 # mean ± 3sd
 mean(data.H1c.waves$co2.beta.n) + 3 *sd(data.H1c$co2.beta.n)
 data.H1c.waves.excl <- data.H1c.waves %>% filter(co2.beta.n > -0.5718221) %>% filter(co2.beta.n < 1.610175)
-ggplot(data.H1c.waves.excl, aes(x=co2.beta.n)) +
-  geom_boxplot() +
-  theme_minimal()
+
 
 ### rerun model with limit
 model.cc.d.both.excl <- lm(co2.beta.n ~  gender + age + income + country +
                         concern.scaled, data=data.H1c.waves.excl )
-tab_model(model.cc.d.both.excl)
 
 
 
 ```
 
+#### H1c both waves
+```{r}
+tab_model(model.cc.d.waves, digits=3)
+
+```
+
+#### H1 c both waves excluding extremes
+```{r}
+tab_model(model.cc.d.both.excl)
+
+```
 
 
-### wave 2 H1 and H1b
+## wave 2 
+### H1  {.tabset}
+
 ```{r}
 ### wave 2 ####
 data.decision.wave2 <- data.decision.waves.long %>% filter (wave=="Wave 2")
@@ -238,20 +270,40 @@ set_label(data.decision.wave2$zeitpunkt) <- "implementation (in 1 vs 7 years)"
 model.H1.random_s.wave2 <- glmer(decision~ co2 + tax + energieabhaengigkeit + zeitpunkt  +
                                    (1 + co2 + tax + energieabhaengigkeit + zeitpunkt | m),
                                  data=data.decision.wave2, family="binomial")
-tab_model(model.H1.random_s.wave2)
+
 model.H1.random_s.d.wave2 <- glmer(decision~ co2 + tax + energieabhaengigkeit + zeitpunkt  +
                                      age + gender + income.wave2  + country + education +
                                      (1 + co2 + tax + energieabhaengigkeit + zeitpunkt | m),
                                    data=data.decision.wave2, family="binomial")
-tab_model(model.H1.random_s.d.wave2)
+
 ## random intercept and demographics
 model.H1.wave2.d <- glmer(decision~ co2 + tax + energieabhaengigkeit + zeitpunkt  +
                             age + gender + income.wave2  + country + education +
                             (1 | m),
                           data=data.decision.wave2, family="binomial")
+
+```
+
+#### H1 prereg
+```{r}
 tab_model(model.H1.wave2.d)
 
+```
 
+#### H1 random slopes
+```{r}
+tab_model(model.H1.random_s.d.wave2)
+```
+
+#### H1 random slopes no demographics
+```{r}
+tab_model(model.H1.random_s.wave2)
+
+```
+
+### H1b {.tabset}
+
+```{r}
 ### H1b ### (preregistered)
 # adding climate change concern
 model.H1b.wave2 <- glmer(decision~ co2 + tax + energieabhaengigkeit +
@@ -259,30 +311,33 @@ model.H1b.wave2 <- glmer(decision~ co2 + tax + energieabhaengigkeit +
                            age + gender + income.wave2  + country + education +
                            (1 + co2 + tax + energieabhaengigkeit + zeitpunkt | m),
                          data = data.decision.wave2,family = binomial(link = "logit"))
-tab_model(model.H1b.wave2)
 
 model.H1b.wave2.d <- glmer(decision~ co2 + tax + energieabhaengigkeit +
                              (zeitpunkt * concern.scaled) +
                              age + gender + income.wave2  + country + education +
                              (1 | m),
                            data = data.decision.wave2,family = binomial(link = "logit"))
+```
+
+#### H1b prereg
+```{r}
 tab_model(model.H1b.wave2.d)
 
+```
+#### H1b random slopes
+```{r}
+tab_model(model.H1b.wave2)
 
 ```
 
+## Comparisons between waves
 
-
+### H1 plot both waves
 ```{r}
 ### comparisons between waves ####
 
 ### plot all ORs in one plot for each wave
-plot_models(model.H1.random_s, model.H1.random_s.wave2,  m.labels =c("wave 1", "wave 2"), legend.title="waves" ) +
-  theme(axis.title  = element_text(size = 22),
-        axis.text = element_text(size = 20),
-        strip.text = element_text(size=18))
 
-set_theme(base=theme_classic())
 Figure1a <- plot_models(model.H1.random_s, model.H1.random_s.wave2,  m.labels =c("Wave 1", "Wave 2"), legend.title="assessment waves", colors=c("#15A000", "#0070C0"), axis.lim = c(0.01,2),
                         axis.labels = c(paste0("Implementation", "\n", "time"), paste0("Energy", "\n" ,"independence"),
                                         "Taxes", paste0("Co2 reduction", "\n", "potential") )) + labs(title="a", color="Assessment wave") +
@@ -298,6 +353,45 @@ Figure1a
 ```
 
 
+### H1 across waves {.tabset}
+```{r}
+## H1 across waves with demographics , random slope and wave as predictor, main effect 
+model.both.waves.2.c <- glmer(decision~ wave + co2 + tax + energieabhaengigkeit + zeitpunkt   +
+                                country + age + gender + education + income +
+                                (1 + co2 + tax + energieabhaengigkeit + zeitpunkt | m),
+                              data = data.decision.waves.long,family = binomial(link = "logit") )
+
+## H1 across waves without demographics , random slope and wave as predictor, main effect (reported)
+model.both.waves.2.rep <- glmer(decision~ wave + co2 + tax + energieabhaengigkeit + zeitpunkt   +
+                                  (1 + co2 + tax + energieabhaengigkeit + zeitpunkt | m),
+                                data = data.decision.waves.long,family = binomial(link = "logit") )
+
+## H1 across waves with demographics , random intercept 
+model.both.waves.i.d <- glmer(decision~ wave + co2 + tax + energieabhaengigkeit + zeitpunkt   +
+                                country + age + gender + education + income +
+                                (1 | m),
+                              data = data.decision.waves.long,family = binomial(link = "logit") )
+
+```
+
+#### H1 both waves prereg
+```{r}
+tab_model(model.both.waves.i.d)
+
+```
+#### H1 both waves random slopes
+```{r}
+tab_model(model.both.waves.2.c)
+
+```
+#### H1 both waves random slopes no demographics
+```{r}
+tab_model(model.both.waves.2.rep)
+
+```
+
+
+### H1b across waves {.tabset}
 
 ```{r}
 #### H1b across both waves, only 1 plot ####
@@ -306,36 +400,47 @@ model.H1b.both.waves2.d <- glmer(decision~  wave + energieabhaengigkeit + tax + 
                                    country + age + gender + education + income + 
                                    (1 + co2 + tax + energieabhaengigkeit + zeitpunkt | m),
                                  data = data.decision.waves.long, family = binomial(link = "logit"))
-tab_model(model.H1b.both.waves2.d)
+
 # with random intercept instead and demographics
 model.H1b.both.waves2.i.d <- glmer(decision~  wave + energieabhaengigkeit + tax + co2 + zeitpunkt*concern.scaled  +
                                      country + age + gender + education + income + 
                                      (1 | m),
                                    data = data.decision.waves.long, family = binomial(link = "logit"))
-tab_model(model.H1b.both.waves2.i.d)
 # random slope without demographics as reported
 model.H1b.both.waves2 <- glmer(decision~  wave + energieabhaengigkeit + tax + co2 + 
                                  zeitpunkt*concern.scaled  +
                                  (1 + co2 + tax + energieabhaengigkeit + zeitpunkt | m),
                                data = data.decision.waves.long, family = binomial(link = "logit"))
-tab_model(model.H1b.both.waves2)
 ```
 
-point estimate H1b
+#### H1b both waves prereg
+```{r}
+tab_model(model.H1b.both.waves2.i.d)
+
+```
+
+#### H1b both waves random slopes
+```{r}
+tab_model(model.H1b.both.waves2.d)
+```
+
+#### H1b both waves random slopes no demographics
+
+```{r}
+tab_model(model.H1b.both.waves2)
+
+```
+
+#### point estimate H1b
 ```{r}
 
 pred_H1b <- ggpredict(model.H1b.both.waves2, c("zeitpunkt", "concern.scaled[-1,1]"))  
 pred_H1b <- as.data.frame(pred_H1b)
 pred_H1b
-
-
-pred_H1b2 <- ggpredict(model.H1b.both.waves2, c("zeitpunkt", "concern.scaled[-2,2]"))  
-pred_H1b2 <- as.data.frame(pred_H1b2)
-pred_H1b2
 ```
 
 
-
+### H1b plot both waves
 ```{r}
 Figure1b <- plot_model(model.H1b.both.waves2, type="pred", terms=c( "concern.scaled", "zeitpunkt") , 
                        legend.title="Implementation time", colors=c("#15A000", "#0070C0"))   +
@@ -352,41 +457,22 @@ Figure1b <- plot_model(model.H1b.both.waves2, type="pred", terms=c( "concern.sca
 
 Figure1b
 
+
+```
+
+### both plots
+```{r, fig.width = 19, fig.height = 11,}
 Figure1a | Figure1b
 ```
 
 
-## H1 across waves 
-```{r}
-## H1 across waves with demographics , random slope and wave as predictor, main effect 
-model.both.waves.2.c <- glmer(decision~ wave + co2 + tax + energieabhaengigkeit + zeitpunkt   +
-                                country + age + gender + education + income +
-                                (1 + co2 + tax + energieabhaengigkeit + zeitpunkt | m),
-                              data = data.decision.waves.long,family = binomial(link = "logit") )
-tab_model(model.both.waves.2.c)
-
-## H1 across waves without demographics , random slope and wave as predictor, main effect (reported)
-model.both.waves.2.rep <- glmer(decision~ wave + co2 + tax + energieabhaengigkeit + zeitpunkt   +
-                                  (1 + co2 + tax + energieabhaengigkeit + zeitpunkt | m),
-                                data = data.decision.waves.long,family = binomial(link = "logit") )
-tab_model(model.both.waves.2.rep)
-
-## H1 across waves with demographics , random intercept 
-model.both.waves.i.d <- glmer(decision~ wave + co2 + tax + energieabhaengigkeit + zeitpunkt   +
-                                country + age + gender + education + income +
-                                (1 | m),
-                              data = data.decision.waves.long,family = binomial(link = "logit") )
-tab_model(model.both.waves.i.d)
-
-```
-
-model comparison H1b versus H1 
+### model comparison H1b versus H1 
 ```{r}
 anova(model.both.waves.2.c, model.H1b.both.waves2.d)
 
 ```
 
-
+## Longitudinal changes {.tabset}
 ```{r}
 #### H1a ####
 # We expect that the energy independence attribute will gain importance in predicting renewable energy policy support compared to t1
@@ -395,22 +481,33 @@ anova(model.both.waves.2.c, model.H1b.both.waves2.d)
 model.both.waves.i.2 <- glmer(decision~  wave*(co2 + tax + energieabhaengigkeit + zeitpunkt)  +
                                 (1 + co2 + tax + energieabhaengigkeit + zeitpunkt | m),
                               data = data.decision.waves.long, family = binomial(link = "logit"))
-tab_model(model.both.waves.i.2)
 ### no interaction are significant, co2 is the on that comes  closest (p=0.137)
 
 ## only for energy independence because that was pre-registered
 model.both.waves.e.i <- glmer(decision~  wave*energieabhaengigkeit + tax + co2 + zeitpunkt  +
                                 (1 + co2 + tax + energieabhaengigkeit + zeitpunkt | m),
                               data = data.decision.waves.long, family = binomial(link = "logit"))
-tab_model(model.both.waves.e.i)
 
 model.both.waves.e.i.c <- glmer(decision~  country*wave*energieabhaengigkeit + tax + co2 + zeitpunkt  +
                                   (1 + co2 + tax + energieabhaengigkeit + zeitpunkt | m),
                                 data = data.decision.waves.long, family = binomial(link = "logit"))
-tab_model(model.both.waves.e.i.c)
+```
+
+### Changes across waves
+```{r}
+tab_model(model.both.waves.i.2)
 
 ```
 
+### Changes across waves for energy independence
+```{r}
+tab_model(model.both.waves.e.i)
 
+```
 
+### Changes across waves for energy independence by country
+```{r}
+tab_model(model.both.waves.e.i.c)
+
+```
 

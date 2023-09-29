@@ -12,7 +12,7 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(class.source = "CSSoutput",
-                      echo = FALSE, include = TRUE,      
+                       eval = TRUE, echo = FALSE, include = TRUE,warning=FALSE,
                       fig.align='center', fig.show='asis',
                       size='footnotesize')
 
