@@ -91,6 +91,7 @@ model.H1.random_s.d <- glmer(decision~ co2 + tax + energieabhaengigkeit + zeitpu
                                age + gender + income.wave1 + country + education + 
                                (1 + co2 + tax + energieabhaengigkeit + zeitpunkt | m),
                              data=data.decision, family="binomial")
+tab_model(model.H1.random_s.d)
 
 # without demographics for better overview 
 model.H1.random_s <- glmer(decision~ co2 + tax + energieabhaengigkeit + zeitpunkt  +

@@ -11,6 +11,8 @@ navbar:
       href: analyses-judgment-new.html
     - text: "Analyses product choices"
       href: analyses-product-choices.html
+    - text: "Analyses policy support"
+      href: analyses-policy-new.html
 
 
  
