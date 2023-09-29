@@ -42,7 +42,7 @@ set_theme(base=theme_classic())
 
 
 
-## product choices
+## non-cleaned for pattern people
 
 ###  wave 1: individual differences  {.tabset}
 ```{r load, include=FALSE}
@@ -177,7 +177,7 @@ tab_model(model.H4.wave2.error)
 ```
 
 
-## Both waves together  
+### Both waves together  
 ```{r}
 #### product both waves together ####
 
@@ -194,20 +194,20 @@ model.H4a.both <- glmer(choice ~ price.level + energy.level*concern.scaled  +
                         data=data.product.waves.long, family="binomial")
 ```
 
-### Basic model
+#### Basic model
 ```{r}
 tab_model(model.product.waves)
 
 ```
 
-### Climate change concern {.tabset}
+#### Climate change concern {.tabset}
 
-#### cc concern model
+##### cc concern model
 ```{r}
 tab_model(model.H4a.both)
 ```
 
-#### cc concern plot 
+##### cc concern plot 
 ```{r}
 plot_model(model.H4a.both,type="pred",terms=c("concern.scaled","energy.level"),
                     colors=c( "#15A000", "#0070C0")) +
@@ -225,7 +225,7 @@ plot_model(model.H4a.both,type="pred",terms=c("concern.scaled","energy.level"),
   
 ```
 
-#### cc concern point estimates 
+##### cc concern point estimates 
 ```{r}
 
 pred_H4a.c <- ggpredict(model.H4a.both, c("energy.level", "concern.scaled[-1,1]"))  
@@ -233,9 +233,9 @@ pred_H4a.c <- as.data.frame(pred_H4a.c)
 print(pred_H4a.c)
 ```
 
-### Energy literacy  {.tabset}
+#### Energy literacy  {.tabset}
 
-#### energy literacy model
+##### energy literacy model
 ```{r}
 ### across both waves judgment error
 model.H4a.error.both <- glmer(choice ~ price.level + energy.level* mean.error_scaled  +
@@ -247,7 +247,7 @@ tab_model(model.H4a.error.both)
 ```
 
 
-#### energy literacy plot
+##### energy literacy plot
 
 ```{r}
 plot_model(model.H4a.error.both,
@@ -268,7 +268,7 @@ plot_model(model.H4a.error.both,
 ```
 
 
-#### energy literacy model point estimates 
+##### energy literacy model point estimates 
 
 ```{r}
 
@@ -277,7 +277,7 @@ pred_H4a.e <- as.data.frame(pred_H4a.e)
 print(pred_H4a.e)
 ```
 
-### Model comparisons:
+#### Model comparisons:
 1.  Basic model versus model with cc concern &interaction
 2.  Basic model versus model with energy literacy & interaction  
 
@@ -407,7 +407,7 @@ tab_model(model.H4a.2)
 
 ```
 
-### wave 2
+### wave 2: individual differences
 ```{r}
 ##### wave 2 #####
 data.everything.w2_clean <- data.product.waves.long_clean %>% filter(wave=="Wave 2")
@@ -419,15 +419,6 @@ model.H4.wave2.error <- glmer(choice ~ price.level + energy.level*mean.error_sca
                                 gender + age + income + education  +
                                 (1| m),
                               data=data.everything.w2_clean, family="binomial")
-tab_model(model.H4.wave2.error)
-
-# controlling for cc concern
-model.H4.wave2.error.c <- glmer(choice ~ price.level + energy.level*mean.error_scaled +
-                                  country  + concern.scaled +
-                                  gender + age + income + education  +
-                                  (1| m),
-                                data=data.everything.w2_clean, family="binomial")
-tab_model(model.H4.wave2.error.c)
 
 ## cc concern model
 model.H4.wave2.concern <- glmer(choice ~ price.level + energy.level*concern.scaled +
@@ -435,28 +426,35 @@ model.H4.wave2.concern <- glmer(choice ~ price.level + energy.level*concern.scal
                                   gender + age + income + education  +
                                   (1| m),
                                 data=data.everything.w2_clean, family="binomial")
+```
+
+#### cc concern 
+```{r}
 tab_model(model.H4.wave2.concern)
-plot_model(model.H4.wave2.concern, type="pred", terms=c("concern.scaled", "energy.level"),
-           colors=c("#0070C0", "#15A000")) +
-  theme(axis.title  = element_text(size = 20),
-        axis.text = element_text(size = 18) )
+
+```
+
+#### energy literacy
+```{r}
+tab_model(model.H4.wave2.error)
 ```
 
 
-## Across both waves together, cleaned
+## Across both waves together, cleaned 
 
-1. general model
-2. with cc concern (interaction)
+### Individual differences {.tabset}
+#### general model
 ```{r}
-#### product both waves together ####
-
-
-### wave by country
 model.product.waves_clean <- glmer(choice ~ wave + country + energy.level  +  price.level +
                                age + gender + education + income  +
                                (1  |  m),
                              data = data.product.waves.long_clean, family = binomial(link = "logit"))
 tab_model(model.product.waves_clean)
+```
+
+#### with cc concern (interaction)
+```{r}
+#### product both waves together ####
 
 #### cc concern across both waves
 model.H4a.both_clean <- glmer(choice ~ price.level + energy.level*concern.scaled  +
@@ -466,7 +464,7 @@ model.H4a.both_clean <- glmer(choice ~ price.level + energy.level*concern.scaled
 tab_model(model.H4a.both_clean)
 ```
 
-CC concern model plot
+#### CC concern model plot
 ```{r, fig.width = 13, fig.height = 8 }
 Fig3d <- plot_model(model.H4a.both_clean,type="pred",terms=c("concern.scaled","energy.level"),
                     colors=c( "#15A000", "#0070C0")) +
@@ -486,7 +484,7 @@ Fig3d
         
 ```
 
-point estimates cc concern and energy.level -1 and 1
+#### point estimates cc concern and energy.level -1 and 1
 ```{r}
 
 pred_H4a.c <- ggpredict(model.H4a.both_clean, c("energy.level", "concern.scaled[-1,1]"))  
@@ -496,7 +494,7 @@ pred_H4a.c
 
 ```
 
-3. energy literacy (interaction)  
+#### energy literacy (interaction)  
 ```{r}
 ### across both waves judgment error
 model.H4a.error.both_clean <- glmer(choice ~ price.level + energy.level* mean.error_scaled  +
@@ -506,7 +504,7 @@ model.H4a.error.both_clean <- glmer(choice ~ price.level + energy.level* mean.er
 tab_model(model.H4a.error.both_clean)
 ```
 
-Energy literacy plot  
+#### Energy literacy plot  
 ```{r, fig.width = 13, fig.height = 8 }
 Fig3c <- plot_model(model.H4a.error.both_clean,
                     type="pred",terms=c("mean.error_scaled","energy.level"),
@@ -526,12 +524,8 @@ Fig3c
 
 ```
 
-Both plots together
-```{r, fig.width = 13, fig.height = 8 }
-Fig3c + Fig3d
-```
 
-point estimates energy literacy and energy.level
+#### point estimates energy literacy and energy.level
 
 ```{r}
 
@@ -541,7 +535,12 @@ pred_H4a.e
 
 ```
 
-Model comparisons 
+### Both plots together
+```{r, fig.width = 13, fig.height = 8 }
+Fig3c + Fig3d
+```
+
+### Model comparisons 
 1. basic model versus cc concern cleaned
 2. basic model versus energy literacy cleaned
 ```{r}
@@ -552,7 +551,7 @@ anova(model.product.waves_clean, model.H4a.error.both_clean)
 # both models signficantly betterr than without
 ```
 
-Graphical representation of means  
+### Graphical representation of means  
 ```{r, fig.width = 13, fig.height = 8 }
 ## graphical representation of means ####
 data.product.waves.long_clean$choice.n <- as.numeric(as.character(data.product.waves.long_clean$choice))
@@ -645,7 +644,7 @@ pred_2$wave2 <- c(0.78,1,1.22, 1.75, 1.97, 2.19)
 pred_2
 ```
 
-Plot for H5
+### Plot for H5
 ```{r, fig.width = 13, fig.height = 8 }
 
 Fig3b <- ggplot(pred_2, aes(x = wave2, y = predicted)) + scale_color_manual(values=c("#F6BE00", "#ff8c00", "#a50000"))+scale_fill_manual(values=c("#F6BE00", "#ff8c00", "#a50000"))+
