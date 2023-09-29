@@ -8,5 +8,10 @@ navbar:
       href: preparation.html
     - text: "Analyses judgment"
       href: analyses-judgment-new.html
+    - text: "Analyses product choices"
+      href: analyses-product-choices.html
+      
+
+      
 
  
