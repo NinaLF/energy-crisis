@@ -7,12 +7,7 @@ output:
     toc: yes
     toc_depth: 4
     number_sections: no
-  word_document:
-    toc: yes
-    toc_depth: '3'
-  pdf_document:
-    toc: yes
-    toc_depth: '3'
+
 ---
 
 
