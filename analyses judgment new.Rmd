@@ -1,0 +1,716 @@
+---
+title: "analyses judgment new"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    theme: lumen
+    toc: yes
+    toc_depth: 4
+    number_sections: no
+  word_document:
+    toc: yes
+    toc_depth: '3'
+  pdf_document:
+    toc: yes
+    toc_depth: '3'
+---
+
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(class.source = "CSSoutput",
+                      eval = TRUE, echo = FALSE, include = TRUE,warning=FALSE,
+                      fig.align='center', fig.show='asis', fig.width = 16, fig.height = 10,
+                      size='footnotesize')
+
+```
+
+```{r, include=FALSE}
+setwd("/Users/nfrings/Library/Mobile Documents/com~apple~CloudDocs/Documents/PhD/Studies/Winter studie/results")
+#setwd("/Users/ninafrings/Documents/PhD/Studies/Winter studie/results")
+
+library(tidyverse)
+library(sjPlot)
+library(rcompanion)
+library(rstatix)
+library(lmerTest); library(lme4)
+library(sjlabelled)
+library(sjmisc)
+library(emmeans)
+library("rmcorr")
+library(psych)
+library(patchwork)
+library(afex)
+library(ClinSigMeasures)
+library(prettydoc)
+library(ggeffects)
+
+# so plot_model plots look nice
+set_theme(base=theme_classic())
+```
+
+
+```{r}
+#### accuracy wave 1 ####
+
+data.accuracy.pattern <- read.csv("wave 2 and both waves/data/accuracy.patterns.csv")
+
+data.accuracy.long.total <- read.csv("wave1 results and R/data/data.accuracy.long.total.csv")
+data.accuracy.long.total <- data.accuracy.long.total[, -c(1)]
+
+
+data.accuracy.long.total$behavior.label <- factor(data.accuracy.long.total$behavior,
+                                                  levels=c("fridge_eff", "dishwasher", "washing", "hairdryer",
+                                                           "light_eff", "heating", "dryer", "shower"),
+                                                           labels=c("fridge", "dishwasher", "washing", "hairdryer",
+                                                           "light", "heating", "dryer", "shower" ))
+data.accuracy.long.total <- data.accuracy.long.total %>% filter(!gender=="non-binary")
+
+
+#data.accuracy.long.total.c <-  data.accuracy.long.total %>% filter(!c(behavior=="light_eff" | behavior=="fridge_eff"))
+
+#data.accuracy.long.total.c <- data.accuracy.long.total
+data.accuracy.long.total$impact <- factor(data.accuracy.long.total$behavior.label,
+                                          levels = c( "dishwasher", "washing", "hairdryer", "fridge",
+                                                      "heating", "dryer", "shower", "light"),
+                                          labels=c( "low","low", "low","low",
+                                                    "high", "high", "high", "low"))
+data.accuracy.long.total_clean <- data.accuracy.long.total[!c(data.accuracy.long.total$m %in% data.accuracy.pattern$m), ]
+
+## wave 2
+
+data.accuracy.w2.long.total <- read.csv("wave 2 and both waves/data/data.accuracy.w2.long.total.csv")
+data.accuracy.w2.long.total <- data.accuracy.w2.long.total[, -c(1)]
+data.accuracy.w2.long.total$gender <- factor(data.accuracy.w2.long.total$gender)
+data.accuracy.w2.long.total <- data.accuracy.w2.long.total %>% filter(!gender=="non-binary")
+
+data.accuracy.w2.long.total$income <- factor(data.accuracy.w2.long.total$income)
+data.accuracy.w2.long.total$education <- factor(data.accuracy.w2.long.total$education)
+
+
+data.accuracy.w2.long.total$behavior.label <- factor(data.accuracy.w2.long.total$behavior)
+data.accuracy.w2.long.total$impact <- factor(data.accuracy.w2.long.total$behavior.label,
+                                          levels = c( "dishwasher", "washing", "hairdryer", "fridge",
+                                                      "heating", "dryer", "shower", "light"),
+                                          labels=c( "low","low", "low","low",
+                                                    "high", "high", "high", "low"))
+                                                    
+data.accuracy.w2.long.total_clean <- data.accuracy.w2.long.total[!c(data.accuracy.w2.long.total$m %in% data.accuracy.pattern$m), ]
+
+
+#### across waves comparison ANOVA ####
+#### long format
+data.accuracy.waves.long <- read.csv("wave 2 and both waves/data/data.accuracy.waves.long.csv")
+
+data.accuracy.waves.long$wave <- factor(data.accuracy.waves.long$wave)
+data.accuracy.waves.long <- data.accuracy.waves.long %>% filter(!gender=="non-binary")
+data.accuracy.waves.long_clean <- data.accuracy.waves.long[!c(data.accuracy.waves.long$m %in% data.accuracy.pattern$m), ]
+
+```
+
+## H3a frequency wave 1  {.tabset}
+```{r}
+data.accuracy.waves.long.total  <- read.csv("wave 2 and both waves/data/data.accuracy.waves.long.total.csv")
+data.accuracy.waves.long.total <- data.accuracy.waves.long.total[, -c(1)]
+
+data.accuracy.waves.long.total<- data.accuracy.waves.long.total %>% filter(!gender=="non-binary")
+data.accuracy.waves.long.total_clean <-   data.accuracy.waves.long.total[!c( data.accuracy.waves.long.total$m %in% data.accuracy.pattern$m), ]
+```
+
+
+### H3a 
+```{r}
+#### H3 a frequency ####
+
+data.accuracy.test.freq <- read.csv("wave1 results and R/data/data.accuracy.frequency.csv")
+data.accuracy.test.freq <- data.accuracy.test.freq[, -c(1)]
+data.accuracy.test.freq <- data.accuracy.test.freq  %>% filter(!gender=="non-binary")
+
+model.accuracy.freq2 <- lm(mean.abs.error ~ gender + age + country + income.wave1 + education +
+                             climate_concern + mean.freq.clean  ,
+                           data= data.accuracy.test.freq )
+tab_model(model.accuracy.freq2)
+
+```
+
+
+### H3a cleaned     
+
+```{r}
+### cleaned for pattern people!!
+data.accuracy.test.freq_clean <- data.accuracy.test.freq[!c(data.accuracy.test.freq$m %in% data.accuracy.pattern$m), ]
+
+model.accuracy.freq2 <- lm(mean.abs.error ~ gender + age + country + income.wave1 + education +
+                             climate_concern + mean.freq.clean  ,
+                           data= data.accuracy.test.freq_clean )
+tab_model(model.accuracy.freq2)
+
+```
+    
+    
+  
+## H3b wave 2
+
+###  certainty and accuracy {.tabset}
+#### Model with certainty and numeracy  
+```{r}
+#H3b: We will explore the relationship between confidence in the estimates ####
+#and the accuracy of estimates between and within participants.
+
+model.H3b.w2.d <- lmer(absolute.error.log ~ certainty + numeracy.f  +
+                         education + country + gender + income  + age + concern.scaled +
+                         (1 |m) + (1 |behavior),
+                       data= data.accuracy.w2.long.total)
+tab_model(model.H3b.w2.d)
+```
+
+#### Model with exponential certainty
+```{r}
+model.accuracy.exp <- lmer(absolute.error.log ~ certainty + numeracy.f  + I(certainty^2) +
+                             education + country + gender + income  + age + concern.scaled+
+                             (1 |m) + (1 |behavior),
+                           data= data.accuracy.w2.long.total)
+
+tab_model(model.accuracy.exp)
+plot_model(model.accuracy.exp, type="pred", terms=c("certainty"), color="darkgrey") 
+```
+
+#### H3b cleaned
+Model with certainty and numeracy  
+```{r}
+model.H3b.w2.d <- lmer(absolute.error.log ~ certainty + numeracy.f  +
+                         education + country + gender + income  + age + concern.scaled +
+                         (1 |m) + (1 |behavior),
+                       data= data.accuracy.w2.long.total_clean)
+tab_model(model.H3b.w2.d)
+```
+
+#### H3b plot (cleaned)
+```{r}
+plot_model(model.H3b.w2.d, type="pred", terms=c("certainty"), color="darkgrey") 
+```
+
+#### H3b cleaned, exponential
+```{r}
+
+model.accuracy.exp <- lmer(absolute.error.log ~ certainty + numeracy.f  + I(certainty^2) +
+                             education + country + gender + income  + age + concern.scaled+
+                             (1 |m) + (1 |behavior),
+                           data= data.accuracy.w2.long.total_clean)
+
+tab_model(model.accuracy.exp)
+```
+#### H3b (cleaned) exponential plot
+```{r}
+plot_model(model.accuracy.exp, type="pred", terms=c("certainty"), color="darkgrey") 
+
+```
+
+
+## Judgment estimates and actual values both waves together
+
+### cleaned for pattern people Fig 2a
+
+```{r, include=FALSE}
+### cleaned for pattern people!!
+
+
+### both waves in one plot #####
+data.accuracy.w2.long.2 <- data.accuracy.w2.long.total %>% select(m, behavior, numeracy.f,  actual, estimate) %>%
+  rename(estimate.wave2 = estimate)
+
+data.accuracy.long.2 <- data.accuracy.long.total %>% select(m, behavior, actual, estimate,country) %>%
+  rename(estimate.wave1 = estimate)
+data.accuracy.long.2$behavior <- factor(data.accuracy.long.2$behavior ,
+                                        levels=c( "dishwasher", "washing", "hairdryer", "fridge_eff",
+                                                  "heating", "dryer", "shower", "light_eff"),
+                                        labels=c( "dishwasher", "washing", "hairdryer", "fridge",
+                                                  "heating", "dryer", "shower", "light"))
+
+accuracy.waves <- merge(data.accuracy.w2.long.2, data.accuracy.long.2, by=c("m", "behavior", "actual"))
+accuracy.waves.long <- pivot_longer(accuracy.waves,5:6, names_to = "wave", values_to = "estimate" )
+
+
+
+### cleaned for pattern people!!
+accuracy.waves.long_clean <- accuracy.waves.long[!c(accuracy.waves.long$m %in% data.accuracy.pattern$m), ]
+
+#accuracy.waves.long.ch <- accuracy.waves.long %>% filter(country=="Switzerland")
+data.estimate.waves <- groupwiseMean(estimate ~ behavior + wave  ,
+                                     data =accuracy.waves.long_clean)
+
+data.actual.waves <- groupwiseMean(actual ~ behavior + wave ,
+                                   data =accuracy.waves.long_clean,
+                                   percentile= FALSE,
+                                   traditional = FALSE)
+
+accuracy.means.waves <- merge(data.estimate.waves, data.actual.waves, by=c("behavior", "wave","n"))
+accuracy.means.waves <- accuracy.means.waves %>%
+  rename(mean.actual = Mean.y,
+         mean.estimate= Mean.x)
+
+accuracy.means.waves$behavior.label <- factor(accuracy.means.waves$behavior,
+                                              levels=c("dishwasher", "washing", "hairdryer", "fridge",
+                                                       "light", "heating", "dryer", "shower"),
+                                              labels=c("Dishwasher", "Washing", "Hairdryer", "Fridge",
+                                                       "Light", "Heating", "Dryer", "Shower"))
+accuracy.means.waves$wave <- factor(accuracy.means.waves$wave, levels=c("estimate.wave1", "estimate.wave2"),labels=c("Wave 1", "Wave 2"))
+```
+
+
+```{r}
+
+Fig2a.c <- ggplot(accuracy.means.waves, aes(x=mean.actual, y=mean.estimate, color=behavior.label, group=wave)) +
+  geom_point(size=3.8) +
+  ylim(0,1600) + xlim(0,1600) + facet_wrap( wave ~.) +
+  geom_errorbar(aes(ymin=Trad.lower, ymax=Trad.upper), linewidth=1.3)  +
+  labs(x="Actual value", y="Mean estimate", color="Behavior", title="a") +
+  theme_minimal() +
+  theme(plot.caption = element_text(hjust = 0),
+        plot.title.position = "plot",
+        plot.caption.position =  "plot",
+        plot.title = element_text(size = 23, face = "bold"),
+        axis.title  = element_text(size = 23),
+        axis.text = element_text(size = 21),
+        legend.title = element_text(size = 19, face="plain"),
+        strip.text  = element_text(size = 19, face="plain"),
+        legend.text = element_text(size = 19)) +
+  geom_abline(intercept = 0, slope = 1, linetype="dashed") +
+  #  scale_color_grey()
+  scale_color_viridis_d()
+  
+Fig2a.c 
+```
+
+
+## misestimation of impact across waves {.tabset}
+
+### not cleaned
+```{r, include=FALSE}
+### both waves 
+data.accuracy.waves.long.total2 <- data.accuracy.waves.long.total  %>%
+  mutate(mis.estimation.wave1 = estimate.wave1/actual,
+  mis.estimation.wave2 = estimate.wave2/actual)
+data.accuracy.waves.long.total2.l <- pivot_longer(data.accuracy.waves.long.total2,cols=c(mis.estimation.wave1, mis.estimation.wave2), names_to = "wave", values_to = "mis.estimation" )
+data.accuracy.waves.long.total2.l$wave <- factor(data.accuracy.waves.long.total2.l$wave, levels=c("mis.estimation.wave1", "mis.estimation.wave2"), labels=c("wave1", "wave2"))
+
+
+accuracy.waves.impact.t <- groupwiseMean(mis.estimation ~impact + wave,
+data= data.accuracy.waves.long.total2.l)
+accuracy.waves.impact.t$Mean.2 <- 1/accuracy.waves.impact.t$Mean
+accuracy.waves.impact.t$Trad.lower2 <- 1/accuracy.waves.impact.t$Trad.lower
+accuracy.waves.impact.t$Trad.upper2 <- 1/accuracy.waves.impact.t$Trad.upper
+
+```
+
+```{r}
+accuracy.waves.impact.t
+
+accuracy.waves.impact <- groupwiseMean(mis.estimation ~impact + wave + m,
+data= data.accuracy.waves.long.total2.l)
+t.test(data.accuracy.waves.long.total2.l$mis.estimation ~ data.accuracy.waves.long.total2.l$wave, paired=TRUE)
+
+aov.estimation.bias <- anova_test(
+  data = accuracy.waves.impact, dv = Mean, wid = m,
+  within =c( wave, impact))
+get_anova_table(aov.estimation.bias)
+
+
+```
+
+###  cleaned 
+
+```{r, include=FALSE}
+### both waves 
+
+#data.accuracy.waves.long.total_clean <-   data.accuracy.waves.long.total[!c( data.accuracy.waves.long.total$m %in% data.accuracy.pattern$m), ]
+
+data.accuracy.waves.long.total_clean <- data.accuracy.waves.long.total_clean %>%
+  mutate(mis.estimation.wave1 = estimate.wave1/actual,
+  mis.estimation.wave2 = estimate.wave2/actual)
+data.accuracy.waves.long.total_clean2 <- pivot_longer(data.accuracy.waves.long.total_clean,cols=c(mis.estimation.wave1, mis.estimation.wave2), names_to = "wave", values_to = "mis.estimation" )
+data.accuracy.waves.long.total_clean2$wave <- factor(data.accuracy.waves.long.total_clean2$wave, levels=c("mis.estimation.wave1", "mis.estimation.wave2"), labels=c("wave1", "wave2"))
+
+
+accuracy.waves.impact.t <- groupwiseMean(mis.estimation ~impact + wave,
+data= data.accuracy.waves.long.total_clean2)
+accuracy.waves.impact.t$Mean.2 <- 1/accuracy.waves.impact.t$Mean
+accuracy.waves.impact.t$Trad.lower2 <- 1/accuracy.waves.impact.t$Trad.lower
+accuracy.waves.impact.t$Trad.upper2 <- 1/accuracy.waves.impact.t$Trad.upper
+
+
+```
+
+ 
+```{r}
+accuracy.waves.impact.t
+data.accuracy.waves.long.total_clean2$mis.estimation.log <- log10(data.accuracy.waves.long.total_clean2$mis.estimation)
+
+t.test(data.accuracy.waves.long.total_clean2$mis.estimation ~ data.accuracy.waves.long.total_clean2$wave, paired=TRUE)
+
+accuracy.waves.impact <- groupwiseMean(mis.estimation.log ~impact + wave + m,
+data= data.accuracy.waves.long.total_clean2)
+
+aov.estimation.bias <- anova_test(
+  data = accuracy.waves.impact, dv = Mean, wid = m,
+  within =c( wave, impact))
+get_anova_table(aov.estimation.bias)
+
+
+model.impact <- lmer(Mean ~impact*wave + (1|m), accuracy.waves.impact,   
+  contrasts = list(
+    impact = "contr.sum",
+    wave = "contr.sum") )
+Anova(model.impact, type=3, test.statistic="F")
+
+```
+
+
+## Mean judgment error across waves by numeracy 
+
+### witout pattern people fig 2b
+```{r}
+
+data.accuracy.waves.mean <- groupwiseMean(mean.abs.error ~ wave + country + numeracy.f,
+                                          data= data.accuracy.waves.long_clean)
+data.accuracy.waves.mean$wave <- factor(data.accuracy.waves.mean$wave, levels=c("wave1","wave2"),
+                                        labels=c("Wave 1", "Wave 2"))
+data.accuracy.waves.mean$numeracy.f <- factor(data.accuracy.waves.mean$numeracy.f, levels=c("numeracy high","numeracy low"),
+                                              labels=c("Numeracy high", "Numeracy low"))
+
+```
+
+
+```{r}
+Figure2b.c <- ggplot(data.accuracy.waves.mean, aes(x=wave, y=Mean, color=numeracy.f)) +
+  geom_point() + ylim(0.5,0.8) +
+  geom_errorbar(aes(ymin=Trad.lower, ymax=Trad.upper), width=0.2) +
+  facet_wrap(country ~.) +  
+  # scale_color_grey() +
+  scale_color_manual(values=c("#15A000", "#0070C0")) +
+  theme_minimal() + labs(y="Mean error", color="Numeracy", title="b", x="Assessment waves") +
+  theme(plot.caption = element_text(hjust = 0),
+        plot.title.position = "plot",
+        plot.caption.position =  "plot",
+        plot.title = element_text(size = 23, face = "bold"),
+        axis.title  = element_text(size = 23),
+        axis.text = element_text(size = 21),
+        legend.title = element_text(size = 19, face="plain"),
+        strip.text = element_text(size = 19, face="plain"),
+        legend.text = element_text(size = 19))
+
+Figure2b.c
+
+```
+
+Both judgment figures 
+```{r, fig.width=22, fig.height=10}
+Fig2a.c | Figure2b.c
+
+```
+
+## Across waves judgment error {.tabset}
+same approach as misestimation for judgment error 
+
+```{r, include=FALSE}
+### both waves 
+
+
+data.accuracy.waves.long.total_clean2 <- data.accuracy.waves.long.total_clean %>%
+  mutate(error.wave1 = abs(log10(estimate.wave1/actual)),
+  error.wave2 = abs(log10(estimate.wave2/actual) ))
+data.accuracy.waves.long.total_clean2.l <- pivot_longer(data.accuracy.waves.long.total_clean2,cols=c(error.wave1, error.wave2), names_to = "wave", values_to = "error" )
+data.accuracy.waves.long.total_clean2.l$wave <- factor(data.accuracy.waves.long.total_clean2.l$wave, levels=c("error.wave1", "error.wave2"), labels=c("wave1", "wave2"))
+data.accuracy.waves.long.total_clean2.l$numeracy.f <- factor(data.accuracy.waves.long.total_clean2.l$numeracy.f)
+
+
+accuracy.waves.error.t <- groupwiseMean(error ~numeracy.f + wave,
+data= data.accuracy.waves.long.total_clean2.l)
+accuracy.waves.error.t$Mean.2 <- 1/accuracy.waves.error.t$Mean
+accuracy.waves.error.t$Trad.lower2 <- 1/accuracy.waves.error.t$Trad.lower
+accuracy.waves.error.t$Trad.upper2 <- 1/accuracy.waves.error.t$Trad.upper
+
+
+```
+
+Models cleaned for pattern people
+```{r}
+accuracy.waves.error.t
+
+accuracy.waves.error.num <- groupwiseMean(error ~ numeracy.f + wave  + impact +  m,
+data= data.accuracy.waves.long.total_clean2.l)
+t.test(accuracy.waves.error.num$Mean ~ accuracy.waves.error.num$wave, paired=TRUE)
+
+
+data.accuracy.waves.long.total_clean2.l$impact <- factor(data.accuracy.waves.long.total_clean2.l$impact, level=c("low", "high"),
+labels=c("low impact", "high impact"))
+
+model.error.waves.impact<- lmer(error ~numeracy.f*wave +wave*impact + country + (1|m), data.accuracy.waves.long.total_clean2.l,   
+  contrasts = list(
+    numeracy.f = "contr.sum",
+    wave = "contr.sum",
+    impact= "contr.sum",
+    country = "contr.sum"))
+Anova(model.error.waves.impact, type=3, test.statistic="F")
+effectsize::eta_squared(model.error.waves.impact)
+
+tab_model(model.error.waves.impact)
+```
+
+
+### Plots: Judgment error for impact of actions across waves
+
+```{r}
+pred_wave.impact <- ggemmeans(model.error.waves.impact, c("wave", "impact")) 
+pred_wave.impact <- as.data.frame(pred_wave.impact)
+
+ggplot(pred_wave.impact, aes(x = x, y = predicted, color=group)) + scale_color_manual(values=c("#0070C0", "#15A000"))+ scale_fill_manual(values=c("#0070C0", "#15A000"))+ theme_minimal() +
+    geom_point(stat="identity", position=position_dodge(0.1), size=4) +
+    geom_errorbar(aes(ymin=conf.low, ymax=conf.high), position=position_dodge(0.1), width=0.1, size=1.2)     +
+    theme(plot.caption = element_text(hjust = 0),
+          plot.title.position = "plot",
+          plot.caption.position =  "plot",
+          plot.title = element_text(size = 23, face = "bold"),
+          axis.title  = element_text(size = 23),
+          axis.text = element_text(size = 21),
+          legend.title = element_text(size = 19, face="plain"),
+          strip.text  = element_text(size = 19, face="plain"),
+          legend.text = element_text(size = 19)) + 
+    ylim(0.4,0.9)  + labs(x="Assessment wave", y="Mean judgment error", color="Impact of actions")
+
+    
+```
+
+
+### Plot: Judgment error for numeracy across waves
+
+
+```{r}
+pred_num.impact <- ggemmeans(model.error.waves.impact, c("wave", "numeracy.f")) 
+pred_num.impact <- as.data.frame(pred_num.impact)
+
+ggplot(pred_num.impact, aes(x = x, y = predicted, color=group)) + scale_color_manual(values=c("#15A000", "#0070C0"))+ scale_fill_manual(values=c("#15A000", "#0070C0"))+  theme_minimal() +
+    geom_point(stat="identity", position=position_dodge(0.1), size=4) +
+    geom_errorbar(aes(ymin=conf.low, ymax=conf.high), position=position_dodge(0.1), width=0.1, size=1.2)     +
+    theme(plot.caption = element_text(hjust = 0),
+          plot.title.position = "plot",
+          plot.caption.position =  "plot",
+          plot.title = element_text(size = 23, face = "bold"),
+          axis.title  = element_text(size = 23),
+          axis.text = element_text(size = 21),
+          legend.title = element_text(size = 19, face="plain"),
+          strip.text  = element_text(size = 19, face="plain"),
+          legend.text = element_text(size = 19)) + 
+    ylim(0.4,0.9)  + labs(x="Assessment wave", y="Mean judgment error", color="Numeracy")
+
+    
+```
+
+### Plot: numeracy by wave and country
+```{r}
+pred_num.impact.c <- ggemmeans(model.error.waves.impact, c("wave", "numeracy.f", "country")) 
+pred_num.impact.c <- as.data.frame(pred_num.impact.c)
+
+ggplot(pred_num.impact.c, aes(x = x, y = predicted, color=group)) + scale_color_manual(values=c("#15A000", "#0070C0"))+ scale_fill_manual(values=c("#15A000", "#0070C0"))+  facet_wrap(facet~.) +  theme_minimal() +
+    geom_point(stat="identity", position=position_dodge(0.1), size=4) +
+    geom_errorbar(aes(ymin=conf.low, ymax=conf.high), position=position_dodge(0.1), width=0.1, size=1.2)     +
+    theme(plot.caption = element_text(hjust = 0),
+          plot.title.position = "plot",
+          plot.caption.position =  "plot",
+          plot.title = element_text(size = 23, face = "bold"),
+          axis.title  = element_text(size = 23),
+          axis.text = element_text(size = 21),
+          legend.title = element_text(size = 19, face="plain"),
+          strip.text  = element_text(size = 19, face="plain"),
+          legend.text = element_text(size = 19)) + 
+    ylim(0.4,0.9) 
+    
+```
+
+
+### Plot: Everything in one plot
+
+```{r}
+ 
+pred_everything <- ggemmeans(model.error.waves.impact, c("wave", "numeracy.f", "impact", "country")) 
+pred_everything <- as.data.frame(pred_everything)
+
+ggplot(pred_everything, aes(x = x, y = predicted, color=group)) + scale_color_manual(values=c("#15A000", "#0070C0"))+ scale_fill_manual(values=c("#15A000", "#0070C0"))+ facet_wrap(panel~facet) + theme_minimal() +
+    geom_point(stat="identity", position=position_dodge(0.1), size=4) +
+    geom_errorbar(aes(ymin=conf.low, ymax=conf.high), position=position_dodge(0.1), width=0.1, size=1.2)     +
+    theme(plot.caption = element_text(hjust = 0),
+          plot.title.position = "plot",
+          plot.caption.position =  "plot",
+          plot.title = element_text(size = 23, face = "bold"),
+          axis.title  = element_text(size = 23),
+          axis.text = element_text(size = 21),
+          legend.title = element_text(size = 19, face="plain"),
+          strip.text  = element_text(size = 19, face="plain"),
+          legend.text = element_text(size = 19)) + 
+    ylim(0.4,0.9) 
+```
+
+### Plot: Everything in one plot2
+```{r}
+ggplot(pred_everything, aes(x = x, y = predicted, color=facet)) + scale_color_manual(values=c("#0070C0", "#15A000"))+ scale_fill_manual(values=c("#0070C0", "#15A000"))+ facet_wrap(panel~group) + theme_minimal() +
+    geom_point(stat="identity", position=position_dodge(0.1), size=4) +
+    geom_errorbar(aes(ymin=conf.low, ymax=conf.high), position=position_dodge(0.1), width=0.1, size=1.2)     +
+    theme(plot.caption = element_text(hjust = 0),
+          plot.title.position = "plot",
+          plot.caption.position =  "plot",
+          plot.title = element_text(size = 23, face = "bold"),
+          axis.title  = element_text(size = 23),
+          axis.text = element_text(size = 21),
+          legend.title = element_text(size = 19, face="plain"),
+          strip.text  = element_text(size = 19, face="plain"),
+          legend.text = element_text(size = 19)) + 
+    ylim(0.4,0.9) 
+```
+
+## By country {.tabset}
+### Switzerland
+
+```{r}
+## ch
+data.accuracy.waves.long.total_clean2.ch <- data.accuracy.waves.long.total_clean2.l %>% filter(country=="Switzerland")
+
+model.error.waves.impact.ch <- lmer(error ~ numeracy.f*wave +wave*impact  + (1|m), data.accuracy.waves.long.total_clean2.ch,   
+  contrasts = list(
+    numeracy.f = "contr.sum",
+    wave = "contr.sum",
+    impact= "contr.sum") )
+Anova(model.error.waves.impact.ch, type=3, test.statistic="F")
+effectsize::eta_squared(model.error.waves.impact.ch)
+
+tab_model(model.error.waves.impact.ch)
+
+```
+### Plot Switzerland
+```{r}
+plot_model(model.error.waves.impact.ch, type="pred", terms=c("wave","numeracy.f", "impact"),
+colors=c("#15A000", "#0070C0") )  + ylim(0.4,0.9) + 
+  theme_minimal() + labs(y="Mean error", color="Numeracy", title="in Switzerland", x="Assessment waves") +
+  theme(plot.caption = element_text(hjust = 0),
+        plot.title.position = "plot",
+        plot.caption.position =  "plot",
+        plot.title = element_text(size = 23, face = "bold"),
+        axis.title  = element_text(size = 23),
+        axis.text = element_text(size = 21),
+        legend.title = element_text(size = 19, face="plain"),
+        strip.text = element_text(size = 19, face="plain"),
+        legend.text = element_text(size = 19))
+```
+
+### Germany
+
+```{r}
+data.accuracy.waves.long.total_clean2.de <- data.accuracy.waves.long.total_clean2.l %>% filter(!country=="Switzerland")
+
+model.error.waves.impact.de <- lmer(error ~ numeracy.f*wave +wave*impact + (1|m), data.accuracy.waves.long.total_clean2.de,   
+  contrasts = list(
+    numeracy.f = "contr.sum",
+    wave = "contr.sum",
+    impact= "contr.sum") )
+tab_model(model.error.waves.impact.de)
+ Anova(model.error.waves.impact.de, type=3, test.statistic="F")
+effectsize::eta_squared(model.error.waves.impact.de)
+
+        
+```
+### Plot Germany
+```{r}
+
+plot_model(model.error.waves.impact.de, type="pred", terms=c("wave","numeracy.f", "impact"),
+colors=c("#15A000", "#0070C0") ) + ylim(0.4,0.9) +
+  theme_minimal() + labs(y="Mean error", color="Numeracy", title="in Germany", x="Assessment waves") +
+  theme(plot.caption = element_text(hjust = 0),
+        plot.title.position = "plot",
+        plot.caption.position =  "plot",
+        plot.title = element_text(size = 23, face = "bold"),
+        axis.title  = element_text(size = 23),
+        axis.text = element_text(size = 21),
+        legend.title = element_text(size = 19, face="plain"),
+        strip.text = element_text(size = 19, face="plain"),
+        legend.text = element_text(size = 19))
+        
+        
+```
+
+
+## across waves cohens q
+Original pre-registered plan to compare cohens q
+
+For high numeracy people ths difference does approach a small effect (such that the correlation between estimates and actual values ist higher in wave2)
+
+```{r}
+#H3a: We expect for accuracy to have improved from t1 to t2, such that the correlation between estimates and actual energy use is higher.
+### repeated measures correlation ####
+
+#repeated measures correlation wave 2
+q2 <- rmcorr(m, estimate.log, actual.log, data=data.accuracy.w2.long.total)
+# wave 2 repeated measurment cor = 0.1856733
+# for high numeracy
+data.accuracy.w2.long.num <- data.accuracy.w2.long.total %>% filter(numeracy.f=="numeracy high")
+q2.num.high <-  rmcorr(m, estimate.log, actual.log, data=data.accuracy.w2.long.num)
+
+
+## repeated measures correlation wave 1
+q1 <- rmcorr(m,estimate.log, actual.log, data.accuracy.long.total)
+
+
+# for high numeracy
+data.high.num <- data.accuracy.w2.long.num %>% select (m)
+data.high.num <- unique(data.high.num)
+data.accuracy.long.num <- merge(data.accuracy.long.total , data.high.num, by="m")
+
+q1.num.high <- rmcorr(m, estimate.log, actual.log, data=data.accuracy.long.num)
+# 0.3389379
+# compare wave 1 and wave2
+
+# values from above inout below
+cohens_q(q1$r, q2$r)
+
+# https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9177411/#:~:text=The%20value%20q%20is%20the,q%20%E2%89%A5%200.5%2C%20large%20effect.
+# q < 0.1 = no effect,
+
+```
+
+high numeracy
+```{r}
+cohens_q(q1.num.high$r, q2.num.high$r)
+```
+For high numeracy people the cohens q (rounded) can be categorized as a small effect
+
+
+without pattern people
+
+```{r}
+q2 <- rmcorr(m, estimate.log, actual.log, data=data.accuracy.w2.long.total_clean)
+
+q1 <- rmcorr(m,estimate.log, actual.log, data.accuracy.long.total_clean)
+
+# values from above inout below
+cohens_q(q1$r, q2$r)
+```
+
+```{r}
+data.accuracy.w2.long.num_clean <- data.accuracy.w2.long.total_clean %>% filter(numeracy.f=="numeracy high")
+q2.num.high <-  rmcorr(m, estimate.log, actual.log, data=data.accuracy.w2.long.num_clean)
+
+# for high numeracy
+data.high.num_clean <- data.accuracy.w2.long.num_clean %>% select (m)
+data.high.num_clean <- unique(data.high.num_clean)
+data.accuracy.long.num_clean <- merge(data.accuracy.long.total_clean , data.high.num_clean, by="m")
+
+q1.num.high <- rmcorr(m, estimate.log, actual.log, data=data.accuracy.long.num_clean)
+
+```
+
+high numeracy no pattern people
+```{r}
+cohens_q(q1.num.high$r, q2.num.high$r)
+```
+For high numeracy people the cohens q (rounded) can be categorized as a small effect
+
+

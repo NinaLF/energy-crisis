@@ -1,0 +1,12 @@
+name: "my-website"
+navbar:
+  title: "My Website"
+  left:
+    - text: "Index"
+      href: index.html
+    - text: "preparation"
+      href: preparation.html
+    - text: "Analyses judgment"
+      href: "analyses judgment new.html"
+
+ 
