@@ -1,0 +1,708 @@
+---
+title: "analyses product choices"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    theme: lumen
+    toc: yes
+    toc_depth: 4
+    number_sections: no
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(class.source = "CSSoutput",
+                      echo = FALSE, include = TRUE,      
+                      fig.align='center', fig.show='asis',
+                      size='footnotesize')
+
+```
+
+```{r functions, include=FALSE}
+setwd("/Users/nfrings/Library/Mobile Documents/com~apple~CloudDocs/Documents/PhD/Studies/Winter studie/results")
+#setwd("/Users/ninafrings/Documents/PhD/Studies/Winter studie/results")
+
+library(tidyverse)
+library(sjPlot)
+library(rcompanion)
+library(rstatix)
+library(lmerTest); library(lme4)
+library(sjlabelled)
+library(sjmisc)
+library(emmeans)
+library("rmcorr")
+library(psych)
+library(patchwork)
+library(afex)
+library(ggeffects)
+
+# so plot_model plots look nice
+set_theme(base=theme_classic())
+```
+
+
+
+## product choices
+
+###  wave 1: individual differences  {.tabset}
+```{r load, include=FALSE}
+
+data.product.waves.long <- read.csv("wave 2 and both waves/data/data.product.waves.long.csv")
+data.product.waves.long <- data.product.waves.long[,-c(1)]
+
+data.product.waves.long$energy.level <- factor(data.product.waves.long$energy.level, levels=c("2","1"),
+                                               labels=c("High", "Low"))
+data.product.waves.long$price.level <- factor(data.product.waves.long$price.level)
+data.product.waves.long$gender <- factor(data.product.waves.long$gender)
+data.product.waves.long$country <- factor(data.product.waves.long$country)
+data.product.waves.long <- data.product.waves.long %>% filter(!gender=="non-binary")
+data.product.waves.long$income <- factor(data.product.waves.long$income,
+                                         levels=c( "<1'500€\n<3'100CHF","<1'500- 2'499€\n3'100-4'299CHF", "2'500- 4'000€\n<4'300- 5'899CHF", "> 4'000€\n>5'900 CHF") )
+
+data.product.waves.long$education <- factor(data.product.waves.long$education,
+                                            levels=c("no formal education", "obligatory school", "middle school" , "degree"))
+data.product.waves.long$choice <- factor(data.product.waves.long$choice)
+data.product.waves.long$wave <- factor(data.product.waves.long$wave, levels=c("wave1", "wave2"), labels=c("Wave 1", "Wave 2"))
+
+
+```
+
+```{r wave1, warning=FALSE}
+### wave 1 ####
+data.everything <- data.product.waves.long %>% filter (wave=="Wave 1")
+# choice modeled with cc concern as pre-registered
+model.H4a <- glmer(choice ~ price.level + energy.level*concern.scaled  +
+                     country  +
+                     gender + age + income + education +  (1| m),
+                   data=data.everything, family="binomial")
+
+# choice model  with judgment error (as pre-reg for wave2 with interaction)
+model.H4a.c.i <- glmer(choice ~ price.level + energy.level*mean.error_scaled  +
+                         country   +
+                         gender + age + income + education +  (1| m),
+                       data=data.everything, family="binomial")
+
+
+```
+
+####  climate change concern
+CC concern interaction with energy level, with demographics and random intecept
+```{r}
+tab_model(model.H4a)
+```
+
+#### energy literacy 
+Energy literacy interaction with energy level, with demographics and random intecept
+```{r}
+tab_model(model.H4a.c.i)
+```
+
+
+```{r}
+##### for estimation binary and weight of complexity task only #####
+data.everything <- read.csv("wave1 results and R/data/data.everything.csv")
+data.everything <- data.everything[,-c(1)]
+data.everything$energy.level <- factor(data.everything$energy.level)
+data.everything$choice <- factor(data.everything$choice)
+data.everything$est.binary <- factor(data.everything$est.binary)
+
+data.everything$price.level <- factor(data.everything$price.level)
+data.everything$country <- factor(data.everything$country)
+data.everything$gender <- factor(data.everything$gender)
+data.everything <- data.everything %>% filter(!gender=="non-binary")
+
+data.everything$income <- factor(data.everything$income,
+                                 levels=c( "<1'500€\n<3'100CHF","<1'500- 2'499€\n3'100-4'299CHF", "2'500- 4'000€\n<4'300- 5'899CHF", "> 4'000€\n>5'900 CHF") )
+data.everything$education <- factor(data.everything$education,
+                                    levels=c("no formal education", "obligatory school", "middle school" , "degree"))
+# with impact strength dimension (originally H4b)
+model.H4a1 <- glmer(choice ~ price.level + energy.level + V2 +
+                      country    +
+                      gender + age + income + education +  (1| ResponseId),
+                    data=data.everything, family="binomial")
+
+# choice model  with  binary over or underestimation as pre-reg in wave 2
+data.everything$est.binary <- factor(data.everything$est.binary)
+model.H4a.2 <- glmer(choice ~ price.level + energy.level + est.binary  +
+                       country  +
+                       gender + age + income + education +  (1 | ResponseId),
+                     data=data.everything, family="binomial")
+### no effect of impact strength dimension (= V2)
+
+
+```
+
+#### Impact strength as main effect  
+```{r}
+tab_model(model.H4a1)
+```
+
+#### Binary over / under estimation as pre-reg in wave 1
+```{r}
+tab_model(model.H4a.2)
+```
+
+###  wave 2: individual differences  {.tabset}
+```{r}
+##### wave 2 #####
+data.everything.w2 <- data.product.waves.long %>% filter(wave=="Wave 2")
+
+### judgment error model
+# as pre-regsitered
+model.H4.wave2.error <- glmer(choice ~ price.level + energy.level*mean.error_scaled +
+                                country  +
+                                gender + age + income + education  +
+                                (1| m),
+                              data=data.everything.w2, family="binomial")
+
+## cc concern model
+model.H4.wave2.concern <- glmer(choice ~ price.level + energy.level*concern.scaled +
+                                  country  +
+                                  gender + age + income + education  +
+                                  (1| m),
+                                data=data.everything.w2, family="binomial")
+
+```
+
+#### Climate change concern
+```{r}
+tab_model(model.H4.wave2.concern)
+
+```
+
+#### Energy literacy
+```{r}
+tab_model(model.H4.wave2.error)
+
+```
+
+
+## Both waves together  
+```{r}
+#### product both waves together ####
+
+### wave  but no interaction
+model.product.waves <- glmer(choice ~ wave + country + energy.level  +  price.level +
+                               age + gender + education + income  +
+                               (1  |  m),
+                             data = data.product.waves.long, family = binomial(link = "logit"))
+
+#### cc concern across both waves
+model.H4a.both <- glmer(choice ~ price.level + energy.level*concern.scaled  +
+                          country  + wave +
+                          gender + age + income + education +  (1| m),
+                        data=data.product.waves.long, family="binomial")
+```
+
+### Basic model
+```{r}
+tab_model(model.product.waves)
+
+```
+
+### Climate change concern {.tabset}
+
+#### cc concern model
+```{r}
+tab_model(model.H4a.both)
+```
+
+#### cc concern plot 
+```{r}
+plot_model(model.H4a.both,type="pred",terms=c("concern.scaled","energy.level"),
+                    colors=c( "#15A000", "#0070C0")) +
+                    xlim(-2,2) +
+                    labs(x="Climate change concern", y= "Predicted prob. of energy efficient choice",title="d", color=paste0("Energy efficiency", "\n" ,"difference in choice") ) + ylim(0,1) +
+                    theme(plot.caption = element_text(hjust = 0),
+                    plot.title.position = "plot",
+                    plot.caption.position =  "plot",
+                    plot.title = element_text(size = 23, face = "bold"),
+                    axis.title  = element_text(size = 23),
+                    axis.text = element_text(size = 21),
+                    legend.title = element_text(size = 19, face="plain"),
+                    strip.text  = element_text(size = 19, face="plain"),
+                    legend.text = element_text(size = 19))
+  
+```
+
+#### cc concern point estimates 
+```{r}
+
+pred_H4a.c <- ggpredict(model.H4a.both, c("energy.level", "concern.scaled[-1,1]"))  
+pred_H4a.c <- as.data.frame(pred_H4a.c)
+print(pred_H4a.c)
+```
+
+### Energy literacy  {.tabset}
+
+#### energy literacy model
+```{r}
+### across both waves judgment error
+model.H4a.error.both <- glmer(choice ~ price.level + energy.level* mean.error_scaled  +
+                                country  + wave +
+                                gender + age + income + education +  (1| m),
+                              data=data.product.waves.long, family="binomial")
+tab_model(model.H4a.error.both)
+
+```
+
+
+#### energy literacy plot
+
+```{r}
+plot_model(model.H4a.error.both,
+                    type="pred",terms=c("mean.error_scaled","energy.level"),
+                    colors=c( "#15A000", "#0070C0")) + xlim(-2,2) +
+  labs(x="Judgment error",  y= "Predicted prob. of energy efficient choice", title="c", 
+       color=paste0("Energy efficiency", "\n" ,"difference in choice") ) + ylim(0,1) +
+  theme(plot.caption = element_text(hjust = 0),
+        plot.title.position = "plot",
+        plot.caption.position =  "plot",
+        plot.title = element_text(size = 23, face = "bold"),
+        axis.title  = element_text(size = 23),
+        axis.text = element_text(size = 21),
+        legend.title = element_text(size = 19, face="plain"),
+        strip.text  = element_text(size = 19, face="plain"),
+        legend.text = element_text(size = 19))
+
+```
+
+
+#### energy literacy model point estimates 
+
+```{r}
+
+pred_H4a.e <- ggpredict(model.H4a.error.both, c("energy.level", "mean.error_scaled[-1,1]"))  
+pred_H4a.e <- as.data.frame(pred_H4a.e)
+print(pred_H4a.e)
+```
+
+### Model comparisons:
+1.  Basic model versus model with cc concern &interaction
+2.  Basic model versus model with energy literacy & interaction  
+
+```{r}
+
+# model with neither = model.product.waves
+anova(model.product.waves, model.H4a.both)
+anova(model.product.waves, model.H4a.error.both)
+# both models signficantly betterr than without
+```
+  
+  
+```{r}
+## graphical representation of means ####
+data.product.waves.long$choice.n <- as.numeric(as.character(data.product.waves.long$choice))
+data.product.waves.sum1<- groupwiseSum(choice.n ~ wave + energy.level + country + m,
+                                       data=data.product.waves.long)
+data.product.waves.sum1$percent <- data.product.waves.sum1$Sum / data.product.waves.sum1$n
+data.product.waves.mean1<- groupwiseMean(percent ~ wave + energy.level + country,
+                                         data=data.product.waves.sum1)
+
+data.product.waves.mean1$perc <- data.product.waves.mean1$Mean*100
+data.product.waves.mean1$Trad.upper <- data.product.waves.mean1$Trad.upper*100
+data.product.waves.mean1$Trad.lower <- data.product.waves.mean1$Trad.lower*100
+
+
+```
+
+## cleaned of pattern people
+
+```{r pattern, include=FALSE}
+data.accuracy.pattern <- read.csv("wave 2 and both waves/data/accuracy.patterns.csv")
+
+data.product.waves.long_clean <- data.product.waves.long[!c(data.product.waves.long$m %in% data.accuracy.pattern$m), ]
+
+```
+
+###  wave 1 cleaned: individual differences  {.tabset}
+
+```{r}
+### wave 1 ####
+data.everything_clean <- data.product.waves.long_clean %>% filter (wave=="Wave 1")
+# choice modeled with cc concern as pre-registered
+model.H4a <- glmer(choice ~ price.level + energy.level*concern.scaled  +
+                     country  +
+                     gender + age + income + education +  (1| m),
+                   data=data.everything_clean, family="binomial")
+
+# choice model  with judgment error (as pre-reg for wave2 with interaction)
+model.H4a.c.i <- glmer(choice ~ price.level + energy.level*mean.error_scaled  +
+                         country   +
+                         gender + age + income + education +  (1| m),
+                       data=data.everything_clean, family="binomial")
+
+
+```
+#### cc concern
+```{r}
+tab_model(model.H4a)
+```
+
+#### energy literacy
+
+```{r}
+tab_model(model.H4a.c.i)
+
+```
+
+
+```{r}
+##### for estimation binary and weight of complexity task only #####
+data.everything <- read.csv("wave1 results and R/data/data.everything.csv")
+data.everything <- data.everything[,-c(1)]
+data.everything$energy.level <- factor(data.everything$energy.level)
+data.everything$choice <- factor(data.everything$choice)
+data.everything$est.binary <- factor(data.everything$est.binary)
+
+data.everything$price.level <- factor(data.everything$price.level)
+data.everything$country <- factor(data.everything$country)
+data.everything$gender <- factor(data.everything$gender)
+data.everything <- data.everything %>% filter(!gender=="non-binary")
+
+data.everything$income <- factor(data.everything$income,
+                                 levels=c( "<1'500€\n<3'100CHF","<1'500- 2'499€\n3'100-4'299CHF", "2'500- 4'000€\n<4'300- 5'899CHF", "> 4'000€\n>5'900 CHF") )
+data.everything$education <- factor(data.everything$education,
+                                    levels=c("no formal education", "obligatory school", "middle school" , "degree"))
+
+data.everything_clean <- data.everything[!c(data.everything$m %in% data.accuracy.pattern$m), ]
+
+# with impact strength dimension (originally H4b)
+model.H4a1 <- glmer(choice ~ price.level + energy.level +concern.scaled  +
+                      country  + V2  +
+                      gender + age + income + education +  (1| ResponseId),
+                    data=data.everything_clean, family="binomial")
+model.H4a1.i <- glmer(choice ~ price.level + energy.level*V2  +
+                      country   +
+                      gender + age + income + education +  (1| ResponseId),
+                    data=data.everything_clean, family="binomial")
+# choice model  with  binary over or underestimation as pre-reg in wave 2
+data.everything$est.binary <- factor(data.everything$est.binary)
+model.H4a.2 <- glmer(choice ~ price.level + energy.level + est.binary  +
+                       country  +
+                       gender + age + income + education +  (1 | ResponseId),
+                     data=data.everything_clean, family="binomial")
+### no effect of impact strength dimension (= V2)
+
+```
+
+#### impact weight as main effect 
+```{r}
+#V2
+tab_model(model.H4a1)
+```
+#### Impact strenght with interaction with energy level  
+
+```{r}
+# interaction V2
+tab_model(model.H4a1.i)
+
+```
+
+#### Binary over / under estimation as pre-reg in wave 1
+
+```{r}
+# binary misestimation
+tab_model(model.H4a.2)
+
+```
+
+### wave 2
+```{r}
+##### wave 2 #####
+data.everything.w2_clean <- data.product.waves.long_clean %>% filter(wave=="Wave 2")
+
+### judgment error model
+# as pre-regsitered
+model.H4.wave2.error <- glmer(choice ~ price.level + energy.level*mean.error_scaled +
+                                country  +
+                                gender + age + income + education  +
+                                (1| m),
+                              data=data.everything.w2_clean, family="binomial")
+tab_model(model.H4.wave2.error)
+
+# controlling for cc concern
+model.H4.wave2.error.c <- glmer(choice ~ price.level + energy.level*mean.error_scaled +
+                                  country  + concern.scaled +
+                                  gender + age + income + education  +
+                                  (1| m),
+                                data=data.everything.w2_clean, family="binomial")
+tab_model(model.H4.wave2.error.c)
+
+## cc concern model
+model.H4.wave2.concern <- glmer(choice ~ price.level + energy.level*concern.scaled +
+                                  country  +
+                                  gender + age + income + education  +
+                                  (1| m),
+                                data=data.everything.w2_clean, family="binomial")
+tab_model(model.H4.wave2.concern)
+plot_model(model.H4.wave2.concern, type="pred", terms=c("concern.scaled", "energy.level"),
+           colors=c("#0070C0", "#15A000")) +
+  theme(axis.title  = element_text(size = 20),
+        axis.text = element_text(size = 18) )
+```
+
+
+## Across both waves together, cleaned
+
+1. general model
+2. with cc concern (interaction)
+```{r}
+#### product both waves together ####
+
+
+### wave by country
+model.product.waves_clean <- glmer(choice ~ wave + country + energy.level  +  price.level +
+                               age + gender + education + income  +
+                               (1  |  m),
+                             data = data.product.waves.long_clean, family = binomial(link = "logit"))
+tab_model(model.product.waves_clean)
+
+#### cc concern across both waves
+model.H4a.both_clean <- glmer(choice ~ price.level + energy.level*concern.scaled  +
+                          country  + wave +
+                          gender + age + income + education +  (1| m),
+                        data=data.product.waves.long_clean, family="binomial")
+tab_model(model.H4a.both_clean)
+```
+
+CC concern model plot
+```{r, fig.width = 13, fig.height = 8 }
+Fig3d <- plot_model(model.H4a.both_clean,type="pred",terms=c("concern.scaled","energy.level"),
+                    colors=c( "#15A000", "#0070C0")) +
+                    xlim(-2,2) +
+                    labs(x="Climate change concern", y= "Predicted prob. of energy efficient choice",title="d", color=paste0("Energy efficiency", "\n" ,"difference in choice") ) + ylim(0,1) +
+                    theme(plot.caption = element_text(hjust = 0),
+                    plot.title.position = "plot",
+                    plot.caption.position =  "plot",
+                    plot.title = element_text(size = 23, face = "bold"),
+                    axis.title  = element_text(size = 23),
+                    axis.text = element_text(size = 21),
+                    legend.title = element_text(size = 19, face="plain"),
+                    strip.text  = element_text(size = 19, face="plain"),
+                    legend.text = element_text(size = 19))
+        
+Fig3d
+        
+```
+
+point estimates cc concern and energy.level -1 and 1
+```{r}
+
+pred_H4a.c <- ggpredict(model.H4a.both_clean, c("energy.level", "concern.scaled[-1,1]"))  
+pred_H4a.c <- as.data.frame(pred_H4a.c)
+pred_H4a.c
+
+
+```
+
+3. energy literacy (interaction)  
+```{r}
+### across both waves judgment error
+model.H4a.error.both_clean <- glmer(choice ~ price.level + energy.level* mean.error_scaled  +
+                                country  + wave +
+                                gender + age + income + education +  (1| m),
+                              data=data.product.waves.long_clean, family="binomial")
+tab_model(model.H4a.error.both_clean)
+```
+
+Energy literacy plot  
+```{r, fig.width = 13, fig.height = 8 }
+Fig3c <- plot_model(model.H4a.error.both_clean,
+                    type="pred",terms=c("mean.error_scaled","energy.level"),
+                    colors=c( "#15A000", "#0070C0")) + xlim(-2,2) +
+  labs(x="Judgment error",  y= "Predicted prob. of energy efficient choice", title="c", 
+       color=paste0("Energy efficiency", "\n" ,"difference in choice") ) + ylim(0,1) +
+  theme(plot.caption = element_text(hjust = 0),
+        plot.title.position = "plot",
+        plot.caption.position =  "plot",
+        plot.title = element_text(size = 23, face = "bold"),
+        axis.title  = element_text(size = 23),
+        axis.text = element_text(size = 21),
+        legend.title = element_text(size = 19, face="plain"),
+        strip.text  = element_text(size = 19, face="plain"),
+        legend.text = element_text(size = 19))
+Fig3c
+
+```
+
+Both plots together
+```{r, fig.width = 13, fig.height = 8 }
+Fig3c + Fig3d
+```
+
+point estimates energy literacy and energy.level
+
+```{r}
+
+pred_H4a.e <- ggpredict(model.H4a.error.both_clean, c("energy.level", "mean.error_scaled[-1,1]"))  
+pred_H4a.e <- as.data.frame(pred_H4a.e)
+pred_H4a.e
+
+```
+
+Model comparisons 
+1. basic model versus cc concern cleaned
+2. basic model versus energy literacy cleaned
+```{r}
+
+# model with neither = model.product.waves_clean
+anova(model.product.waves_clean, model.H4a.both_clean)
+anova(model.product.waves_clean, model.H4a.error.both_clean)
+# both models signficantly betterr than without
+```
+
+Graphical representation of means  
+```{r, fig.width = 13, fig.height = 8 }
+## graphical representation of means ####
+data.product.waves.long_clean$choice.n <- as.numeric(as.character(data.product.waves.long_clean$choice))
+data.product.waves.sum1<- groupwiseSum(choice.n ~ wave + energy.level + country + m,
+                                       data=data.product.waves.long_clean)
+data.product.waves.sum1$percent <- data.product.waves.sum1$Sum / data.product.waves.sum1$n
+data.product.waves.mean1<- groupwiseMean(percent ~ wave + energy.level + country,
+                                         data=data.product.waves.sum1)
+
+data.product.waves.mean1$perc <- data.product.waves.mean1$Mean*100
+data.product.waves.mean1$Trad.upper <- data.product.waves.mean1$Trad.upper*100
+data.product.waves.mean1$Trad.lower <- data.product.waves.mean1$Trad.lower*100
+
+Fig3a <- ggplot(data.product.waves.mean1, aes(x=wave, y=perc, fill=energy.level)) +
+  geom_bar(stat="identity", position="dodge") +
+  facet_wrap(country ~.) +   ylim(0,100) + labs(fill=paste0("Energy efficiency", "\n" ,"difference in choice"), x="Assessment waves",
+                                                title="a", y="Mean percentage of energy efficient choices") +
+  geom_errorbar(aes(ymin=Trad.lower, ymax=Trad.upper), position=position_dodge(0.9),  width=0.2) +
+  geom_text(aes(label=paste0(sprintf("%.1f",perc),"%")),position=position_dodge(0.9),  vjust=-2, size=9) +
+  theme(plot.caption = element_text(hjust = 0),
+        plot.title.position = "plot",
+        plot.caption.position =  "plot",
+        plot.title = element_text(size = 23, face = "bold"),
+        axis.title  = element_text(size = 23),
+        axis.text = element_text(size = 21),
+        legend.title = element_text(size = 19, face="plain"),
+        strip.text  = element_text(size = 19, face="plain"),
+        legend.text = element_text(size = 19)) +
+  scale_fill_manual(values =c("#15A000", "#0070C0"))
+
+Fig3a
+```
+
+## H5 with real energy price data
+```{r}
+### energy data
+data.energy.plz.total.id <- read.csv( "wave 2 and both waves/data/data.energy.plz.total.id.csv", dec=".")
+
+mean(data.energy.plz.total.id$price.diff) + 3*sd(data.energy.plz.total.id$price.diff)
+# mean +- 3* sd = 21.05042
+
+data.energy.plz.total.id.exc <- data.energy.plz.total.id %>% filter(price.diff<= 21.05042 )
+
+# relative price diff
+data.energy.plz.total.id.exc$rel_price_difference <- scale(data.energy.plz.total.id.exc$price.diff)[,1]
+data.energy.plz.total.id.exc$rel_price_2023 <- scale(data.energy.plz.total.id.exc$Preis2023)[,1]
+
+#### merge CH longitduinal data with energy price data
+data.product.waves.long.ch <- data.product.waves.long %>% filter(country=="Switzerland")
+
+# merge
+
+# Preis 2022 als Grundlage und  price change  (difference abs) oder relativ als percent * wave
+data.product.waves.long.price <- merge(data.product.waves.long.ch, data.energy.plz.total.id.exc, by=c("m"))
+data.product.waves.long.price$wave <- factor(data.product.waves.long.price$wave)
+data.product.waves.long.price$choice <- factor(data.product.waves.long.price$choice)
+
+data.product.waves.long.price$income  <- factor(data.product.waves.long.price$income,
+                                                levels=c( "<1'500€\n<3'100CHF","<1'500- 2'499€\n3'100-4'299CHF", "2'500- 4'000€\n<4'300- 5'899CHF", "> 4'000€\n>5'900 CHF"),
+                                                labels = c("<3'100CHF", "3'100- 4'299CHF", "4'300- 5'899CHF", ">5'900 CHF"))
+data.product.waves.long.price$gender <- factor(data.product.waves.long.price$gender)
+data.product.waves.long.price$education <- factor(data.product.waves.long.price$education)
+
+
+data.product.waves.long.price_clean <- data.product.waves.long.price[!c(data.product.waves.long.price$m %in% data.accuracy.pattern$m), ]
+
+
+```
+
+### H5 pre-registered model
+= with 3-way interaction, concern scaled and mean error scaled, and demographics
+```{r}
+model.choice.price.diff.prereg_clean  <- glmer(choice ~  rel_price_difference*wave*energy.level    +
+                                           concern.scaled  + mean.error_scaled+ price.level +
+                                           age +
+                                           gender + income + education +
+                                           (1 |m) ,
+                                         data=data.product.waves.long.price_clean, family = binomial(link = "probit"))
+#tab_model(model.choice.price.diff.prereg_clean)
+Anova(model.choice.price.diff.prereg_clean, type=2)
+
+```
+
+
+Point estimates for the predicted choice probablity for the relative price differences (-1sd, mean, +1sd)
+```{r}
+pred_2 <- ggemmeans(model.choice.price.diff.prereg_clean, c("wave", "rel_price_difference[-1,0,+1]")) %>% rename(rel_price_difference = group)
+pred_2 <- as.data.frame(pred_2)
+pred_2$wave2 <- c(0.78,1,1.22, 1.75, 1.97, 2.19)
+pred_2
+```
+
+Plot for H5
+```{r, fig.width = 13, fig.height = 8 }
+
+Fig3b <- ggplot(pred_2, aes(x = wave2, y = predicted)) + scale_color_manual(values=c("#F6BE00", "#ff8c00", "#a50000"))+scale_fill_manual(values=c("#F6BE00", "#ff8c00", "#a50000"))+
+    geom_bar(stat="identity", position="dodge", aes( fill=rel_price_difference), width=.2) +
+    geom_errorbar(aes(ymin=conf.low, ymax=conf.high), position=position_dodge(0.9), width=0.1)     +
+    theme(plot.caption = element_text(hjust = 0),
+          plot.title.position = "plot",
+          plot.caption.position =  "plot",
+          plot.title = element_text(size = 23, face = "bold"),
+          axis.title  = element_text(size = 23),
+          axis.text = element_text(size = 21),
+          legend.title = element_text(size = 19, face="plain"),
+          strip.text  = element_text(size = 19, face="plain"),
+          legend.text = element_text(size = 19)) + 
+    ylim(0,1)+ 
+    labs(fill=paste0("Relative energy", "\n", "price difference"), y="Predicted prob. of energy efficient choice",
+         x="Assessment waves", title="b") + scale_x_discrete(limits=c("Wave 1", "Wave 2"))
+         
+```
+/
+
+All plots together
+```{r, fig.width = 16, fig.height = 12 }
+ (Fig3a | Fig3b)  / (Fig3c + Fig3d)
+```
+
+
+#### controlling for 2022 energy price
+```{r}
+## controlling for price 2022
+model.choice.price.diff.prereg.2 <- glmer(choice ~  rel_price_difference*wave*energy.level   + price.level +
+                                            Preis2022 +
+                                            concern.scaled  + mean.error_scaled+
+                                            age + gender + income + education +
+                                            (1 |m) ,
+                                          data=data.product.waves.long.price, family = binomial(link = "logit"))
+tab_model(model.choice.price.diff.prereg.2)
+```
+
+#### price effect only in wave 2
+```{r}
+
+data.product.waves.long.price_clean.wave2 <- data.product.waves.long.price_clean %>% filter(wave=="Wave 2")
+
+model.choice.price.diff.w2 <- glmer(choice ~  rel_price_difference*energy.level    +
+                                           concern.scaled  + mean.error_scaled+ price.level +
+                                           age +
+                                           gender + income + education +
+                                           (1 |m) ,
+                                         data=data.product.waves.long.price_clean, family = binomial(link = "probit"))
+tab_model(model.choice.price.diff.w2)
+Anova(model.choice.price.diff.w2, type=2)
+
+plot_model(model.choice.price.diff.w2, type="emm", terms=c("energy.level","rel_price_difference"), colors=c("#F6BE00", "#ff8c00", "#a50000"))
+
+```
+
+
+
+
