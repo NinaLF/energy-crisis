@@ -10,7 +10,7 @@
 
 
 
-<meta name="date" content="2023-09-29" />
+<meta name="date" content="2023-10-02" />
 
 <title>analyses product choices</title>
 
@@ -255,6 +255,9 @@ $(document).ready(function () {
 <li>
   <a href="analyses-product-choices.html">Analyses product choices</a>
 </li>
+<li>
+  <a href="analyses-policy-new.html">Analyses policy support</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -268,14 +271,15 @@ $(document).ready(function () {
 
 
 <h1 class="title toc-ignore">analyses product choices</h1>
-<h4 class="date">2023-09-29</h4>
+<h4 class="date">2023-10-02</h4>
 
 </div>
 
 <div id="TOC">
 <ul>
-<li><a href="#product-choices" id="toc-product-choices">product
-choices</a>
+<li><a href="#non-cleaned-for-pattern-people"
+id="toc-non-cleaned-for-pattern-people">non-cleaned for pattern
+people</a>
 <ul>
 <li><a href="#wave-1-individual-differences"
 id="toc-wave-1-individual-differences">wave 1: individual
@@ -301,34 +305,17 @@ id="toc-climate-change-concern-1">Climate change concern</a></li>
 <li><a href="#energy-literacy-1" id="toc-energy-literacy-1">Energy
 literacy</a></li>
 </ul></li>
-</ul></li>
 <li><a href="#both-waves-together" id="toc-both-waves-together">Both
 waves together</a>
 <ul>
 <li><a href="#basic-model" id="toc-basic-model">Basic model</a></li>
 <li><a href="#climate-change-concern-2"
-id="toc-climate-change-concern-2">Climate change concern</a>
-<ul>
-<li><a href="#cc-concern-model" id="toc-cc-concern-model">cc concern
-model</a></li>
-<li><a href="#cc-concern-plot" id="toc-cc-concern-plot">cc concern
-plot</a></li>
-<li><a href="#cc-concern-point-estimates"
-id="toc-cc-concern-point-estimates">cc concern point estimates</a></li>
-</ul></li>
+id="toc-climate-change-concern-2">Climate change concern</a></li>
 <li><a href="#energy-literacy-2" id="toc-energy-literacy-2">Energy
-literacy</a>
-<ul>
-<li><a href="#energy-literacy-model"
-id="toc-energy-literacy-model">energy literacy model</a></li>
-<li><a href="#energy-literacy-plot" id="toc-energy-literacy-plot">energy
-literacy plot</a></li>
-<li><a href="#energy-literacy-model-point-estimates"
-id="toc-energy-literacy-model-point-estimates">energy literacy model
-point estimates</a></li>
-</ul></li>
+literacy</a></li>
 <li><a href="#model-comparisons" id="toc-model-comparisons">Model
 comparisons:</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#cleaned-of-pattern-people"
 id="toc-cleaned-of-pattern-people">cleaned of pattern people</a>
@@ -350,17 +337,56 @@ strenght with interaction with energy level</a></li>
 id="toc-binary-over-under-estimation-as-pre-reg-in-wave-1-1">Binary over
 / under estimation as pre-reg in wave 1</a></li>
 </ul></li>
-<li><a href="#wave-2" id="toc-wave-2">wave 2</a></li>
+<li><a href="#wave-2-individual-differences-1"
+id="toc-wave-2-individual-differences-1">wave 2: individual
+differences</a>
+<ul>
+<li><a href="#cc-concern-1" id="toc-cc-concern-1">cc concern</a></li>
+<li><a href="#energy-literacy-4" id="toc-energy-literacy-4">energy
+literacy</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#across-both-waves-together-cleaned"
 id="toc-across-both-waves-together-cleaned">Across both waves together,
-cleaned</a></li>
+cleaned</a>
+<ul>
+<li><a href="#individual-differences"
+id="toc-individual-differences">Individual differences</a>
+<ul>
+<li><a href="#general-model" id="toc-general-model">general
+model</a></li>
+<li><a href="#with-cc-concern-interaction"
+id="toc-with-cc-concern-interaction">with cc concern
+(interaction)</a></li>
+<li><a href="#cc-concern-model-plot" id="toc-cc-concern-model-plot">CC
+concern model plot</a></li>
+<li><a href="#point-estimates-cc-concern-and-energy.level--1-and-1"
+id="toc-point-estimates-cc-concern-and-energy.level--1-and-1">point
+estimates cc concern and energy.level -1 and 1</a></li>
+<li><a href="#energy-literacy-interaction"
+id="toc-energy-literacy-interaction">energy literacy
+(interaction)</a></li>
+<li><a href="#energy-literacy-plot-1"
+id="toc-energy-literacy-plot-1">Energy literacy plot</a></li>
+<li><a href="#point-estimates-energy-literacy-and-energy.level"
+id="toc-point-estimates-energy-literacy-and-energy.level">point
+estimates energy literacy and energy.level</a></li>
+</ul></li>
+<li><a href="#both-plots-together" id="toc-both-plots-together">Both
+plots together</a></li>
+<li><a href="#model-comparisons-1" id="toc-model-comparisons-1">Model
+comparisons</a></li>
+<li><a href="#graphical-representation-of-means"
+id="toc-graphical-representation-of-means">Graphical representation of
+means</a></li>
+</ul></li>
 <li><a href="#h5-with-real-energy-price-data"
 id="toc-h5-with-real-energy-price-data">H5 with real energy price
 data</a>
 <ul>
 <li><a href="#h5-pre-registered-model"
-id="toc-h5-pre-registered-model">H5 pre-registered model</a>
+id="toc-h5-pre-registered-model">H5 pre-registered model</a></li>
+<li><a href="#plot-for-h5" id="toc-plot-for-h5">Plot for H5</a>
 <ul>
 <li><a href="#controlling-for-2022-energy-price"
 id="toc-controlling-for-2022-energy-price">controlling for 2022 energy
@@ -373,8 +399,8 @@ id="toc-price-effect-only-in-wave-2">price effect only in wave
 </ul>
 </div>
 
-<div id="product-choices" class="section level2">
-<h2>product choices</h2>
+<div id="non-cleaned-for-pattern-people" class="section level2">
+<h2>non-cleaned for pattern people</h2>
 <div id="wave-1-individual-differences" class="section level3 tabset">
 <h3 class="tabset">wave 1: individual differences</h3>
 <div id="climate-change-concern" class="section level4">
@@ -926,12 +952,6 @@ Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
 </td>
 </tr>
 </table>
-<pre><code>## Warning in checkConv(attr(opt, &quot;derivs&quot;), opt$par, ctrl =
-## control$checkConv, : Model failed to converge with
-## max|grad| = 0.417739 (tol = 0.002, component 1)</code></pre>
-<pre><code>## Warning in checkConv(attr(opt, &quot;derivs&quot;), opt$par, ctrl =
-## control$checkConv, : Model failed to converge with
-## max|grad| = 0.0821146 (tol = 0.002, component 1)</code></pre>
 </div>
 <div id="impact-strength-as-main-effect" class="section level4">
 <h4>Impact strength as main effect</h4>
@@ -1455,12 +1475,6 @@ Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
 </div>
 <div id="wave-2-individual-differences" class="section level3 tabset">
 <h3 class="tabset">wave 2: individual differences</h3>
-<pre><code>## Warning in checkConv(attr(opt, &quot;derivs&quot;), opt$par, ctrl =
-## control$checkConv, : Model failed to converge with
-## max|grad| = 0.28578 (tol = 0.002, component 1)</code></pre>
-<pre><code>## Warning in checkConv(attr(opt, &quot;derivs&quot;), opt$par, ctrl =
-## control$checkConv, : Model failed to converge with
-## max|grad| = 2.59276 (tol = 0.002, component 1)</code></pre>
 <div id="climate-change-concern-1" class="section level4">
 <h4>Climate change concern</h4>
 <table style="border-collapse:collapse; border:none;">
@@ -2008,21 +2022,10 @@ Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
 </table>
 </div>
 </div>
-</div>
-<div id="both-waves-together" class="section level2">
-<h2>Both waves together</h2>
-<pre><code>## Warning in checkConv(attr(opt, &quot;derivs&quot;), opt$par, ctrl =
-## control$checkConv, : Model failed to converge with
-## max|grad| = 0.668768 (tol = 0.002, component 1)</code></pre>
-<pre><code>## Warning in checkConv(attr(opt, &quot;derivs&quot;), opt$par, ctrl = control$checkConv, : Model is nearly unidentifiable: very large eigenvalue
-##  - Rescale variables?</code></pre>
-<pre><code>## Warning in checkConv(attr(opt, &quot;derivs&quot;), opt$par, ctrl =
-## control$checkConv, : Model failed to converge with
-## max|grad| = 0.632516 (tol = 0.002, component 1)</code></pre>
-<pre><code>## Warning in checkConv(attr(opt, &quot;derivs&quot;), opt$par, ctrl = control$checkConv, : Model is nearly unidentifiable: very large eigenvalue
-##  - Rescale variables?</code></pre>
-<div id="basic-model" class="section level3">
-<h3>Basic model</h3>
+<div id="both-waves-together" class="section level3">
+<h3>Both waves together</h3>
+<div id="basic-model" class="section level4">
+<h4>Basic model</h4>
 <table style="border-collapse:collapse; border:none;">
 <tr>
 <th style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm;  text-align:left; ">
@@ -2062,7 +2065,7 @@ p
 </tr>
 <tr>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-wave <a href="#wave-2">Wave 2</a>
+wave [Wave 2]
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
 0.77
@@ -2280,10 +2283,10 @@ Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
 </tr>
 </table>
 </div>
-<div id="climate-change-concern-2" class="section level3 tabset">
-<h3 class="tabset">Climate change concern</h3>
-<div id="cc-concern-model" class="section level4">
-<h4>cc concern model</h4>
+<div id="climate-change-concern-2" class="section level4 tabset">
+<h4 class="tabset">Climate change concern</h4>
+<div id="cc-concern-model" class="section level5">
+<h5>cc concern model</h5>
 <table style="border-collapse:collapse; border:none;">
 <tr>
 <th style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm;  text-align:left; ">
@@ -2379,7 +2382,7 @@ country [Switzerland]
 </tr>
 <tr>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-wave <a href="#wave-2">Wave 2</a>
+wave [Wave 2]
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
 0.77
@@ -2569,19 +2572,15 @@ Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
 </tr>
 </table>
 </div>
-<div id="cc-concern-plot" class="section level4">
-<h4>cc concern plot</h4>
-<pre><code>## Data were &#39;prettified&#39;. Consider using
-##   `terms=&quot;concern.scaled [all]&quot;` to get smooth plots.</code></pre>
+<div id="cc-concern-plot" class="section level5">
+<h5>cc concern plot</h5>
+<pre><code>## Data were &#39;prettified&#39;. Consider using `terms=&quot;concern.scaled [all]&quot;` to get smooth plots.</code></pre>
 <pre><code>## Scale for y is already present.
-## Adding another scale for y, which will replace the
-## existing scale.</code></pre>
-<pre><code>## Warning: Removed 8 rows containing missing values
-## (`geom_line()`).</code></pre>
+## Adding another scale for y, which will replace the existing scale.</code></pre>
 <p><img src="analyses-product-choices_files/figure-html/unnamed-chunk-12-1.png" width="672" style="display: block; margin: auto;" /></p>
 </div>
-<div id="cc-concern-point-estimates" class="section level4">
-<h4>cc concern point estimates</h4>
+<div id="cc-concern-point-estimates" class="section level5">
+<h5>cc concern point estimates</h5>
 <pre><code>##      x predicted std.error  conf.low conf.high group
 ## 1 High 0.7086915 0.2185541 0.6131753 0.7887481    -1
 ## 2 High 0.8182489 0.2223415 0.7443586 0.8743862     1
@@ -2589,15 +2588,10 @@ Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
 ## 4  Low 0.5256910 0.2207866 0.4182700 0.6307856     1</code></pre>
 </div>
 </div>
-<div id="energy-literacy-2" class="section level3 tabset">
-<h3 class="tabset">Energy literacy</h3>
-<div id="energy-literacy-model" class="section level4">
-<h4>energy literacy model</h4>
-<pre><code>## Warning in checkConv(attr(opt, &quot;derivs&quot;), opt$par, ctrl =
-## control$checkConv, : Model failed to converge with
-## max|grad| = 0.153133 (tol = 0.002, component 1)</code></pre>
-<pre><code>## Warning in checkConv(attr(opt, &quot;derivs&quot;), opt$par, ctrl = control$checkConv, : Model is nearly unidentifiable: very large eigenvalue
-##  - Rescale variables?</code></pre>
+<div id="energy-literacy-2" class="section level4 tabset">
+<h4 class="tabset">Energy literacy</h4>
+<div id="energy-literacy-model" class="section level5">
+<h5>energy literacy model</h5>
 <table style="border-collapse:collapse; border:none;">
 <tr>
 <th style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm;  text-align:left; ">
@@ -2693,7 +2687,7 @@ country [Switzerland]
 </tr>
 <tr>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-wave <a href="#wave-2">Wave 2</a>
+wave [Wave 2]
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
 0.77
@@ -2883,20 +2877,15 @@ Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
 </tr>
 </table>
 </div>
-<div id="energy-literacy-plot" class="section level4">
-<h4>energy literacy plot</h4>
-<pre><code>## Data were &#39;prettified&#39;. Consider using
-##   `terms=&quot;mean.error_scaled [all]&quot;` to get smooth
-##   plots.</code></pre>
+<div id="energy-literacy-plot" class="section level5">
+<h5>energy literacy plot</h5>
+<pre><code>## Data were &#39;prettified&#39;. Consider using `terms=&quot;mean.error_scaled [all]&quot;` to get smooth plots.</code></pre>
 <pre><code>## Scale for y is already present.
-## Adding another scale for y, which will replace the
-## existing scale.</code></pre>
-<pre><code>## Warning: Removed 4 rows containing missing values
-## (`geom_line()`).</code></pre>
+## Adding another scale for y, which will replace the existing scale.</code></pre>
 <p><img src="analyses-product-choices_files/figure-html/unnamed-chunk-15-1.png" width="672" style="display: block; margin: auto;" /></p>
 </div>
-<div id="energy-literacy-model-point-estimates" class="section level4">
-<h4>energy literacy model point estimates</h4>
+<div id="energy-literacy-model-point-estimates" class="section level5">
+<h5>energy literacy model point estimates</h5>
 <pre><code>##      x predicted std.error  conf.low conf.high group
 ## 1 High 0.7946481 0.2264625 0.7128601 0.8577873    -1
 ## 2 High 0.7142396 0.2225143 0.6177348 0.7944866     1
@@ -2904,8 +2893,8 @@ Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
 ## 4  Low 0.5023936 0.2216060 0.3953770 0.6091913     1</code></pre>
 </div>
 </div>
-<div id="model-comparisons" class="section level3">
-<h3>Model comparisons:</h3>
+<div id="model-comparisons" class="section level4">
+<h4>Model comparisons:</h4>
 <ol style="list-style-type: decimal">
 <li>Basic model versus model with cc concern &amp;interaction</li>
 <li>Basic model versus model with energy literacy &amp; interaction</li>
@@ -2914,28 +2903,21 @@ Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
 ## Models:
 ## model.product.waves: choice ~ wave + country + energy.level + price.level + age + gender + education + income + (1 | m)
 ## model.H4a.both: choice ~ price.level + energy.level * concern.scaled + country + wave + gender + age + income + education + (1 | m)
-##                     npar   AIC   BIC  logLik deviance
-## model.product.waves   14 15416 15522 -7694.1    15388
-## model.H4a.both        16 15364 15486 -7666.1    15332
-##                     Chisq Df Pr(&gt;Chisq)    
-## model.product.waves                        
-## model.H4a.both      55.85  2  7.451e-13 ***
+##                     npar   AIC   BIC  logLik deviance Chisq Df Pr(&gt;Chisq)    
+## model.product.waves   14 15416 15522 -7694.1    15388                        
+## model.H4a.both        16 15364 15486 -7666.1    15332 55.85  2  7.451e-13 ***
 ## ---
-## Signif. codes:  
-## 0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
 <pre><code>## Data: data.product.waves.long
 ## Models:
 ## model.product.waves: choice ~ wave + country + energy.level + price.level + age + gender + education + income + (1 | m)
 ## model.H4a.error.both: choice ~ price.level + energy.level * mean.error_scaled + country + wave + gender + age + income + education + (1 | m)
-##                      npar   AIC   BIC  logLik deviance
-## model.product.waves    14 15416 15522 -7694.1    15388
-## model.H4a.error.both   16 15356 15478 -7662.2    15324
-##                       Chisq Df Pr(&gt;Chisq)    
-## model.product.waves                          
-## model.H4a.error.both 63.659  2  1.502e-14 ***
+##                      npar   AIC   BIC  logLik deviance  Chisq Df Pr(&gt;Chisq)    
+## model.product.waves    14 15416 15522 -7694.1    15388                         
+## model.H4a.error.both   16 15356 15478 -7662.2    15324 63.659  2  1.502e-14 ***
 ## ---
-## Signif. codes:  
-## 0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
+</div>
 </div>
 </div>
 <div id="cleaned-of-pattern-people" class="section level2">
@@ -2943,12 +2925,6 @@ Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
 <div id="wave-1-cleaned-individual-differences"
 class="section level3 tabset">
 <h3 class="tabset">wave 1 cleaned: individual differences</h3>
-<pre><code>## Warning in checkConv(attr(opt, &quot;derivs&quot;), opt$par, ctrl =
-## control$checkConv, : Model failed to converge with
-## max|grad| = 0.7183 (tol = 0.002, component 1)</code></pre>
-<pre><code>## Warning in checkConv(attr(opt, &quot;derivs&quot;), opt$par, ctrl =
-## control$checkConv, : Model failed to converge with
-## max|grad| = 0.538509 (tol = 0.002, component 1)</code></pre>
 <div id="cc-concern" class="section level4">
 <h4>cc concern</h4>
 <table style="border-collapse:collapse; border:none;">
@@ -3494,15 +3470,6 @@ Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
 </td>
 </tr>
 </table>
-<pre><code>## Warning in checkConv(attr(opt, &quot;derivs&quot;), opt$par, ctrl =
-## control$checkConv, : Model failed to converge with
-## max|grad| = 0.427116 (tol = 0.002, component 1)</code></pre>
-<pre><code>## Warning in checkConv(attr(opt, &quot;derivs&quot;), opt$par, ctrl =
-## control$checkConv, : Model failed to converge with
-## max|grad| = 1.35726 (tol = 0.002, component 1)</code></pre>
-<pre><code>## Warning in checkConv(attr(opt, &quot;derivs&quot;), opt$par, ctrl =
-## control$checkConv, : Model failed to converge with
-## max|grad| = 0.0988372 (tol = 0.002, component 1)</code></pre>
 </div>
 <div id="impact-weight-as-main-effect" class="section level4">
 <h4>impact weight as main effect</h4>
@@ -4312,571 +4279,10 @@ Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
 </table>
 </div>
 </div>
-<div id="wave-2" class="section level3">
-<h3>wave 2</h3>
-<pre><code>## Warning in checkConv(attr(opt, &quot;derivs&quot;), opt$par, ctrl =
-## control$checkConv, : Model failed to converge with
-## max|grad| = 1.24562 (tol = 0.002, component 1)</code></pre>
-<table style="border-collapse:collapse; border:none;">
-<tr>
-<th style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm;  text-align:left; ">
- 
-</th>
-<th colspan="3" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
-choice
-</th>
-</tr>
-<tr>
-<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  text-align:left; ">
-Predictors
-</td>
-<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
-Odds Ratios
-</td>
-<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
-CI
-</td>
-<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
-p
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-(Intercept)
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-1.82
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.82 – 4.04
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.141
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-price level [2]
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.21
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.19 – 0.25
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>&lt;0.001</strong>
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-energy level [Low]
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.24
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.21 – 0.27
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>&lt;0.001</strong>
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-mean error scaled
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.79
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.66 – 0.96
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.016</strong>
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-country [Switzerland]
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-1.78
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-1.30 – 2.42
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>&lt;0.001</strong>
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-gender [male]
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.87
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.64 – 1.18
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.379
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-age
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-1.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.99 – 1.01
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.449
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-income&lt;1’500- 2’499€ 3’100-4’299CHF
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-1.15
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.70 – 1.88
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.578
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-income [2’500- 4’000€<br>&lt;4’300- 5’899CHF]
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-1.41
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.88 – 2.28
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.156
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-income [&gt; 4’000€ &gt;5’900<br>CHF]
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-2.05
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-1.26 – 3.32
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.004</strong>
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-education [obligatory<br>school]
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-1.33
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.77 – 2.31
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.305
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-education [middle school]
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-1.10
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.62 – 1.97
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.742
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-education [degree]
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-1.06
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.60 – 1.89
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.839
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-energy level [Low] × mean<br>error scaled
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-1.46
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-1.26 – 1.68
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>&lt;0.001</strong>
-</td>
-</tr>
-<tr>
-<td colspan="4" style="font-weight:bold; text-align:left; padding-top:.8em;">
-Random Effects
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
-σ<sup>2</sup>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
-3.29
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
-τ<sub>00</sub> <sub>m</sub>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
-4.54
-</td>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
-ICC
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
-0.58
-</td>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
-N <sub>m</sub>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
-980
-</td>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm; border-top:1px solid;">
-Observations
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left; border-top:1px solid;" colspan="3">
-6860
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
-Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
-0.159 / 0.647
-</td>
-</tr>
-</table>
-<pre><code>## Warning in checkConv(attr(opt, &quot;derivs&quot;), opt$par, ctrl =
-## control$checkConv, : Model failed to converge with
-## max|grad| = 0.616631 (tol = 0.002, component 1)</code></pre>
-<table style="border-collapse:collapse; border:none;">
-<tr>
-<th style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm;  text-align:left; ">
- 
-</th>
-<th colspan="3" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
-choice
-</th>
-</tr>
-<tr>
-<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  text-align:left; ">
-Predictors
-</td>
-<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
-Odds Ratios
-</td>
-<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
-CI
-</td>
-<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
-p
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-(Intercept)
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-2.10
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.95 – 4.64
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.066
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-price level [2]
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.21
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.19 – 0.25
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>&lt;0.001</strong>
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-energy level [Low]
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.24
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.21 – 0.27
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>&lt;0.001</strong>
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-mean error scaled
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.85
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.71 – 1.03
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.094
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-country [Switzerland]
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-1.74
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-1.28 – 2.37
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>&lt;0.001</strong>
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-concern scaled
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-1.42
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-1.26 – 1.60
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>&lt;0.001</strong>
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-gender [male]
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.96
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.71 – 1.30
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.795
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-age
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-1.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.99 – 1.01
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.791
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-income&lt;1’500- 2’499€ 3’100-4’299CHF
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-1.20
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.74 – 1.94
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.469
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-income [2’500- 4’000€<br>&lt;4’300- 5’899CHF]
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-1.51
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.94 – 2.43
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.086
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-income [&gt; 4’000€ &gt;5’900<br>CHF]
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-2.09
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-1.30 – 3.37
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.002</strong>
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-education [obligatory<br>school]
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-1.24
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.72 – 2.14
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.433
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-education [middle school]
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.96
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.54 – 1.70
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.877
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-education [degree]
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.92
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.52 – 1.63
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.783
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-energy level [Low] × mean<br>error scaled
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-1.46
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-1.27 – 1.69
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>&lt;0.001</strong>
-</td>
-</tr>
-<tr>
-<td colspan="4" style="font-weight:bold; text-align:left; padding-top:.8em;">
-Random Effects
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
-σ<sup>2</sup>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
-3.29
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
-τ<sub>00</sub> <sub>m</sub>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
-4.40
-</td>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
-ICC
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
-0.57
-</td>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
-N <sub>m</sub>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
-980
-</td>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm; border-top:1px solid;">
-Observations
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left; border-top:1px solid;" colspan="3">
-6860
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
-Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
-0.178 / 0.649
-</td>
-</tr>
-</table>
-<pre><code>## Warning in checkConv(attr(opt, &quot;derivs&quot;), opt$par, ctrl =
-## control$checkConv, : Model failed to converge with
-## max|grad| = 0.791174 (tol = 0.002, component 1)</code></pre>
+<div id="wave-2-individual-differences-1" class="section level3">
+<h3>wave 2: individual differences</h3>
+<div id="cc-concern-1" class="section level4">
+<h4>cc concern</h4>
 <table style="border-collapse:collapse; border:none;">
 <tr>
 <th style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm;  text-align:left; ">
@@ -5147,22 +4553,288 @@ Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
 </td>
 </tr>
 </table>
-<pre><code>## Data were &#39;prettified&#39;. Consider using
-##   `terms=&quot;concern.scaled [all]&quot;` to get smooth plots.</code></pre>
-<p><img src="analyses-product-choices_files/figure-html/unnamed-chunk-26-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="energy-literacy-4" class="section level4">
+<h4>energy literacy</h4>
+<table style="border-collapse:collapse; border:none;">
+<tr>
+<th style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm;  text-align:left; ">
+ 
+</th>
+<th colspan="3" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
+choice
+</th>
+</tr>
+<tr>
+<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  text-align:left; ">
+Predictors
+</td>
+<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
+Odds Ratios
+</td>
+<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
+CI
+</td>
+<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
+p
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+(Intercept)
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+1.82
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.82 – 4.04
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.141
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+price level [2]
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.21
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.19 – 0.25
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+<strong>&lt;0.001</strong>
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+energy level [Low]
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.24
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.21 – 0.27
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+<strong>&lt;0.001</strong>
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+mean error scaled
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.79
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.66 – 0.96
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+<strong>0.016</strong>
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+country [Switzerland]
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+1.78
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+1.30 – 2.42
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+<strong>&lt;0.001</strong>
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+gender [male]
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.87
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.64 – 1.18
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.379
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+age
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+1.00
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.99 – 1.01
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.449
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+income&lt;1’500- 2’499€ 3’100-4’299CHF
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+1.15
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.70 – 1.88
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.578
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+income [2’500- 4’000€<br>&lt;4’300- 5’899CHF]
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+1.41
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.88 – 2.28
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.156
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+income [&gt; 4’000€ &gt;5’900<br>CHF]
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+2.05
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+1.26 – 3.32
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+<strong>0.004</strong>
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+education [obligatory<br>school]
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+1.33
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.77 – 2.31
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.305
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+education [middle school]
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+1.10
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.62 – 1.97
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.742
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+education [degree]
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+1.06
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.60 – 1.89
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.839
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+energy level [Low] × mean<br>error scaled
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+1.46
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+1.26 – 1.68
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+<strong>&lt;0.001</strong>
+</td>
+</tr>
+<tr>
+<td colspan="4" style="font-weight:bold; text-align:left; padding-top:.8em;">
+Random Effects
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+σ<sup>2</sup>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+3.29
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+τ<sub>00</sub> <sub>m</sub>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+4.54
+</td>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+ICC
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+0.58
+</td>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+N <sub>m</sub>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+980
+</td>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm; border-top:1px solid;">
+Observations
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left; border-top:1px solid;" colspan="3">
+6860
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+0.159 / 0.647
+</td>
+</tr>
+</table>
+</div>
 </div>
 </div>
 <div id="across-both-waves-together-cleaned" class="section level2">
 <h2>Across both waves together, cleaned</h2>
-<ol style="list-style-type: decimal">
-<li>general model</li>
-<li>with cc concern (interaction)</li>
-</ol>
-<pre><code>## Warning in checkConv(attr(opt, &quot;derivs&quot;), opt$par, ctrl =
-## control$checkConv, : Model failed to converge with
-## max|grad| = 1.60449 (tol = 0.002, component 1)</code></pre>
-<pre><code>## Warning in checkConv(attr(opt, &quot;derivs&quot;), opt$par, ctrl = control$checkConv, : Model is nearly unidentifiable: very large eigenvalue
-##  - Rescale variables?</code></pre>
+<div id="individual-differences" class="section level3 tabset">
+<h3 class="tabset">Individual differences</h3>
+<div id="general-model" class="section level4">
+<h4>general model</h4>
 <table style="border-collapse:collapse; border:none;">
 <tr>
 <th style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm;  text-align:left; ">
@@ -5202,7 +4874,7 @@ p
 </tr>
 <tr>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-wave <a href="#wave-2">Wave 2</a>
+wave [Wave 2]
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
 0.79
@@ -5419,10 +5091,9 @@ Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
 </td>
 </tr>
 </table>
-<pre><code>## Warning in checkConv(attr(opt, &quot;derivs&quot;), opt$par, ctrl = control$checkConv, : Model failed to converge with max|grad| = 1.21119 (tol = 0.002, component 1)
-
-## Warning in checkConv(attr(opt, &quot;derivs&quot;), opt$par, ctrl = control$checkConv, : Model is nearly unidentifiable: very large eigenvalue
-##  - Rescale variables?</code></pre>
+</div>
+<div id="with-cc-concern-interaction" class="section level4">
+<h4>with cc concern (interaction)</h4>
 <table style="border-collapse:collapse; border:none;">
 <tr>
 <th style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm;  text-align:left; ">
@@ -5518,7 +5189,7 @@ country [Switzerland]
 </tr>
 <tr>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-wave <a href="#wave-2">Wave 2</a>
+wave [Wave 2]
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
 0.79
@@ -5707,29 +5378,25 @@ Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
 </td>
 </tr>
 </table>
-<p>CC concern model plot</p>
-<pre><code>## Data were &#39;prettified&#39;. Consider using
-##   `terms=&quot;concern.scaled [all]&quot;` to get smooth plots.</code></pre>
+</div>
+<div id="cc-concern-model-plot" class="section level4">
+<h4>CC concern model plot</h4>
+<pre><code>## Data were &#39;prettified&#39;. Consider using `terms=&quot;concern.scaled [all]&quot;` to get smooth plots.</code></pre>
 <pre><code>## Scale for y is already present.
-## Adding another scale for y, which will replace the
-## existing scale.</code></pre>
-<pre><code>## Warning: Removed 8 rows containing missing values
-## (`geom_line()`).</code></pre>
-<p><img src="analyses-product-choices_files/figure-html/unnamed-chunk-28-1.png" width="1248" style="display: block; margin: auto;" /></p>
-<p>point estimates cc concern and energy.level -1 and 1</p>
+## Adding another scale for y, which will replace the existing scale.</code></pre>
+<p><img src="analyses-product-choices_files/figure-html/unnamed-chunk-31-1.png" width="1248" style="display: block; margin: auto;" /></p>
+</div>
+<div id="point-estimates-cc-concern-and-energy.level--1-and-1"
+class="section level4">
+<h4>point estimates cc concern and energy.level -1 and 1</h4>
 <pre><code>##      x predicted std.error  conf.low conf.high group
 ## 1 High 0.7132127 0.2300946 0.6130288 0.7960872    -1
 ## 2 High 0.8258683 0.2332206 0.7501700 0.8822308     1
 ## 3  Low 0.4379180 0.2296336 0.3318810 0.5499472    -1
 ## 4  Low 0.5298138 0.2315554 0.4171598 0.6395098     1</code></pre>
-<ol start="3" style="list-style-type: decimal">
-<li>energy literacy (interaction)</li>
-</ol>
-<pre><code>## Warning in checkConv(attr(opt, &quot;derivs&quot;), opt$par, ctrl =
-## control$checkConv, : Model failed to converge with
-## max|grad| = 0.617516 (tol = 0.002, component 1)</code></pre>
-<pre><code>## Warning in checkConv(attr(opt, &quot;derivs&quot;), opt$par, ctrl = control$checkConv, : Model is nearly unidentifiable: very large eigenvalue
-##  - Rescale variables?</code></pre>
+</div>
+<div id="energy-literacy-interaction" class="section level4">
+<h4>energy literacy (interaction)</h4>
 <table style="border-collapse:collapse; border:none;">
 <tr>
 <th style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm;  text-align:left; ">
@@ -5825,7 +5492,7 @@ country [Switzerland]
 </tr>
 <tr>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-wave <a href="#wave-2">Wave 2</a>
+wave [Wave 2]
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
 0.79
@@ -6014,64 +5681,57 @@ Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
 </td>
 </tr>
 </table>
-<p>Energy literacy plot</p>
-<pre><code>## Data were &#39;prettified&#39;. Consider using
-##   `terms=&quot;mean.error_scaled [all]&quot;` to get smooth
-##   plots.</code></pre>
+</div>
+<div id="energy-literacy-plot-1" class="section level4">
+<h4>Energy literacy plot</h4>
+<pre><code>## Data were &#39;prettified&#39;. Consider using `terms=&quot;mean.error_scaled [all]&quot;` to get smooth plots.</code></pre>
 <pre><code>## Scale for y is already present.
-## Adding another scale for y, which will replace the
-## existing scale.</code></pre>
-<pre><code>## Warning: Removed 4 rows containing missing values
-## (`geom_line()`).</code></pre>
-<p><img src="analyses-product-choices_files/figure-html/unnamed-chunk-31-1.png" width="1248" style="display: block; margin: auto;" /></p>
-<p>Both plots together</p>
-<pre><code>## Warning: Removed 4 rows containing missing values
-## (`geom_line()`).</code></pre>
-<pre><code>## Warning: Removed 8 rows containing missing values
-## (`geom_line()`).</code></pre>
-<p><img src="analyses-product-choices_files/figure-html/unnamed-chunk-32-1.png" width="1248" style="display: block; margin: auto;" /></p>
-<p>point estimates energy literacy and energy.level</p>
+## Adding another scale for y, which will replace the existing scale.</code></pre>
+<p><img src="analyses-product-choices_files/figure-html/unnamed-chunk-34-1.png" width="1248" style="display: block; margin: auto;" /></p>
+</div>
+<div id="point-estimates-energy-literacy-and-energy.level"
+class="section level4">
+<h4>point estimates energy literacy and energy.level</h4>
 <pre><code>##      x predicted std.error  conf.low conf.high group
 ## 1 High 0.7795490 0.2379928 0.6892430 0.8493481    -1
 ## 2 High 0.7217878 0.2351711 0.6206764 0.8044392     1
 ## 3  Low 0.4155380 0.2367722 0.3089180 0.5306982    -1
 ## 4  Low 0.4998203 0.2340154 0.3871328 0.6125260     1</code></pre>
-<p>Model comparisons 1. basic model versus cc concern cleaned 2. basic
-model versus energy literacy cleaned</p>
+</div>
+</div>
+<div id="both-plots-together" class="section level3">
+<h3>Both plots together</h3>
+<p><img src="analyses-product-choices_files/figure-html/unnamed-chunk-36-1.png" width="1248" style="display: block; margin: auto;" /></p>
+</div>
+<div id="model-comparisons-1" class="section level3">
+<h3>Model comparisons</h3>
+<ol style="list-style-type: decimal">
+<li>basic model versus cc concern cleaned</li>
+<li>basic model versus energy literacy cleaned</li>
+</ol>
 <pre><code>## Data: data.product.waves.long_clean
 ## Models:
 ## model.product.waves_clean: choice ~ wave + country + energy.level + price.level + age + gender + education + income + (1 | m)
 ## model.H4a.both_clean: choice ~ price.level + energy.level * concern.scaled + country + wave + gender + age + income + education + (1 | m)
-##                           npar   AIC   BIC  logLik
-## model.product.waves_clean   14 14488 14593 -7230.0
-## model.H4a.both_clean        16 14437 14557 -7202.3
-##                           deviance  Chisq Df Pr(&gt;Chisq)
-## model.product.waves_clean    14460                     
-## model.H4a.both_clean         14405 55.438  2   9.16e-13
-##                              
-## model.product.waves_clean    
-## model.H4a.both_clean      ***
+##                           npar   AIC   BIC  logLik deviance  Chisq Df Pr(&gt;Chisq)    
+## model.product.waves_clean   14 14488 14593 -7230.0    14460                         
+## model.H4a.both_clean        16 14437 14557 -7202.3    14405 55.438  2   9.16e-13 ***
 ## ---
-## Signif. codes:  
-## 0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
 <pre><code>## Data: data.product.waves.long_clean
 ## Models:
 ## model.product.waves_clean: choice ~ wave + country + energy.level + price.level + age + gender + education + income + (1 | m)
 ## model.H4a.error.both_clean: choice ~ price.level + energy.level * mean.error_scaled + country + wave + gender + age + income + education + (1 | m)
-##                            npar   AIC   BIC  logLik
-## model.product.waves_clean    14 14488 14593 -7230.0
-## model.H4a.error.both_clean   16 14446 14567 -7207.2
-##                            deviance  Chisq Df Pr(&gt;Chisq)
-## model.product.waves_clean     14460                     
-## model.H4a.error.both_clean    14414 45.693  2  1.197e-10
-##                               
-## model.product.waves_clean     
-## model.H4a.error.both_clean ***
+##                            npar   AIC   BIC  logLik deviance  Chisq Df Pr(&gt;Chisq)    
+## model.product.waves_clean    14 14488 14593 -7230.0    14460                         
+## model.H4a.error.both_clean   16 14446 14567 -7207.2    14414 45.693  2  1.197e-10 ***
 ## ---
-## Signif. codes:  
-## 0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
-<p>Graphical representation of means<br />
-<img src="analyses-product-choices_files/figure-html/unnamed-chunk-35-1.png" width="1248" style="display: block; margin: auto;" /></p>
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
+</div>
+<div id="graphical-representation-of-means" class="section level3">
+<h3>Graphical representation of means</h3>
+<p><img src="analyses-product-choices_files/figure-html/unnamed-chunk-38-1.png" width="1248" style="display: block; margin: auto;" /></p>
+</div>
 </div>
 <div id="h5-with-real-energy-price-data" class="section level2">
 <h2>H5 with real energy price data</h2>
@@ -6080,80 +5740,44 @@ model versus energy literacy cleaned</p>
 <h3>H5 pre-registered model</h3>
 <p>= with 3-way interaction, concern scaled and mean error scaled, and
 demographics</p>
-<pre><code>## Warning in checkConv(attr(opt, &quot;derivs&quot;), opt$par, ctrl =
-## control$checkConv, : Model failed to converge with
-## max|grad| = 0.277542 (tol = 0.002, component 1)</code></pre>
-<pre><code>## Warning in checkConv(attr(opt, &quot;derivs&quot;), opt$par, ctrl = control$checkConv, : Model is nearly unidentifiable: very large eigenvalue
-##  - Rescale variables?</code></pre>
-<pre><code>## Warning in printHypothesis(L, rhs, names(b)): one or more coefficients in the hypothesis include
-##      arithmetic operators in their names;
-##   the printed representation of the hypothesis will be omitted</code></pre>
 <pre><code>## Analysis of Deviance Table (Type II Wald chisquare tests)
 ## 
 ## Response: choice
-##                                           Chisq Df
-## rel_price_difference                     3.3372  1
-## wave                                    28.9128  1
-## energy.level                           399.3622  1
-## concern.scaled                           6.5597  1
-## mean.error_scaled                        3.7999  1
-## price.level                            512.6648  1
-## age                                      4.1587  1
-## gender                                   1.3637  1
-## income                                  35.5968  3
-## education                                2.7701  3
-## rel_price_difference:wave                5.0407  1
-## rel_price_difference:energy.level        0.7252  1
-## wave:energy.level                        0.0038  1
-## rel_price_difference:wave:energy.level   0.7625  1
-##                                        Pr(&gt;Chisq)    
-## rel_price_difference                      0.06773 .  
-## wave                                    7.571e-08 ***
-## energy.level                            &lt; 2.2e-16 ***
-## concern.scaled                            0.01043 *  
-## mean.error_scaled                         0.05126 .  
-## price.level                             &lt; 2.2e-16 ***
-## age                                       0.04142 *  
-## gender                                    0.24290    
-## income                                  9.112e-08 ***
-## education                                 0.42845    
-## rel_price_difference:wave                 0.02476 *  
-## rel_price_difference:energy.level         0.39443    
-## wave:energy.level                         0.95105    
-## rel_price_difference:wave:energy.level    0.38256    
+##                                           Chisq Df Pr(&gt;Chisq)    
+## rel_price_difference                     3.3372  1    0.06773 .  
+## wave                                    28.9128  1  7.571e-08 ***
+## energy.level                           399.3622  1  &lt; 2.2e-16 ***
+## concern.scaled                           6.5597  1    0.01043 *  
+## mean.error_scaled                        3.7999  1    0.05126 .  
+## price.level                            512.6648  1  &lt; 2.2e-16 ***
+## age                                      4.1587  1    0.04142 *  
+## gender                                   1.3637  1    0.24290    
+## income                                  35.5968  3  9.112e-08 ***
+## education                                2.7701  3    0.42845    
+## rel_price_difference:wave                5.0407  1    0.02476 *  
+## rel_price_difference:energy.level        0.7252  1    0.39443    
+## wave:energy.level                        0.0038  1    0.95105    
+## rel_price_difference:wave:energy.level   0.7625  1    0.38256    
 ## ---
-## Signif. codes:  
-## 0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
 <p>Point estimates for the predicted choice probablity for the relative
 price differences (-1sd, mean, +1sd)</p>
 <pre><code>## NOTE: Results may be misleading due to involvement in interactions</code></pre>
-<pre><code>##        x predicted  std.error  conf.low conf.high
-## 1 Wave 1 0.6082832 0.09670875 0.5339892 0.6788169
-## 2 Wave 1 0.6346256 0.07127621 0.5809916 0.6857462
-## 3 Wave 1 0.6603476 0.09647388 0.5887484 0.7265784
-## 4 Wave 2 0.4827310 0.09633860 0.4082222 0.5578497
-## 5 Wave 2 0.5467487 0.07102153 0.4913242 0.6012758
-## 6 Wave 2 0.6095715 0.09597606 0.5358933 0.6795039
-##   rel_price_difference wave2
-## 1                   -1  0.78
-## 2                    0  1.00
-## 3                    1  1.22
-## 4                   -1  1.75
-## 5                    0  1.97
-## 6                    1  2.19</code></pre>
-<p>Plot for H5</p>
+<pre><code>##        x predicted  std.error  conf.low conf.high rel_price_difference wave2
+## 1 Wave 1 0.6082832 0.09670875 0.5339892 0.6788169                   -1  0.78
+## 2 Wave 1 0.6346256 0.07127621 0.5809916 0.6857462                    0  1.00
+## 3 Wave 1 0.6603476 0.09647388 0.5887484 0.7265784                    1  1.22
+## 4 Wave 2 0.4827310 0.09633860 0.4082222 0.5578497                   -1  1.75
+## 5 Wave 2 0.5467487 0.07102153 0.4913242 0.6012758                    0  1.97
+## 6 Wave 2 0.6095715 0.09597606 0.5358933 0.6795039                    1  2.19</code></pre>
+</div>
+<div id="plot-for-h5" class="section level3">
+<h3>Plot for H5</h3>
 <p>/</p>
-<p>All plots together</p>
-<pre><code>## Warning: Removed 4 rows containing missing values
-## (`geom_line()`).</code></pre>
-<pre><code>## Warning: Removed 8 rows containing missing values
-## (`geom_line()`).</code></pre>
-<p><img src="analyses-product-choices_files/figure-html/unnamed-chunk-40-1.png" width="1536" style="display: block; margin: auto;" /></p>
+<p>All plots together
+<img src="analyses-product-choices_files/figure-html/unnamed-chunk-43-1.png" width="1536" style="display: block; margin: auto;" /></p>
 <div id="controlling-for-2022-energy-price" class="section level4">
 <h4>controlling for 2022 energy price</h4>
-<pre><code>## Warning in checkConv(attr(opt, &quot;derivs&quot;), opt$par, ctrl =
-## control$checkConv, : Model failed to converge with
-## max|grad| = 0.185331 (tol = 0.002, component 1)</code></pre>
 <table style="border-collapse:collapse; border:none;">
 <tr>
 <th style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm;  text-align:left; ">
@@ -6207,7 +5831,7 @@ rel price difference
 </tr>
 <tr>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-wave <a href="#wave-2">Wave 2</a>
+wave [Wave 2]
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
 0.66
@@ -6403,7 +6027,7 @@ education [degree]
 </tr>
 <tr>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-rel price difference ×<br>wave <a href="#wave-2">Wave 2</a>
+rel price difference ×<br>wave [Wave 2]
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
 1.14
@@ -6431,7 +6055,7 @@ rel price difference ×<br>energy level [Low]
 </tr>
 <tr>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-wave <a href="#wave-2">Wave 2</a> × energy<br>level [Low]
+wave [Wave 2] × energy<br>level [Low]
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
 1.01
@@ -6445,8 +6069,7 @@ wave <a href="#wave-2">Wave 2</a> × energy<br>level [Low]
 </tr>
 <tr>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-(rel price difference ×<br>wave <a href="#wave-2">Wave 2</a>) ×
-energy<br>level [Low]
+(rel price difference ×<br>wave [Wave 2]) × energy<br>level [Low]
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
 1.12
@@ -6512,11 +6135,6 @@ Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
 </div>
 <div id="price-effect-only-in-wave-2" class="section level4">
 <h4>price effect only in wave 2</h4>
-<pre><code>## Warning in checkConv(attr(opt, &quot;derivs&quot;), opt$par, ctrl =
-## control$checkConv, : Model failed to converge with
-## max|grad| = 0.397616 (tol = 0.002, component 1)</code></pre>
-<pre><code>## Warning in checkConv(attr(opt, &quot;derivs&quot;), opt$par, ctrl = control$checkConv, : Model is nearly unidentifiable: very large eigenvalue
-##  - Rescale variables?</code></pre>
 <table style="border-collapse:collapse; border:none;">
 <tr>
 <th style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm;  text-align:left; ">
@@ -6801,38 +6419,23 @@ Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
 </td>
 </tr>
 </table>
-<pre><code>## Warning in printHypothesis(L, rhs, names(b)): one or more coefficients in the hypothesis include
-##      arithmetic operators in their names;
-##   the printed representation of the hypothesis will be omitted</code></pre>
 <pre><code>## Analysis of Deviance Table (Type II Wald chisquare tests)
 ## 
 ## Response: choice
-##                                      Chisq Df Pr(&gt;Chisq)
-## rel_price_difference                3.4060  1   0.064959
-## energy.level                      397.2255  1  &lt; 2.2e-16
-## concern.scaled                      7.6775  1   0.005591
-## mean.error_scaled                   4.5555  1   0.032813
-## price.level                       510.0991  1  &lt; 2.2e-16
-## age                                 3.8830  1   0.048779
-## gender                              1.2674  1   0.260260
-## income                             31.6260  3  6.275e-07
-## education                           2.7960  3   0.424166
-## rel_price_difference:energy.level   0.8553  1   0.355068
-##                                      
-## rel_price_difference              .  
-## energy.level                      ***
-## concern.scaled                    ** 
-## mean.error_scaled                 *  
-## price.level                       ***
-## age                               *  
-## gender                               
-## income                            ***
-## education                            
-## rel_price_difference:energy.level    
+##                                      Chisq Df Pr(&gt;Chisq)    
+## rel_price_difference                3.4060  1   0.064959 .  
+## energy.level                      397.2255  1  &lt; 2.2e-16 ***
+## concern.scaled                      7.6775  1   0.005591 ** 
+## mean.error_scaled                   4.5555  1   0.032813 *  
+## price.level                       510.0991  1  &lt; 2.2e-16 ***
+## age                                 3.8830  1   0.048779 *  
+## gender                              1.2674  1   0.260260    
+## income                             31.6260  3  6.275e-07 ***
+## education                           2.7960  3   0.424166    
+## rel_price_difference:energy.level   0.8553  1   0.355068    
 ## ---
-## Signif. codes:  
-## 0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
-<p><img src="analyses-product-choices_files/figure-html/unnamed-chunk-42-1.png" width="672" style="display: block; margin: auto;" /></p>
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
+<p><img src="analyses-product-choices_files/figure-html/unnamed-chunk-45-1.png" width="672" style="display: block; margin: auto;" /></p>
 </div>
 </div>
 </div>

@@ -10,7 +10,7 @@
 
 
 
-<meta name="date" content="2023-09-29" />
+<meta name="date" content="2023-10-02" />
 
 <title>analyses judgment new</title>
 
@@ -255,6 +255,9 @@ $(document).ready(function () {
 <li>
   <a href="analyses-product-choices.html">Analyses product choices</a>
 </li>
+<li>
+  <a href="analyses-policy-new.html">Analyses policy support</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -268,7 +271,7 @@ $(document).ready(function () {
 
 
 <h1 class="title toc-ignore">analyses judgment new</h1>
-<h4 class="date">2023-09-29</h4>
+<h4 class="date">2023-10-02</h4>
 
 </div>
 
@@ -1344,10 +1347,8 @@ Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
 </td>
 </tr>
 </table>
-<pre><code>## Model contains polynomial or cubic / quadratic terms.
-##   Consider using `terms=&quot;certainty [all]&quot;` to get
-##   smooth plots. See also package-vignette &#39;Marginal
-##   Effects at Specific Values&#39;.</code></pre>
+<pre><code>## Model contains polynomial or cubic / quadratic terms. Consider using `terms=&quot;certainty [all]&quot;` to get smooth
+##   plots. See also package-vignette &#39;Marginal Effects at Specific Values&#39;.</code></pre>
 <p><img src="analyses-judgment-new_files/figure-html/unnamed-chunk-7-1.png" width="1536" style="display: block; margin: auto;" /></p>
 </div>
 <div id="h3b-cleaned" class="section level4">
@@ -1918,10 +1919,8 @@ Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
 </div>
 <div id="h3b-cleaned-exponential-plot" class="section level4">
 <h4>H3b (cleaned) exponential plot</h4>
-<pre><code>## Model contains polynomial or cubic / quadratic terms.
-##   Consider using `terms=&quot;certainty [all]&quot;` to get
-##   smooth plots. See also package-vignette &#39;Marginal
-##   Effects at Specific Values&#39;.</code></pre>
+<pre><code>## Model contains polynomial or cubic / quadratic terms. Consider using `terms=&quot;certainty [all]&quot;` to get smooth
+##   plots. See also package-vignette &#39;Marginal Effects at Specific Values&#39;.</code></pre>
 <p><img src="analyses-judgment-new_files/figure-html/unnamed-chunk-11-1.png" width="1536" style="display: block; margin: auto;" /></p>
 </div>
 </div>
@@ -1939,16 +1938,11 @@ class="section level2 tabset">
 <h2 class="tabset">misestimation of impact across waves</h2>
 <div id="not-cleaned" class="section level3">
 <h3>not cleaned</h3>
-<pre><code>##   impact  wave    n  Mean Conf.level Trad.lower Trad.upper
-## 1   high wave1 3108 0.649       0.95      0.623      0.676
-## 2   high wave2 3108 0.722       0.95      0.694      0.750
-## 3    low wave1 5180 5.550       0.95      5.290      5.800
-## 4    low wave2 5180 5.590       0.95      5.340      5.840
-##      Mean.2 Trad.lower2 Trad.upper2
-## 1 1.5408320   1.6051364   1.4792899
-## 2 1.3850416   1.4409222   1.3333333
-## 3 0.1801802   0.1890359   0.1724138
-## 4 0.1788909   0.1872659   0.1712329</code></pre>
+<pre><code>##   impact  wave    n  Mean Conf.level Trad.lower Trad.upper    Mean.2 Trad.lower2 Trad.upper2
+## 1   high wave1 3108 0.649       0.95      0.623      0.676 1.5408320   1.6051364   1.4792899
+## 2   high wave2 3108 0.722       0.95      0.694      0.750 1.3850416   1.4409222   1.3333333
+## 3    low wave1 5180 5.550       0.95      5.290      5.800 0.1801802   0.1890359   0.1724138
+## 4    low wave2 5180 5.590       0.95      5.340      5.840 0.1788909   0.1872659   0.1712329</code></pre>
 <pre><code>## 
 ##  Paired t-test
 ## 
@@ -1969,16 +1963,11 @@ class="section level2 tabset">
 </div>
 <div id="cleaned" class="section level3">
 <h3>cleaned</h3>
-<pre><code>##   impact  wave    n  Mean Conf.level Trad.lower Trad.upper
-## 1   high wave1 2940 0.672       0.95      0.645       0.70
-## 2   high wave2 2940 0.732       0.95      0.703       0.76
-## 3    low wave1 4900 5.710       0.95      5.440       5.98
-## 4    low wave2 4900 5.610       0.95      5.360       5.86
-##      Mean.2 Trad.lower2 Trad.upper2
-## 1 1.4880952   1.5503876   1.4285714
-## 2 1.3661202   1.4224751   1.3157895
-## 3 0.1751313   0.1838235   0.1672241
-## 4 0.1782531   0.1865672   0.1706485</code></pre>
+<pre><code>##   impact  wave    n  Mean Conf.level Trad.lower Trad.upper    Mean.2 Trad.lower2 Trad.upper2
+## 1   high wave1 2940 0.672       0.95      0.645       0.70 1.4880952   1.5503876   1.4285714
+## 2   high wave2 2940 0.732       0.95      0.703       0.76 1.3661202   1.4224751   1.3157895
+## 3    low wave1 4900 5.710       0.95      5.440       5.98 0.1751313   0.1838235   0.1672241
+## 4    low wave2 4900 5.610       0.95      5.360       5.86 0.1782531   0.1865672   0.1706485</code></pre>
 <pre><code>## 
 ##  Paired t-test
 ## 
@@ -2005,8 +1994,7 @@ class="section level2 tabset">
 ## wave           0.4645  1   2937 0.49559    
 ## impact:wave    3.0118  1   2937 0.08277 .  
 ## ---
-## Signif. codes:  
-## 0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
 </div>
 </div>
 <div id="mean-judgment-error-across-waves-by-numeracy"
@@ -2023,16 +2011,11 @@ class="section level2">
 <h2 class="tabset">Across waves judgment error</h2>
 <p>same approach as misestimation for judgment error</p>
 <p>Models cleaned for pattern people</p>
-<pre><code>##      numeracy.f  wave    n  Mean Conf.level Trad.lower
-## 1 numeracy high wave1 1800 0.617       0.95      0.594
-## 2 numeracy high wave2 1800 0.592       0.95      0.570
-## 3  numeracy low wave1 6040 0.690       0.95      0.677
-## 4  numeracy low wave2 6040 0.710       0.95      0.697
-##   Trad.upper   Mean.2 Trad.lower2 Trad.upper2
-## 1      0.639 1.620746    1.683502    1.564945
-## 2      0.613 1.689189    1.754386    1.631321
-## 3      0.702 1.449275    1.477105    1.424501
-## 4      0.724 1.408451    1.434720    1.381215</code></pre>
+<pre><code>##      numeracy.f  wave    n  Mean Conf.level Trad.lower Trad.upper   Mean.2 Trad.lower2 Trad.upper2
+## 1 numeracy high wave1 1800 0.617       0.95      0.594      0.639 1.620746    1.683502    1.564945
+## 2 numeracy high wave2 1800 0.592       0.95      0.570      0.613 1.689189    1.754386    1.631321
+## 3  numeracy low wave1 6040 0.690       0.95      0.677      0.702 1.449275    1.477105    1.424501
+## 4  numeracy low wave2 6040 0.710       0.95      0.697      0.724 1.408451    1.434720    1.381215</code></pre>
 <pre><code>## 
 ##  Paired t-test
 ## 
@@ -2056,8 +2039,7 @@ class="section level2">
 ## numeracy.f:wave    6.2639  1 14696.0  0.012333 *  
 ## wave:impact        7.1343  1 14696.0  0.007571 ** 
 ## ---
-## Signif. codes:  
-## 0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
 <pre><code>## # Effect Size for ANOVA (Type III)
 ## 
 ## Parameter       | Eta2 (partial) |       95% CI
@@ -2280,8 +2262,7 @@ class="section level3">
 ## numeracy.f:wave   10.9238  1 6821.0 0.0009543 ***
 ## wave:impact        3.0367  1 6821.0 0.0814473 .  
 ## ---
-## Signif. codes:  
-## 0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
 <pre><code>## # Effect Size for ANOVA (Type III)
 ## 
 ## Parameter       | Eta2 (partial) |       95% CI
@@ -2455,8 +2436,7 @@ Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
 <div id="plot-switzerland" class="section level3">
 <h3>Plot Switzerland</h3>
 <pre><code>## Scale for y is already present.
-## Adding another scale for y, which will replace the
-## existing scale.</code></pre>
+## Adding another scale for y, which will replace the existing scale.</code></pre>
 <p><img src="analyses-judgment-new_files/figure-html/unnamed-chunk-29-1.png" width="1536" style="display: block; margin: auto;" /></p>
 </div>
 <div id="germany" class="section level3">
@@ -2630,8 +2610,7 @@ Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
 ## numeracy.f:wave    0.0766  1 7871.0 0.7819412    
 ## wave:impact        4.1912  1 7871.0 0.0406683 *  
 ## ---
-## Signif. codes:  
-## 0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
 <pre><code>## # Effect Size for ANOVA (Type III)
 ## 
 ## Parameter       | Eta2 (partial) |       95% CI
@@ -2647,8 +2626,7 @@ Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
 <div id="plot-germany" class="section level3">
 <h3>Plot Germany</h3>
 <pre><code>## Scale for y is already present.
-## Adding another scale for y, which will replace the
-## existing scale.</code></pre>
+## Adding another scale for y, which will replace the existing scale.</code></pre>
 <p><img src="analyses-judgment-new_files/figure-html/unnamed-chunk-31-1.png" width="1536" style="display: block; margin: auto;" /></p>
 </div>
 </div>
