@@ -10,7 +10,7 @@
 
 
 
-<meta name="date" content="2023-10-02" />
+<meta name="date" content="2023-10-16" />
 
 <title>analyses judgment new</title>
 
@@ -239,7 +239,7 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">My Website</a>
+      <a class="navbar-brand" href="index.html">Documentation of energy crisis analyses</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -258,6 +258,15 @@ $(document).ready(function () {
 <li>
   <a href="analyses-policy-new.html">Analyses policy support</a>
 </li>
+<li>
+  <a href="analyses-policy-supplementary.html">Analyses policy support supplementary</a>
+</li>
+<li>
+  <a href="analyses-judgment-supplementary.html">Analyses judgment supplementary</a>
+</li>
+<li>
+  <a href="analyses-product-choices-supplementary.html">Analyses product choices supplementary</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -271,7 +280,7 @@ $(document).ready(function () {
 
 
 <h1 class="title toc-ignore">analyses judgment new</h1>
-<h4 class="date">2023-10-02</h4>
+<h4 class="date">2023-10-16</h4>
 
 </div>
 
@@ -1347,8 +1356,9 @@ Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
 </td>
 </tr>
 </table>
-<pre><code>## Model contains polynomial or cubic / quadratic terms. Consider using `terms=&quot;certainty [all]&quot;` to get smooth
-##   plots. See also package-vignette &#39;Marginal Effects at Specific Values&#39;.</code></pre>
+<pre><code>## Model contains polynomial or cubic / quadratic terms. Consider using
+##   `terms=&quot;certainty [all]&quot;` to get smooth plots. See also package-vignette
+##   &#39;Marginal Effects at Specific Values&#39;.</code></pre>
 <p><img src="analyses-judgment-new_files/figure-html/unnamed-chunk-7-1.png" width="1536" style="display: block; margin: auto;" /></p>
 </div>
 <div id="h3b-cleaned" class="section level4">
@@ -1919,8 +1929,9 @@ Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
 </div>
 <div id="h3b-cleaned-exponential-plot" class="section level4">
 <h4>H3b (cleaned) exponential plot</h4>
-<pre><code>## Model contains polynomial or cubic / quadratic terms. Consider using `terms=&quot;certainty [all]&quot;` to get smooth
-##   plots. See also package-vignette &#39;Marginal Effects at Specific Values&#39;.</code></pre>
+<pre><code>## Model contains polynomial or cubic / quadratic terms. Consider using
+##   `terms=&quot;certainty [all]&quot;` to get smooth plots. See also package-vignette
+##   &#39;Marginal Effects at Specific Values&#39;.</code></pre>
 <p><img src="analyses-judgment-new_files/figure-html/unnamed-chunk-11-1.png" width="1536" style="display: block; margin: auto;" /></p>
 </div>
 </div>
@@ -1938,11 +1949,16 @@ class="section level2 tabset">
 <h2 class="tabset">misestimation of impact across waves</h2>
 <div id="not-cleaned" class="section level3">
 <h3>not cleaned</h3>
-<pre><code>##   impact  wave    n  Mean Conf.level Trad.lower Trad.upper    Mean.2 Trad.lower2 Trad.upper2
-## 1   high wave1 3108 0.649       0.95      0.623      0.676 1.5408320   1.6051364   1.4792899
-## 2   high wave2 3108 0.722       0.95      0.694      0.750 1.3850416   1.4409222   1.3333333
-## 3    low wave1 5180 5.550       0.95      5.290      5.800 0.1801802   0.1890359   0.1724138
-## 4    low wave2 5180 5.590       0.95      5.340      5.840 0.1788909   0.1872659   0.1712329</code></pre>
+<pre><code>##   impact  wave    n  Mean Conf.level Trad.lower Trad.upper    Mean.2
+## 1   high wave1 3108 0.649       0.95      0.623      0.676 1.5408320
+## 2   high wave2 3108 0.722       0.95      0.694      0.750 1.3850416
+## 3    low wave1 5180 5.550       0.95      5.290      5.800 0.1801802
+## 4    low wave2 5180 5.590       0.95      5.340      5.840 0.1788909
+##   Trad.lower2 Trad.upper2
+## 1   1.6051364   1.4792899
+## 2   1.4409222   1.3333333
+## 3   0.1890359   0.1724138
+## 4   0.1872659   0.1712329</code></pre>
 <pre><code>## 
 ##  Paired t-test
 ## 
@@ -1954,111 +1970,13 @@ class="section level2 tabset">
 ## sample estimates:
 ## mean difference 
 ##     -0.05561587</code></pre>
-<pre><code>## ANOVA Table (type III tests)
-## 
-##        Effect DFn  DFd        F         p p&lt;.05      ges
-## 1        wave   1 1035    0.249  6.18e-01       4.75e-05
-## 2      impact   1 1035 1215.529 8.96e-177     * 2.44e-01
-## 3 wave:impact   1 1035    0.018  8.95e-01       2.46e-06</code></pre>
-</div>
-<div id="cleaned" class="section level3">
-<h3>cleaned</h3>
-<pre><code>##   impact  wave    n  Mean Conf.level Trad.lower Trad.upper    Mean.2 Trad.lower2 Trad.upper2
-## 1   high wave1 2940 0.672       0.95      0.645       0.70 1.4880952   1.5503876   1.4285714
-## 2   high wave2 2940 0.732       0.95      0.703       0.76 1.3661202   1.4224751   1.3157895
-## 3    low wave1 4900 5.710       0.95      5.440       5.98 0.1751313   0.1838235   0.1672241
-## 4    low wave2 4900 5.610       0.95      5.360       5.86 0.1782531   0.1865672   0.1706485</code></pre>
-<pre><code>## 
-##  Paired t-test
-## 
-## data:  data.accuracy.waves.long.total_clean2$mis.estimation by data.accuracy.waves.long.total_clean2$wave
-## t = 0.46993, df = 7839, p-value = 0.6384
-## alternative hypothesis: true mean difference is not equal to 0
-## 95 percent confidence interval:
-##  -0.1344126  0.2191787
-## sample estimates:
-## mean difference 
-##      0.04238306</code></pre>
-<pre><code>## ANOVA Table (type III tests)
-## 
-##        Effect DFn DFd        F        p p&lt;.05      ges
-## 1        wave   1 979    0.192 6.62e-01       6.19e-05
-## 2      impact   1 979 7624.582 0.00e+00     * 2.83e-01
-## 3 wave:impact   1 979   16.174 6.22e-05     * 4.01e-04</code></pre>
-<pre><code>## Analysis of Deviance Table (Type III Wald F tests with Kenward-Roger df)
-## 
-## Response: Mean
-##                     F Df Df.res  Pr(&gt;F)    
-## (Intercept)  125.7957  1    979 &lt; 2e-16 ***
-## impact      2967.6195  1   2937 &lt; 2e-16 ***
-## wave           0.4645  1   2937 0.49559    
-## impact:wave    3.0118  1   2937 0.08277 .  
-## ---
-## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
-</div>
-</div>
-<div id="mean-judgment-error-across-waves-by-numeracy"
-class="section level2">
-<h2>Mean judgment error across waves by numeracy</h2>
-<div id="witout-pattern-people-fig-2b" class="section level3">
-<h3>witout pattern people fig 2b</h3>
-<p><img src="analyses-judgment-new_files/figure-html/unnamed-chunk-19-1.png" width="1536" style="display: block; margin: auto;" /></p>
-<p>Both judgment figures
-<img src="analyses-judgment-new_files/figure-html/unnamed-chunk-20-1.png" width="2112" style="display: block; margin: auto;" /></p>
-</div>
-</div>
-<div id="across-waves-judgment-error" class="section level2 tabset">
-<h2 class="tabset">Across waves judgment error</h2>
-<p>same approach as misestimation for judgment error</p>
-<p>Models cleaned for pattern people</p>
-<pre><code>##      numeracy.f  wave    n  Mean Conf.level Trad.lower Trad.upper   Mean.2 Trad.lower2 Trad.upper2
-## 1 numeracy high wave1 1800 0.617       0.95      0.594      0.639 1.620746    1.683502    1.564945
-## 2 numeracy high wave2 1800 0.592       0.95      0.570      0.613 1.689189    1.754386    1.631321
-## 3  numeracy low wave1 6040 0.690       0.95      0.677      0.702 1.449275    1.477105    1.424501
-## 4  numeracy low wave2 6040 0.710       0.95      0.697      0.724 1.408451    1.434720    1.381215</code></pre>
-<pre><code>## 
-##  Paired t-test
-## 
-## data:  accuracy.waves.error.num$Mean by accuracy.waves.error.num$wave
-## t = -0.44352, df = 1959, p-value = 0.6574
-## alternative hypothesis: true mean difference is not equal to 0
-## 95 percent confidence interval:
-##  -0.02606782  0.01645201
-## sample estimates:
-## mean difference 
-##    -0.004807908</code></pre>
-<pre><code>## Analysis of Deviance Table (Type III Wald F tests with Kenward-Roger df)
-## 
-## Response: error
-##                         F Df  Df.res    Pr(&gt;F)    
-## (Intercept)     7296.7998  1  1011.3 &lt; 2.2e-16 ***
-## numeracy.f        41.0589  1   977.0 2.294e-10 ***
-## wave               0.6490  1 14696.0  0.420482    
-## impact             4.4170  1 14696.0  0.035601 *  
-## country            6.4215  1   977.0  0.011430 *  
-## numeracy.f:wave    6.2639  1 14696.0  0.012333 *  
-## wave:impact        7.1343  1 14696.0  0.007571 ** 
-## ---
-## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
-<pre><code>## # Effect Size for ANOVA (Type III)
-## 
-## Parameter       | Eta2 (partial) |       95% CI
-## -----------------------------------------------
-## numeracy.f      |           0.04 | [0.02, 1.00]
-## wave            |       4.42e-05 | [0.00, 1.00]
-## impact          |       3.00e-04 | [0.00, 1.00]
-## country         |       6.53e-03 | [0.00, 1.00]
-## numeracy.f:wave |       4.26e-04 | [0.00, 1.00]
-## wave:impact     |       4.85e-04 | [0.00, 1.00]
-## 
-## - One-sided CIs: upper bound fixed at [1.00].</code></pre>
 <table style="border-collapse:collapse; border:none;">
 <tr>
 <th style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm;  text-align:left; ">
  
 </th>
 <th colspan="3" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
-error
+Mean
 </th>
 </tr>
 <tr>
@@ -2080,10 +1998,10 @@ p
 (Intercept)
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.65
+2.51
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.64 – 0.67
+2.30 – 2.73
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
 <strong>&lt;0.001</strong>
@@ -2091,13 +2009,13 @@ p
 </tr>
 <tr>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-numeracy f1
+impact1
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.05
+-2.44
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.06 – -0.03
+-2.56 – -2.32
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
 <strong>&lt;0.001</strong>
@@ -2108,69 +2026,41 @@ numeracy f1
 wave1
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.00
+-0.03
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.01 – 0.01
+-0.15 – 0.09
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.420
+0.625
 </td>
 </tr>
 <tr>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-impact1
+country <a href="#switzerland">Switzerland</a>
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.01
+1.31
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.00 – 0.02
+0.99 – 1.62
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.036</strong>
+<strong>&lt;0.001</strong>
 </td>
 </tr>
 <tr>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-country1
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.02
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.03 – -0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.011</strong>
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-numeracy f1 × wave1
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.01
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.00 – 0.02
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.012</strong>
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-wave1 × impact1
+impact1 × wave1
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
 -0.01
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.02 – -0.00
+-0.13 – 0.11
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.008</strong>
+0.911
 </td>
 </tr>
 <tr>
@@ -2183,7 +2073,649 @@ Random Effects
 σ<sup>2</sup>
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
-0.23
+15.22
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+τ<sub>00</sub> <sub>m</sub>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+2.85
+</td>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+ICC
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+0.16
+</td>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+N <sub>m</sub>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+1036
+</td>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm; border-top:1px solid;">
+Observations
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left; border-top:1px solid;" colspan="3">
+4144
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+0.261 / 0.378
+</td>
+</tr>
+</table>
+</div>
+<div id="cleaned" class="section level3">
+<h3>cleaned</h3>
+<pre><code>##   impact  wave    n  Mean Conf.level Trad.lower Trad.upper    Mean.2
+## 1   high wave1 2940 0.672       0.95      0.645       0.70 1.4880952
+## 2   high wave2 2940 0.732       0.95      0.703       0.76 1.3661202
+## 3    low wave1 4900 5.710       0.95      5.440       5.98 0.1751313
+## 4    low wave2 4900 5.610       0.95      5.360       5.86 0.1782531
+##   Trad.lower2 Trad.upper2
+## 1   1.5503876   1.4285714
+## 2   1.4224751   1.3157895
+## 3   0.1838235   0.1672241
+## 4   0.1865672   0.1706485</code></pre>
+<pre><code>## 
+##  Paired t-test
+## 
+## data:  data.accuracy.waves.long.total_clean2$mis.estimation by data.accuracy.waves.long.total_clean2$wave
+## t = 0.46993, df = 7839, p-value = 0.6384
+## alternative hypothesis: true mean difference is not equal to 0
+## 95 percent confidence interval:
+##  -0.1344126  0.2191787
+## sample estimates:
+## mean difference 
+##      0.04238306</code></pre>
+<table style="border-collapse:collapse; border:none;">
+<tr>
+<th style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm;  text-align:left; ">
+ 
+</th>
+<th colspan="3" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
+Mean
+</th>
+</tr>
+<tr>
+<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  text-align:left; ">
+Predictors
+</td>
+<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
+Estimates
+</td>
+<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
+CI
+</td>
+<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
+p
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+(Intercept)
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+-0.24
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+-0.28 – -0.20
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+<strong>&lt;0.001</strong>
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+impact1
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+-0.37
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+-0.39 – -0.36
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+<strong>&lt;0.001</strong>
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+wave1
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+-0.00
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+-0.02 – 0.01
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.496
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+country <a href="#switzerland">Switzerland</a>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.15
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.10 – 0.21
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+<strong>&lt;0.001</strong>
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+impact1 × wave1
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+-0.01
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+-0.03 – 0.00
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.083
+</td>
+</tr>
+<tr>
+<td colspan="4" style="font-weight:bold; text-align:left; padding-top:.8em;">
+Random Effects
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+σ<sup>2</sup>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+0.19
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+τ<sub>00</sub> <sub>m</sub>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+0.16
+</td>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+ICC
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+0.47
+</td>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+N <sub>m</sub>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+980
+</td>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm; border-top:1px solid;">
+Observations
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left; border-top:1px solid;" colspan="3">
+3920
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+0.295 / 0.626
+</td>
+</tr>
+</table>
+<table style="border-collapse:collapse; border:none;">
+<tr>
+<th style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm;  text-align:left; ">
+ 
+</th>
+<th colspan="3" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
+log.mis.estimation
+</th>
+</tr>
+<tr>
+<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  text-align:left; ">
+Predictors
+</td>
+<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
+Estimates
+</td>
+<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
+CI
+</td>
+<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
+p
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+(Intercept)
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+-0.24
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+-0.51 – 0.03
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.085
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+impact1
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+-0.37
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+-0.64 – -0.11
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+<strong>0.006</strong>
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+wave1
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+-0.00
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+-0.01 – 0.00
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.287
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+country <a href="#switzerland">Switzerland</a>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.16
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.10 – 0.21
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+<strong>&lt;0.001</strong>
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+impact1 × wave1
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+-0.01
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+-0.02 – -0.00
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+<strong>0.007</strong>
+</td>
+</tr>
+<tr>
+<td colspan="4" style="font-weight:bold; text-align:left; padding-top:.8em;">
+Random Effects
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+σ<sup>2</sup>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+0.28
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+τ<sub>00</sub> <sub>m</sub>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+0.19
+</td>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+τ<sub>00</sub> <sub>behavior.label</sub>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+0.14
+</td>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+ICC
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+0.54
+</td>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+N <sub>m</sub>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+980
+</td>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+N <sub>behavior.label</sub>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+8
+</td>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm; border-top:1px solid;">
+Observations
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left; border-top:1px solid;" colspan="3">
+15680
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+0.183 / 0.624
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="mean-judgment-error-across-waves-by-numeracy"
+class="section level2">
+<h2>Mean judgment error across waves by numeracy</h2>
+<div id="witout-pattern-people-fig-2b" class="section level3">
+<h3>witout pattern people fig 2b</h3>
+<p><img src="analyses-judgment-new_files/figure-html/unnamed-chunk-19-1.png" width="1536" style="display: block; margin: auto;" /></p>
+<p>Both judgment figures
+<img src="analyses-judgment-new_files/figure-html/unnamed-chunk-20-1.png" width="2112" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+<div id="across-waves-judgment-error" class="section level2 tabset">
+<h2 class="tabset">Across waves judgment error</h2>
+<p>same approach as misestimation for judgment error</p>
+<p>Models cleaned for pattern people Model only with numeracy</p>
+<pre><code>##      numeracy.f  wave    n  Mean Conf.level Trad.lower Trad.upper   Mean.2
+## 1 numeracy high wave1 1800 0.617       0.95      0.594      0.639 1.620746
+## 2 numeracy high wave2 1800 0.592       0.95      0.570      0.613 1.689189
+## 3  numeracy low wave1 6040 0.690       0.95      0.677      0.702 1.449275
+## 4  numeracy low wave2 6040 0.710       0.95      0.697      0.724 1.408451
+##   Trad.lower2 Trad.upper2
+## 1    1.683502    1.564945
+## 2    1.754386    1.631321
+## 3    1.477105    1.424501
+## 4    1.434720    1.381215</code></pre>
+<table style="border-collapse:collapse; border:none;">
+<tr>
+<th style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm;  text-align:left; ">
+ 
+</th>
+<th colspan="3" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
+Mean
+</th>
+</tr>
+<tr>
+<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  text-align:left; ">
+Predictors
+</td>
+<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
+Estimates
+</td>
+<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
+CI
+</td>
+<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
+p
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+(Intercept)
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.60
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.57 – 0.64
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+<strong>&lt;0.001</strong>
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+numeracy f [numeracy low]
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.07
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.04 – 0.11
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+<strong>&lt;0.001</strong>
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+wave [wave2]
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+-0.03
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+-0.06 – 0.01
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.211
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+country <a href="#switzerland">Switzerland</a>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.03
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.01 – 0.06
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+<strong>0.011</strong>
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+numeracy f [numeracy low]<br>× wave [wave2]
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.05
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.00 – 0.09
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+<strong>0.045</strong>
+</td>
+</tr>
+<tr>
+<td colspan="4" style="font-weight:bold; text-align:left; padding-top:.8em;">
+Random Effects
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+σ<sup>2</sup>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+0.05
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+τ<sub>00</sub> <sub>m</sub>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+0.02
+</td>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+ICC
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+0.27
+</td>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+N <sub>m</sub>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+980
+</td>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm; border-top:1px solid;">
+Observations
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left; border-top:1px solid;" colspan="3">
+1960
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+0.031 / 0.295
+</td>
+</tr>
+</table>
+<p><img src="analyses-judgment-new_files/figure-html/unnamed-chunk-22-1.png" width="1536" style="display: block; margin: auto;" />
+Model for impact</p>
+<table style="border-collapse:collapse; border:none;">
+<tr>
+<th style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm;  text-align:left; ">
+ 
+</th>
+<th colspan="3" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
+Mean
+</th>
+</tr>
+<tr>
+<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  text-align:left; ">
+Predictors
+</td>
+<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
+Estimates
+</td>
+<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
+CI
+</td>
+<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
+p
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+(Intercept)
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.67
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.64 – 0.70
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+<strong>&lt;0.001</strong>
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+impact [high impact]
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.00
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+-0.03 – 0.04
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.793
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+wave [wave2]
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.03
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+-0.01 – 0.06
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.136
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+country <a href="#switzerland">Switzerland</a>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.01
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+-0.02 – 0.04
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.593
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+impact [high impact] ×<br>wave [wave2]
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+-0.04
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+-0.09 – 0.01
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.085
+</td>
+</tr>
+<tr>
+<td colspan="4" style="font-weight:bold; text-align:left; padding-top:.8em;">
+Random Effects
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+σ<sup>2</sup>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+0.15
 </td>
 </tr>
 <tr>
@@ -2212,7 +2744,7 @@ N <sub>m</sub>
 Observations
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left; border-top:1px solid;" colspan="3">
-15680
+3920
 </td>
 </tr>
 <tr>
@@ -2220,60 +2752,11 @@ Observations
 Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
-0.008 / 0.104
+0.001 / 0.097
 </td>
 </tr>
 </table>
-<div id="plots-judgment-error-for-impact-of-actions-across-waves"
-class="section level3">
-<h3>Plots: Judgment error for impact of actions across waves</h3>
-<p><img src="analyses-judgment-new_files/figure-html/unnamed-chunk-23-1.png" width="1536" style="display: block; margin: auto;" /></p>
-</div>
-<div id="plot-judgment-error-for-numeracy-across-waves"
-class="section level3">
-<h3>Plot: Judgment error for numeracy across waves</h3>
-<p><img src="analyses-judgment-new_files/figure-html/unnamed-chunk-24-1.png" width="1536" style="display: block; margin: auto;" /></p>
-</div>
-<div id="plot-numeracy-by-wave-and-country" class="section level3">
-<h3>Plot: numeracy by wave and country</h3>
-<p><img src="analyses-judgment-new_files/figure-html/unnamed-chunk-25-1.png" width="1536" style="display: block; margin: auto;" /></p>
-</div>
-<div id="plot-everything-in-one-plot" class="section level3">
-<h3>Plot: Everything in one plot</h3>
-<p><img src="analyses-judgment-new_files/figure-html/unnamed-chunk-26-1.png" width="1536" style="display: block; margin: auto;" /></p>
-</div>
-<div id="plot-everything-in-one-plot2" class="section level3">
-<h3>Plot: Everything in one plot2</h3>
-<p><img src="analyses-judgment-new_files/figure-html/unnamed-chunk-27-1.png" width="1536" style="display: block; margin: auto;" /></p>
-</div>
-</div>
-<div id="by-country" class="section level2 tabset">
-<h2 class="tabset">By country</h2>
-<div id="switzerland" class="section level3">
-<h3>Switzerland</h3>
-<pre><code>## Analysis of Deviance Table (Type III Wald F tests with Kenward-Roger df)
-## 
-## Response: error
-##                         F Df Df.res    Pr(&gt;F)    
-## (Intercept)     4372.6574  1  474.4 &lt; 2.2e-16 ***
-## numeracy.f        31.0434  1  453.0 4.336e-08 ***
-## wave               0.4455  1 6821.0 0.5044796    
-## impact            87.6079  1 6821.0 &lt; 2.2e-16 ***
-## numeracy.f:wave   10.9238  1 6821.0 0.0009543 ***
-## wave:impact        3.0367  1 6821.0 0.0814473 .  
-## ---
-## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
-<pre><code>## # Effect Size for ANOVA (Type III)
-## 
-## Parameter       | Eta2 (partial) |       95% CI
-## -----------------------------------------------
-## numeracy.f      |           0.06 | [0.03, 1.00]
-## wave            |       6.53e-05 | [0.00, 1.00]
-## impact          |           0.01 | [0.01, 1.00]
-## numeracy.f:wave |       1.60e-03 | [0.00, 1.00]
-## wave:impact     |       4.45e-04 | [0.00, 1.00]
-## 
-## - One-sided CIs: upper bound fixed at [1.00].</code></pre>
+Model for each judgment error
 <table style="border-collapse:collapse; border:none;">
 <tr>
 <th style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm;  text-align:left; ">
@@ -2302,24 +2785,10 @@ p
 (Intercept)
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.65
+0.60
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.63 – 0.67
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>&lt;0.001</strong>
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-numeracy f1
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.05
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.07 – -0.04
+0.50 – 0.70
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
 <strong>&lt;0.001</strong>
@@ -2327,152 +2796,41 @@ numeracy f1
 </tr>
 <tr>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-wave1
+impact [high impact]
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
 0.00
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.01 – 0.02
+-0.15 – 0.16
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.504
+0.954
 </td>
 </tr>
 <tr>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-impact1
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.06
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.04 – 0.07
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>&lt;0.001</strong>
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-numeracy f1 × wave1
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.02
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.01 – 0.04
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.001</strong>
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-wave1 × impact1
+wave [wave2]
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
 -0.01
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.02 – 0.00
+-0.04 – 0.02
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.081
-</td>
-</tr>
-<tr>
-<td colspan="4" style="font-weight:bold; text-align:left; padding-top:.8em;">
-Random Effects
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
-σ<sup>2</sup>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
-0.24
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
-τ<sub>00</sub> <sub>m</sub>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
-0.02
-</td>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
-ICC
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
-0.06
-</td>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
-N <sub>m</sub>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
-455
-</td>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm; border-top:1px solid;">
-Observations
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left; border-top:1px solid;" colspan="3">
-7280
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
-Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
-0.021 / 0.084
-</td>
-</tr>
-</table>
-</div>
-<div id="plot-switzerland" class="section level3">
-<h3>Plot Switzerland</h3>
-<pre><code>## Scale for y is already present.
-## Adding another scale for y, which will replace the existing scale.</code></pre>
-<p><img src="analyses-judgment-new_files/figure-html/unnamed-chunk-29-1.png" width="1536" style="display: block; margin: auto;" /></p>
-</div>
-<div id="germany" class="section level3">
-<h3>Germany</h3>
-<table style="border-collapse:collapse; border:none;">
-<tr>
-<th style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm;  text-align:left; ">
- 
-</th>
-<th colspan="3" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
-error
-</th>
-</tr>
-<tr>
-<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  text-align:left; ">
-Predictors
-</td>
-<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
-Estimates
-</td>
-<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
-CI
-</td>
-<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
-p
+0.583
 </td>
 </tr>
 <tr>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-(Intercept)
+numeracy f [numeracy low]
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.65
+0.07
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.63 – 0.67
+0.04 – 0.11
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
 <strong>&lt;0.001</strong>
@@ -2480,72 +2838,44 @@ p
 </tr>
 <tr>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-numeracy f1
+country <a href="#switzerland">Switzerland</a>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.03
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.01 – 0.06
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+<strong>0.011</strong>
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+impact [high impact] ×<br>wave [wave2]
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
 -0.04
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.07 – -0.02
+-0.07 – -0.01
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>&lt;0.001</strong>
+<strong>0.006</strong>
 </td>
 </tr>
 <tr>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-wave1
+wave [wave2] × numeracy f<br>[numeracy low]
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.00
+0.05
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.01 – 0.01
+0.01 – 0.08
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.704
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-impact1
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.03
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.04 – -0.02
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>&lt;0.001</strong>
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-numeracy f1 × wave1
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.01 – 0.01
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-0.782
-</td>
-</tr>
-<tr>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
-wave1 × impact1
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.01
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
--0.02 – -0.00
-</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
-<strong>0.041</strong>
+<strong>0.011</strong>
 </td>
 </tr>
 <tr>
@@ -2570,10 +2900,320 @@ Random Effects
 </td>
 <tr>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+τ<sub>00</sub> <sub>behavior.label</sub>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+0.01
+</td>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
 ICC
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
-0.13
+0.14
+</td>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+N <sub>m</sub>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+980
+</td>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+N <sub>behavior.label</sub>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+8
+</td>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm; border-top:1px solid;">
+Observations
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left; border-top:1px solid;" colspan="3">
+15680
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+0.008 / 0.149
+</td>
+</tr>
+</table>
+<div id="plots-judgment-error-for-impact-of-actions-across-waves"
+class="section level3">
+<h3>Plots: Judgment error for impact of actions across waves</h3>
+<p><img src="analyses-judgment-new_files/figure-html/unnamed-chunk-25-1.png" width="1536" style="display: block; margin: auto;" /></p>
+</div>
+<div id="plot-judgment-error-for-numeracy-across-waves"
+class="section level3">
+<h3>Plot: Judgment error for numeracy across waves</h3>
+<p><img src="analyses-judgment-new_files/figure-html/unnamed-chunk-26-1.png" width="1536" style="display: block; margin: auto;" /></p>
+</div>
+<div id="plot-numeracy-by-wave-and-country" class="section level3">
+<h3>Plot: numeracy by wave and country</h3>
+<p><img src="analyses-judgment-new_files/figure-html/unnamed-chunk-27-1.png" width="1536" style="display: block; margin: auto;" /></p>
+</div>
+<div id="plot-everything-in-one-plot" class="section level3">
+<h3>Plot: Everything in one plot</h3>
+<p><img src="analyses-judgment-new_files/figure-html/unnamed-chunk-28-1.png" width="1536" style="display: block; margin: auto;" /></p>
+</div>
+<div id="plot-everything-in-one-plot2" class="section level3">
+<h3>Plot: Everything in one plot2</h3>
+<p><img src="analyses-judgment-new_files/figure-html/unnamed-chunk-29-1.png" width="1536" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+<div id="by-country" class="section level2 tabset">
+<h2 class="tabset">By country</h2>
+<div id="switzerland" class="section level3">
+<h3>Switzerland</h3>
+<table style="border-collapse:collapse; border:none;">
+<tr>
+<th style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm;  text-align:left; ">
+ 
+</th>
+<th colspan="3" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
+Mean
+</th>
+</tr>
+<tr>
+<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  text-align:left; ">
+Predictors
+</td>
+<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
+Estimates
+</td>
+<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
+CI
+</td>
+<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
+p
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+(Intercept)
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.64
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.59 – 0.68
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+<strong>&lt;0.001</strong>
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+numeracy f [numeracy low]
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.06
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.01 – 0.11
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+<strong>0.012</strong>
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+wave [wave2]
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+-0.05
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+-0.10 – 0.01
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.087
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+numeracy f [numeracy low]<br>× wave [wave2]
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.09
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.03 – 0.15
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+<strong>0.006</strong>
+</td>
+</tr>
+<tr>
+<td colspan="4" style="font-weight:bold; text-align:left; padding-top:.8em;">
+Random Effects
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+σ<sup>2</sup>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+0.04
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+τ<sub>00</sub> <sub>m</sub>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+0.01
+</td>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+ICC
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+0.18
+</td>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+N <sub>m</sub>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+455
+</td>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm; border-top:1px solid;">
+Observations
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left; border-top:1px solid;" colspan="3">
+910
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+0.047 / 0.218
+</td>
+</tr>
+</table>
+</div>
+<div id="plot-switzerland" class="section level3">
+<h3>Plot Switzerland</h3>
+<pre><code>## Scale for y is already present.
+## Adding another scale for y, which will replace the existing scale.</code></pre>
+<p><img src="analyses-judgment-new_files/figure-html/unnamed-chunk-31-1.png" width="1536" style="display: block; margin: auto;" /></p>
+</div>
+<div id="germany" class="section level3">
+<h3>Germany</h3>
+<table style="border-collapse:collapse; border:none;">
+<tr>
+<th style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm;  text-align:left; ">
+ 
+</th>
+<th colspan="3" style="border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; ">
+Mean
+</th>
+</tr>
+<tr>
+<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  text-align:left; ">
+Predictors
+</td>
+<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
+Estimates
+</td>
+<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
+CI
+</td>
+<td style=" text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal;  ">
+p
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+(Intercept)
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.60
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.55 – 0.65
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+<strong>&lt;0.001</strong>
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+numeracy f [numeracy low]
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.08
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.03 – 0.14
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+<strong>0.003</strong>
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+wave [wave2]
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+-0.00
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+-0.06 – 0.05
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.925
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">
+numeracy f [numeracy low]<br>× wave [wave2]
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.01
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+-0.06 – 0.07
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center;  ">
+0.834
+</td>
+</tr>
+<tr>
+<td colspan="4" style="font-weight:bold; text-align:left; padding-top:.8em;">
+Random Effects
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+σ<sup>2</sup>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+0.05
+</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+τ<sub>00</sub> <sub>m</sub>
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+0.02
+</td>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
+ICC
+</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
+0.34
 </td>
 <tr>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; padding-top:0.1cm; padding-bottom:0.1cm;">
@@ -2587,7 +3227,7 @@ N <sub>m</sub>
 Observations
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left; border-top:1px solid;" colspan="3">
-8400
+1050
 </td>
 </tr>
 <tr>
@@ -2595,39 +3235,16 @@ Observations
 Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
 </td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; padding-top:0.1cm; padding-bottom:0.1cm; text-align:left;" colspan="3">
-0.009 / 0.135
+0.018 / 0.348
 </td>
 </tr>
 </table>
-<pre><code>## Analysis of Deviance Table (Type III Wald F tests with Kenward-Roger df)
-## 
-## Response: error
-##                         F Df Df.res    Pr(&gt;F)    
-## (Intercept)     3218.1250  1  537.4 &lt; 2.2e-16 ***
-## numeracy.f        14.2630  1  523.0 0.0001772 ***
-## wave               0.1445  1 7871.0 0.7038393    
-## impact            38.0391  1 7871.0 7.276e-10 ***
-## numeracy.f:wave    0.0766  1 7871.0 0.7819412    
-## wave:impact        4.1912  1 7871.0 0.0406683 *  
-## ---
-## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
-<pre><code>## # Effect Size for ANOVA (Type III)
-## 
-## Parameter       | Eta2 (partial) |       95% CI
-## -----------------------------------------------
-## numeracy.f      |           0.03 | [0.01, 1.00]
-## wave            |       1.84e-05 | [0.00, 1.00]
-## impact          |       4.81e-03 | [0.00, 1.00]
-## numeracy.f:wave |       9.73e-06 | [0.00, 1.00]
-## wave:impact     |       5.32e-04 | [0.00, 1.00]
-## 
-## - One-sided CIs: upper bound fixed at [1.00].</code></pre>
 </div>
 <div id="plot-germany" class="section level3">
 <h3>Plot Germany</h3>
 <pre><code>## Scale for y is already present.
 ## Adding another scale for y, which will replace the existing scale.</code></pre>
-<p><img src="analyses-judgment-new_files/figure-html/unnamed-chunk-31-1.png" width="1536" style="display: block; margin: auto;" /></p>
+<p><img src="analyses-judgment-new_files/figure-html/unnamed-chunk-33-1.png" width="1536" style="display: block; margin: auto;" /></p>
 </div>
 </div>
 <div id="across-waves-cohens-q" class="section level2">

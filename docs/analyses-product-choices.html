@@ -10,7 +10,7 @@
 
 
 
-<meta name="date" content="2023-10-02" />
+<meta name="date" content="2023-10-17" />
 
 <title>analyses product choices</title>
 
@@ -239,7 +239,7 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">My Website</a>
+      <a class="navbar-brand" href="index.html">Documentation of energy crisis analyses</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -258,6 +258,15 @@ $(document).ready(function () {
 <li>
   <a href="analyses-policy-new.html">Analyses policy support</a>
 </li>
+<li>
+  <a href="analyses-policy-supplementary.html">Analyses policy support supplementary</a>
+</li>
+<li>
+  <a href="analyses-judgment-supplementary.html">Analyses judgment supplementary</a>
+</li>
+<li>
+  <a href="analyses-product-choices-supplementary.html">Analyses product choices supplementary</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -271,7 +280,7 @@ $(document).ready(function () {
 
 
 <h1 class="title toc-ignore">analyses product choices</h1>
-<h4 class="date">2023-10-02</h4>
+<h4 class="date">2023-10-17</h4>
 
 </div>
 
@@ -394,6 +403,8 @@ price</a></li>
 <li><a href="#price-effect-only-in-wave-2"
 id="toc-price-effect-only-in-wave-2">price effect only in wave
 2</a></li>
+<li><a href="#absolute-price-effect"
+id="toc-absolute-price-effect">absolute price effect</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -2574,7 +2585,8 @@ Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
 </div>
 <div id="cc-concern-plot" class="section level5">
 <h5>cc concern plot</h5>
-<pre><code>## Data were &#39;prettified&#39;. Consider using `terms=&quot;concern.scaled [all]&quot;` to get smooth plots.</code></pre>
+<pre><code>## Data were &#39;prettified&#39;. Consider using `terms=&quot;concern.scaled [all]&quot;` to
+##   get smooth plots.</code></pre>
 <pre><code>## Scale for y is already present.
 ## Adding another scale for y, which will replace the existing scale.</code></pre>
 <p><img src="analyses-product-choices_files/figure-html/unnamed-chunk-12-1.png" width="672" style="display: block; margin: auto;" /></p>
@@ -2879,7 +2891,8 @@ Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
 </div>
 <div id="energy-literacy-plot" class="section level5">
 <h5>energy literacy plot</h5>
-<pre><code>## Data were &#39;prettified&#39;. Consider using `terms=&quot;mean.error_scaled [all]&quot;` to get smooth plots.</code></pre>
+<pre><code>## Data were &#39;prettified&#39;. Consider using `terms=&quot;mean.error_scaled [all]&quot;`
+##   to get smooth plots.</code></pre>
 <pre><code>## Scale for y is already present.
 ## Adding another scale for y, which will replace the existing scale.</code></pre>
 <p><img src="analyses-product-choices_files/figure-html/unnamed-chunk-15-1.png" width="672" style="display: block; margin: auto;" /></p>
@@ -5381,7 +5394,8 @@ Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
 </div>
 <div id="cc-concern-model-plot" class="section level4">
 <h4>CC concern model plot</h4>
-<pre><code>## Data were &#39;prettified&#39;. Consider using `terms=&quot;concern.scaled [all]&quot;` to get smooth plots.</code></pre>
+<pre><code>## Data were &#39;prettified&#39;. Consider using `terms=&quot;concern.scaled [all]&quot;` to
+##   get smooth plots.</code></pre>
 <pre><code>## Scale for y is already present.
 ## Adding another scale for y, which will replace the existing scale.</code></pre>
 <p><img src="analyses-product-choices_files/figure-html/unnamed-chunk-31-1.png" width="1248" style="display: block; margin: auto;" /></p>
@@ -5684,7 +5698,8 @@ Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
 </div>
 <div id="energy-literacy-plot-1" class="section level4">
 <h4>Energy literacy plot</h4>
-<pre><code>## Data were &#39;prettified&#39;. Consider using `terms=&quot;mean.error_scaled [all]&quot;` to get smooth plots.</code></pre>
+<pre><code>## Data were &#39;prettified&#39;. Consider using `terms=&quot;mean.error_scaled [all]&quot;`
+##   to get smooth plots.</code></pre>
 <pre><code>## Scale for y is already present.
 ## Adding another scale for y, which will replace the existing scale.</code></pre>
 <p><img src="analyses-product-choices_files/figure-html/unnamed-chunk-34-1.png" width="1248" style="display: block; margin: auto;" /></p>
@@ -5713,18 +5728,24 @@ class="section level4">
 ## Models:
 ## model.product.waves_clean: choice ~ wave + country + energy.level + price.level + age + gender + education + income + (1 | m)
 ## model.H4a.both_clean: choice ~ price.level + energy.level * concern.scaled + country + wave + gender + age + income + education + (1 | m)
-##                           npar   AIC   BIC  logLik deviance  Chisq Df Pr(&gt;Chisq)    
-## model.product.waves_clean   14 14488 14593 -7230.0    14460                         
-## model.H4a.both_clean        16 14437 14557 -7202.3    14405 55.438  2   9.16e-13 ***
+##                           npar   AIC   BIC  logLik deviance  Chisq Df
+## model.product.waves_clean   14 14488 14593 -7230.0    14460          
+## model.H4a.both_clean        16 14437 14557 -7202.3    14405 55.438  2
+##                           Pr(&gt;Chisq)    
+## model.product.waves_clean               
+## model.H4a.both_clean        9.16e-13 ***
 ## ---
 ## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
 <pre><code>## Data: data.product.waves.long_clean
 ## Models:
 ## model.product.waves_clean: choice ~ wave + country + energy.level + price.level + age + gender + education + income + (1 | m)
 ## model.H4a.error.both_clean: choice ~ price.level + energy.level * mean.error_scaled + country + wave + gender + age + income + education + (1 | m)
-##                            npar   AIC   BIC  logLik deviance  Chisq Df Pr(&gt;Chisq)    
-## model.product.waves_clean    14 14488 14593 -7230.0    14460                         
-## model.H4a.error.both_clean   16 14446 14567 -7207.2    14414 45.693  2  1.197e-10 ***
+##                            npar   AIC   BIC  logLik deviance  Chisq Df
+## model.product.waves_clean    14 14488 14593 -7230.0    14460          
+## model.H4a.error.both_clean   16 14446 14567 -7207.2    14414 45.693  2
+##                            Pr(&gt;Chisq)    
+## model.product.waves_clean                
+## model.H4a.error.both_clean  1.197e-10 ***
 ## ---
 ## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
 </div>
@@ -5775,7 +5796,7 @@ price differences (-1sd, mean, +1sd)</p>
 <h3>Plot for H5</h3>
 <p>/</p>
 <p>All plots together
-<img src="analyses-product-choices_files/figure-html/unnamed-chunk-43-1.png" width="1536" style="display: block; margin: auto;" /></p>
+<img src="analyses-product-choices_files/figure-html/unnamed-chunk-43-1.png" width="1920" style="display: block; margin: auto;" /></p>
 <div id="controlling-for-2022-energy-price" class="section level4">
 <h4>controlling for 2022 energy price</h4>
 <table style="border-collapse:collapse; border:none;">
@@ -6436,6 +6457,32 @@ Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
 ## ---
 ## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
 <p><img src="analyses-product-choices_files/figure-html/unnamed-chunk-45-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="absolute-price-effect" class="section level4">
+<h4>absolute price effect</h4>
+<pre><code>## Analysis of Deviance Table (Type II Wald chisquare tests)
+## 
+## Response: choice
+##                                 Chisq Df Pr(&gt;Chisq)    
+## price.diff                     3.5382  1   0.059971 .  
+## wave                          28.7959  1  8.042e-08 ***
+## energy.level                 399.3736  1  &lt; 2.2e-16 ***
+## concern.scaled                 6.6748  1   0.009779 ** 
+## mean.error_scaled              3.7012  1   0.054374 .  
+## price.level                  512.6086  1  &lt; 2.2e-16 ***
+## age                            4.0707  1   0.043633 *  
+## gender                         1.3757  1   0.240827    
+## income                        35.3989  3  1.003e-07 ***
+## education                      2.6928  3   0.441450    
+## price.diff:wave                4.8520  1   0.027614 *  
+## price.diff:energy.level        0.7631  1   0.382350    
+## wave:energy.level              0.0049  1   0.944178    
+## price.diff:wave:energy.level   0.8098  1   0.368191    
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
+<pre><code>## NOTE: Results may be misleading due to involvement in interactions</code></pre>
+<p><img src="analyses-product-choices_files/figure-html/unnamed-chunk-46-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p><img src="analyses-product-choices_files/figure-html/energy.price-1.png" width="672" style="display: block; margin: auto;" /></p>
 </div>
 </div>
 </div>

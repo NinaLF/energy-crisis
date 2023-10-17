@@ -19,7 +19,7 @@ knitr::opts_chunk$set(class.source = "CSSoutput",
 
 
 ```{r packages, include=FALSE}
-setwd("/Users/nfrings/Library/Mobile Documents/com~apple~CloudDocs/Documents/PhD/Studies/Winter studie/results")
+setwd("/Users/nfrings/Documents/PhD/Studies/Winter studie/results/energy-crisis")
 #setwd("/Users/ninafrings/Documents/PhD/Studies/Winter studie/results")
 
 library(tidyverse)
@@ -441,10 +441,10 @@ pred_H1b
 
 ### H1b plot both waves
 ```{r fig1b}
-Figure1b <- plot_model(model.H1b.both.waves2, type="pred", terms=c( "concern.scaled", "zeitpunkt") , 
+Figure1c <- plot_model(model.H1b.both.waves2, type="pred", terms=c( "concern.scaled", "zeitpunkt") , 
                        legend.title="Implementation time", colors=c("#15A000", "#0070C0"))   +
-  xlim(-2,2) +
-  labs(y="Predicted probabilities of supporting policy", x="Climate change concern", title = "b") +
+  xlim(-1.5, 1.5) +
+  labs(y="Predicted probabilities of supporting policy", x="Climate change concern", title = "c") +
   theme(plot.caption = element_text(hjust = 0),
         plot.title.position = "plot",
         plot.caption.position =  "plot",
@@ -454,15 +454,11 @@ Figure1b <- plot_model(model.H1b.both.waves2, type="pred", terms=c( "concern.sca
         legend.title = element_text(size = 19, face="plain"),
         legend.text = element_text(size = 19))
 
-Figure1b
+Figure1c
 
 
 ```
 
-### both plots
-```{r plots, fig.width = 19, fig.height = 11,}
-Figure1a | Figure1b
-```
 
 
 ### model comparison H1b versus H1 
@@ -509,4 +505,53 @@ tab_model(model.both.waves.e.i)
 tab_model(model.both.waves.e.i.c)
 
 ```
+
+## Graphical representation policy support
+```{r}
+
+
+data.decision.waves.long$decision.numeric <- as.numeric(data.decision.waves.long$decision)-1
+
+## by implementation time
+
+data.decision.waves.sum.e <- groupwiseSum(decision.numeric ~ tax + zeitpunkt + m,
+                                        data=data.decision.waves.long)
+data.decision.waves.sum.e$percent <- data.decision.waves.sum.e$Sum / data.decision.waves.sum.e$n
+
+data.decision.waves.mean.e <- groupwiseMean(percent ~  tax + zeitpunkt ,
+                                            data=data.decision.waves.sum.e)
+
+Figure1b <- ggplot(data.decision.waves.mean.e, aes(x=zeitpunkt, y=Mean, fill=tax)) +
+  geom_bar(stat="identity", position="dodge")+
+  ylim(0,1) + 
+  theme_minimal() +
+  theme(plot.caption = element_text(hjust = 0),
+        plot.title.position = "plot",
+        plot.caption.position =  "plot",
+        plot.title = element_text(size = 23, face = "bold"),
+        axis.title  = element_text(size = 23),
+        axis.text = element_text(size = 21),
+        legend.title = element_text(size = 19, face="plain"),
+        legend.text = element_text(size = 19),
+        strip.text =  element_text(size = 19)) +
+  labs(x="Implementation time", y="Mean percentage of accepted RE policies", fille="Tax", title="b") +
+  geom_errorbar(aes(ymin=Trad.lower, ymax=Trad.upper), position=position_dodge(0.9), width=0.1) +
+  geom_text(aes(label=Mean),position=position_dodge2(0.9, padding=0.2),  vjust=-1.9, size=9) +
+  scale_fill_manual(values = c("#00a553", "#0070C0")) 
+
+
+```
+
+```{r Fig1c}
+Figure1b
+```
+
+### all plots
+
+```{r Figures1}
+Figure1a / (Figure1b + Figure1c)
+```
+
+
+
 

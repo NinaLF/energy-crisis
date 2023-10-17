@@ -259,7 +259,7 @@ accuracy.means.waves$wave <- factor(accuracy.means.waves$wave, levels=c("estimat
 Fig2a.c <- ggplot(accuracy.means.waves, aes(x=mean.actual, y=mean.estimate, color=behavior.label, group=wave)) +
   geom_point(size=3.8) +
   ylim(0,1600) + xlim(0,1600) + facet_wrap( wave ~.) +
-  geom_errorbar(aes(ymin=Trad.lower, ymax=Trad.upper), linewidth=1.3)  +
+  geom_errorbar(aes(ymin=Trad.lower, ymax=Trad.upper), linewidth=1.6)  +
   labs(x="Actual value", y="Mean estimate", color="Behavior", title="a") +
   theme_minimal() +
   theme(plot.caption = element_text(hjust = 0),
@@ -302,14 +302,16 @@ accuracy.waves.impact.t$Trad.upper2 <- 1/accuracy.waves.impact.t$Trad.upper
 ```{r}
 accuracy.waves.impact.t
 
-accuracy.waves.impact <- groupwiseMean(mis.estimation ~impact + wave + m,
+accuracy.waves.impact <- groupwiseMean(mis.estimation ~impact + wave + country + m,
 data= data.accuracy.waves.long.total2.l)
 t.test(data.accuracy.waves.long.total2.l$mis.estimation ~ data.accuracy.waves.long.total2.l$wave, paired=TRUE)
 
-aov.estimation.bias <- anova_test(
-  data = accuracy.waves.impact, dv = Mean, wid = m,
-  within =c( wave, impact))
-get_anova_table(aov.estimation.bias)
+model.impact.1 <- lmer(Mean ~impact*wave + country + (1|m), accuracy.waves.impact,   
+  contrasts = list(
+    impact = "contr.sum",
+    wave = "contr.sum") )
+tab_model(model.impact.1)
+
 
 
 ```
@@ -340,24 +342,24 @@ accuracy.waves.impact.t$Trad.upper2 <- 1/accuracy.waves.impact.t$Trad.upper
  
 ```{r}
 accuracy.waves.impact.t
-data.accuracy.waves.long.total_clean2$mis.estimation.log <- log10(data.accuracy.waves.long.total_clean2$mis.estimation)
 
 t.test(data.accuracy.waves.long.total_clean2$mis.estimation ~ data.accuracy.waves.long.total_clean2$wave, paired=TRUE)
+data.accuracy.waves.long.total_clean2$log.mis.estimation <- log10(data.accuracy.waves.long.total_clean2$mis.estimation)
 
-accuracy.waves.impact <- groupwiseMean(mis.estimation.log ~impact + wave + m,
+accuracy.waves.impact.c <- groupwiseMean(log.mis.estimation ~impact + wave + country + m,
 data= data.accuracy.waves.long.total_clean2)
 
-aov.estimation.bias <- anova_test(
-  data = accuracy.waves.impact, dv = Mean, wid = m,
-  within =c( wave, impact))
-get_anova_table(aov.estimation.bias)
-
-
-model.impact <- lmer(Mean ~impact*wave + (1|m), accuracy.waves.impact,   
+model.impact <- lmer(Mean ~impact*wave + country + (1|m), accuracy.waves.impact.c,   
   contrasts = list(
     impact = "contr.sum",
     wave = "contr.sum") )
-Anova(model.impact, type=3, test.statistic="F")
+tab_model(model.impact)
+
+model.impact.2 <- lmer(log.mis.estimation ~impact*wave + country + (1|m) + (1|behavior.label), data.accuracy.waves.long.total_clean2,   
+  contrasts = list(
+    impact = "contr.sum",
+    wave = "contr.sum") )
+tab_model(model.impact.2)
 
 ```
 
@@ -401,7 +403,7 @@ Figure2b.c
 
 Both judgment figures 
 ```{r, fig.width=22, fig.height=10}
-Fig2a.c | Figure2b.c
+Fig2a.c / Figure2b.c
 
 ```
 
@@ -430,34 +432,47 @@ accuracy.waves.error.t$Trad.upper2 <- 1/accuracy.waves.error.t$Trad.upper
 ```
 
 Models cleaned for pattern people
+Model only with numeracy
 ```{r}
 accuracy.waves.error.t
 
-accuracy.waves.error.num <- groupwiseMean(error ~ numeracy.f + wave  + impact +  m,
+accuracy.waves.error.num <- groupwiseMean(error ~ numeracy.f + wave   + country + m,
 data= data.accuracy.waves.long.total_clean2.l)
-t.test(accuracy.waves.error.num$Mean ~ accuracy.waves.error.num$wave, paired=TRUE)
-
 
 data.accuracy.waves.long.total_clean2.l$impact <- factor(data.accuracy.waves.long.total_clean2.l$impact, level=c("low", "high"),
 labels=c("low impact", "high impact"))
 
-model.error.waves.impact<- lmer(error ~numeracy.f*wave +wave*impact + country + (1|m), data.accuracy.waves.long.total_clean2.l,   
-  contrasts = list(
-    numeracy.f = "contr.sum",
-    wave = "contr.sum",
-    impact= "contr.sum",
-    country = "contr.sum"))
-Anova(model.error.waves.impact, type=3, test.statistic="F")
-effectsize::eta_squared(model.error.waves.impact)
+model.error.waves.numeracy<- lmer(Mean ~numeracy.f*wave + country + (1|m), accuracy.waves.error.num)
+tab_model(model.error.waves.numeracy)
+plot_model(model.error.waves.numeracy,type="emm", terms=c("wave", "numeracy.f"), colors=c("#15A000", "#0070C0"))
 
+ #impact
+accuracy.waves.error.imp<- groupwiseMean(error ~ impact + wave   + country + m,
+data= data.accuracy.waves.long.total_clean2.l)
+model.error.waves.impact<- lmer(Mean ~impact*wave + country + (1|m), accuracy.waves.error.imp)
+## impact not significant overall -> more down to numeracy
+
+
+```
+Model for impact
+
+```{r}
 tab_model(model.error.waves.impact)
+
 ```
 
+Model for each judgment error
+```{r}
+
+model.error.waves.impact2 <- lmer(error ~impact*wave +numeracy.f*wave + country + (1|m) + (1|behavior.label), data.accuracy.waves.long.total_clean2.l)
+tab_model(model.error.waves.impact2)
+
+```
 
 ### Plots: Judgment error for impact of actions across waves
 
 ```{r}
-pred_wave.impact <- ggemmeans(model.error.waves.impact, c("wave", "impact")) 
+pred_wave.impact <- ggemmeans(model.error.waves.impact2, c("wave", "impact")) 
 pred_wave.impact <- as.data.frame(pred_wave.impact)
 
 ggplot(pred_wave.impact, aes(x = x, y = predicted, color=group)) + scale_color_manual(values=c("#0070C0", "#15A000"))+ scale_fill_manual(values=c("#0070C0", "#15A000"))+ theme_minimal() +
@@ -482,7 +497,7 @@ ggplot(pred_wave.impact, aes(x = x, y = predicted, color=group)) + scale_color_m
 
 
 ```{r}
-pred_num.impact <- ggemmeans(model.error.waves.impact, c("wave", "numeracy.f")) 
+pred_num.impact <- ggemmeans(model.error.waves.impact2, c("wave", "numeracy.f")) 
 pred_num.impact <- as.data.frame(pred_num.impact)
 
 ggplot(pred_num.impact, aes(x = x, y = predicted, color=group)) + scale_color_manual(values=c("#15A000", "#0070C0"))+ scale_fill_manual(values=c("#15A000", "#0070C0"))+  theme_minimal() +
@@ -504,7 +519,7 @@ ggplot(pred_num.impact, aes(x = x, y = predicted, color=group)) + scale_color_ma
 
 ### Plot: numeracy by wave and country
 ```{r}
-pred_num.impact.c <- ggemmeans(model.error.waves.impact, c("wave", "numeracy.f", "country")) 
+pred_num.impact.c <- ggemmeans(model.error.waves.impact2, c("wave", "numeracy.f", "country")) 
 pred_num.impact.c <- as.data.frame(pred_num.impact.c)
 
 ggplot(pred_num.impact.c, aes(x = x, y = predicted, color=group)) + scale_color_manual(values=c("#15A000", "#0070C0"))+ scale_fill_manual(values=c("#15A000", "#0070C0"))+  facet_wrap(facet~.) +  theme_minimal() +
@@ -528,7 +543,7 @@ ggplot(pred_num.impact.c, aes(x = x, y = predicted, color=group)) + scale_color_
 
 ```{r}
  
-pred_everything <- ggemmeans(model.error.waves.impact, c("wave", "numeracy.f", "impact", "country")) 
+pred_everything <- ggemmeans(model.error.waves.impact2, c("wave", "numeracy.f", "impact", "country")) 
 pred_everything <- as.data.frame(pred_everything)
 
 ggplot(pred_everything, aes(x = x, y = predicted, color=group)) + scale_color_manual(values=c("#15A000", "#0070C0"))+ scale_fill_manual(values=c("#15A000", "#0070C0"))+ facet_wrap(panel~facet) + theme_minimal() +
@@ -568,22 +583,16 @@ ggplot(pred_everything, aes(x = x, y = predicted, color=facet)) + scale_color_ma
 
 ```{r}
 ## ch
-data.accuracy.waves.long.total_clean2.ch <- data.accuracy.waves.long.total_clean2.l %>% filter(country=="Switzerland")
+accuracy.waves.error.num.ch <- accuracy.waves.error.num %>% filter(country=="Switzerland")
 
-model.error.waves.impact.ch <- lmer(error ~ numeracy.f*wave +wave*impact  + (1|m), data.accuracy.waves.long.total_clean2.ch,   
-  contrasts = list(
-    numeracy.f = "contr.sum",
-    wave = "contr.sum",
-    impact= "contr.sum") )
-Anova(model.error.waves.impact.ch, type=3, test.statistic="F")
-effectsize::eta_squared(model.error.waves.impact.ch)
+model.error.waves.impact.ch <- lmer(Mean ~ numeracy.f*wave + (1|m), accuracy.waves.error.num.ch)
 
 tab_model(model.error.waves.impact.ch)
 
 ```
 ### Plot Switzerland
 ```{r}
-plot_model(model.error.waves.impact.ch, type="pred", terms=c("wave","numeracy.f", "impact"),
+plot_model(model.error.waves.impact.ch, type="pred", terms=c("wave","numeracy.f"),
 colors=c("#15A000", "#0070C0") )  + ylim(0.4,0.9) + 
   theme_minimal() + labs(y="Mean error", color="Numeracy", title="in Switzerland", x="Assessment waves") +
   theme(plot.caption = element_text(hjust = 0),
@@ -600,23 +609,17 @@ colors=c("#15A000", "#0070C0") )  + ylim(0.4,0.9) +
 ### Germany
 
 ```{r}
-data.accuracy.waves.long.total_clean2.de <- data.accuracy.waves.long.total_clean2.l %>% filter(!country=="Switzerland")
+accuracy.waves.error.num.de <- accuracy.waves.error.num %>% filter(!country=="Switzerland")
 
-model.error.waves.impact.de <- lmer(error ~ numeracy.f*wave +wave*impact + (1|m), data.accuracy.waves.long.total_clean2.de,   
-  contrasts = list(
-    numeracy.f = "contr.sum",
-    wave = "contr.sum",
-    impact= "contr.sum") )
+model.error.waves.impact.de <- lmer(Mean ~ numeracy.f*wave + (1|m), accuracy.waves.error.num.de)
 tab_model(model.error.waves.impact.de)
- Anova(model.error.waves.impact.de, type=3, test.statistic="F")
-effectsize::eta_squared(model.error.waves.impact.de)
 
         
 ```
 ### Plot Germany
 ```{r}
 
-plot_model(model.error.waves.impact.de, type="pred", terms=c("wave","numeracy.f", "impact"),
+plot_model(model.error.waves.impact.de, type="pred", terms=c("wave","numeracy.f"),
 colors=c("#15A000", "#0070C0") ) + ylim(0.4,0.9) +
   theme_minimal() + labs(y="Mean error", color="Numeracy", title="in Germany", x="Assessment waves") +
   theme(plot.caption = element_text(hjust = 0),

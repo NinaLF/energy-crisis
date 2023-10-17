@@ -1,0 +1,1828 @@
+"","m","ResponseId.wave1.x","mean.est.bias.wave1","mean.abs.error.wave1","binary.x","ResponseId.wave2","ResponseId.x","mean.est.bias.wave2","mean.abs.error.wave2","binary.y","numeracy.f","error.diff","error.diff.2","error.diff.f","Duration.wave1","ResponseId.wave1.y","gender","country","income.wave1","education","household_size","politicalorientation_1","Duration.wave2","ResponseId.y","age","income.wave2","Minutes.wave1","Minutes.wave2","Minutes"
+"1",227471319859444,"R_8q6n1RRt6MyyXex",0.432,0.57,"over","R_tE6MoKzmZtjFxD3","R_tE6MoKzmZtjFxD3",0.642,0.736,"over","numeracy high",-0.166,-0.2,"increased error",1022,"R_8q6n1RRt6MyyXex","male","Germany","> 4'000€
+>5'900 CHF","middle school",2,3,1157,"R_tE6MoKzmZtjFxD3",73,"> 4'000€
+>5'900 CHF",17,19,"okay"
+"2",227471319859447,"R_3037BPovs68z8Wp",-0.231,0.421,"under","R_Ojo34qwq19Vpce5","R_Ojo34qwq19Vpce5",-0.158,0.526,"under","numeracy low",-0.105,-0.1,"increased error",1366,"R_3037BPovs68z8Wp","female","Germany","<1'500- 2'499€
+3'100-4'299CHF","degree",2,5,2392,"R_Ojo34qwq19Vpce5",64,"<1'500€
+<3'100CHF",22,39,"okay"
+"3",227471450945619,"R_eFZQYTp4gO6YksF",0.436,0.499,"over","R_2qw808RHTW32LfJ","R_2qw808RHTW32LfJ",0.0523,0.458,"over","numeracy high",0.041,0,"no change",1465,"R_eFZQYTp4gO6YksF","female","Switzerland","> 4'000€
+>5'900 CHF","degree",5,4,1572,"R_2qw808RHTW32LfJ",57,"2'500- 4'000€
+<4'300- 5'899CHF",24,26,"okay"
+"4",227471450957862,"R_DqafDJUij6pOidj",-1.74,1.74,"under","R_1oqkBndhcpDZMqi","R_1oqkBndhcpDZMqi",-1.08,1.08,"under","numeracy low",0.66,0.7,"decreased error",574,"R_DqafDJUij6pOidj","female","Switzerland","> 4'000€
+>5'900 CHF","no formal education",3,4,851,"R_1oqkBndhcpDZMqi",41,"2'500- 4'000€
+<4'300- 5'899CHF",9,14,"okay"
+"5",229166066768915,"R_sSR9IooKusigb73",0.342,0.569,"over","R_3rS4w78ysOQsr12","R_3rS4w78ysOQsr12",0.479,0.569,"over","numeracy high",0,0,"no change",1200,"R_sSR9IooKusigb73","male","Germany","<1'500- 2'499€
+3'100-4'299CHF","middle school",1,7,639,"R_3rS4w78ysOQsr12",35,"<1'500- 2'499€
+3'100-4'299CHF",20,10,"okay"
+"6",229166066770991,"R_3ffPXWQN4a5pytn",-0.868,0.939,"under","R_3nAgm8GpHtzVUDU","R_3nAgm8GpHtzVUDU",-1.3,1.3,"under","numeracy low",-0.361,-0.4,"increased error",697,"R_3ffPXWQN4a5pytn","male","Germany","<1'500- 2'499€
+3'100-4'299CHF","middle school",1,5,886,"R_3nAgm8GpHtzVUDU",69,"<1'500- 2'499€
+3'100-4'299CHF",11,14,"okay"
+"7",229166066770993,"R_O8b53p7xh5bwplT",0.00338,0.394,"over","R_1mPZTN6F4Yrwu6f","R_1mPZTN6F4Yrwu6f",-0.252,0.397,"under","numeracy low",-0.003,0,"no change",1609,"R_O8b53p7xh5bwplT","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",2,5,4263,"R_1mPZTN6F4Yrwu6f",58,"2'500- 4'000€
+<4'300- 5'899CHF",26,71,"okay"
+"8",229166066778296,"R_3gXXt1W2K8Pos3x",0.311,0.769,"over","R_1Frcm9brNvhVz0E","R_1Frcm9brNvhVz0E",-1.08,1.08,"under","numeracy low",-0.311,-0.3,"increased error",1123,"R_3gXXt1W2K8Pos3x","female","Germany","> 4'000€
+>5'900 CHF","middle school",2,5,1239,"R_1Frcm9brNvhVz0E",59,"> 4'000€
+>5'900 CHF",18,20,"okay"
+"9",229166066778304,"R_1C4wdUlbfbQ1hML",-0.223,0.488,"under","R_8hNT7jXVSBb9qhP","R_8hNT7jXVSBb9qhP",-0.0925,0.274,"under","numeracy high",0.214,0.2,"decreased error",1477,"R_1C4wdUlbfbQ1hML","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","middle school",1,3,1453,"R_8hNT7jXVSBb9qhP",70,"<1'500- 2'499€
+3'100-4'299CHF",24,24,"okay"
+"10",229166066778312,"R_BywDqqxLxP5MOLD",0.108,0.346,"over","R_3Oq241l7XqxA9WE","R_3Oq241l7XqxA9WE",0.123,0.242,"over","numeracy low",0.104,0.1,"decreased error",1299,"R_BywDqqxLxP5MOLD","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",2,3,1503,"R_3Oq241l7XqxA9WE",64,"2'500- 4'000€
+<4'300- 5'899CHF",21,25,"okay"
+"11",229166066780404,"R_3ke5ZDJpQBX1C0j",0.0622,0.528,"over","R_1IGfF1abpdkWhLy","R_1IGfF1abpdkWhLy",0.124,0.466,"over","numeracy low",0.062,0.1,"decreased error",1365,"R_3ke5ZDJpQBX1C0j","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",2,5,1497,"R_1IGfF1abpdkWhLy",72,"2'500- 4'000€
+<4'300- 5'899CHF",22,24,"okay"
+"12",229166066782222,"R_21aXH4qkpWoMUfc",-0.0082,0.574,"under","R_1I6MKxO41jAt15N","R_1I6MKxO41jAt15N",-0.0323,0.689,"under","numeracy low",-0.115,-0.1,"increased error",1295,"R_21aXH4qkpWoMUfc","male","Germany","<1'500- 2'499€
+3'100-4'299CHF","degree",2,5,1439,"R_1I6MKxO41jAt15N",29,"2'500- 4'000€
+<4'300- 5'899CHF",21,23,"okay"
+"13",229166066786390,"R_2VdofypBJBuhz1H",-0.382,0.579,"under","R_1LUJuqInfZjP2R8","R_1LUJuqInfZjP2R8",-0.233,0.434,"under","numeracy low",0.145,0.1,"decreased error",876,"R_2VdofypBJBuhz1H","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",2,8,1868,"R_1LUJuqInfZjP2R8",60,"2'500- 4'000€
+<4'300- 5'899CHF",14,31,"okay"
+"14",229166066788472,"R_1gIlDrlegDFV6sF",0.224,0.618,"over","R_3M0xwiuX0tjd8ZJ","R_3M0xwiuX0tjd8ZJ",-0.28,0.736,"under","numeracy low",-0.118,-0.1,"increased error",3813,"R_1gIlDrlegDFV6sF","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","no formal education",5,3,3729,"R_3M0xwiuX0tjd8ZJ",26,"<1'500€
+<3'100CHF",63,62,"okay"
+"15",229166066788475,"R_WfbcOa4R3TKEukN",-0.543,0.689,"under","R_eUJ7b0qtFajcHiF","R_eUJ7b0qtFajcHiF",-0.872,0.872,"under","numeracy low",-0.183,-0.2,"increased error",639,"R_WfbcOa4R3TKEukN","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","middle school",2,6,855,"R_eUJ7b0qtFajcHiF",60,"> 4'000€
+>5'900 CHF",10,14,"okay"
+"16",229166066789519,"R_2EEuiLLUQlAKcEz",-0.289,0.561,"under","R_ZKQs1KphaxQxIbf","R_ZKQs1KphaxQxIbf",-0.553,0.585,"under","numeracy low",-0.0239999999999999,0,"no change",481,"R_2EEuiLLUQlAKcEz","male","Germany","<1'500- 2'499€
+3'100-4'299CHF","no formal education",2,6,382,"R_ZKQs1KphaxQxIbf",25,"<1'500- 2'499€
+3'100-4'299CHF",8,6,"speeder"
+"17",229166066792658,"R_DAy13Qg9X0yju5b",-0.304,0.803,"under","R_2ZQvMICyBHJJC25","R_2ZQvMICyBHJJC25",-0.431,0.808,"under","numeracy low",-0.005,0,"no change",1235,"R_DAy13Qg9X0yju5b","male","Germany","<1'500€
+<3'100CHF","no formal education",1,5,1520,"R_2ZQvMICyBHJJC25",57,"<1'500€
+<3'100CHF",20,25,"okay"
+"18",229166066799696,"R_2e8rPRQ3Tf6hpC0",-0.0648,0.754,"under","R_3Pe0emppqE6grrU","R_3Pe0emppqE6grrU",0.799,0.799,"over","numeracy low",-0.045,0,"no change",2921,"R_2e8rPRQ3Tf6hpC0","male","Germany","<1'500- 2'499€
+3'100-4'299CHF","no formal education",1,5,939,"R_3Pe0emppqE6grrU",41,"<1'500- 2'499€
+3'100-4'299CHF",48,15,"okay"
+"19",229166066803864,"R_2cBDYRcdwlr6tJe",0.469,0.648,"over","R_10xEptLaoi40BlX","R_10xEptLaoi40BlX",0.14,0.543,"over","numeracy low",0.105,0.1,"decreased error",1514,"R_2cBDYRcdwlr6tJe","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","no formal education",3,4,2083,"R_10xEptLaoi40BlX",67,"2'500- 4'000€
+<4'300- 5'899CHF",25,34,"okay"
+"20",229166066809875,"R_3iwZiFBbukhyafr",-0.172,0.304,"under","R_6s6crm2aG0TsoBr","R_6s6crm2aG0TsoBr",-0.19,0.619,"under","numeracy high",-0.315,-0.3,"increased error",5059,"R_3iwZiFBbukhyafr","female","Germany","<1'500€
+<3'100CHF","middle school",1,5,2803,"R_6s6crm2aG0TsoBr",64,"<1'500€
+<3'100CHF",84,46,"okay"
+"21",229166066821130,"R_2BnFF7O0UemP6bn",-0.164,0.361,"under","R_1KXEGN3b38r2ypb","R_1KXEGN3b38r2ypb",0.0508,0.333,"over","numeracy low",0.028,0,"no change",1319,"R_2BnFF7O0UemP6bn","female","Germany","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",2,4,829,"R_1KXEGN3b38r2ypb",36,"<1'500- 2'499€
+3'100-4'299CHF",21,13,"okay"
+"22",229166066823206,"R_3iD1T8NlCZIuSSn",0.56,0.602,"over","R_wKMS5f4HdQYL8Zj","R_wKMS5f4HdQYL8Zj",-0.824,0.97,"under","numeracy low",-0.368,-0.4,"increased error",1602,"R_3iD1T8NlCZIuSSn","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",3,3,1437,"R_wKMS5f4HdQYL8Zj",19,"2'500- 4'000€
+<4'300- 5'899CHF",26,23,"okay"
+"23",229166066833639,"R_7WGFlGsDSnQRpmh",0.167,0.503,"over","R_3s6Ss4gsg98OQGW","R_3s6Ss4gsg98OQGW",0.0644,0.55,"over","numeracy high",-0.047,0,"no change",808,"R_7WGFlGsDSnQRpmh","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","middle school",2,5,897,"R_3s6Ss4gsg98OQGW",34,"2'500- 4'000€
+<4'300- 5'899CHF",13,14,"okay"
+"24",229166066833642,"R_cTN0cTJ7C5jMipr",0.308,0.561,"over","R_2S8EuuoWZ1zlEUd","R_2S8EuuoWZ1zlEUd",0.031,0.87,"over","numeracy high",-0.309,-0.3,"increased error",598,"R_cTN0cTJ7C5jMipr","male","Germany","<1'500- 2'499€
+3'100-4'299CHF","middle school",4,7,730,"R_2S8EuuoWZ1zlEUd",20,"2'500- 4'000€
+<4'300- 5'899CHF",9,12,"okay"
+"25",229166416656617,"R_ujLqmiC73EyREFX",0.855,0.855,"over","R_Dk5989wZHXlEzct","R_Dk5989wZHXlEzct",0.656,0.656,"over","numeracy high",0.199,0.2,"decreased error",3847,"R_ujLqmiC73EyREFX","male","Switzerland","> 4'000€
+>5'900 CHF","degree",2,8,1101,"R_Dk5989wZHXlEzct",51,"> 4'000€
+>5'900 CHF",64,18,"okay"
+"26",229166416657657,"R_1rHAC97MaIFeZQs",0.195,0.475,"over","R_3D2zYtpdbhtT6vH","R_3D2zYtpdbhtT6vH",0.503,0.53,"over","numeracy low",-0.055,-0.1,"increased error",812,"R_1rHAC97MaIFeZQs","female","Switzerland","> 4'000€
+>5'900 CHF","obligatory school",2,4,1633,"R_3D2zYtpdbhtT6vH",39,"> 4'000€
+>5'900 CHF",13,27,"okay"
+"27",229166416658444,"R_3fAW9A9PUOTPSRY",0.66,0.723,"over","R_1mltiMTeFeXLWJB","R_1mltiMTeFeXLWJB",0.564,0.654,"over","numeracy high",0.069,0.1,"decreased error",874,"R_3fAW9A9PUOTPSRY","female","Switzerland","> 4'000€
+>5'900 CHF","degree",4,7,1417,"R_1mltiMTeFeXLWJB",49,"> 4'000€
+>5'900 CHF",14,23,"okay"
+"28",229166416658456,"R_332rHLTBzW4o52Y",0.648,0.761,"over","R_Z9rUDwY108FGHgR","R_Z9rUDwY108FGHgR",0.473,0.6,"over","numeracy low",0.161,0.2,"decreased error",5555,"R_332rHLTBzW4o52Y","male","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",4,5,3480,"R_Z9rUDwY108FGHgR",54,"2'500- 4'000€
+<4'300- 5'899CHF",92,58,"okay"
+"29",229166416659487,"R_2UiwFRmg4DIHiHP",0.648,0.667,"over","R_1lzB3yQwCXpUq1d","R_1lzB3yQwCXpUq1d",0.0285,0.555,"over","numeracy high",0.112,0.1,"decreased error",49193,"R_2UiwFRmg4DIHiHP","female","Switzerland","<1'500€
+<3'100CHF","middle school",1,8,2828,"R_1lzB3yQwCXpUq1d",77,"<1'500€
+<3'100CHF",819,47,"okay"
+"30",229166416659499,"R_3qpx95XzcwMK7Id",0.395,0.561,"over","R_3mjBG4EWOAh2zPn","R_3mjBG4EWOAh2zPn",0.137,0.47,"over","numeracy low",0.0910000000000001,0.1,"decreased error",9971,"R_3qpx95XzcwMK7Id","male","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","degree",1,4,6417,"R_3mjBG4EWOAh2zPn",60,"2'500- 4'000€
+<4'300- 5'899CHF",166,106,"okay"
+"31",229166416660547,"R_2qyee8RYNHe83N3",0.184,0.531,"over","R_1BnkeWb8Yt6wKJz","R_1BnkeWb8Yt6wKJz",0.417,0.7,"over","numeracy low",-0.169,-0.2,"increased error",8076,"R_2qyee8RYNHe83N3","female","Switzerland","<1'500€
+<3'100CHF","obligatory school",1,8,1610,"R_1BnkeWb8Yt6wKJz",59,"<1'500€
+<3'100CHF",134,26,"okay"
+"32",229166416662627,"R_pbbiWuR68CLd12V",-0.067,0.487,"under","R_2VEBV1FZqbQzJh9","R_2VEBV1FZqbQzJh9",-0.208,0.504,"under","numeracy low",-0.017,0,"no change",763,"R_pbbiWuR68CLd12V","male","Switzerland","> 4'000€
+>5'900 CHF","degree",4,6,15418,"R_2VEBV1FZqbQzJh9",40,"> 4'000€
+>5'900 CHF",12,256,"okay"
+"33",229166416662637,"R_ZFcYjQPti4GmnId",0.629,0.726,"over","R_3mAe9TEtmdbknbb","R_3mAe9TEtmdbknbb",-0.257,0.697,"under","numeracy low",0.029,0,"no change",1916,"R_ZFcYjQPti4GmnId","female","Switzerland","<1'500€
+<3'100CHF","obligatory school",1,5,1480,"R_3mAe9TEtmdbknbb",40,"<1'500€
+<3'100CHF",31,24,"okay"
+"34",229166416663673,"R_3EGccqupxv5YC29",0.284,0.761,"over","R_31gXaeWDD8YXO0m","R_31gXaeWDD8YXO0m",0.0246,0.347,"over","numeracy high",0.414,0.4,"decreased error",1506,"R_3EGccqupxv5YC29","male","Switzerland","> 4'000€
+>5'900 CHF","obligatory school",4,3,1124,"R_31gXaeWDD8YXO0m",42,"> 4'000€
+>5'900 CHF",25,18,"okay"
+"35",229166416665772,"R_279DrW8COJ7EWg9",-0.0185,0.725,"under","R_1GHQl4ynOuXKsoJ","R_1GHQl4ynOuXKsoJ",-0.565,0.833,"under","numeracy high",-0.108,-0.1,"increased error",993,"R_279DrW8COJ7EWg9","male","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","degree",3,5,781,"R_1GHQl4ynOuXKsoJ",33,"> 4'000€
+>5'900 CHF",16,13,"okay"
+"36",229166416665777,"R_1okjaSmNIcl4O4y",0.618,0.618,"over","R_2YSB2Ar1L0afUeM","R_2YSB2Ar1L0afUeM",0.352,0.548,"over","numeracy high",0.07,0.1,"decreased error",1092,"R_1okjaSmNIcl4O4y","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",1,4,1164,"R_2YSB2Ar1L0afUeM",56,"2'500- 4'000€
+<4'300- 5'899CHF",18,19,"okay"
+"37",229166416666812,"R_3GfFGdrjJRUqybx",-0.187,0.539,"under","R_3soja05ifxsWkQq","R_3soja05ifxsWkQq",0.167,0.452,"over","numeracy high",0.087,0.1,"decreased error",686,"R_3GfFGdrjJRUqybx","male","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","middle school",1,5,1093,"R_3soja05ifxsWkQq",25,"<1'500- 2'499€
+3'100-4'299CHF",11,18,"okay"
+"38",229166416667853,"R_3KSWg37wet3GUTw",-0.94,1.26,"under","R_3m7AJOItrFHHcFB","R_3m7AJOItrFHHcFB",-0.271,0.72,"under","numeracy low",0.54,0.5,"decreased error",1251,"R_3KSWg37wet3GUTw","female","Switzerland","> 4'000€
+>5'900 CHF","degree",1,3,1446,"R_3m7AJOItrFHHcFB",39,"> 4'000€
+>5'900 CHF",20,24,"okay"
+"39",229166416667863,"R_1FQVElWKrunBigd",-1.21,1.21,"under","R_2fx5TdeHZkzu7SR","R_2fx5TdeHZkzu7SR",0.0857,0.664,"over","numeracy low",0.546,0.5,"decreased error",1381,"R_1FQVElWKrunBigd","female","Switzerland","> 4'000€
+>5'900 CHF","degree",4,8,1374,"R_2fx5TdeHZkzu7SR",47,"> 4'000€
+>5'900 CHF",23,22,"okay"
+"40",229166416673876,"R_xfnvdWOK6OtEIBb",0.116,0.349,"over","R_1Ff7YEINWKKGDH6","R_1Ff7YEINWKKGDH6",0.426,0.528,"over","numeracy high",-0.179,-0.2,"increased error",1505,"R_xfnvdWOK6OtEIBb","male","Switzerland","> 4'000€
+>5'900 CHF","degree",2,5,1080,"R_1Ff7YEINWKKGDH6",45,"> 4'000€
+>5'900 CHF",25,18,"okay"
+"41",229166416689292,"R_3QDbKyq8ExtSrh4",-0.255,0.758,"under","R_3QQyZQp3jw4DK0T","R_3QQyZQp3jw4DK0T",0.364,0.681,"over","numeracy low",0.077,0.1,"decreased error",1696,"R_3QDbKyq8ExtSrh4","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","middle school",3,5,1396,"R_3QQyZQp3jw4DK0T",29,"> 4'000€
+>5'900 CHF",28,23,"okay"
+"42",229242295738451,"R_2316XoX4fkvFvf4",0.724,0.742,"over","R_2b4cSi6KufHEXQf","R_2b4cSi6KufHEXQf",0.533,0.671,"over","numeracy low",0.071,0.1,"decreased error",950,"R_2316XoX4fkvFvf4","female","Germany","<1'500- 2'499€
+3'100-4'299CHF","middle school",1,4,1246,"R_2b4cSi6KufHEXQf",59,"<1'500- 2'499€
+3'100-4'299CHF",15,20,"okay"
+"43",229242295738453,"R_2rD5JnSOvonHkaY",-0.521,0.866,"under","R_22y2tZsREaqt265","R_22y2tZsREaqt265",-0.259,0.628,"under","numeracy high",0.238,0.2,"decreased error",1582,"R_2rD5JnSOvonHkaY","male","Germany","> 4'000€
+>5'900 CHF","middle school",2,3,2126,"R_22y2tZsREaqt265",63,"> 4'000€
+>5'900 CHF",26,35,"okay"
+"44",229242295738457,"R_3Emuny9GTE1FmCf",-0.533,0.723,"under","R_2dKehFZ6Q0ZuvKP","R_2dKehFZ6Q0ZuvKP",-0.116,0.532,"under","numeracy low",0.191,0.2,"decreased error",1101,"R_3Emuny9GTE1FmCf","male","Germany","> 4'000€
+>5'900 CHF","obligatory school",3,8,945,"R_2dKehFZ6Q0ZuvKP",48,"> 4'000€
+>5'900 CHF",18,15,"okay"
+"45",229242295738458,"R_yUWSmPkKkg62fJf",0.785,0.785,"over","R_1pF3jLkb5kuiHLt","R_1pF3jLkb5kuiHLt",1,1,"over","numeracy low",-0.215,-0.2,"increased error",1807,"R_yUWSmPkKkg62fJf","male","Germany","<1'500€
+<3'100CHF","middle school",1,3,866,"R_1pF3jLkb5kuiHLt",49,"<1'500€
+<3'100CHF",30,14,"okay"
+"46",229242295739490,"R_4O7bW4HIAb2vxxT",0.279,0.482,"over","R_2WTlibDKLH1wBQv","R_2WTlibDKLH1wBQv",-0.725,0.725,"under","numeracy high",-0.243,-0.2,"increased error",852,"R_4O7bW4HIAb2vxxT","male","Germany","<1'500- 2'499€
+3'100-4'299CHF","middle school",1,5,2610,"R_2WTlibDKLH1wBQv",37,"<1'500- 2'499€
+3'100-4'299CHF",14,43,"okay"
+"47",229242295740534,"R_3P5N96tlMTxv2SB",-0.458,0.573,"under","R_SO7m43ZdxE2ch33","R_SO7m43ZdxE2ch33",0.16,0.38,"over","numeracy low",0.193,0.2,"decreased error",1402,"R_3P5N96tlMTxv2SB","male","Germany","<1'500- 2'499€
+3'100-4'299CHF","middle school",2,3,2525,"R_SO7m43ZdxE2ch33",76,"<1'500- 2'499€
+3'100-4'299CHF",23,42,"okay"
+"48",229242295742617,"R_1OktPLDHHWKRHhV",-0.217,0.538,"under","R_zdofFPepnmXbyFP","R_zdofFPepnmXbyFP",-0.61,0.721,"under","numeracy low",-0.183,-0.2,"increased error",1811,"R_1OktPLDHHWKRHhV","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","middle school",2,3,1557,"R_zdofFPepnmXbyFP",51,"2'500- 4'000€
+<4'300- 5'899CHF",30,25,"okay"
+"49",229242295743653,"R_2uOfXbC4McyIpk1",-0.755,0.755,"under","R_28G4qPGUAsKipWV","R_28G4qPGUAsKipWV",-0.64,0.64,"under","numeracy low",0.115,0.1,"decreased error",1541,"R_2uOfXbC4McyIpk1","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",2,5,1612,"R_28G4qPGUAsKipWV",66,"2'500- 4'000€
+<4'300- 5'899CHF",25,26,"okay"
+"50",229242295744700,"R_2ePGhUSWhjV9inV",-0.731,0.764,"under","R_1QrpE21fw7QXXYu","R_1QrpE21fw7QXXYu",-0.0835,0.49,"under","numeracy low",0.274,0.3,"decreased error",1672,"R_2ePGhUSWhjV9inV","male","Germany","<1'500€
+<3'100CHF","obligatory school",2,5,1803,"R_1QrpE21fw7QXXYu",60,"<1'500€
+<3'100CHF",27,30,"okay"
+"51",229242295744711,"R_2f7CBh1lJf4ruTO",-0.721,0.824,"under","R_3memv651G9uTAZj","R_3memv651G9uTAZj",-0.188,0.436,"under","numeracy low",0.388,0.4,"decreased error",575,"R_2f7CBh1lJf4ruTO","female","Germany","<1'500- 2'499€
+3'100-4'299CHF","middle school",1,5,2020,"R_3memv651G9uTAZj",37,"<1'500- 2'499€
+3'100-4'299CHF",9,33,"okay"
+"52",229242295745754,"R_yDu5FSL1xttI8Ap",0.261,0.594,"over","R_2WHAkr9jjTRTfWF","R_2WHAkr9jjTRTfWF",0.165,0.536,"over","numeracy low",0.0579999999999999,0.1,"decreased error",650,"R_yDu5FSL1xttI8Ap","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","middle school",4,4,2285,"R_2WHAkr9jjTRTfWF",34,"2'500- 4'000€
+<4'300- 5'899CHF",10,38,"okay"
+"53",229242295746789,"R_AomSIyMtDd4sOA1",-0.522,0.562,"under","R_2B4jgxePdmcIg6a","R_2B4jgxePdmcIg6a",-0.271,0.489,"under","numeracy low",0.0730000000000001,0.1,"decreased error",1488,"R_AomSIyMtDd4sOA1","male","Germany","<1'500€
+<3'100CHF","no formal education",2,6,1234,"R_2B4jgxePdmcIg6a",59,"<1'500€
+<3'100CHF",24,20,"okay"
+"54",229242295748626,"R_1pXWlt9fDYhaR3c",-0.413,0.674,"under","R_1PZfkT8XYl42PDz","R_1PZfkT8XYl42PDz",0.0316,0.382,"over","numeracy low",0.292,0.3,"decreased error",1340,"R_1pXWlt9fDYhaR3c","female","Germany","<1'500€
+<3'100CHF","degree",1,5,1778,"R_1PZfkT8XYl42PDz",66,"<1'500- 2'499€
+3'100-4'299CHF",22,29,"okay"
+"55",229242295749654,"R_2ZBtopiyki2EAhe",-0.136,0.359,"under","R_3257tFfOjV1jKwQ","R_3257tFfOjV1jKwQ",0.0473,0.417,"over","numeracy low",-0.058,-0.1,"increased error",747,"R_2ZBtopiyki2EAhe","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","no formal education",2,8,840,"R_3257tFfOjV1jKwQ",56,"2'500- 4'000€
+<4'300- 5'899CHF",12,14,"okay"
+"56",229242295749656,"R_1mRClohcHMkdAdv",-0.136,0.555,"under","R_XtEy0k8gPjhhQ3f","R_XtEy0k8gPjhhQ3f",-0.342,0.603,"under","numeracy low",-0.0479999999999999,0,"no change",524,"R_1mRClohcHMkdAdv","male","Germany","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",2,6,696,"R_XtEy0k8gPjhhQ3f",53,"<1'500- 2'499€
+3'100-4'299CHF",8,11,"okay"
+"57",229242295749665,"R_O2OqQdFdyDL9OwN",0.505,0.706,"over","R_2S16EzuYSfQHKX0","R_2S16EzuYSfQHKX0",-0.48,0.66,"under","numeracy low",0.0459999999999999,0,"no change",630,"R_O2OqQdFdyDL9OwN","male","Germany","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",4,3,684,"R_2S16EzuYSfQHKX0",42,"<1'500- 2'499€
+3'100-4'299CHF",10,11,"okay"
+"58",229242295750704,"R_3meiD2BanwaGxyW",-0.0329,0.766,"under","R_bmdU5AFsEXGtKqB","R_bmdU5AFsEXGtKqB",-1.23,1.23,"under","numeracy low",-0.464,-0.5,"increased error",956,"R_3meiD2BanwaGxyW","female","Germany","<1'500- 2'499€
+3'100-4'299CHF","no formal education",2,6,1340,"R_bmdU5AFsEXGtKqB",55,"2'500- 4'000€
+<4'300- 5'899CHF",15,22,"okay"
+"59",229242295750705,"R_Q9A5nzfd3fY5DsB",0.118,0.575,"over","R_xsZKooKsEADYt8d","R_xsZKooKsEADYt8d",0.233,0.516,"over","numeracy low",0.0589999999999999,0.1,"decreased error",777,"R_Q9A5nzfd3fY5DsB","female","Germany","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",3,5,978,"R_xsZKooKsEADYt8d",46,"2'500- 4'000€
+<4'300- 5'899CHF",12,16,"okay"
+"60",229242295752786,"R_40dNrMPFaOtEmbL",0.227,0.42,"over","R_Re625Ooz0OYFtXb","R_Re625Ooz0OYFtXb",0.702,0.795,"over","numeracy low",-0.375,-0.4,"increased error",627,"R_40dNrMPFaOtEmbL","male","Germany","> 4'000€
+>5'900 CHF","middle school",2,3,597,"R_Re625Ooz0OYFtXb",63,"> 4'000€
+>5'900 CHF",10,9,"okay"
+"61",229242295753826,"R_3lGjzJeCRnEeWYp",0.0644,0.383,"over","R_2v0yEORbEoaCcvW","R_2v0yEORbEoaCcvW",-0.0762,0.322,"under","numeracy low",0.061,0.1,"decreased error",1683,"R_3lGjzJeCRnEeWYp","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","middle school",1,4,1648,"R_2v0yEORbEoaCcvW",45,"2'500- 4'000€
+<4'300- 5'899CHF",28,27,"okay"
+"62",229242295753832,"R_d1lzcWcat1nY2jL",0.0347,0.627,"over","R_2PcWpDYMkGdiWuA","R_2PcWpDYMkGdiWuA",-0.118,0.65,"under","numeracy low",-0.023,0,"no change",2025,"R_d1lzcWcat1nY2jL","female","Germany","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",5,7,2545,"R_2PcWpDYMkGdiWuA",31,"<1'500- 2'499€
+3'100-4'299CHF",33,42,"okay"
+"63",229242295753838,"R_AHYq3fKkaHCcbWF",0.233,0.493,"over","R_2cnEXR8WCTUWKDw","R_2cnEXR8WCTUWKDw",0.203,0.67,"over","numeracy low",-0.177,-0.2,"increased error",1895,"R_AHYq3fKkaHCcbWF","male","Germany","<1'500€
+<3'100CHF","no formal education",2,5,1684,"R_2cnEXR8WCTUWKDw",69,"<1'500€
+<3'100CHF",31,28,"okay"
+"64",229242295756956,"R_56ZOo15E4R2qzOF",0.0448,0.383,"over","R_2SHzrbVeMibq1Gl","R_2SHzrbVeMibq1Gl",-1.33,1.33,"under","numeracy low",-0.947,-0.9,"increased error",1510,"R_56ZOo15E4R2qzOF","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","middle school",1,5,3851,"R_2SHzrbVeMibq1Gl",45,"2'500- 4'000€
+<4'300- 5'899CHF",25,64,"okay"
+"65",229242295759045,"R_3EF4W42AP3JqbNQ",0.336,0.595,"over","R_2woYgEWJfj0UZPI","R_2woYgEWJfj0UZPI",0.422,0.606,"over","numeracy high",-0.011,0,"no change",1454,"R_3EF4W42AP3JqbNQ","female","Germany","<1'500€
+<3'100CHF","middle school",3,5,2268,"R_2woYgEWJfj0UZPI",44,"<1'500€
+<3'100CHF",24,37,"okay"
+"66",229242295761139,"R_1CdA8mHseMZSYAc",-0.499,0.645,"under","R_sziDyRIyZS2XPAR","R_sziDyRIyZS2XPAR",-0.487,0.637,"under","numeracy high",0.00800000000000001,0,"no change",833,"R_1CdA8mHseMZSYAc","male","Germany","<1'500€
+<3'100CHF","middle school",1,5,2028,"R_sziDyRIyZS2XPAR",51,"<1'500€
+<3'100CHF",13,33,"okay"
+"67",229242295765044,"R_3smrwM5ZrCpylBz",-1.41,1.41,"under","R_27jyk5bJ7c5tTIw","R_27jyk5bJ7c5tTIw",-0.833,0.833,"under","numeracy low",0.577,0.6,"decreased error",368,"R_3smrwM5ZrCpylBz","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",1,7,549,"R_27jyk5bJ7c5tTIw",44,"2'500- 4'000€
+<4'300- 5'899CHF",6,9,"speeder"
+"68",229242295766090,"R_2wEo5iQXCYves2K",-1.74,1.74,"under","R_2DSan3zt5JS8l9P","R_2DSan3zt5JS8l9P",-0.457,0.839,"under","numeracy low",0.901,0.9,"decreased error",1540,"R_2wEo5iQXCYves2K","female","Germany","<1'500- 2'499€
+3'100-4'299CHF","no formal education",2,5,1364,"R_2DSan3zt5JS8l9P",26,"<1'500- 2'499€
+3'100-4'299CHF",25,22,"okay"
+"69",229242295766095,"R_1QN6OUxkKwgceLu",-0.0791,0.458,"under","R_5urbZCQJoc2Yv7j","R_5urbZCQJoc2Yv7j",-0.0329,0.67,"under","numeracy low",-0.212,-0.2,"increased error",1313,"R_1QN6OUxkKwgceLu","male","Germany","<1'500€
+<3'100CHF","middle school",1,5,1952,"R_5urbZCQJoc2Yv7j",57,"<1'500€
+<3'100CHF",21,32,"okay"
+"70",229242295775457,"R_3fW33TCtP6kVx1T",-1.05,1.05,"under","R_1QltThrqzdt4ppe","R_1QltThrqzdt4ppe",-1.37,1.37,"under","numeracy high",-0.32,-0.3,"increased error",7394,"R_3fW33TCtP6kVx1T","female","Germany","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",3,5,1459,"R_1QltThrqzdt4ppe",38,"2'500- 4'000€
+<4'300- 5'899CHF",123,24,"okay"
+"71",229242295779354,"R_2tbx3LZrOJsIeSD",0.674,0.707,"over","R_3HRXDzTH4lYxD57","R_3HRXDzTH4lYxD57",0.632,0.651,"over","numeracy low",0.0559999999999999,0.1,"decreased error",1519,"R_2tbx3LZrOJsIeSD","female","Germany","> 4'000€
+>5'900 CHF","middle school",3,5,1567,"R_3HRXDzTH4lYxD57",55,"> 4'000€
+>5'900 CHF",25,26,"okay"
+"72",229242295779358,"R_dcG4YHz0cKrEHO9",0.102,0.399,"over","R_zZ23lmI7gsSWtLr","R_zZ23lmI7gsSWtLr",-0.446,0.492,"under","numeracy low",-0.093,-0.1,"increased error",2919,"R_dcG4YHz0cKrEHO9","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",2,7,839,"R_zZ23lmI7gsSWtLr",33,"2'500- 4'000€
+<4'300- 5'899CHF",48,13,"okay"
+"73",229242295780393,"R_stgdPaExzIsFfRT",-0.115,0.743,"under","R_elmKlkvTJ0sBMPf","R_elmKlkvTJ0sBMPf",-0.313,1.06,"under","numeracy low",-0.317,-0.3,"increased error",861,"R_stgdPaExzIsFfRT","female","Germany","> 4'000€
+>5'900 CHF","middle school",4,5,868,"R_elmKlkvTJ0sBMPf",30,"2'500- 4'000€
+<4'300- 5'899CHF",14,14,"okay"
+"74",229242295787687,"R_DeJW28g6uMydLeF",-0.0131,0.31,"under","R_2dztNeIeNilgZSd","R_2dztNeIeNilgZSd",-0.501,0.728,"under","numeracy high",-0.418,-0.4,"increased error",1168,"R_DeJW28g6uMydLeF","male","Germany","> 4'000€
+>5'900 CHF","no formal education",4,7,1312,"R_2dztNeIeNilgZSd",50,"> 4'000€
+>5'900 CHF",19,21,"okay"
+"75",229242295791846,"R_2dmTN9FJIaj61fb",0.521,0.654,"over","R_2aGDROz7N2AxH8J","R_2aGDROz7N2AxH8J",0.0316,0.549,"over","numeracy high",0.105,0.1,"decreased error",760,"R_2dmTN9FJIaj61fb","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","no formal education",4,6,696,"R_2aGDROz7N2AxH8J",39,"2'500- 4'000€
+<4'300- 5'899CHF",12,11,"okay"
+"76",229242295796801,"R_1kOBGI4XPIWWLy6",-0.291,0.587,"under","R_sM5369cj2ZAYOsN","R_sM5369cj2ZAYOsN",-0.406,0.585,"under","numeracy low",0.002,0,"no change",293,"R_1kOBGI4XPIWWLy6","male","Germany","> 4'000€
+>5'900 CHF","obligatory school",2,6,467,"R_sM5369cj2ZAYOsN",29,"> 4'000€
+>5'900 CHF",4,7,"speeder"
+"77",229242295798887,"R_2rj8UoPO5LJwv1f",0.418,0.472,"over","R_1JUrVGo4h0DuwTF","R_1JUrVGo4h0DuwTF",0.579,0.612,"over","numeracy low",-0.14,-0.1,"increased error",1928,"R_2rj8UoPO5LJwv1f","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","middle school",2,4,1305,"R_1JUrVGo4h0DuwTF",61,"<1'500- 2'499€
+3'100-4'299CHF",32,21,"okay"
+"78",229242295804087,"R_1QxR1QCXiVrgpRz",-0.423,0.513,"under","R_udzH4UN1P064VWh","R_udzH4UN1P064VWh",0.257,0.579,"over","numeracy high",-0.066,-0.1,"increased error",841,"R_1QxR1QCXiVrgpRz","male","Germany","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",2,7,1069,"R_udzH4UN1P064VWh",31,"<1'500- 2'499€
+3'100-4'299CHF",14,17,"okay"
+"79",229242295805140,"R_1rwaK99dyb5OiNx",0.42,0.884,"over","R_2rMazT4mo70rBsf","R_2rMazT4mo70rBsf",0.0706,0.442,"over","numeracy low",0.442,0.4,"decreased error",1376,"R_1rwaK99dyb5OiNx","male","Germany","<1'500€
+<3'100CHF","middle school",2,6,2871,"R_2rMazT4mo70rBsf",24,"<1'500- 2'499€
+3'100-4'299CHF",22,47,"okay"
+"80",229242295811148,"R_1QsyXVG8aCHPSpq",-0.0485,0.469,"under","R_2U4JJgoRrHPqxRx","R_2U4JJgoRrHPqxRx",0.864,0.883,"over","numeracy high",-0.414,-0.4,"increased error",1805,"R_1QsyXVG8aCHPSpq","female","Germany","<1'500- 2'499€
+3'100-4'299CHF","middle school",3,3,984,"R_2U4JJgoRrHPqxRx",43,"<1'500€
+<3'100CHF",30,16,"okay"
+"81",229242295822351,"R_26eY9IqDmD0nVPG",0.0231,0.598,"over","R_2dGR1ye0yw7G94w","R_2dGR1ye0yw7G94w",-0.25,0.491,"under","numeracy high",0.107,0.1,"decreased error",770,"R_26eY9IqDmD0nVPG","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","middle school",4,7,1214,"R_2dGR1ye0yw7G94w",39,"2'500- 4'000€
+<4'300- 5'899CHF",12,20,"okay"
+"82",229242295830711,"R_Rlx1D84knvb3saJ",-0.39,0.536,"under","R_24FPzaogsJl5Oao","R_24FPzaogsJl5Oao",-0.159,0.548,"under","numeracy low",-0.012,0,"no change",328,"R_Rlx1D84knvb3saJ","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",4,6,400,"R_24FPzaogsJl5Oao",25,"> 4'000€
+>5'900 CHF",5,6,"speeder"
+"83",229242295831746,"R_6SEE2rNUQKx5itb",-1.26,1.26,"under","R_10r8rAWRBrcfRNn","R_10r8rAWRBrcfRNn",0.36,0.477,"over","numeracy low",0.783,0.8,"decreased error",1611,"R_6SEE2rNUQKx5itb","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","middle school",2,4,1450,"R_10r8rAWRBrcfRNn",67,"2'500- 4'000€
+<4'300- 5'899CHF",26,24,"okay"
+"84",229242295843984,"R_2PwhR3qIr4XLkco",0.564,0.677,"over","R_1rAhq8JtngWYhI1","R_1rAhq8JtngWYhI1",0.582,0.601,"over","numeracy low",0.0760000000000001,0.1,"decreased error",545,"R_2PwhR3qIr4XLkco","male","Germany","> 4'000€
+>5'900 CHF","middle school",2,5,678,"R_1rAhq8JtngWYhI1",49,"> 4'000€
+>5'900 CHF",9,11,"okay"
+"85",229242295848169,"R_2Bas2WO0yoM9QdK",-0.651,0.651,"under","R_1OwNrBIiXECqoyG","R_1OwNrBIiXECqoyG",-0.3,0.371,"under","numeracy low",0.28,0.3,"decreased error",1225,"R_2Bas2WO0yoM9QdK","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",2,5,2248,"R_1OwNrBIiXECqoyG",67,"2'500- 4'000€
+<4'300- 5'899CHF",20,37,"okay"
+"86",229242295855225,"R_3RgO5GN0KthHTX2",0.128,0.396,"over","R_BA5f3bgdhMyK6Rz","R_BA5f3bgdhMyK6Rz",0.692,0.71,"over","numeracy low",-0.314,-0.3,"increased error",1316,"R_3RgO5GN0KthHTX2","male","Germany","> 4'000€
+>5'900 CHF","obligatory school",4,5,1637,"R_BA5f3bgdhMyK6Rz",36,"> 4'000€
+>5'900 CHF",21,27,"okay"
+"87",229242295868534,"R_1KdVL9CKXXnCwiP",-0.281,0.577,"under","R_3Jfm7oG4vSdjKOY","R_3Jfm7oG4vSdjKOY",0.223,0.602,"over","numeracy low",-0.025,0,"no change",1044,"R_1KdVL9CKXXnCwiP","male","Germany","> 4'000€
+>5'900 CHF","obligatory school",2,6,828,"R_3Jfm7oG4vSdjKOY",41,"> 4'000€
+>5'900 CHF",17,13,"okay"
+"88",229242449955882,"R_Opo4165ngCwoCwF",0.918,0.937,"over","R_2XiIXFvRQQWAgP4","R_2XiIXFvRQQWAgP4",0.241,0.475,"over","numeracy high",0.462,0.5,"decreased error",1138,"R_Opo4165ngCwoCwF","female","Switzerland","> 4'000€
+>5'900 CHF","middle school",3,4,1000,"R_2XiIXFvRQQWAgP4",42,"> 4'000€
+>5'900 CHF",18,16,"okay"
+"89",229242449955883,"R_ePRcGNZrHmqLnz3",0.265,0.383,"over","R_3jd276FCkxUx0jk","R_3jd276FCkxUx0jk",0.0998,0.424,"over","numeracy low",-0.041,0,"no change",1653,"R_ePRcGNZrHmqLnz3","male","Switzerland","> 4'000€
+>5'900 CHF","degree",1,2,1050,"R_3jd276FCkxUx0jk",65,"> 4'000€
+>5'900 CHF",27,17,"okay"
+"90",229242449956909,"R_1CaoCMfaarSxBtF",-0.812,0.812,"under","R_Rkm2OIdJcP6tieZ","R_Rkm2OIdJcP6tieZ",-0.0207,0.579,"under","numeracy low",0.233,0.2,"decreased error",1303,"R_1CaoCMfaarSxBtF","male","Switzerland","> 4'000€
+>5'900 CHF","obligatory school",2,7,1628,"R_Rkm2OIdJcP6tieZ",74,"> 4'000€
+>5'900 CHF",21,27,"okay"
+"91",229242449956910,"R_b4uyOv2omR0cmf7",0.0857,0.628,"over","R_2dWss8mIevBNbql","R_2dWss8mIevBNbql",-0.134,0.566,"under","numeracy high",0.062,0.1,"decreased error",1409,"R_b4uyOv2omR0cmf7","non-binary","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","middle school",2,2,1941,"R_2dWss8mIevBNbql",49,"<1'500- 2'499€
+3'100-4'299CHF",23,32,"okay"
+"92",229242449956912,"R_1Ntv8wpML03b7xm",0.0488,0.369,"over","R_efXCEpWlSglm0g1","R_efXCEpWlSglm0g1",-0.233,0.562,"under","numeracy low",-0.193,-0.2,"increased error",1022,"R_1Ntv8wpML03b7xm","male","Switzerland","> 4'000€
+>5'900 CHF","degree",1,7,2581,"R_efXCEpWlSglm0g1",45,"> 4'000€
+>5'900 CHF",17,43,"okay"
+"93",229242449956920,"R_BP2EFUxic96I9z3",0.228,0.471,"over","R_2PnvZ3t3ESLuuRg","R_2PnvZ3t3ESLuuRg",-1.05,1.05,"under","numeracy low",-0.579,-0.6,"increased error",1571,"R_BP2EFUxic96I9z3","male","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",1,3,697,"R_2PnvZ3t3ESLuuRg",58,"<1'500- 2'499€
+3'100-4'299CHF",26,11,"okay"
+"94",229242449956922,"R_22Gm4uvMmbgC5DE",-0.797,0.797,"under","R_21hMGEwDlPxhjIx","R_21hMGEwDlPxhjIx",0.158,0.45,"over","numeracy low",0.347,0.3,"decreased error",1974,"R_22Gm4uvMmbgC5DE","male","Switzerland","<1'500€
+<3'100CHF","degree",1,6,1745,"R_21hMGEwDlPxhjIx",67,"<1'500€
+<3'100CHF",32,29,"okay"
+"95",229242449956923,"R_1KuKiaIDKfwR9fT",0.625,0.889,"over","R_1jxnsKE1PsOW2ud","R_1jxnsKE1PsOW2ud",0.115,0.447,"over","numeracy high",0.442,0.4,"decreased error",1911,"R_1KuKiaIDKfwR9fT","male","Switzerland","> 4'000€
+>5'900 CHF","no formal education",3,2,1625,"R_1jxnsKE1PsOW2ud",57,"> 4'000€
+>5'900 CHF",31,27,"okay"
+"96",229242449957957,"R_3fpCT6vXz1qo6e5",-1.27,1.27,"under","R_aeM2kI1j8xc8YzT","R_aeM2kI1j8xc8YzT",-1.74,1.74,"under","numeracy low",-0.47,-0.5,"increased error",829,"R_3fpCT6vXz1qo6e5","male","Switzerland","<1'500€
+<3'100CHF","obligatory school",1,6,271,"R_aeM2kI1j8xc8YzT",54,"<1'500€
+<3'100CHF",13,4,"speeder"
+"97",229242449957958,"R_6FLOIM9YoMkt9Jv",-0.0507,0.491,"under","R_27PatKwP1D3wBGB","R_27PatKwP1D3wBGB",0.0303,0.397,"over","numeracy high",0.094,0.1,"decreased error",1036,"R_6FLOIM9YoMkt9Jv","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","middle school",1,4,1568,"R_27PatKwP1D3wBGB",62,"2'500- 4'000€
+<4'300- 5'899CHF",17,26,"okay"
+"98",229242449957965,"R_2ScqPeJlMLfKPBn",-1.11,1.11,"under","R_xaojQs1GzLg4Tol","R_xaojQs1GzLg4Tol",-1.62,1.62,"under","numeracy low",-0.51,-0.5,"increased error",381,"R_2ScqPeJlMLfKPBn","male","Switzerland","> 4'000€
+>5'900 CHF","degree",2,5,2650,"R_xaojQs1GzLg4Tol",34,"> 4'000€
+>5'900 CHF",6,44,"speeder"
+"99",229242449959017,"R_3CTa8fnOQGo2vNJ",0.204,0.491,"over","R_vrkRIv7sYwaMm09","R_vrkRIv7sYwaMm09",0.577,0.646,"over","numeracy low",-0.155,-0.2,"increased error",957,"R_3CTa8fnOQGo2vNJ","female","Switzerland","> 4'000€
+>5'900 CHF","obligatory school",2,5,2050,"R_vrkRIv7sYwaMm09",71,"> 4'000€
+>5'900 CHF",15,34,"okay"
+"100",229242449960046,"R_27eATTdBXeYG3tx",0.706,0.706,"over","R_YVse2xBKz1KBkEF","R_YVse2xBKz1KBkEF",0.735,0.735,"over","numeracy low",-0.029,0,"no change",1621,"R_27eATTdBXeYG3tx","male","Switzerland","> 4'000€
+>5'900 CHF","middle school",2,4,3973,"R_YVse2xBKz1KBkEF",71,"> 4'000€
+>5'900 CHF",27,66,"okay"
+"101",229242449960052,"R_yBZ7U0GXRh2cYxP",-0.434,0.622,"under","R_2riOlz6GykyQOSK","R_2riOlz6GykyQOSK",-0.134,0.799,"under","numeracy low",-0.177,-0.2,"increased error",2649,"R_yBZ7U0GXRh2cYxP","female","Switzerland","> 4'000€
+>5'900 CHF","obligatory school",2,5,2994,"R_2riOlz6GykyQOSK",61,"> 4'000€
+>5'900 CHF",44,49,"okay"
+"102",229242449960055,"R_1laeW4H0RHUBzsH",-0.183,0.677,"under","R_3rzrxxCG9fLy6pr","R_3rzrxxCG9fLy6pr",0.837,0.837,"over","numeracy low",-0.16,-0.2,"increased error",1011,"R_1laeW4H0RHUBzsH","male","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",3,7,1374,"R_3rzrxxCG9fLy6pr",44,"2'500- 4'000€
+<4'300- 5'899CHF",16,22,"okay"
+"103",229242449960057,"R_3QPeNwrbrNbvdfP",0.67,0.778,"over","R_29uhdl1Vw2SydD1","R_29uhdl1Vw2SydD1",0.342,0.819,"over","numeracy high",-0.0409999999999999,0,"no change",936,"R_3QPeNwrbrNbvdfP","male","Switzerland","> 4'000€
+>5'900 CHF","degree",1,8,881,"R_29uhdl1Vw2SydD1",37,"> 4'000€
+>5'900 CHF",15,14,"okay"
+"104",229242449960062,"R_306ktRGjcuf9mZ0",0.574,0.639,"over","R_2R3WdyyTBE50O4B","R_2R3WdyyTBE50O4B",-0.38,0.5,"under","numeracy low",0.139,0.1,"decreased error",925,"R_306ktRGjcuf9mZ0","male","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",3,3,2021,"R_2R3WdyyTBE50O4B",58,"2'500- 4'000€
+<4'300- 5'899CHF",15,33,"okay"
+"105",229242449960063,"R_3ergTTY9rUQZYUY",-1.05,1.05,"under","R_1LexZBYJhPpiZjV","R_1LexZBYJhPpiZjV",-0.568,0.568,"under","numeracy high",0.482,0.5,"decreased error",970,"R_3ergTTY9rUQZYUY","male","Switzerland","> 4'000€
+>5'900 CHF","degree",4,2,1577,"R_1LexZBYJhPpiZjV",32,"> 4'000€
+>5'900 CHF",16,26,"okay"
+"106",229242449961107,"R_3GE294eZpd1Fd3b",-0.24,0.559,"under","R_9MQsh0tELQM4X1T","R_9MQsh0tELQM4X1T",-0.564,0.679,"under","numeracy high",-0.12,-0.1,"increased error",1383,"R_3GE294eZpd1Fd3b","male","Switzerland","> 4'000€
+>5'900 CHF","degree",1,6,963,"R_9MQsh0tELQM4X1T",54,"> 4'000€
+>5'900 CHF",23,16,"okay"
+"107",229242449961111,"R_SZ8HCt2oohfoGEp",0.292,0.874,"over","R_xfjqA81JKACqddn","R_xfjqA81JKACqddn",-0.235,0.698,"under","numeracy low",0.176,0.2,"decreased error",1143,"R_SZ8HCt2oohfoGEp","male","Switzerland","> 4'000€
+>5'900 CHF","obligatory school",1,6,1546,"R_xfjqA81JKACqddn",47,"2'500- 4'000€
+<4'300- 5'899CHF",19,25,"okay"
+"108",229242449961112,"R_3purN895nsgKcPM",0.158,0.513,"over","R_3Jx6MbfEXTvKxDI","R_3Jx6MbfEXTvKxDI",0.352,0.56,"over","numeracy low",-0.047,0,"no change",977,"R_3purN895nsgKcPM","male","Switzerland","<1'500€
+<3'100CHF","obligatory school",1,7,1112,"R_3Jx6MbfEXTvKxDI",63,"<1'500€
+<3'100CHF",16,18,"okay"
+"109",229242449962145,"R_DkjeeoSb4uJhCZr",-0.635,0.825,"under","R_Oy85Q1DqMYq5jlD","R_Oy85Q1DqMYq5jlD",-1.04,1.04,"under","numeracy high",-0.215,-0.2,"increased error",775,"R_DkjeeoSb4uJhCZr","female","Switzerland","> 4'000€
+>5'900 CHF","middle school",4,3,833,"R_Oy85Q1DqMYq5jlD",38,"> 4'000€
+>5'900 CHF",12,13,"okay"
+"110",229242449962151,"R_3GjRdkDUeZzBSiE",-0.151,0.261,"under","R_2q8jjB4POrxng1J","R_2q8jjB4POrxng1J",-0.525,0.543,"under","numeracy low",-0.282,-0.3,"increased error",1146,"R_3GjRdkDUeZzBSiE","male","Switzerland","> 4'000€
+>5'900 CHF","degree",2,6,1099,"R_2q8jjB4POrxng1J",72,"> 4'000€
+>5'900 CHF",19,18,"okay"
+"111",229242449962154,"R_Zn3GcTpFo5aOZLX",0.761,0.761,"over","R_2e5tMsjqS8r894Q","R_2e5tMsjqS8r894Q",0.148,0.732,"over","numeracy low",0.029,0,"no change",3176,"R_Zn3GcTpFo5aOZLX","male","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",2,8,1734,"R_2e5tMsjqS8r894Q",58,"> 4'000€
+>5'900 CHF",52,28,"okay"
+"112",229242449963187,"R_1jlhdlFwaaQA59K",-1.44,1.44,"under","R_2tzlX1mX1CPkNHm","R_2tzlX1mX1CPkNHm",0.815,1.03,"over","numeracy low",0.41,0.4,"decreased error",534,"R_1jlhdlFwaaQA59K","male","Switzerland","<1'500€
+<3'100CHF","degree",1,5,825,"R_2tzlX1mX1CPkNHm",56,"<1'500€
+<3'100CHF",8,13,"okay"
+"113",229242449963203,"R_pnGgcITh1qCIByN",-0.604,0.889,"under","R_2En7dxb8PY0sVqa","R_2En7dxb8PY0sVqa",0.48,0.549,"over","numeracy low",0.34,0.3,"decreased error",906,"R_pnGgcITh1qCIByN","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","middle school",2,8,1331,"R_2En7dxb8PY0sVqa",51,"<1'500- 2'499€
+3'100-4'299CHF",15,22,"okay"
+"114",229242449964248,"R_3RlUrzOB5KhraCa",-0.0826,0.609,"under","R_22zBwIlTw6hKf92","R_22zBwIlTw6hKf92",-0.0861,0.475,"under","numeracy low",0.134,0.1,"decreased error",1020,"R_3RlUrzOB5KhraCa","female","Switzerland","> 4'000€
+>5'900 CHF","middle school",2,3,1096,"R_22zBwIlTw6hKf92",51,"> 4'000€
+>5'900 CHF",17,18,"okay"
+"115",229242449965295,"R_tWjlJgTTfxF3Z85",-0.267,0.495,"under","R_1JFb2GboLo58HzV","R_1JFb2GboLo58HzV",0.409,0.561,"over","numeracy high",-0.0660000000000001,-0.1,"increased error",6341,"R_tWjlJgTTfxF3Z85","male","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",1,5,1333,"R_1JFb2GboLo58HzV",50,"<1'500€
+<3'100CHF",105,22,"okay"
+"116",229242449966323,"R_1giJxdmvvymiV9n",0.152,0.573,"over","R_3fTRdl9Y4HIzfQI","R_3fTRdl9Y4HIzfQI",-0.561,0.654,"under","numeracy high",-0.0810000000000001,-0.1,"increased error",775,"R_1giJxdmvvymiV9n","male","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","degree",2,2,794,"R_3fTRdl9Y4HIzfQI",38,"2'500- 4'000€
+<4'300- 5'899CHF",12,13,"okay"
+"117",229242449966328,"R_3094TaB3sKvL10w",0.545,0.609,"over","R_2m0qE3DQhkw5quZ","R_2m0qE3DQhkw5quZ",0.332,0.441,"over","numeracy low",0.168,0.2,"decreased error",880,"R_3094TaB3sKvL10w","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","middle school",1,2,805,"R_2m0qE3DQhkw5quZ",24,"<1'500- 2'499€
+3'100-4'299CHF",14,13,"okay"
+"118",229242449966332,"R_rlGxezzTYyQ1dsd",-0.245,0.823,"under","R_bkklTWAEx4yeNhL","R_bkklTWAEx4yeNhL",-0.0648,0.883,"under","numeracy high",-0.06,-0.1,"increased error",5992,"R_rlGxezzTYyQ1dsd","male","Switzerland","> 4'000€
+>5'900 CHF","middle school",4,3,2083,"R_bkklTWAEx4yeNhL",57,"> 4'000€
+>5'900 CHF",99,34,"okay"
+"119",229242449967117,"R_3IYJzRZcDP54Yp0",-0.872,0.872,"under","R_3018SSHXTKbMgat","R_3018SSHXTKbMgat",-0.852,0.852,"under","numeracy low",0.02,0,"no change",2993,"R_3IYJzRZcDP54Yp0","female","Switzerland","<1'500€
+<3'100CHF","no formal education",2,5,1062,"R_3018SSHXTKbMgat",65,"<1'500€
+<3'100CHF",49,17,"okay"
+"120",229242449968175,"R_1j8SoIjXPT4DTvP",0.00699,0.393,"over","R_3nouJkI0EPchv0K","R_3nouJkI0EPchv0K",0.227,0.347,"over","numeracy high",0.046,0,"no change",1152,"R_1j8SoIjXPT4DTvP","male","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","degree",4,4,1725,"R_3nouJkI0EPchv0K",40,"> 4'000€
+>5'900 CHF",19,28,"okay"
+"121",229242449969214,"R_BWcQlGznhrP7sMp",-0.192,0.721,"under","R_1iqZeodTGsnoO71","R_1iqZeodTGsnoO71",0.454,0.557,"over","numeracy low",0.164,0.2,"decreased error",1162,"R_BWcQlGznhrP7sMp","female","Switzerland","> 4'000€
+>5'900 CHF","middle school",3,3,1268,"R_1iqZeodTGsnoO71",50,"> 4'000€
+>5'900 CHF",19,21,"okay"
+"122",229242449969217,"R_2uO5XyabEbAk5mA",0.577,0.854,"over","R_3nDcGHwLMBdULri","R_3nDcGHwLMBdULri",0.56,0.655,"over","numeracy low",0.199,0.2,"decreased error",936,"R_2uO5XyabEbAk5mA","male","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","degree",1,4,1559,"R_3nDcGHwLMBdULri",26,"<1'500- 2'499€
+3'100-4'299CHF",15,25,"okay"
+"123",229242449970251,"R_3hbHzzIb2p5LFeV",-0.23,0.533,"under","R_yjvkrUjn49WQFHj","R_yjvkrUjn49WQFHj",0.912,0.93,"over","numeracy low",-0.397,-0.4,"increased error",1188,"R_3hbHzzIb2p5LFeV","male","Switzerland","> 4'000€
+>5'900 CHF","degree",2,5,1700,"R_yjvkrUjn49WQFHj",75,"> 4'000€
+>5'900 CHF",19,28,"okay"
+"124",229242449970265,"R_3g7PdyeJYmUqgqL",-0.599,0.782,"under","R_1rP3xwHOfSB3Xfm","R_1rP3xwHOfSB3Xfm",-0.158,0.415,"under","numeracy low",0.367,0.4,"decreased error",1960,"R_3g7PdyeJYmUqgqL","male","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",4,1,2091,"R_1rP3xwHOfSB3Xfm",57,"> 4'000€
+>5'900 CHF",32,34,"okay"
+"125",229242449972339,"R_3IbFB1uZogY5uRE",0.185,0.402,"over","R_1LuhzYh0vCqcqBC","R_1LuhzYh0vCqcqBC",0.978,0.987,"over","numeracy low",-0.585,-0.6,"increased error",659,"R_3IbFB1uZogY5uRE","female","Switzerland","> 4'000€
+>5'900 CHF","obligatory school",4,5,1167,"R_1LuhzYh0vCqcqBC",34,"> 4'000€
+>5'900 CHF",10,19,"okay"
+"126",229242449974438,"R_22Jq692U13FYFUt",0.266,0.575,"over","R_2ZCBDZDzOb6z8WQ","R_2ZCBDZDzOb6z8WQ",0.358,0.597,"over","numeracy low",-0.022,0,"no change",1056,"R_22Jq692U13FYFUt","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",2,7,1468,"R_2ZCBDZDzOb6z8WQ",41,"<1'500€
+<3'100CHF",17,24,"okay"
+"127",229242449975493,"R_3G8pt8Wr04bbf0j",0.473,0.537,"over","R_3lQDx1cB3wc76j8","R_3lQDx1cB3wc76j8",0.427,0.683,"over","numeracy high",-0.146,-0.1,"increased error",1102,"R_3G8pt8Wr04bbf0j","male","Switzerland","> 4'000€
+>5'900 CHF","degree",1,4,1530,"R_3lQDx1cB3wc76j8",44,"> 4'000€
+>5'900 CHF",18,25,"okay"
+"128",229242449982547,"R_3IQALOx3VPabIO9",0.604,0.604,"over","R_BremVIKM3Mz3PEJ","R_BremVIKM3Mz3PEJ",0.64,0.658,"over","numeracy low",-0.054,-0.1,"increased error",2732,"R_3IQALOx3VPabIO9","male","Switzerland","<1'500€
+<3'100CHF","degree",1,8,1571,"R_BremVIKM3Mz3PEJ",59,"<1'500€
+<3'100CHF",45,26,"okay"
+"129",229242449982562,"R_1k23tDbzBDJCCYn",0.0105,0.392,"over","R_1PdvSyRjroeuRch","R_1PdvSyRjroeuRch",0.0979,0.577,"over","numeracy low",-0.185,-0.2,"increased error",1211,"R_1k23tDbzBDJCCYn","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",2,4,2039,"R_1PdvSyRjroeuRch",56,"<1'500- 2'499€
+3'100-4'299CHF",20,33,"okay"
+"130",229242450000078,"R_2Ya0u9hmC0kciFh",-0.637,0.677,"under","R_9ELsKDXdklSgout","R_9ELsKDXdklSgout",-0.665,0.764,"under","numeracy low",-0.087,-0.1,"increased error",2050,"R_2Ya0u9hmC0kciFh","male","Switzerland","> 4'000€
+>5'900 CHF","degree",3,8,1503,"R_9ELsKDXdklSgout",30,"> 4'000€
+>5'900 CHF",34,25,"okay"
+"131",229242450002154,"R_2trMR4xpeJTo3lq",0.668,0.945,"over","R_2t9y2YhFbxge3FX","R_2t9y2YhFbxge3FX",0.896,0.896,"over","numeracy low",0.0489999999999999,0,"no change",2100,"R_2trMR4xpeJTo3lq","female","Switzerland","> 4'000€
+>5'900 CHF","degree",4,4,3219,"R_2t9y2YhFbxge3FX",26,"> 4'000€
+>5'900 CHF",35,53,"okay"
+"132",229242450002158,"R_20TCFE2SuJlAdd3",-0.865,0.968,"under","R_SDftbHpcLbTJRdv","R_SDftbHpcLbTJRdv",-0.186,0.458,"under","numeracy low",0.51,0.5,"decreased error",544,"R_20TCFE2SuJlAdd3","male","Switzerland","> 4'000€
+>5'900 CHF","degree",3,3,854,"R_SDftbHpcLbTJRdv",59,"> 4'000€
+>5'900 CHF",9,14,"okay"
+"133",229242450008195,"R_2XakNPEaYy4jjwG",0.272,0.469,"over","R_2OTucPfWLWySgbQ","R_2OTucPfWLWySgbQ",-0.289,0.615,"under","numeracy high",-0.146,-0.1,"increased error",1453,"R_2XakNPEaYy4jjwG","male","Switzerland","> 4'000€
+>5'900 CHF","degree",2,3,1382,"R_2OTucPfWLWySgbQ",30,"> 4'000€
+>5'900 CHF",24,23,"okay"
+"134",229242450009233,"R_2Qnsay2GAENyGmu",-0.0982,0.547,"under","R_DvGNooOqCLbTfUt","R_DvGNooOqCLbTfUt",0.27,0.779,"over","numeracy low",-0.232,-0.2,"increased error",798,"R_2Qnsay2GAENyGmu","female","Switzerland","> 4'000€
+>5'900 CHF","degree",2,6,709,"R_DvGNooOqCLbTfUt",34,"> 4'000€
+>5'900 CHF",13,11,"okay"
+"135",229242450013428,"R_XUiFn3Edf8V2FBD",0.658,0.676,"over","R_oZRgNtKPISTf8Qh","R_oZRgNtKPISTf8Qh",-0.463,0.552,"under","numeracy high",0.124,0.1,"decreased error",806,"R_XUiFn3Edf8V2FBD","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","degree",3,5,3193,"R_oZRgNtKPISTf8Qh",26,"2'500- 4'000€
+<4'300- 5'899CHF",13,53,"okay"
+"136",229242450014215,"R_20PrGSgbrqfLXmF",0.226,0.423,"over","R_2TXIK6VleUaA37H","R_2TXIK6VleUaA37H",0.0389,0.625,"over","numeracy high",-0.202,-0.2,"increased error",2138,"R_20PrGSgbrqfLXmF","male","Switzerland","<1'500€
+<3'100CHF","obligatory school",1,4,2242,"R_2TXIK6VleUaA37H",59,"<1'500€
+<3'100CHF",35,37,"okay"
+"137",229242450017359,"R_3iRaw3Ijg0YgqDl",0.0765,0.925,"over","R_3gXFwb5Rj3GeayC","R_3gXFwb5Rj3GeayC",0.126,0.749,"over","numeracy high",0.176,0.2,"decreased error",2283,"R_3iRaw3Ijg0YgqDl","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",3,3,1703,"R_3gXFwb5Rj3GeayC",38,"<1'500- 2'499€
+3'100-4'299CHF",38,28,"okay"
+"138",229242450019449,"R_1pLjkduyxId8PDO",-0.127,0.605,"under","R_2DOdBo6U9ALFufg","R_2DOdBo6U9ALFufg",0.635,0.635,"over","numeracy high",-0.03,0,"no change",1012,"R_1pLjkduyxId8PDO","female","Switzerland","> 4'000€
+>5'900 CHF","degree",4,8,2107,"R_2DOdBo6U9ALFufg",32,"> 4'000€
+>5'900 CHF",16,35,"okay"
+"139",229242450025714,"R_3m1oTqlV5Yjzzl8",0.764,0.764,"over","R_3EgThIVtlqB8ZFN","R_3EgThIVtlqB8ZFN",0.655,0.655,"over","numeracy high",0.109,0.1,"decreased error",893,"R_3m1oTqlV5Yjzzl8","male","Switzerland","> 4'000€
+>5'900 CHF","middle school",4,3,1486,"R_3EgThIVtlqB8ZFN",51,"> 4'000€
+>5'900 CHF",14,24,"okay"
+"140",229242450029643,"R_3R8wRWQYe5SZdbT",0.674,0.692,"over","R_cBDbI624h84mH4d","R_cBDbI624h84mH4d",0.626,0.645,"over","numeracy high",0.0469999999999999,0,"no change",1285,"R_3R8wRWQYe5SZdbT","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","middle school",2,4,1019,"R_cBDbI624h84mH4d",19,"> 4'000€
+>5'900 CHF",21,16,"okay"
+"141",229242450030694,"R_12sASZ4D9fY0jtV",0.36,0.869,"over","R_w5XWAQ49QLmCWfD","R_w5XWAQ49QLmCWfD",0.511,0.668,"over","numeracy low",0.201,0.2,"decreased error",1054,"R_12sASZ4D9fY0jtV","male","Switzerland","> 4'000€
+>5'900 CHF","obligatory school",4,5,1383,"R_w5XWAQ49QLmCWfD",33,"> 4'000€
+>5'900 CHF",17,23,"okay"
+"142",229242450031736,"R_2dHkl1F6JWDWwxd",0.0374,0.491,"over","R_3dDFByZJ9WiRRnb","R_3dDFByZJ9WiRRnb",0.811,0.82,"over","numeracy high",-0.329,-0.3,"increased error",828,"R_2dHkl1F6JWDWwxd","female","Switzerland","> 4'000€
+>5'900 CHF","degree",4,8,318,"R_3dDFByZJ9WiRRnb",36,"> 4'000€
+>5'900 CHF",13,5,"speeder"
+"143",229242450035926,"R_1oGDoYaN0EHfSOZ",-0.505,0.653,"under","R_Ybr1hoXT0OQo277","R_Ybr1hoXT0OQo277",-0.195,0.354,"under","numeracy low",0.299,0.3,"decreased error",1627,"R_1oGDoYaN0EHfSOZ","female","Switzerland","<1'500€
+<3'100CHF","degree",1,5,1330,"R_Ybr1hoXT0OQo277",49,"<1'500€
+<3'100CHF",27,22,"okay"
+"144",229255657928942,"R_1DYavCLz1ceAMY4",0.33,0.429,"over","R_pDyGasdoI2EyTa9","R_pDyGasdoI2EyTa9",0.324,0.445,"over","numeracy low",-0.016,0,"no change",1354,"R_1DYavCLz1ceAMY4","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","degree",2,4,1746,"R_pDyGasdoI2EyTa9",66,"2'500- 4'000€
+<4'300- 5'899CHF",22,29,"okay"
+"145",229255657930998,"R_D8X8cKEgvvYgB7r",0.0921,0.415,"over","R_ZDBtgQFafDprwXv","R_ZDBtgQFafDprwXv",-0.73,0.876,"under","numeracy low",-0.461,-0.5,"increased error",1299,"R_D8X8cKEgvvYgB7r","male","Germany","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",1,6,1541,"R_ZDBtgQFafDprwXv",64,"<1'500- 2'499€
+3'100-4'299CHF",21,25,"okay"
+"146",229255657931005,"R_3fxDHe5zipJwTU7",-0.0329,0.429,"under","R_2ROlNuBvXLmCi1x","R_2ROlNuBvXLmCi1x",0.0424,0.591,"over","numeracy high",-0.162,-0.2,"increased error",1040,"R_3fxDHe5zipJwTU7","female","Germany","<1'500- 2'499€
+3'100-4'299CHF","degree",1,4,7742,"R_2ROlNuBvXLmCi1x",56,"<1'500- 2'499€
+3'100-4'299CHF",17,129,"okay"
+"147",229255657931781,"R_vBpjBVWxgHwdR85",-0.46,0.568,"under","R_yHAHJFquMBmsUEh","R_yHAHJFquMBmsUEh",0.362,0.513,"over","numeracy low",0.0549999999999999,0.1,"decreased error",1256,"R_vBpjBVWxgHwdR85","male","Germany","<1'500- 2'499€
+3'100-4'299CHF","no formal education",1,5,2182,"R_yHAHJFquMBmsUEh",67,"<1'500- 2'499€
+3'100-4'299CHF",20,36,"okay"
+"148",229255657931784,"R_3fk6vs8uR5E62Lj",-0.407,0.513,"under","R_2THMWSSD3Kxxxy0","R_2THMWSSD3Kxxxy0",-0.246,0.452,"under","numeracy low",0.061,0.1,"decreased error",803,"R_3fk6vs8uR5E62Lj","female","Germany","<1'500- 2'499€
+3'100-4'299CHF","no formal education",4,7,841,"R_2THMWSSD3Kxxxy0",46,"<1'500- 2'499€
+3'100-4'299CHF",13,14,"okay"
+"149",229255657932820,"R_2Evp2buY7Uor84e",-0.243,0.525,"under","R_3G6sJVzV6kfEKOa","R_3G6sJVzV6kfEKOa",0.317,0.689,"over","numeracy high",-0.164,-0.2,"increased error",1049,"R_2Evp2buY7Uor84e","female","Germany","> 4'000€
+>5'900 CHF","degree",2,5,1819,"R_3G6sJVzV6kfEKOa",54,"> 4'000€
+>5'900 CHF",17,30,"okay"
+"150",229255657932824,"R_338DXYGYMn3iys2",0.364,0.503,"over","R_3kMmLUhdgxfo5E4","R_3kMmLUhdgxfo5E4",0.273,0.338,"over","numeracy low",0.165,0.2,"decreased error",571,"R_338DXYGYMn3iys2","male","Germany","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",2,5,689,"R_3kMmLUhdgxfo5E4",52,"2'500- 4'000€
+<4'300- 5'899CHF",9,11,"okay"
+"151",229255657932828,"R_2AQG0rzvUe5a4kM",0.789,0.789,"over","R_3MuHWM5gnFAahwf","R_3MuHWM5gnFAahwf",0.733,0.753,"over","numeracy high",0.036,0,"no change",1079,"R_2AQG0rzvUe5a4kM","female","Germany","> 4'000€
+>5'900 CHF","degree",4,7,1704,"R_3MuHWM5gnFAahwf",60,"2'500- 4'000€
+<4'300- 5'899CHF",17,28,"okay"
+"152",229255657933879,"R_1mEKYPdbW4MPIrp",0.0792,0.373,"over","R_2A0ZyfHN8PF2erE","R_2A0ZyfHN8PF2erE",0.124,0.561,"over","numeracy low",-0.188,-0.2,"increased error",845,"R_1mEKYPdbW4MPIrp","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",3,7,1060,"R_2A0ZyfHN8PF2erE",55,"2'500- 4'000€
+<4'300- 5'899CHF",14,17,"okay"
+"153",229255657934918,"R_3kiAUePCg8kLR8i",-0.233,0.461,"under","R_2VxLGUSM0lfPof1","R_2VxLGUSM0lfPof1",-1.33,1.33,"under","numeracy low",-0.869,-0.9,"increased error",1204,"R_3kiAUePCg8kLR8i","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","degree",2,5,949,"R_2VxLGUSM0lfPof1",57,"2'500- 4'000€
+<4'300- 5'899CHF",20,15,"okay"
+"154",229255657935968,"R_22PLy8f4obVWnmz",0.311,0.629,"over","R_3R4pVcd0KlBWl4V","R_3R4pVcd0KlBWl4V",0.577,0.805,"over","numeracy high",-0.176,-0.2,"increased error",798,"R_22PLy8f4obVWnmz","male","Germany","<1'500€
+<3'100CHF","middle school",1,5,952,"R_3R4pVcd0KlBWl4V",58,"<1'500€
+<3'100CHF",13,15,"okay"
+"155",229255657936996,"R_234fD5Z9iTrtGwl",0.392,0.616,"over","R_12nepXyOEnwLAif","R_12nepXyOEnwLAif",0.62,0.653,"over","numeracy low",-0.037,0,"no change",739,"R_234fD5Z9iTrtGwl","female","Germany","<1'500- 2'499€
+3'100-4'299CHF","middle school",1,4,775,"R_12nepXyOEnwLAif",22,"<1'500- 2'499€
+3'100-4'299CHF",12,12,"okay"
+"156",229255657936997,"R_BVtq8zZtCjE6BB7",-0.44,0.543,"under","R_1g0codRo4a9OQoO","R_1g0codRo4a9OQoO",-0.934,0.934,"under","numeracy low",-0.391,-0.4,"increased error",461,"R_BVtq8zZtCjE6BB7","male","Germany","> 4'000€
+>5'900 CHF","middle school",3,4,343,"R_1g0codRo4a9OQoO",28,"> 4'000€
+>5'900 CHF",7,5,"speeder"
+"157",229255657937001,"R_cYIwKezOfDVVChz",-0.176,0.405,"under","R_3hubsLzXrSdsisz","R_3hubsLzXrSdsisz",-0.257,0.43,"under","numeracy low",-0.025,0,"no change",770,"R_cYIwKezOfDVVChz","male","Germany","<1'500€
+<3'100CHF","obligatory school",3,5,3778,"R_3hubsLzXrSdsisz",44,"<1'500- 2'499€
+3'100-4'299CHF",12,62,"okay"
+"158",229255657938040,"R_1QlOVkUcUhO7Ja9",-0.134,0.375,"under","R_30fcPq6axMgBolc","R_30fcPq6axMgBolc",0.334,0.456,"over","numeracy low",-0.081,-0.1,"increased error",740,"R_1QlOVkUcUhO7Ja9","male","Germany","> 4'000€
+>5'900 CHF","degree",2,6,917,"R_30fcPq6axMgBolc",51,"> 4'000€
+>5'900 CHF",12,15,"okay"
+"159",229255657938043,"R_1NaaqSLkXYb5DrA",-0.18,0.408,"under","R_RKqHmKR3xJkYtax","R_RKqHmKR3xJkYtax",-0.0428,0.518,"under","numeracy high",-0.11,-0.1,"increased error",990,"R_1NaaqSLkXYb5DrA","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","middle school",4,5,924,"R_RKqHmKR3xJkYtax",48,"2'500- 4'000€
+<4'300- 5'899CHF",16,15,"okay"
+"160",229255657939091,"R_25sc4jWiebwhoSv",0.424,0.5,"over","R_1gLvjTZg4QNX5QS","R_1gLvjTZg4QNX5QS",0.132,0.704,"over","numeracy low",-0.204,-0.2,"increased error",687,"R_25sc4jWiebwhoSv","female","Germany","> 4'000€
+>5'900 CHF","degree",2,5,720,"R_1gLvjTZg4QNX5QS",31,"> 4'000€
+>5'900 CHF",11,12,"okay"
+"161",229255657939099,"R_eyRlyv0mGo9RljH",-0.757,0.847,"under","R_2YLoY951ZogozTf","R_2YLoY951ZogozTf",0.564,0.772,"over","numeracy low",0.075,0.1,"decreased error",1113,"R_eyRlyv0mGo9RljH","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",4,5,1244,"R_2YLoY951ZogozTf",22,"2'500- 4'000€
+<4'300- 5'899CHF",18,20,"okay"
+"162",229255657940131,"R_2TMKimcEcRwikm9",-0.543,0.615,"under","R_3e1TqdtfLQhf4L2","R_3e1TqdtfLQhf4L2",0.439,0.642,"over","numeracy high",-0.027,0,"no change",343,"R_2TMKimcEcRwikm9","male","Germany","<1'500- 2'499€
+3'100-4'299CHF","degree",2,5,858,"R_3e1TqdtfLQhf4L2",28,"<1'500- 2'499€
+3'100-4'299CHF",5,14,"speeder"
+"163",229255657941170,"R_3g02bcIpWgCvGPQ",-1.4,1.4,"under","R_3L7muBEyUDuUPvc","R_3L7muBEyUDuUPvc",0.072,0.604,"over","numeracy low",0.796,0.8,"decreased error",7128,"R_3g02bcIpWgCvGPQ","female","Germany","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",4,4,1506,"R_3L7muBEyUDuUPvc",22,"<1'500- 2'499€
+3'100-4'299CHF",118,25,"okay"
+"164",229255657942213,"R_3nUc7oJWOKlnJBV",0.13,0.572,"over","R_1RJFm66oU5fP5Qt","R_1RJFm66oU5fP5Qt",0.501,0.767,"over","numeracy low",-0.195,-0.2,"increased error",629,"R_3nUc7oJWOKlnJBV","male","Germany","<1'500€
+<3'100CHF","middle school",1,3,1678,"R_1RJFm66oU5fP5Qt",26,"<1'500€
+<3'100CHF",10,27,"okay"
+"165",229255657942218,"R_20Ov8RSteb1ii4S",-0.58,0.58,"under","R_3EDOF5X2jihdhSP","R_3EDOF5X2jihdhSP",-0.229,0.391,"under","numeracy low",0.189,0.2,"decreased error",4119,"R_20Ov8RSteb1ii4S","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","middle school",2,6,1384,"R_3EDOF5X2jihdhSP",50,"2'500- 4'000€
+<4'300- 5'899CHF",68,23,"okay"
+"166",229255657942219,"R_1Liem5kTbkr14lF",-0.45,0.541,"under","R_2dzIMFCeBrnYXrM","R_2dzIMFCeBrnYXrM",-0.45,0.499,"under","numeracy low",0.042,0,"no change",1172,"R_1Liem5kTbkr14lF","male","Germany","> 4'000€
+>5'900 CHF","degree",3,6,1634,"R_2dzIMFCeBrnYXrM",34,"> 4'000€
+>5'900 CHF",19,27,"okay"
+"167",229255657944311,"R_pPH8REPLpVM9lAt",-0.0776,0.469,"under","R_33DNS6quldJesE7","R_33DNS6quldJesE7",0.559,0.586,"over","numeracy low",-0.117,-0.1,"increased error",878,"R_pPH8REPLpVM9lAt","female","Germany","<1'500- 2'499€
+3'100-4'299CHF","middle school",2,5,1026,"R_33DNS6quldJesE7",27,"> 4'000€
+>5'900 CHF",14,17,"okay"
+"168",229255657947188,"R_1i5sFl38pMZRzhx",0.186,0.365,"over","R_3QPZLvzZvpyN968","R_3QPZLvzZvpyN968",0.393,0.662,"over","numeracy low",-0.297,-0.3,"increased error",829,"R_1i5sFl38pMZRzhx","male","Germany","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",2,8,1175,"R_3QPZLvzZvpyN968",27,"<1'500- 2'499€
+3'100-4'299CHF",13,19,"okay"
+"169",229255657949260,"R_7ajpMxoVpAYR3cR",0.199,0.593,"over","R_31d46rHYvYh3VrS","R_31d46rHYvYh3VrS",0.265,0.892,"over","numeracy low",-0.299,-0.3,"increased error",1132,"R_7ajpMxoVpAYR3cR","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","middle school",2,5,1115,"R_31d46rHYvYh3VrS",49,"2'500- 4'000€
+<4'300- 5'899CHF",18,18,"okay"
+"170",229255657951349,"R_z0CDhN9620Hiv9T",-0.405,0.518,"under","R_1LtemN8EXM5ZUBN","R_1LtemN8EXM5ZUBN",0.0602,0.479,"over","numeracy high",0.039,0,"no change",13156,"R_z0CDhN9620Hiv9T","male","Germany","> 4'000€
+>5'900 CHF","degree",2,5,30237,"R_1LtemN8EXM5ZUBN",35,"> 4'000€
+>5'900 CHF",219,503,"okay"
+"171",229255657952395,"R_1253hukGlxFYfER",0.36,0.592,"over","R_ZvZNUw4EfkNkyCl","R_ZvZNUw4EfkNkyCl",0.417,0.573,"over","numeracy high",0.019,0,"no change",1815,"R_1253hukGlxFYfER","male","Germany","<1'500- 2'499€
+3'100-4'299CHF","middle school",1,4,1206,"R_ZvZNUw4EfkNkyCl",28,"<1'500- 2'499€
+3'100-4'299CHF",30,20,"okay"
+"172",229255657957600,"R_3oYpTt5mP3Z4rKn",0.43,0.562,"over","R_12EXkLuWI7zwqvD","R_12EXkLuWI7zwqvD",0.404,0.537,"over","numeracy high",0.025,0,"no change",2310,"R_3oYpTt5mP3Z4rKn","female","Germany","> 4'000€
+>5'900 CHF","degree",2,4,1879,"R_12EXkLuWI7zwqvD",54,"> 4'000€
+>5'900 CHF",38,31,"okay"
+"173",229255657958647,"R_3HAg4bflYU3dIBZ",0.507,0.665,"over","R_2BerMsevklfK0C6","R_2BerMsevklfK0C6",0.876,0.876,"over","numeracy low",-0.211,-0.2,"increased error",1082,"R_3HAg4bflYU3dIBZ","female","Germany","<1'500- 2'499€
+3'100-4'299CHF","middle school",1,6,6920,"R_2BerMsevklfK0C6",28,"<1'500- 2'499€
+3'100-4'299CHF",18,115,"okay"
+"174",229255657959433,"R_2zeYp2NsaPfHrFp",-0.168,0.359,"under","R_3oYG3dkZhORjOX6","R_3oYG3dkZhORjOX6",-0.14,0.348,"under","numeracy high",0.011,0,"no change",1761,"R_2zeYp2NsaPfHrFp","female","Germany","<1'500- 2'499€
+3'100-4'299CHF","degree",2,5,2443,"R_3oYG3dkZhORjOX6",42,"2'500- 4'000€
+<4'300- 5'899CHF",29,40,"okay"
+"175",229255657965656,"R_YXN6D7S6HtYGyCR",0.155,0.419,"over","R_1hQEo3eSrkO8U4m","R_1hQEo3eSrkO8U4m",-0.206,0.28,"under","numeracy high",0.139,0.1,"decreased error",2606,"R_YXN6D7S6HtYGyCR","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","degree",2,5,4865,"R_1hQEo3eSrkO8U4m",67,"<1'500- 2'499€
+3'100-4'299CHF",43,81,"okay"
+"176",229255657966697,"R_zeY2QpcRAsD3WlH",0.465,0.577,"over","R_1hPRfP2ZEnVS9MR","R_1hPRfP2ZEnVS9MR",0.283,0.548,"over","numeracy low",0.0289999999999999,0,"no change",1549,"R_zeY2QpcRAsD3WlH","female","Germany","<1'500€
+<3'100CHF","degree",1,6,1702,"R_1hPRfP2ZEnVS9MR",73,"<1'500€
+<3'100CHF",25,28,"okay"
+"177",229255657966698,"R_3M6iivw99fLhS17",-0.376,0.688,"under","R_2VsQH2SgvmwEvPl","R_2VsQH2SgvmwEvPl",0.499,0.663,"over","numeracy low",0.0249999999999999,0,"no change",888,"R_3M6iivw99fLhS17","female","Germany","<1'500- 2'499€
+3'100-4'299CHF","middle school",1,7,936,"R_2VsQH2SgvmwEvPl",25,"<1'500- 2'499€
+3'100-4'299CHF",14,15,"okay"
+"178",229255657970831,"R_rkYd49GtMfFH5vj",0.431,0.655,"over","R_12rpjjaAH22b0AL","R_12rpjjaAH22b0AL",-1.45,1.45,"under","numeracy low",-0.795,-0.8,"increased error",842,"R_rkYd49GtMfFH5vj","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",2,5,438,"R_12rpjjaAH22b0AL",29,"2'500- 4'000€
+<4'300- 5'899CHF",14,7,"speeder"
+"179",229255657980998,"R_3nDwBXPS5qRtTye",0.247,0.481,"over","R_2ZTsNN6kZ9cVYHV","R_2ZTsNN6kZ9cVYHV",-0.103,0.718,"under","numeracy low",-0.237,-0.2,"increased error",1489,"R_3nDwBXPS5qRtTye","female","Germany","<1'500€
+<3'100CHF","middle school",4,5,1553,"R_2ZTsNN6kZ9cVYHV",22,"<1'500€
+<3'100CHF",24,25,"okay"
+"180",229255657984125,"R_2Ce0NgCH6zpMRJb",-1.62,1.62,"under","R_300O2DUnqnIyEq8","R_300O2DUnqnIyEq8",0.692,0.7,"over","numeracy low",0.92,0.9,"decreased error",926,"R_2Ce0NgCH6zpMRJb","female","Germany","> 4'000€
+>5'900 CHF","middle school",4,5,4114,"R_300O2DUnqnIyEq8",21,"> 4'000€
+>5'900 CHF",15,68,"okay"
+"181",229255657997387,"R_0TmEasAMNDaTx73",-0.342,0.565,"under","R_2uTLa7HMnc5Gs9E","R_2uTLa7HMnc5Gs9E",-0.342,0.463,"under","numeracy low",0.102,0.1,"decreased error",1630,"R_0TmEasAMNDaTx73","female","Germany","<1'500- 2'499€
+3'100-4'299CHF","degree",1,6,1415,"R_2uTLa7HMnc5Gs9E",28,"<1'500- 2'499€
+3'100-4'299CHF",27,23,"okay"
+"182",229255657999471,"R_3ivSk5kamR28JsF",-0.63,0.902,"under","R_1rPu8GlUfBUaT1f","R_1rPu8GlUfBUaT1f",-0.12,0.56,"under","numeracy low",0.342,0.3,"decreased error",1133,"R_3ivSk5kamR28JsF","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",4,5,1099,"R_1rPu8GlUfBUaT1f",30,"2'500- 4'000€
+<4'300- 5'899CHF",18,18,"okay"
+"183",229255658003638,"R_1d9WC22juoRU6UJ",0.312,0.519,"over","R_12ncLRlhWhSi4HC","R_12ncLRlhWhSi4HC",-0.108,0.398,"under","numeracy low",0.121,0.1,"decreased error",3919,"R_1d9WC22juoRU6UJ","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","middle school",4,5,6672,"R_12ncLRlhWhSi4HC",40,"2'500- 4'000€
+<4'300- 5'899CHF",65,111,"okay"
+"184",229255658040397,"R_2bJDToiRAL3MEMM",0.567,0.66,"over","R_seaXQMZjWZEuFVv","R_seaXQMZjWZEuFVv",0.0215,0.518,"over","numeracy high",0.142,0.1,"decreased error",1497,"R_2bJDToiRAL3MEMM","female","Germany","> 4'000€
+>5'900 CHF","degree",3,2,1517,"R_seaXQMZjWZEuFVv",42,"> 4'000€
+>5'900 CHF",24,25,"okay"
+"185",229255658041440,"R_1dFaniBnw4OZYyy",-1.25,1.25,"under","R_3eXIx145q24P5ct","R_3eXIx145q24P5ct",-0.705,0.776,"under","numeracy low",0.474,0.5,"decreased error",1089,"R_1dFaniBnw4OZYyy","female","Germany","<1'500€
+<3'100CHF","middle school",2,6,875,"R_3eXIx145q24P5ct",23,"<1'500- 2'499€
+3'100-4'299CHF",18,14,"okay"
+"186",229255658041449,"R_YaxFNmBVsljQcN3",-0.067,0.515,"under","R_pbz6lXYpu64Zyut","R_pbz6lXYpu64Zyut",-0.355,0.556,"under","numeracy high",-0.041,0,"no change",1353,"R_YaxFNmBVsljQcN3","male","Germany","> 4'000€
+>5'900 CHF","degree",2,6,1047,"R_pbz6lXYpu64Zyut",29,"> 4'000€
+>5'900 CHF",22,17,"okay"
+"187",229256171549895,"R_6tYWl75MHmR54KB",0.31,0.441,"over","R_1Cl2SebPQbOFhuz","R_1Cl2SebPQbOFhuz",0.492,0.502,"over","numeracy high",-0.061,-0.1,"increased error",636,"R_6tYWl75MHmR54KB","male","Switzerland","> 4'000€
+>5'900 CHF","degree",1,6,999,"R_1Cl2SebPQbOFhuz",39,"> 4'000€
+>5'900 CHF",10,16,"okay"
+"188",229256171552970,"R_Ab6UGDbmjVtu3AZ",0.348,0.718,"over","R_22re08dv5zyt3zy","R_22re08dv5zyt3zy",0.456,0.662,"over","numeracy low",0.0559999999999999,0.1,"decreased error",847,"R_Ab6UGDbmjVtu3AZ","female","Switzerland","> 4'000€
+>5'900 CHF","degree",5,9,769,"R_22re08dv5zyt3zy",45,"2'500- 4'000€
+<4'300- 5'899CHF",14,12,"okay"
+"189",229256171556050,"R_1kNYEgfcdgcFO51",0.432,0.526,"over","R_2OTsX0VoE5sGvbN","R_2OTsX0VoE5sGvbN",0.537,0.98,"over","numeracy low",-0.454,-0.5,"increased error",1041,"R_1kNYEgfcdgcFO51","female","Switzerland","<1'500€
+<3'100CHF","obligatory school",4,6,1261,"R_2OTsX0VoE5sGvbN",48,"<1'500- 2'499€
+3'100-4'299CHF",17,21,"okay"
+"190",229256171561183,"R_11bfomFynMxQ2HS",-0.11,0.701,"under","R_2e4gsRcT2FLvlEh","R_2e4gsRcT2FLvlEh",-0.195,0.897,"under","numeracy low",-0.196,-0.2,"increased error",724,"R_11bfomFynMxQ2HS","male","Switzerland","<1'500€
+<3'100CHF","obligatory school",1,1,11181,"R_2e4gsRcT2FLvlEh",53,"<1'500- 2'499€
+3'100-4'299CHF",12,186,"okay"
+"191",229256171567352,"R_2ypy9ol4uFVDmgX",-0.335,0.475,"under","R_pMXDxYiOWN0mZAB","R_pMXDxYiOWN0mZAB",-0.741,0.741,"under","numeracy low",-0.266,-0.3,"increased error",808,"R_2ypy9ol4uFVDmgX","male","Switzerland","> 4'000€
+>5'900 CHF","degree",2,5,693,"R_pMXDxYiOWN0mZAB",55,"> 4'000€
+>5'900 CHF",13,11,"okay"
+"192",229256171569156,"R_ZwTzFkXwgh0Fzyx",0.301,0.508,"over","R_1DHhLExORVUMSTn","R_1DHhLExORVUMSTn",0.0303,0.727,"over","numeracy high",-0.219,-0.2,"increased error",2583,"R_ZwTzFkXwgh0Fzyx","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","no formal education",2,6,2958,"R_1DHhLExORVUMSTn",55,"2'500- 4'000€
+<4'300- 5'899CHF",43,49,"okay"
+"193",229256171575321,"R_WdOv7WjyReZ2Izn",-0.0861,0.566,"under","R_3JdS6G2oeyURtlh","R_3JdS6G2oeyURtlh",0.295,0.695,"over","numeracy low",-0.129,-0.1,"increased error",1748,"R_WdOv7WjyReZ2Izn","male","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",2,8,2398,"R_3JdS6G2oeyURtlh",63,"2'500- 4'000€
+<4'300- 5'899CHF",29,39,"okay"
+"194",229256171581482,"R_2ag9KO7neo6tVIm",0.523,0.541,"over","R_3khTb6ohZTEw1uj","R_3khTb6ohZTEw1uj",-0.0826,0.491,"under","numeracy low",0.05,0.1,"decreased error",626,"R_2ag9KO7neo6tVIm","male","Switzerland","> 4'000€
+>5'900 CHF","obligatory school",3,3,948,"R_3khTb6ohZTEw1uj",56,"> 4'000€
+>5'900 CHF",10,15,"okay"
+"195",229256171582508,"R_3siQFVhDI105wbQ",0.727,0.746,"over","R_3rNS3W6jWnb4XA4","R_3rNS3W6jWnb4XA4",0.62,0.638,"over","numeracy low",0.108,0.1,"decreased error",1724,"R_3siQFVhDI105wbQ","female","Switzerland","> 4'000€
+>5'900 CHF","middle school",2,2,2318,"R_3rNS3W6jWnb4XA4",73,"> 4'000€
+>5'900 CHF",28,38,"okay"
+"196",229256171601985,"R_3mgY6Y0UIN2HyQ8",0.214,0.548,"over","R_ujE7f07IK4OOVxf","R_ujE7f07IK4OOVxf",0.438,0.551,"over","numeracy low",-0.003,0,"no change",1471,"R_3mgY6Y0UIN2HyQ8","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","middle school",2,5,1866,"R_ujE7f07IK4OOVxf",50,"2'500- 4'000€
+<4'300- 5'899CHF",24,31,"okay"
+"197",229256171609167,"R_DNRyhi5gcPlwDRv",0.284,0.317,"over","R_11Xg8JyRKok3DIm","R_11Xg8JyRKok3DIm",0.152,0.516,"over","numeracy high",-0.199,-0.2,"increased error",1242,"R_DNRyhi5gcPlwDRv","male","Switzerland","> 4'000€
+>5'900 CHF","degree",4,6,1733,"R_11Xg8JyRKok3DIm",47,"> 4'000€
+>5'900 CHF",20,28,"okay"
+"198",229256171622503,"R_2aIvH7bEKgmeRSd",0.38,0.597,"over","R_3pkY5QiTao68mOf","R_3pkY5QiTao68mOf",0.677,0.716,"over","numeracy low",-0.119,-0.1,"increased error",1595,"R_2aIvH7bEKgmeRSd","male","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","degree",4,9,1116,"R_3pkY5QiTao68mOf",41,"> 4'000€
+>5'900 CHF",26,18,"okay"
+"199",229256171630718,"R_1o1iNts3exPmieU",-0.527,0.699,"under","R_2ZOLtO5eQcxaywi","R_2ZOLtO5eQcxaywi",-0.236,0.669,"under","numeracy low",0.0299999999999999,0,"no change",1230,"R_1o1iNts3exPmieU","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","middle school",1,6,1590,"R_2ZOLtO5eQcxaywi",64,"2'500- 4'000€
+<4'300- 5'899CHF",20,26,"okay"
+"200",229256171636877,"R_3s04VQwuwiRt0e2",0.4,0.442,"over","R_TnJKPfSngzfmYhj","R_TnJKPfSngzfmYhj",0.0822,0.595,"over","numeracy low",-0.153,-0.2,"increased error",1663,"R_3s04VQwuwiRt0e2","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","middle school",2,2,2164,"R_TnJKPfSngzfmYhj",60,"2'500- 4'000€
+<4'300- 5'899CHF",27,36,"okay"
+"201",229256171644062,"R_1FDtuG3k56IdBXy",0.219,0.563,"over","R_2s56lo4tG3fLjIQ","R_2s56lo4tG3fLjIQ",0.352,0.487,"over","numeracy low",0.076,0.1,"decreased error",950,"R_1FDtuG3k56IdBXy","male","Switzerland","> 4'000€
+>5'900 CHF","degree",4,6,1455,"R_2s56lo4tG3fLjIQ",64,"> 4'000€
+>5'900 CHF",15,24,"okay"
+"202",229256171658438,"R_2xxvAFqyH4RVpzq",0.724,0.813,"over","R_1l0RIyAa9CP5bzP","R_1l0RIyAa9CP5bzP",0.295,0.577,"over","numeracy low",0.236,0.2,"decreased error",1883,"R_2xxvAFqyH4RVpzq","male","Switzerland","> 4'000€
+>5'900 CHF","obligatory school",2,7,1786,"R_1l0RIyAa9CP5bzP",76,"> 4'000€
+>5'900 CHF",31,29,"okay"
+"203",229256171660490,"R_PtRAPkXLYtVoPRL",0.167,0.36,"over","R_1n1JzBYizsP8rTM","R_1n1JzBYizsP8rTM",-0.472,0.472,"under","numeracy low",-0.112,-0.1,"increased error",1004,"R_PtRAPkXLYtVoPRL","male","Switzerland","> 4'000€
+>5'900 CHF","obligatory school",2,7,1213,"R_1n1JzBYizsP8rTM",68,"> 4'000€
+>5'900 CHF",16,20,"okay"
+"204",229256171670763,"R_1LoIjURU32wpqKF",0.684,0.726,"over","R_22DlIOA1QuwsRtH","R_22DlIOA1QuwsRtH",0.398,0.729,"over","numeracy low",-0.003,0,"no change",1985,"R_1LoIjURU32wpqKF","male","Switzerland","> 4'000€
+>5'900 CHF","middle school",4,8,8266,"R_22DlIOA1QuwsRtH",44,"<1'500- 2'499€
+3'100-4'299CHF",33,137,"okay"
+"205",229256171671793,"R_1jxNAbcEEMGNBkz",0.767,0.767,"over","R_sZ5hFn2aGEar5K1","R_sZ5hFn2aGEar5K1",0.43,0.932,"over","numeracy low",-0.165,-0.2,"increased error",1540,"R_1jxNAbcEEMGNBkz","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",3,4,4537,"R_sZ5hFn2aGEar5K1",20,"<1'500- 2'499€
+3'100-4'299CHF",25,75,"okay"
+"206",229256171672827,"R_12nkx2QU4KAOjzq",-0.0313,0.493,"under","R_WetzP6sCYnlwhs5","R_WetzP6sCYnlwhs5",-0.239,0.394,"under","numeracy high",0.099,0.1,"decreased error",1784,"R_12nkx2QU4KAOjzq","male","Switzerland","> 4'000€
+>5'900 CHF","degree",4,8,1773,"R_WetzP6sCYnlwhs5",57,"> 4'000€
+>5'900 CHF",29,29,"okay"
+"207",229256171676680,"R_1JF7XaAKoJRpbIc",-0.303,0.805,"under","R_1rq6oBNP3dfuJSh","R_1rq6oBNP3dfuJSh",0.436,0.556,"over","numeracy low",0.249,0.2,"decreased error",578,"R_1JF7XaAKoJRpbIc","female","Switzerland","> 4'000€
+>5'900 CHF","degree",2,3,650,"R_1rq6oBNP3dfuJSh",45,"> 4'000€
+>5'900 CHF",9,10,"okay"
+"208",229256171707512,"R_AAHKZ3vcmf71Pjj",-0.217,0.437,"under","R_3gL5PLi3c3Tyn7l","R_3gL5PLi3c3Tyn7l",0.195,0.636,"over","numeracy high",-0.199,-0.2,"increased error",1828,"R_AAHKZ3vcmf71Pjj","male","Switzerland","> 4'000€
+>5'900 CHF","degree",4,5,1523,"R_3gL5PLi3c3Tyn7l",25,"> 4'000€
+>5'900 CHF",30,25,"okay"
+"209",229256171709564,"R_1ghcFo1JrTvT8DO",-0.826,0.859,"under","R_21u3i7hJZiGF7q8","R_21u3i7hJZiGF7q8",0.375,0.578,"over","numeracy low",0.281,0.3,"decreased error",295,"R_1ghcFo1JrTvT8DO","male","Switzerland","> 4'000€
+>5'900 CHF","degree",2,8,558,"R_21u3i7hJZiGF7q8",43,"> 4'000€
+>5'900 CHF",4,9,"speeder"
+"210",229256171712646,"R_Or1AiWB4eJhjZpD",0.08,0.398,"over","R_1KjR9tFAM9YeB0x","R_1KjR9tFAM9YeB0x",-0.074,0.356,"under","numeracy high",0.042,0,"no change",6717,"R_Or1AiWB4eJhjZpD","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",1,3,10837,"R_1KjR9tFAM9YeB0x",47,"2'500- 4'000€
+<4'300- 5'899CHF",111,180,"okay"
+"211",229256171733167,"R_3lWWBqWRXixfnYH",0.774,0.774,"over","R_1OOwSBX7GRf44TF","R_1OOwSBX7GRf44TF",0.283,0.71,"over","numeracy low",0.0640000000000001,0.1,"decreased error",2349,"R_3lWWBqWRXixfnYH","female","Switzerland","> 4'000€
+>5'900 CHF","degree",3,4,1507,"R_1OOwSBX7GRf44TF",24,"2'500- 4'000€
+<4'300- 5'899CHF",39,25,"okay"
+"212",229256171741387,"R_2AMhKoUk1l2B7aY",-0.303,0.458,"under","R_RCgfxvMaSTFEMEx","R_RCgfxvMaSTFEMEx",0.221,0.435,"over","numeracy low",0.023,0,"no change",1169,"R_2AMhKoUk1l2B7aY","male","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",2,8,1519,"R_RCgfxvMaSTFEMEx",26,"2'500- 4'000€
+<4'300- 5'899CHF",19,25,"okay"
+"213",229256171743437,"R_UutbqIVKMY6CypX",0.0204,0.237,"over","R_2X4FuYhXmC8ywIK","R_2X4FuYhXmC8ywIK",0.0131,0.351,"over","numeracy high",-0.114,-0.1,"increased error",8887,"R_UutbqIVKMY6CypX","male","Switzerland","> 4'000€
+>5'900 CHF","degree",4,7,1343,"R_2X4FuYhXmC8ywIK",36,"> 4'000€
+>5'900 CHF",148,22,"okay"
+"214",229256171754731,"R_2VO6QNbhe2MmBTA",-0.842,1.05,"under","R_2S0octCIzzOhicw","R_2S0octCIzzOhicw",0.996,0.996,"over","numeracy low",0.054,0.1,"decreased error",897,"R_2VO6QNbhe2MmBTA","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","no formal education",1,8,1104,"R_2S0octCIzzOhicw",45,"<1'500- 2'499€
+3'100-4'299CHF",14,18,"okay"
+"215",229256171770896,"R_9SwDxmdVRzn9FdL",-1.44,1.44,"under","R_3FRKYX9SsnpvlPA","R_3FRKYX9SsnpvlPA",-0.342,0.677,"under","numeracy low",0.763,0.8,"decreased error",1185,"R_9SwDxmdVRzn9FdL","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",1,8,1688,"R_3FRKYX9SsnpvlPA",38,"<1'500€
+<3'100CHF",19,28,"okay"
+"216",229256171776032,"R_2wconsnovSxkAzJ",0.792,0.792,"over","R_3exXU5InBRQRN4u","R_3exXU5InBRQRN4u",0.698,0.698,"over","numeracy low",0.0940000000000001,0.1,"decreased error",1090,"R_2wconsnovSxkAzJ","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",1,6,1086,"R_3exXU5InBRQRN4u",23,"<1'500€
+<3'100CHF",18,18,"okay"
+"217",229256171818133,"R_eKWYsNTk180LbDr",0.931,0.931,"over","R_2eWgxkI1ZcLlACS","R_2eWgxkI1ZcLlACS",-0.837,0.865,"under","numeracy low",0.0660000000000001,0.1,"decreased error",704,"R_eKWYsNTk180LbDr","male","Switzerland","> 4'000€
+>5'900 CHF","degree",5,4,1138,"R_2eWgxkI1ZcLlACS",29,"> 4'000€
+>5'900 CHF",11,18,"okay"
+"218",229256171835582,"R_3s6qPNlNN0k4mS0",-0.168,0.619,"under","R_2rwInOPZ1KueAnO","R_2rwInOPZ1KueAnO",0.239,0.584,"over","numeracy high",0.035,0,"no change",518,"R_3s6qPNlNN0k4mS0","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","middle school",1,6,1038,"R_2rwInOPZ1KueAnO",31,"<1'500- 2'499€
+3'100-4'299CHF",8,17,"okay"
+"219",229256171858967,"R_3KBbO4HrzSQov8h",0.089,0.583,"over","R_3qatyGZwQtBLs5f","R_3qatyGZwQtBLs5f",0.258,0.479,"over","numeracy low",0.104,0.1,"decreased error",926,"R_3KBbO4HrzSQov8h","female","Switzerland","<1'500€
+<3'100CHF","degree",3,2,864,"R_3qatyGZwQtBLs5f",20,"<1'500€
+<3'100CHF",15,14,"okay"
+"220",229256171870273,"R_2bWrFPxwlUFwasN",-0.158,0.478,"under","R_3J8CArQnsceZPxX","R_3J8CArQnsceZPxX",0.616,0.635,"over","numeracy low",-0.157,-0.2,"increased error",1100,"R_2bWrFPxwlUFwasN","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","middle school",3,5,2319,"R_3J8CArQnsceZPxX",28,"2'500- 4'000€
+<4'300- 5'899CHF",18,38,"okay"
+"221",229256171906265,"R_yPjecBYgKLBuysN",0.376,0.494,"over","R_25HpnGCVJmRDJeN","R_25HpnGCVJmRDJeN",0.533,0.627,"over","numeracy high",-0.133,-0.1,"increased error",922,"R_yPjecBYgKLBuysN","male","Switzerland","> 4'000€
+>5'900 CHF","middle school",5,3,835,"R_25HpnGCVJmRDJeN",22,"> 4'000€
+>5'900 CHF",15,13,"okay"
+"222",229256171907291,"R_1kMmTGmvgH9gulq",-0.527,0.576,"under","R_2w7AymsBq0kFlRS","R_2w7AymsBq0kFlRS",0.0857,0.39,"over","numeracy high",0.186,0.2,"decreased error",479,"R_1kMmTGmvgH9gulq","male","Switzerland","> 4'000€
+>5'900 CHF","obligatory school",2,6,1013,"R_2w7AymsBq0kFlRS",22,"2'500- 4'000€
+<4'300- 5'899CHF",7,16,"speeder"
+"223",229256171950188,"R_ux34WUoxkXoCzLz",0.792,0.792,"over","R_zZhGQuBwm9PKEEh","R_zZhGQuBwm9PKEEh",0.17,0.734,"over","numeracy low",0.058,0.1,"decreased error",873,"R_ux34WUoxkXoCzLz","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",1,5,2282,"R_zZhGQuBwm9PKEEh",30,"<1'500- 2'499€
+3'100-4'299CHF",14,38,"okay"
+"224",229256171951214,"R_Ah2SgjKYfhYCFzP",-1.23,1.23,"under","R_2dg3EfUOU09B5o4","R_2dg3EfUOU09B5o4",-0.122,0.545,"under","numeracy low",0.685,0.7,"decreased error",541,"R_Ah2SgjKYfhYCFzP","female","Switzerland","> 4'000€
+>5'900 CHF","degree",2,3,807,"R_2dg3EfUOU09B5o4",25,"> 4'000€
+>5'900 CHF",9,13,"okay"
+"225",229256171951216,"R_3P6nIX6MCWT2rpO",0.0567,0.725,"over","R_241nEMMdhWumQoO","R_241nEMMdhWumQoO",0.142,0.491,"over","numeracy high",0.234,0.2,"decreased error",7517,"R_3P6nIX6MCWT2rpO","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","middle school",3,5,1202,"R_241nEMMdhWumQoO",28,"2'500- 4'000€
+<4'300- 5'899CHF",125,20,"okay"
+"226",229256171962526,"R_2dXrCgiGyoz4vxp",-0.208,0.48,"under","R_3O3nOZtgpHg6gaK","R_3O3nOZtgpHg6gaK",0.16,0.49,"over","numeracy low",-0.01,0,"no change",2707,"R_2dXrCgiGyoz4vxp","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","degree",2,5,8281,"R_3O3nOZtgpHg6gaK",39,"> 4'000€
+>5'900 CHF",45,138,"okay"
+"227",229256171968702,"R_8iBn0zQMI1dvjmF",0.0765,0.507,"over","R_2S2hLsZH1WfTg51","R_2S2hLsZH1WfTg51",0.123,0.43,"over","numeracy low",0.077,0.1,"decreased error",971,"R_8iBn0zQMI1dvjmF","female","Switzerland","> 4'000€
+>5'900 CHF","degree",2,4,756,"R_2S2hLsZH1WfTg51",43,"> 4'000€
+>5'900 CHF",16,12,"okay"
+"228",229256171972822,"R_3JpYYmfMdkuZ36A",0.446,0.549,"over","R_3sz7qUavyfVdYmv","R_3sz7qUavyfVdYmv",0.246,0.543,"over","numeracy high",0.006,0,"no change",1204,"R_3JpYYmfMdkuZ36A","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",3,4,2289,"R_3sz7qUavyfVdYmv",34,"2'500- 4'000€
+<4'300- 5'899CHF",20,38,"okay"
+"229",229320605934677,"R_b2ZcxCwv0pAfl4d",-0.307,0.411,"under","R_1PT0N7jE8CEe4Om","R_1PT0N7jE8CEe4Om",-0.477,0.548,"under","numeracy high",-0.137,-0.1,"increased error",1030,"R_b2ZcxCwv0pAfl4d","female","Germany","> 4'000€
+>5'900 CHF","degree",3,4,1231,"R_1PT0N7jE8CEe4Om",61,"> 4'000€
+>5'900 CHF",17,20,"okay"
+"230",229320605934683,"R_33wCNEarcW1Pj0m",0.145,0.487,"over","R_3qHYqEwKsOQQyRT","R_3qHYqEwKsOQQyRT",0.0524,0.448,"over","numeracy low",0.039,0,"no change",1953,"R_33wCNEarcW1Pj0m","female","Germany","<1'500€
+<3'100CHF","no formal education",1,3,2368,"R_3qHYqEwKsOQQyRT",37,"<1'500€
+<3'100CHF",32,39,"okay"
+"231",229320605935709,"R_W6egCtuD4qEhQit",0.0792,0.3,"over","R_20Zr66Ok0cO2lzY","R_20Zr66Ok0cO2lzY",0.14,0.345,"over","numeracy high",-0.045,0,"no change",11448,"R_W6egCtuD4qEhQit","male","Germany","> 4'000€
+>5'900 CHF","middle school",2,6,3013,"R_20Zr66Ok0cO2lzY",56,"> 4'000€
+>5'900 CHF",190,50,"okay"
+"232",229320605935711,"R_3NWHzCjCutDhTbe",-1.2,1.2,"under","R_331Q8LFmRVzV6sG","R_331Q8LFmRVzV6sG",-1.62,1.62,"under","numeracy low",-0.42,-0.4,"increased error",567,"R_3NWHzCjCutDhTbe","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",2,5,1340,"R_331Q8LFmRVzV6sG",58,"2'500- 4'000€
+<4'300- 5'899CHF",9,22,"okay"
+"233",229320605935718,"R_2CeJTzNjSsx2qQD",-0.58,0.727,"under","R_2YJ3yYatdij6rX1","R_2YJ3yYatdij6rX1",-0.467,0.614,"under","numeracy low",0.113,0.1,"decreased error",1459,"R_2CeJTzNjSsx2qQD","male","Germany","> 4'000€
+>5'900 CHF","degree",2,6,1874,"R_2YJ3yYatdij6rX1",58,"> 4'000€
+>5'900 CHF",24,31,"okay"
+"234",229320605935728,"R_2fuNpV3D3K5D2hH",0.0523,0.519,"over","R_1FDpeUrcOgJSNxf","R_1FDpeUrcOgJSNxf",0.0567,0.657,"over","numeracy high",-0.138,-0.1,"increased error",916,"R_2fuNpV3D3K5D2hH","male","Germany","> 4'000€
+>5'900 CHF","degree",3,3,1235,"R_1FDpeUrcOgJSNxf",65,"> 4'000€
+>5'900 CHF",15,20,"okay"
+"235",229320605936754,"R_1mdW7cgT4seyyqQ",0.376,0.481,"over","R_2xK4m6fzER4JIVP","R_2xK4m6fzER4JIVP",-0.243,0.416,"under","numeracy low",0.065,0.1,"decreased error",921,"R_1mdW7cgT4seyyqQ","male","Germany","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",2,4,1466,"R_2xK4m6fzER4JIVP",55,"<1'500- 2'499€
+3'100-4'299CHF",15,24,"okay"
+"236",229320605936759,"R_3lK2ZaE2Fr2bjp0",-0.509,0.706,"under","R_1oj0iGwz5gWx4EM","R_1oj0iGwz5gWx4EM",-0.621,0.917,"under","numeracy high",-0.211,-0.2,"increased error",1247,"R_3lK2ZaE2Fr2bjp0","male","Germany","> 4'000€
+>5'900 CHF","degree",3,5,544,"R_1oj0iGwz5gWx4EM",43,"> 4'000€
+>5'900 CHF",20,9,"okay"
+"237",229320605936763,"R_3ek309VHljstLtw",0.00477,0.377,"over","R_2QtcKsYZWhhqqjS","R_2QtcKsYZWhhqqjS",-0.132,0.449,"under","numeracy low",-0.072,-0.1,"increased error",3486,"R_3ek309VHljstLtw","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",2,6,2288,"R_2QtcKsYZWhhqqjS",53,"> 4'000€
+>5'900 CHF",58,38,"okay"
+"238",229320605936769,"R_bx4MDwAhY2SADXr",-0.142,0.394,"under","R_PO4Wl2GCAwaZpXr","R_PO4Wl2GCAwaZpXr",0.251,0.27,"over","numeracy high",0.124,0.1,"decreased error",1044,"R_bx4MDwAhY2SADXr","male","Germany","> 4'000€
+>5'900 CHF","degree",4,5,966,"R_PO4Wl2GCAwaZpXr",57,"> 4'000€
+>5'900 CHF",17,16,"okay"
+"239",229320605936770,"R_2YJM7Vy6fmCyYg3",-0.158,0.43,"under","R_3imMpTgiTh7IFze","R_3imMpTgiTh7IFze",-0.217,0.605,"under","numeracy low",-0.175,-0.2,"increased error",1994,"R_2YJM7Vy6fmCyYg3","female","Germany","> 4'000€
+>5'900 CHF","middle school",2,5,658,"R_3imMpTgiTh7IFze",52,"> 4'000€
+>5'900 CHF",33,10,"okay"
+"240",229320605937798,"R_RLAVaQHCHLgHOhj",-0.389,0.585,"under","R_C15NoNUfs7onvvr","R_C15NoNUfs7onvvr",-0.328,0.565,"under","numeracy high",0.02,0,"no change",1857,"R_RLAVaQHCHLgHOhj","male","Germany","> 4'000€
+>5'900 CHF","degree",5,6,11850,"R_C15NoNUfs7onvvr",45,"> 4'000€
+>5'900 CHF",30,197,"okay"
+"241",229320605937806,"R_XodnNQgdsehAQBb",0.454,0.673,"over","R_2rwvaT72ZJEiKlI","R_2rwvaT72ZJEiKlI",0.892,0.892,"over","numeracy low",-0.219,-0.2,"increased error",1043,"R_XodnNQgdsehAQBb","male","Germany","> 4'000€
+>5'900 CHF","degree",2,7,752,"R_2rwvaT72ZJEiKlI",50,"> 4'000€
+>5'900 CHF",17,12,"okay"
+"242",229320605938843,"R_3fvpEgn6pnVLrgJ",0.28,0.521,"over","R_Oa2I8oxbxmFJgWd","R_Oa2I8oxbxmFJgWd",-0.293,0.74,"under","numeracy low",-0.219,-0.2,"increased error",1715,"R_3fvpEgn6pnVLrgJ","female","Germany","<1'500€
+<3'100CHF","obligatory school",1,5,1326,"R_Oa2I8oxbxmFJgWd",51,"<1'500€
+<3'100CHF",28,22,"okay"
+"243",229320605938852,"R_rdw8w7IoZs4Xvod",-0.289,0.518,"under","R_3ku0qDr8bQu8PFW","R_3ku0qDr8bQu8PFW",0.36,0.587,"over","numeracy low",-0.069,-0.1,"increased error",1627,"R_rdw8w7IoZs4Xvod","male","Germany","> 4'000€
+>5'900 CHF","degree",1,7,1666,"R_3ku0qDr8bQu8PFW",75,"> 4'000€
+>5'900 CHF",27,27,"okay"
+"244",229320605938856,"R_Dl5ozsei0qGHLbj",-0.173,0.783,"under","R_3n0pwsbo2rmd09H","R_3n0pwsbo2rmd09H",0.0325,0.566,"over","numeracy high",0.217,0.2,"decreased error",1055,"R_Dl5ozsei0qGHLbj","male","Germany","<1'500€
+<3'100CHF","middle school",1,2,759,"R_3n0pwsbo2rmd09H",24,"<1'500- 2'499€
+3'100-4'299CHF",17,12,"okay"
+"245",229320605939886,"R_11crUzIYPdbRfiF",-0.114,0.73,"under","R_stD5sQvmIeLJCtr","R_stD5sQvmIeLJCtr",-0.0125,0.933,"under","numeracy low",-0.203,-0.2,"increased error",1111,"R_11crUzIYPdbRfiF","female","Germany","> 4'000€
+>5'900 CHF","degree",2,3,680,"R_stD5sQvmIeLJCtr",29,"> 4'000€
+>5'900 CHF",18,11,"okay"
+"246",229320605939889,"R_1prs2kZZr8m54pO",0.781,0.814,"over","R_1NaFm6LK1x6V9gF","R_1NaFm6LK1x6V9gF",-1.6,1.6,"under","numeracy low",-0.786,-0.8,"increased error",462,"R_1prs2kZZr8m54pO","female","Germany","<1'500- 2'499€
+3'100-4'299CHF","middle school",1,3,344,"R_1NaFm6LK1x6V9gF",28,"<1'500- 2'499€
+3'100-4'299CHF",7,5,"speeder"
+"247",229320605940935,"R_2WVeoVieGVEqdKu",-0.242,0.638,"under","R_yq3kMo5b5Izad4R","R_yq3kMo5b5Izad4R",-0.015,0.768,"under","numeracy low",-0.13,-0.1,"increased error",1295,"R_2WVeoVieGVEqdKu","male","Germany","<1'500€
+<3'100CHF","no formal education",1,8,1601,"R_yq3kMo5b5Izad4R",63,"<1'500€
+<3'100CHF",21,26,"okay"
+"248",229320605940944,"R_1gGgLAtf6daWkoB",0.513,0.721,"over","R_1rJ1QlgXJMaeq34","R_1rJ1QlgXJMaeq34",0.739,0.758,"over","numeracy high",-0.037,0,"no change",500,"R_1gGgLAtf6daWkoB","male","Germany","<1'500- 2'499€
+3'100-4'299CHF","degree",2,3,685,"R_1rJ1QlgXJMaeq34",48,"<1'500- 2'499€
+3'100-4'299CHF",8,11,"okay"
+"249",229320605941974,"R_QboUij4etgUFkrL",0.408,0.606,"over","R_ukdmrVJpeMHneX7","R_ukdmrVJpeMHneX7",0.265,0.662,"over","numeracy low",-0.056,-0.1,"increased error",877,"R_QboUij4etgUFkrL","female","Germany","> 4'000€
+>5'900 CHF","degree",3,5,1044,"R_ukdmrVJpeMHneX7",50,"2'500- 4'000€
+<4'300- 5'899CHF",14,17,"okay"
+"250",229320605943020,"R_3qx6ZwB18dmIdlO",0.159,0.329,"over","R_vJPYL8Dz1HYmpb3","R_vJPYL8Dz1HYmpb3",-0.355,0.733,"under","numeracy low",-0.404,-0.4,"increased error",5765,"R_3qx6ZwB18dmIdlO","female","Germany","<1'500- 2'499€
+3'100-4'299CHF","no formal education",1,6,3722,"R_vJPYL8Dz1HYmpb3",41,"<1'500- 2'499€
+3'100-4'299CHF",96,62,"okay"
+"251",229320605943813,"R_26fku5eEp2Qj9zm",-1.63,1.63,"under","R_2TR9UuVKt2Jw0Ai","R_2TR9UuVKt2Jw0Ai",-1.07,1.07,"under","numeracy low",0.56,0.6,"decreased error",1168,"R_26fku5eEp2Qj9zm","male","Germany","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",4,6,533,"R_2TR9UuVKt2Jw0Ai",40,"<1'500- 2'499€
+3'100-4'299CHF",19,8,"okay"
+"252",229320605944858,"R_vOJ77WLNm6DJcRP",0.18,0.707,"over","R_1hN2fFHEfAEgcbd","R_1hN2fFHEfAEgcbd",0.376,0.489,"over","numeracy low",0.218,0.2,"decreased error",1327,"R_vOJ77WLNm6DJcRP","male","Germany","> 4'000€
+>5'900 CHF","degree",2,3,1361,"R_1hN2fFHEfAEgcbd",71,"> 4'000€
+>5'900 CHF",22,22,"okay"
+"253",229320605945902,"R_3Eu17CSWhkIYwbv",0.074,0.397,"over","R_1FxPHFim5fqJQQ6","R_1FxPHFim5fqJQQ6",-0.12,0.335,"under","numeracy high",0.062,0.1,"decreased error",1980,"R_3Eu17CSWhkIYwbv","male","Germany","<1'500- 2'499€
+3'100-4'299CHF","degree",3,1,4271,"R_1FxPHFim5fqJQQ6",68,"<1'500- 2'499€
+3'100-4'299CHF",33,71,"okay"
+"254",229320605946949,"R_cOX10zgwNe6cpj3",-0.217,0.343,"under","R_1mqjuQbjSc7zaz8","R_1mqjuQbjSc7zaz8",0.383,0.525,"over","numeracy low",-0.182,-0.2,"increased error",868,"R_cOX10zgwNe6cpj3","female","Germany","> 4'000€
+>5'900 CHF","obligatory school",2,4,1455,"R_1mqjuQbjSc7zaz8",57,"> 4'000€
+>5'900 CHF",14,24,"okay"
+"255",229320605949033,"R_3eavi4Grn0LOQQz",0.189,0.45,"over","R_1q97VY7HVIAyFYv","R_1q97VY7HVIAyFYv",0.0268,0.42,"over","numeracy low",0.03,0,"no change",1247,"R_3eavi4Grn0LOQQz","female","Germany","<1'500€
+<3'100CHF","obligatory school",2,6,1355,"R_1q97VY7HVIAyFYv",65,"<1'500€
+<3'100CHF",20,22,"okay"
+"256",229320605949036,"R_9AWvGT7rU9cKGxH",-0.302,0.567,"under","R_06dMV3ns8Oso0fv","R_06dMV3ns8Oso0fv",-0.953,0.985,"under","numeracy low",-0.418,-0.4,"increased error",724,"R_9AWvGT7rU9cKGxH","male","Germany","<1'500€
+<3'100CHF","obligatory school",1,5,698,"R_06dMV3ns8Oso0fv",49,"<1'500€
+<3'100CHF",12,11,"okay"
+"257",229320605949038,"R_3maauwgeLmyIafc",-0.139,0.491,"under","R_1F34b5Sc8PY9Agr","R_1F34b5Sc8PY9Agr",-0.095,0.471,"under","numeracy low",0.02,0,"no change",6814,"R_3maauwgeLmyIafc","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","degree",2,6,2515,"R_1F34b5Sc8PY9Agr",44,"2'500- 4'000€
+<4'300- 5'899CHF",113,41,"okay"
+"258",229320605950073,"R_Y5okMSloOk3HkCB",-0.652,0.798,"under","R_1oniO1xKkANO7Rs","R_1oniO1xKkANO7Rs",-0.477,0.642,"under","numeracy low",0.156,0.2,"decreased error",3614,"R_Y5okMSloOk3HkCB","male","Germany","<1'500€
+<3'100CHF","degree",1,8,2622,"R_1oniO1xKkANO7Rs",43,"<1'500€
+<3'100CHF",60,43,"okay"
+"259",229320605952170,"R_2c57RvqIlGbiyW3",0.307,0.978,"over","R_1gnF5xx7LiG6Ey4","R_1gnF5xx7LiG6Ey4",0.0325,1.06,"over","numeracy high",-0.0820000000000001,-0.1,"increased error",1529,"R_2c57RvqIlGbiyW3","female","Germany","<1'500€
+<3'100CHF","degree",3,6,2238,"R_1gnF5xx7LiG6Ey4",62,"<1'500€
+<3'100CHF",25,37,"okay"
+"260",229320605953205,"R_31i7s8usroAcZbm",-0.0458,0.379,"under","R_pQ3F8eEC2ZsUSs1","R_pQ3F8eEC2ZsUSs1",-0.0925,0.365,"under","numeracy high",0.014,0,"no change",884,"R_31i7s8usroAcZbm","male","Germany","<1'500- 2'499€
+3'100-4'299CHF","middle school",1,6,980,"R_pQ3F8eEC2ZsUSs1",48,"<1'500- 2'499€
+3'100-4'299CHF",14,16,"okay"
+"261",229320605953210,"R_3HYp55D45PFLzNr",-0.732,0.732,"under","R_1pWi3TQiCGOmyri","R_1pWi3TQiCGOmyri",-0.37,0.534,"under","numeracy low",0.198,0.2,"decreased error",786,"R_3HYp55D45PFLzNr","male","Germany","<1'500€
+<3'100CHF","no formal education",1,5,811,"R_1pWi3TQiCGOmyri",37,"<1'500€
+<3'100CHF",13,13,"okay"
+"262",229320605953211,"R_2VmAZKeowsEAaKf",-1.44,1.44,"under","R_2v2Ea5eT240inrU","R_2v2Ea5eT240inrU",-1.74,1.74,"under","numeracy low",-0.3,-0.3,"increased error",821,"R_2VmAZKeowsEAaKf","male","Germany","> 4'000€
+>5'900 CHF","degree",4,7,579,"R_2v2Ea5eT240inrU",36,"> 4'000€
+>5'900 CHF",13,9,"okay"
+"263",229320605954251,"R_3qUld2GTlU0xNRr",0.402,0.856,"over","R_DSl3zFkJVpw7StX","R_DSl3zFkJVpw7StX",0.37,0.723,"over","numeracy low",0.133,0.1,"decreased error",4759,"R_3qUld2GTlU0xNRr","female","Germany","<1'500- 2'499€
+3'100-4'299CHF","no formal education",1,6,6010,"R_DSl3zFkJVpw7StX",52,"<1'500- 2'499€
+3'100-4'299CHF",79,100,"okay"
+"264",229320605955296,"R_ST3qQDWH8a2Z8wF",0.135,0.566,"over","R_bJaH8kg5VUNEozn","R_bJaH8kg5VUNEozn",-0.55,0.641,"under","numeracy low",-0.0750000000000001,-0.1,"increased error",1586,"R_ST3qQDWH8a2Z8wF","male","Germany","<1'500€
+<3'100CHF","no formal education",1,5,1460,"R_bJaH8kg5VUNEozn",58,"<1'500€
+<3'100CHF",26,24,"okay"
+"265",229320605958180,"R_1XjuiSN8BMQqvq9",0.0693,0.514,"over","R_26o2dqIsY2j0ikn","R_26o2dqIsY2j0ikn",-0.0329,0.658,"under","numeracy low",-0.144,-0.1,"increased error",1199,"R_1XjuiSN8BMQqvq9","female","Germany","<1'500- 2'499€
+3'100-4'299CHF","no formal education",1,7,1498,"R_26o2dqIsY2j0ikn",59,"<1'500- 2'499€
+3'100-4'299CHF",19,24,"okay"
+"266",229320605958184,"R_1o1EUzmkWnI0L6v",-0.705,1.23,"under","R_291jqH1l086hM3H","R_291jqH1l086hM3H",-1.49,1.49,"under","numeracy low",-0.26,-0.3,"increased error",2773,"R_1o1EUzmkWnI0L6v","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","degree",2,6,1155,"R_291jqH1l086hM3H",31,"<1'500- 2'499€
+3'100-4'299CHF",46,19,"okay"
+"267",229320605959210,"R_12McFRO8avvy3pt",-1.02,1.04,"under","R_1Q5SORbIaDcvhXw","R_1Q5SORbIaDcvhXw",0.632,0.726,"over","numeracy low",0.314,0.3,"decreased error",786,"R_12McFRO8avvy3pt","female","Germany","<1'500€
+<3'100CHF","no formal education",3,5,1782,"R_1Q5SORbIaDcvhXw",43,"<1'500€
+<3'100CHF",13,29,"okay"
+"268",229320605962358,"R_8jJinnm0a4ic5YB",0.352,0.444,"over","R_3ZQS1UkBxvCaDwR","R_3ZQS1UkBxvCaDwR",0.961,0.961,"over","numeracy low",-0.517,-0.5,"increased error",3111,"R_8jJinnm0a4ic5YB","female","Germany","<1'500€
+<3'100CHF","degree",2,4,1006,"R_3ZQS1UkBxvCaDwR",30,"<1'500€
+<3'100CHF",51,16,"okay"
+"269",229320605966522,"R_PAtIMaxymCs5uQp",-1.34,1.34,"under","R_u2FMkjFxEZa71G9","R_u2FMkjFxEZa71G9",-0.55,0.729,"under","numeracy low",0.611,0.6,"decreased error",554,"R_PAtIMaxymCs5uQp","female","Germany","<1'500€
+<3'100CHF","no formal education",5,8,908,"R_u2FMkjFxEZa71G9",22,"<1'500- 2'499€
+3'100-4'299CHF",9,15,"okay"
+"270",229320605968605,"R_W04oq5ANrIn86XL",-0.741,0.741,"under","R_CjiJQujMse9BbvH","R_CjiJQujMse9BbvH",-1.24,1.24,"under","numeracy low",-0.499,-0.5,"increased error",384,"R_W04oq5ANrIn86XL","male","Germany","<1'500€
+<3'100CHF","no formal education",1,5,344,"R_CjiJQujMse9BbvH",25,"<1'500€
+<3'100CHF",6,5,"speeder"
+"271",229320605970439,"R_1mQvIIkrYWPyK9D",0.0431,0.56,"over","R_3oENSp13RG6glC5","R_3oENSp13RG6glC5",0.37,0.534,"over","numeracy high",0.026,0,"no change",1014,"R_1mQvIIkrYWPyK9D","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","degree",5,6,1237,"R_3oENSp13RG6glC5",44,"2'500- 4'000€
+<4'300- 5'899CHF",16,20,"okay"
+"272",229320605973564,"R_3P7RzAy13Y0ZyPe",0.475,0.519,"over","R_sYjZgSboOQLexah","R_sYjZgSboOQLexah",0.511,0.605,"over","numeracy low",-0.086,-0.1,"increased error",739,"R_3P7RzAy13Y0ZyPe","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","degree",2,6,885,"R_sYjZgSboOQLexah",24,"2'500- 4'000€
+<4'300- 5'899CHF",12,14,"okay"
+"273",229320605974599,"R_cZILximj914t2mJ",0.0679,0.755,"over","R_9G4jTq77unMeLkZ","R_9G4jTq77unMeLkZ",0.145,0.818,"over","numeracy low",-0.063,-0.1,"increased error",1067,"R_cZILximj914t2mJ","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","middle school",3,5,6403,"R_9G4jTq77unMeLkZ",28,"<1'500- 2'499€
+3'100-4'299CHF",17,106,"okay"
+"274",229320605976689,"R_2SxHYjyVP763k5m",-0.43,0.759,"under","R_qK6xhra0Jo93vON","R_qK6xhra0Jo93vON",0.112,0.363,"over","numeracy low",0.396,0.4,"decreased error",781,"R_2SxHYjyVP763k5m","female","Germany","<1'500- 2'499€
+3'100-4'299CHF","middle school",1,4,961,"R_qK6xhra0Jo93vON",27,"<1'500- 2'499€
+3'100-4'299CHF",13,16,"okay"
+"275",229320605989990,"R_3QGIueGaks8cgn3",0.626,0.635,"over","R_1Eag3xMoE7wW18J","R_1Eag3xMoE7wW18J",0.5,0.594,"over","numeracy high",0.041,0,"no change",1109,"R_3QGIueGaks8cgn3","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","middle school",4,6,867,"R_1Eag3xMoE7wW18J",23,"2'500- 4'000€
+<4'300- 5'899CHF",18,14,"okay"
+"276",229320606000189,"R_31mjGicLNt7ZzRN",-0.255,0.519,"under","R_27eCE2XkQwLAAYK","R_27eCE2XkQwLAAYK",0.461,0.524,"over","numeracy high",-0.005,0,"no change",951,"R_31mjGicLNt7ZzRN","male","Germany","<1'500€
+<3'100CHF","middle school",1,5,1039,"R_27eCE2XkQwLAAYK",23,"<1'500€
+<3'100CHF",15,17,"okay"
+"277",229320606005406,"R_21HBUv3fiehWFkD",-0.0705,0.628,"under","R_3iq9Qrw3esWRHLJ","R_3iq9Qrw3esWRHLJ",-0.13,0.594,"under","numeracy high",0.034,0,"no change",1109,"R_21HBUv3fiehWFkD","male","Germany","<1'500€
+<3'100CHF","middle school",1,5,887,"R_3iq9Qrw3esWRHLJ",28,"<1'500€
+<3'100CHF",18,14,"okay"
+"278",229320606006452,"R_6DwJDuYylAf74sN",-1.17,1.17,"under","R_1pQXa06zhttQ2QK","R_1pQXa06zhttQ2QK",-0.781,1,"under","numeracy low",0.17,0.2,"decreased error",409,"R_6DwJDuYylAf74sN","male","Germany","<1'500€
+<3'100CHF","degree",2,6,649,"R_1pQXa06zhttQ2QK",37,"2'500- 4'000€
+<4'300- 5'899CHF",6,10,"speeder"
+"279",229320606011397,"R_231rtRsvBjO69aO",0.755,0.755,"over","R_2170LJegYGhKWPO","R_2170LJegYGhKWPO",-1.15,1.15,"under","numeracy low",-0.395,-0.4,"increased error",1325,"R_231rtRsvBjO69aO","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",2,5,1609,"R_2170LJegYGhKWPO",67,"2'500- 4'000€
+<4'300- 5'899CHF",22,26,"okay"
+"280",229320606018720,"R_1q7E4y4PrqP1PL6",0.81,0.81,"over","R_3g18M4zbTwAqVh1","R_3g18M4zbTwAqVh1",0.465,0.716,"over","numeracy low",0.0940000000000001,0.1,"decreased error",3827,"R_1q7E4y4PrqP1PL6","male","Germany","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",2,3,1831,"R_3g18M4zbTwAqVh1",26,"2'500- 4'000€
+<4'300- 5'899CHF",63,30,"okay"
+"281",229320606027862,"R_ugMJIMUpAOB2oUh",0.0147,0.431,"over","R_25u0Sp2GchmKqpa","R_25u0Sp2GchmKqpa",0.336,0.727,"over","numeracy low",-0.296,-0.3,"increased error",18345,"R_ugMJIMUpAOB2oUh","female","Germany","> 4'000€
+>5'900 CHF","obligatory school",2,5,775,"R_25u0Sp2GchmKqpa",27,"> 4'000€
+>5'900 CHF",305,12,"okay"
+"282",229320606061811,"R_zUaNyZkkwGn2pcl",-0.0727,0.495,"under","R_27UbqIBbAAvXtnO","R_27UbqIBbAAvXtnO",0.259,0.417,"over","numeracy high",0.078,0.1,"decreased error",533,"R_zUaNyZkkwGn2pcl","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","degree",1,6,573,"R_27UbqIBbAAvXtnO",27,"2'500- 4'000€
+<4'300- 5'899CHF",8,9,"okay"
+"283",229320606066792,"R_3MbV6SP27Eiit2Z",-0.273,0.788,"under","R_2rTwpwnzTaksgxl","R_2rTwpwnzTaksgxl",-0.208,0.452,"under","numeracy low",0.336,0.3,"decreased error",1641,"R_3MbV6SP27Eiit2Z","male","Germany","> 4'000€
+>5'900 CHF","middle school",2,4,932,"R_2rTwpwnzTaksgxl",28,"> 4'000€
+>5'900 CHF",27,15,"okay"
+"284",229320606074103,"R_3JsmifnazgApI1d",0.295,0.368,"over","R_zf0YMptxHj9kGVX","R_zf0YMptxHj9kGVX",0.00895,0.4,"over","numeracy high",-0.032,0,"no change",763,"R_3JsmifnazgApI1d","male","Germany","<1'500€
+<3'100CHF","middle school",1,4,599,"R_zf0YMptxHj9kGVX",22,"<1'500€
+<3'100CHF",12,9,"okay"
+"285",229320606075132,"R_sGtv3I6l6YZ1GU1",0.18,0.802,"over","R_cJf9ziUSdIAPBv3","R_cJf9ziUSdIAPBv3",-0.00863,0.586,"under","numeracy high",0.216,0.2,"decreased error",11681,"R_sGtv3I6l6YZ1GU1","male","Germany","<1'500€
+<3'100CHF","middle school",1,1,114151,"R_cJf9ziUSdIAPBv3",29,"<1'500€
+<3'100CHF",194,1902,"okay"
+"286",229320606084260,"R_0OfdToodUAnFM6B",-1.08,1.08,"under","R_2OGwTX83fhyDNnI","R_2OGwTX83fhyDNnI",0.267,0.38,"over","numeracy low",0.7,0.7,"decreased error",601,"R_0OfdToodUAnFM6B","male","Germany","> 4'000€
+>5'900 CHF","middle school",5,3,900,"R_2OGwTX83fhyDNnI",20,"> 4'000€
+>5'900 CHF",10,15,"okay"
+"287",229321437507604,"R_2ONqk47gdZJglgM",-0.592,0.639,"under","R_1mn6nqlgVzfC7By","R_1mn6nqlgVzfC7By",-1.47,1.47,"under","numeracy low",-0.831,-0.8,"increased error",869,"R_2ONqk47gdZJglgM","female","Switzerland","<1'500€
+<3'100CHF","no formal education",2,6,11501,"R_1mn6nqlgVzfC7By",50,"<1'500€
+<3'100CHF",14,191,"okay"
+"288",229321437509656,"R_3r21G8Nm7RsHkc0",-1.12,1.12,"under","R_3pik33O5ERDcnHu","R_3pik33O5ERDcnHu",0.27,0.431,"over","numeracy low",0.689,0.7,"decreased error",1844,"R_3r21G8Nm7RsHkc0","non-binary","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","middle school",1,2,1236,"R_3pik33O5ERDcnHu",59,"<1'500€
+<3'100CHF",30,20,"okay"
+"289",229321437515815,"R_3DtC6f6iRqHYWHG",0.164,0.506,"over","R_1MS46DkDMSuh1PA","R_1MS46DkDMSuh1PA",0.196,0.486,"over","numeracy low",0.02,0,"no change",1267,"R_3DtC6f6iRqHYWHG","female","Switzerland","<1'500€
+<3'100CHF","degree",1,4,2829,"R_1MS46DkDMSuh1PA",67,"<1'500- 2'499€
+3'100-4'299CHF",21,47,"okay"
+"290",229321437541463,"R_2V3zus3Kt0huqKu",0.395,0.479,"over","R_3MG5FAqJxElwWok","R_3MG5FAqJxElwWok",0.392,0.549,"over","numeracy low",-0.0700000000000001,-0.1,"increased error",747,"R_2V3zus3Kt0huqKu","male","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","middle school",1,3,1011,"R_3MG5FAqJxElwWok",36,"2'500- 4'000€
+<4'300- 5'899CHF",12,16,"okay"
+"291",229321437542488,"R_2wKp8LF2cWkXbfk",-0.0276,0.643,"under","R_C9p6GTOuQlnneOl","R_C9p6GTOuQlnneOl",-0.681,0.882,"under","numeracy low",-0.239,-0.2,"increased error",2249,"R_2wKp8LF2cWkXbfk","female","Switzerland","<1'500€
+<3'100CHF","middle school",1,2,1367,"R_C9p6GTOuQlnneOl",68,"<1'500€
+<3'100CHF",37,22,"okay"
+"292",229321437547620,"R_3NPSVGia8j1wETu",0.717,0.811,"over","R_2WCGRS3itljeTiz","R_2WCGRS3itljeTiz",0.598,0.616,"over","numeracy low",0.195,0.2,"decreased error",1454,"R_3NPSVGia8j1wETu","male","Switzerland","> 4'000€
+>5'900 CHF","degree",3,5,1188,"R_2WCGRS3itljeTiz",53,"> 4'000€
+>5'900 CHF",24,19,"okay"
+"293",229321437554799,"R_3ITeahDbcDVDfZw",0.761,0.869,"over","R_uwsz0gXGHX7JS5b","R_uwsz0gXGHX7JS5b",0.424,0.542,"over","numeracy low",0.327,0.3,"decreased error",1384,"R_3ITeahDbcDVDfZw","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","middle school",1,7,1652,"R_uwsz0gXGHX7JS5b",46,"<1'500- 2'499€
+3'100-4'299CHF",23,27,"okay"
+"294",229321437575305,"R_2OHnw7eiEYDNkMB",-0.39,0.62,"under","R_1g8sB1oxmSUbqac","R_1g8sB1oxmSUbqac",-0.0705,0.366,"under","numeracy high",0.254,0.3,"decreased error",1314,"R_2OHnw7eiEYDNkMB","male","Switzerland","<1'500€
+<3'100CHF","degree",1,6,1588,"R_1g8sB1oxmSUbqac",73,"<1'500€
+<3'100CHF",21,26,"okay"
+"295",229321437583507,"R_1eItHzwa9LsrDs3",0.417,0.432,"over","R_2e8zf4yA6aADPCx","R_2e8zf4yA6aADPCx",-0.342,0.422,"under","numeracy low",0.01,0,"no change",1277,"R_1eItHzwa9LsrDs3","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","degree",3,6,1079,"R_2e8zf4yA6aADPCx",54,"<1'500- 2'499€
+3'100-4'299CHF",21,17,"okay"
+"296",229321437584534,"R_zdHs0uya0KljHEJ",-0.144,0.724,"under","R_1fd2J5yU5aMILdN","R_1fd2J5yU5aMILdN",0.427,0.633,"over","numeracy high",0.091,0.1,"decreased error",1770,"R_zdHs0uya0KljHEJ","male","Switzerland","> 4'000€
+>5'900 CHF","obligatory school",4,7,1325,"R_1fd2J5yU5aMILdN",30,"2'500- 4'000€
+<4'300- 5'899CHF",29,22,"okay"
+"297",229321437668352,"R_2S0OQ3IueOsiMy9",-0.804,0.852,"under","R_3KHlnf4QUvxSqJv","R_3KHlnf4QUvxSqJv",0.207,1.05,"over","numeracy low",-0.198,-0.2,"increased error",832,"R_2S0OQ3IueOsiMy9","male","Switzerland","<1'500€
+<3'100CHF","no formal education",3,6,1080,"R_3KHlnf4QUvxSqJv",43,"<1'500- 2'499€
+3'100-4'299CHF",13,18,"okay"
+"298",229321437670402,"R_114x80EEaCoWOK0",0.0948,0.68,"over","R_3xe9GWONYDTpSKZ","R_3xe9GWONYDTpSKZ",0.336,0.548,"over","numeracy low",0.132,0.1,"decreased error",905,"R_114x80EEaCoWOK0","male","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",3,2,1519,"R_3xe9GWONYDTpSKZ",46,"2'500- 4'000€
+<4'300- 5'899CHF",15,25,"okay"
+"299",229321437677579,"R_1oImsaAeBtJQuJd",-0.315,0.569,"under","R_1FmtO0YnX1gLS41","R_1FmtO0YnX1gLS41",-1.74,1.74,"under","numeracy low",-1.171,-1.2,"increased error",2475,"R_1oImsaAeBtJQuJd","male","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",4,8,940,"R_1FmtO0YnX1gLS41",36,"<1'500- 2'499€
+3'100-4'299CHF",41,15,"okay"
+"300",229321437681681,"R_DP6oaIAjatZuWKR",-0.455,0.726,"under","R_2qvzPowbEHSePSC","R_2qvzPowbEHSePSC",-0.0366,0.586,"under","numeracy low",0.14,0.1,"decreased error",713,"R_DP6oaIAjatZuWKR","male","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","middle school",3,3,818,"R_2qvzPowbEHSePSC",23,"<1'500- 2'499€
+3'100-4'299CHF",11,13,"okay"
+"301",229321437701161,"R_3DjQ9uCmrnB5ll3",-1.35,1.35,"under","R_qVCnJhMYPvHRTjz","R_qVCnJhMYPvHRTjz",-1.29,1.29,"under","numeracy low",0.06,0.1,"decreased error",670,"R_3DjQ9uCmrnB5ll3","female","Switzerland","<1'500€
+<3'100CHF","obligatory school",1,3,2067,"R_qVCnJhMYPvHRTjz",43,"<1'500€
+<3'100CHF",11,34,"okay"
+"302",229321437719617,"R_2Y37hooYg88WmXQ",0.68,0.712,"over","R_xDXbvT4HcZ1WQaB","R_xDXbvT4HcZ1WQaB",0.507,0.814,"over","numeracy low",-0.102,-0.1,"increased error",1108,"R_2Y37hooYg88WmXQ","female","Switzerland","> 4'000€
+>5'900 CHF","degree",2,10,996,"R_xDXbvT4HcZ1WQaB",41,"> 4'000€
+>5'900 CHF",18,16,"okay"
+"303",229321437737054,"R_3IRbzcUp1vk5qmZ",0.285,0.503,"over","R_ctDsV86N4F35z6p","R_ctDsV86N4F35z6p",-0.149,0.477,"under","numeracy high",0.026,0,"no change",736,"R_3IRbzcUp1vk5qmZ","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","degree",2,2,745,"R_ctDsV86N4F35z6p",23,"<1'500€
+<3'100CHF",12,12,"okay"
+"304",229321437739104,"R_2ahLJVgIViB6bu6",0.886,0.886,"over","R_1MK61RcnsRnWNLS","R_1MK61RcnsRnWNLS",-1.47,1.47,"under","numeracy low",-0.584,-0.6,"increased error",682,"R_2ahLJVgIViB6bu6","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",1,7,906,"R_1MK61RcnsRnWNLS",58,"2'500- 4'000€
+<4'300- 5'899CHF",11,15,"okay"
+"305",229321437762688,"R_3p4MHNZFv2QytI8",-0.909,0.909,"under","R_2zcJgAqnxH8Y4yS","R_2zcJgAqnxH8Y4yS",-0.493,0.964,"under","numeracy low",-0.0549999999999999,-0.1,"increased error",494,"R_3p4MHNZFv2QytI8","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",2,7,649,"R_2zcJgAqnxH8Y4yS",42,"<1'500- 2'499€
+3'100-4'299CHF",8,10,"okay"
+"306",229321437763714,"R_3hclMbURMmsEgfp",-0.44,0.543,"under","R_2QX1hhnet3fuiW3","R_2QX1hhnet3fuiW3",-0.803,1.35,"under","numeracy low",-0.807,-0.8,"increased error",1541,"R_3hclMbURMmsEgfp","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",4,5,1203,"R_2QX1hhnet3fuiW3",31,"2'500- 4'000€
+<4'300- 5'899CHF",25,20,"okay"
+"307",229321437858830,"R_1dtb3TlGOCmUA69",0.852,0.852,"over","R_3dWXqIgiMohp3v6","R_3dWXqIgiMohp3v6",0.527,0.915,"over","numeracy high",-0.063,-0.1,"increased error",618,"R_1dtb3TlGOCmUA69","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","no formal education",2,3,528,"R_3dWXqIgiMohp3v6",19,"<1'500- 2'499€
+3'100-4'299CHF",10,8,"okay"
+"308",229321437921368,"R_1F94axNpIB5vuou",-0.247,0.798,"under","R_2Vr5HURfk3ALUOy","R_2Vr5HURfk3ALUOy",0.105,0.577,"over","numeracy low",0.221,0.2,"decreased error",506,"R_1F94axNpIB5vuou","male","Switzerland","<1'500€
+<3'100CHF","obligatory school",4,4,967,"R_2Vr5HURfk3ALUOy",26,"<1'500- 2'499€
+3'100-4'299CHF",8,16,"okay"
+"309",229321437924448,"R_ABDhvhN4xo1jJFD",0.759,0.759,"over","R_vwBxcGO3XV6CNqx","R_vwBxcGO3XV6CNqx",0.292,0.565,"over","numeracy low",0.194,0.2,"decreased error",2962,"R_ABDhvhN4xo1jJFD","male","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","degree",2,3,1419,"R_vwBxcGO3XV6CNqx",37,"2'500- 4'000€
+<4'300- 5'899CHF",49,23,"okay"
+"310",229321437941882,"R_2TMIdZbXG8NWhBs",-0.856,0.961,"under","R_1Y2iKkxsibQMHVD","R_1Y2iKkxsibQMHVD",0.801,0.82,"over","numeracy low",0.141,0.1,"decreased error",2112,"R_2TMIdZbXG8NWhBs","male","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","degree",4,5,1616,"R_1Y2iKkxsibQMHVD",41,"2'500- 4'000€
+<4'300- 5'899CHF",35,26,"okay"
+"311",229321437994179,"R_Z9veagVYQlL0vrH",-0.105,0.583,"under","R_2YEre5bJYfgYrBC","R_2YEre5bJYfgYrBC",0.596,0.596,"over","numeracy low",-0.013,0,"no change",684,"R_Z9veagVYQlL0vrH","male","Switzerland","<1'500€
+<3'100CHF","degree",5,4,860,"R_2YEre5bJYfgYrBC",25,"2'500- 4'000€
+<4'300- 5'899CHF",11,14,"okay"
+"312",229321438035199,"R_PZZ2h2sjqA2zIdz",0.135,0.454,"over","R_stC3dwfSaL6cLBL","R_stC3dwfSaL6cLBL",-1.04,1.15,"under","numeracy low",-0.696,-0.7,"increased error",678,"R_PZZ2h2sjqA2zIdz","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","degree",1,6,557,"R_stC3dwfSaL6cLBL",43,"2'500- 4'000€
+<4'300- 5'899CHF",11,9,"okay"
+"313",229321438075977,"R_OCnbvgwnPODfkGd",0.315,0.697,"over","R_73rmQ93Q7Rd36mZ","R_73rmQ93Q7Rd36mZ",-0.0784,0.808,"under","numeracy low",-0.111,-0.1,"increased error",6190,"R_OCnbvgwnPODfkGd","female","Switzerland","<1'500€
+<3'100CHF","obligatory school",5,5,560,"R_73rmQ93Q7Rd36mZ",19,"<1'500€
+<3'100CHF",103,9,"okay"
+"314",229321438098546,"R_26lt8YAsRBjSSkx",0.85,0.85,"over","R_ToAwS1lLBvXxWW5","R_ToAwS1lLBvXxWW5",0.283,0.466,"over","numeracy high",0.384,0.4,"decreased error",1015,"R_26lt8YAsRBjSSkx","female","Switzerland","> 4'000€
+>5'900 CHF","middle school",5,7,903,"R_ToAwS1lLBvXxWW5",26,"> 4'000€
+>5'900 CHF",16,15,"okay"
+"315",229321438104706,"R_3Qo4RcpLrzI1Aul",0.864,0.864,"over","R_Dq0pgiK5mRsKU81","R_Dq0pgiK5mRsKU81",0.773,0.815,"over","numeracy low",0.049,0,"no change",1036,"R_3Qo4RcpLrzI1Aul","female","Switzerland","<1'500€
+<3'100CHF","middle school",1,4,1157,"R_Dq0pgiK5mRsKU81",24,"<1'500€
+<3'100CHF",17,19,"okay"
+"316",229321438125234,"R_2ARWpxcD2tBg6mr",-0.217,0.605,"under","R_3lUpoBEtzy9drZD","R_3lUpoBEtzy9drZD",0.305,0.54,"over","numeracy low",0.065,0.1,"decreased error",807,"R_2ARWpxcD2tBg6mr","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",1,6,738,"R_3lUpoBEtzy9drZD",30,"> 4'000€
+>5'900 CHF",13,12,"okay"
+"317",229321438159066,"R_2rkonJe65fP5KJc",-0.731,0.791,"under","R_3LYXqMeVnadDV9q","R_3LYXqMeVnadDV9q",0.435,0.762,"over","numeracy low",0.029,0,"no change",873,"R_2rkonJe65fP5KJc","female","Switzerland","> 4'000€
+>5'900 CHF","obligatory school",5,4,727,"R_3LYXqMeVnadDV9q",20,"> 4'000€
+>5'900 CHF",14,12,"okay"
+"318",229321438161117,"R_pT3EwTuf1SxdkTT",-0.245,0.436,"under","R_33sDgCJtJ211JGG","R_33sDgCJtJ211JGG",-0.485,0.725,"under","numeracy high",-0.289,-0.3,"increased error",867,"R_pT3EwTuf1SxdkTT","male","Switzerland","> 4'000€
+>5'900 CHF","degree",3,7,1071,"R_33sDgCJtJ211JGG",26,"> 4'000€
+>5'900 CHF",14,17,"okay"
+"319",229321438164192,"R_qCSrsgKBELjoqFr",-0.14,0.602,"under","R_1i3WThj1PPLv7sg","R_1i3WThj1PPLv7sg",0.716,0.865,"over","numeracy low",-0.263,-0.3,"increased error",1573,"R_qCSrsgKBELjoqFr","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",1,7,1611,"R_1i3WThj1PPLv7sg",32,"2'500- 4'000€
+<4'300- 5'899CHF",26,26,"okay"
+"320",229321438210114,"R_1gNlZZdQIAPxbdw",0.455,0.762,"over","R_2SoeQbtedg9U7A9","R_2SoeQbtedg9U7A9",0.414,0.522,"over","numeracy low",0.24,0.2,"decreased error",1101,"R_1gNlZZdQIAPxbdw","female","Switzerland","<1'500€
+<3'100CHF","middle school",1,7,881,"R_2SoeQbtedg9U7A9",27,"<1'500€
+<3'100CHF",18,14,"okay"
+"321",229321438243967,"R_1FBk1b6s6Ugkr97",0.123,0.541,"over","R_2OZmN3GX1csFnvS","R_2OZmN3GX1csFnvS",0.618,0.644,"over","numeracy low",-0.103,-0.1,"increased error",1116,"R_1FBk1b6s6Ugkr97","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","middle school",1,5,1653,"R_2OZmN3GX1csFnvS",22,"<1'500€
+<3'100CHF",18,27,"okay"
+"322",229321438287057,"R_z2OjTI6ALu00OnD",-0.706,1.11,"under","R_1QrwLMIn7K2GhNN","R_1QrwLMIn7K2GhNN",0.559,0.823,"over","numeracy high",0.287,0.3,"decreased error",1815,"R_z2OjTI6ALu00OnD","male","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","degree",2,5,1919,"R_1QrwLMIn7K2GhNN",25,"<1'500€
+<3'100CHF",30,31,"okay"
+"323",229321438289110,"R_2eVHaP99y0kDK1c",0.511,0.716,"over","R_2QYGfMYzAouv17p","R_2QYGfMYzAouv17p",0.674,0.823,"over","numeracy low",-0.107,-0.1,"increased error",1679,"R_2eVHaP99y0kDK1c","female","Switzerland","<1'500€
+<3'100CHF","obligatory school",2,4,1544,"R_2QYGfMYzAouv17p",60,"<1'500- 2'499€
+3'100-4'299CHF",27,25,"okay"
+"324",229321438291162,"R_3j38lHPlwwyS4X2",-0.414,0.712,"under","R_1dyNNy7i0IogXjW","R_1dyNNy7i0IogXjW",0.0415,0.571,"over","numeracy low",0.141,0.1,"decreased error",2071,"R_3j38lHPlwwyS4X2","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","middle school",1,7,1272,"R_1dyNNy7i0IogXjW",26,"<1'500- 2'499€
+3'100-4'299CHF",34,21,"okay"
+"325",229321438291163,"R_vVnQq2iaaEV95jb",-0.551,0.643,"under","R_3JedFD408eCUXoU","R_3JedFD408eCUXoU",0.638,0.746,"over","numeracy low",-0.103,-0.1,"increased error",1064,"R_vVnQq2iaaEV95jb","female","Switzerland","<1'500€
+<3'100CHF","middle school",4,6,1422,"R_3JedFD408eCUXoU",21,"<1'500€
+<3'100CHF",17,23,"okay"
+"326",229321438308355,"R_2E6Tq5gpEy3lxsv",0.167,0.491,"over","R_2EudHnKol1N7utZ","R_2EudHnKol1N7utZ",-1.36,1.36,"under","numeracy low",-0.869,-0.9,"increased error",594,"R_2E6Tq5gpEy3lxsv","female","Switzerland","<1'500€
+<3'100CHF","obligatory school",4,2,297,"R_2EudHnKol1N7utZ",19,"<1'500€
+<3'100CHF",9,4,"speeder"
+"327",229321438312457,"R_3mIZQ7fAUEXJsZ3",0.611,0.668,"over","R_1K41lGNotMQuaYo","R_1K41lGNotMQuaYo",-0.278,0.559,"under","numeracy low",0.109,0.1,"decreased error",1417,"R_3mIZQ7fAUEXJsZ3","female","Switzerland","> 4'000€
+>5'900 CHF","middle school",4,8,1080,"R_1K41lGNotMQuaYo",23,"> 4'000€
+>5'900 CHF",23,18,"okay"
+"328",229321438315541,"R_6KfWCtRpRvT3ggF",-0.307,0.675,"under","R_12LqzQngtlo94Le","R_12LqzQngtlo94Le",0.373,0.631,"over","numeracy high",0.044,0,"no change",562,"R_6KfWCtRpRvT3ggF","male","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",3,5,1350,"R_12LqzQngtlo94Le",35,"> 4'000€
+>5'900 CHF",9,22,"okay"
+"329",229321438330936,"R_1H8LLFUTNt7leVR",-0.223,0.464,"under","R_2D6c4MB4OoCIkDm","R_2D6c4MB4OoCIkDm",0.148,0.4,"over","numeracy high",0.064,0.1,"decreased error",1270,"R_1H8LLFUTNt7leVR","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","middle school",1,4,1280,"R_2D6c4MB4OoCIkDm",25,"2'500- 4'000€
+<4'300- 5'899CHF",21,21,"okay"
+"330",229321438343251,"R_2TKS87c4h8yApTA",-0.213,0.714,"under","R_1Eh4vp1pfF8GFJb","R_1Eh4vp1pfF8GFJb",-0.00162,0.368,"under","numeracy high",0.346,0.3,"decreased error",1467,"R_2TKS87c4h8yApTA","female","Switzerland","<1'500€
+<3'100CHF","middle school",1,3,1414,"R_1Eh4vp1pfF8GFJb",29,"<1'500€
+<3'100CHF",24,23,"okay"
+"331",229321438363760,"R_3JKoDCr9qlPtI5O",0.457,0.565,"over","R_1QlrekUmzTk0Wbq","R_1QlrekUmzTk0Wbq",0.542,0.585,"over","numeracy low",-0.02,0,"no change",1649,"R_3JKoDCr9qlPtI5O","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",1,4,2658,"R_1QlrekUmzTk0Wbq",27,"2'500- 4'000€
+<4'300- 5'899CHF",27,44,"okay"
+"332",229321438376071,"R_1rf8RkKm64iSMMO",0.758,0.773,"over","R_2WAJRrWbWwkXh4E","R_2WAJRrWbWwkXh4E",0.158,0.67,"over","numeracy high",0.103,0.1,"decreased error",1243,"R_1rf8RkKm64iSMMO","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","degree",1,3,1241,"R_2WAJRrWbWwkXh4E",27,"<1'500- 2'499€
+3'100-4'299CHF",20,20,"okay"
+"333",229321438387356,"R_25tgtjEGT1tmYni",-0.195,0.623,"under","R_1F97pVdAYa0AR1X","R_1F97pVdAYa0AR1X",-0.071,0.506,"under","numeracy low",0.117,0.1,"decreased error",674,"R_25tgtjEGT1tmYni","female","Switzerland","<1'500€
+<3'100CHF","middle school",1,5,837,"R_1F97pVdAYa0AR1X",29,"<1'500€
+<3'100CHF",11,13,"okay"
+"334",229409893551190,"R_3hg9rxVP0W2bBdv",0.15,0.499,"over","R_d5Svv8gnZ7XR1PX","R_d5Svv8gnZ7XR1PX",0.0105,0.468,"over","numeracy low",0.031,0,"no change",798,"R_3hg9rxVP0W2bBdv","female","Germany","<1'500€
+<3'100CHF","middle school",1,3,700,"R_d5Svv8gnZ7XR1PX",54,"<1'500€
+<3'100CHF",13,11,"okay"
+"335",229409893551191,"R_22tTxe5Wf46p8v3",-0.00999,0.619,"under","R_2P4JBo0bhSklWm8","R_2P4JBo0bhSklWm8",-0.283,0.471,"under","numeracy low",0.148,0.1,"decreased error",8386,"R_22tTxe5Wf46p8v3","female","Germany","<1'500€
+<3'100CHF","obligatory school",1,5,848,"R_2P4JBo0bhSklWm8",62,"<1'500€
+<3'100CHF",139,14,"okay"
+"336",229409893551197,"R_3FORg56rf1EKsyC",0.42,0.858,"over","R_1mUwQ8WDbVXY7Bc","R_1mUwQ8WDbVXY7Bc",0.689,0.746,"over","numeracy high",0.112,0.1,"decreased error",1633,"R_3FORg56rf1EKsyC","female","Germany","> 4'000€
+>5'900 CHF","degree",2,5,8717,"R_1mUwQ8WDbVXY7Bc",60,"> 4'000€
+>5'900 CHF",27,145,"okay"
+"337",229409893551200,"R_3oYGk0oFoKvLtzl",0.326,0.795,"over","R_3QXeVyZkmzNceBN","R_3QXeVyZkmzNceBN",0.183,0.5,"over","numeracy high",0.295,0.3,"decreased error",2138,"R_3oYGk0oFoKvLtzl","female","Germany","<1'500- 2'499€
+3'100-4'299CHF","middle school",2,7,2717,"R_3QXeVyZkmzNceBN",47,"<1'500- 2'499€
+3'100-4'299CHF",35,45,"okay"
+"338",229409893552235,"R_tPLRXslSCSIIrAZ",-0.0485,0.54,"under","R_3rUHdtjaXvtIvz2","R_3rUHdtjaXvtIvz2",-0.193,0.565,"under","numeracy low",-0.0249999999999999,0,"no change",794,"R_tPLRXslSCSIIrAZ","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","degree",1,5,1000,"R_3rUHdtjaXvtIvz2",39,"2'500- 4'000€
+<4'300- 5'899CHF",13,16,"okay"
+"339",229409893552237,"R_2uyor5CnrGzVwLP",0.392,0.575,"over","R_1C4mhyAltGnXD7Q","R_1C4mhyAltGnXD7Q",-0.452,0.609,"under","numeracy low",-0.034,0,"no change",1103,"R_2uyor5CnrGzVwLP","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","middle school",2,2,1434,"R_1C4mhyAltGnXD7Q",70,"2'500- 4'000€
+<4'300- 5'899CHF",18,23,"okay"
+"340",229409893553280,"R_1MWyS3TUczp278V",-0.206,0.855,"under","R_2AYJXywwVu6QGs3","R_2AYJXywwVu6QGs3",-1.38,1.38,"under","numeracy low",-0.525,-0.5,"increased error",2913,"R_1MWyS3TUczp278V","female","Germany","> 4'000€
+>5'900 CHF","obligatory school",2,5,752,"R_2AYJXywwVu6QGs3",62,"> 4'000€
+>5'900 CHF",48,12,"okay"
+"341",229409893553285,"R_3rPydNfjakAlFnL",0.56,0.602,"over","R_3lFcUWnw4BZ5vmK","R_3lFcUWnw4BZ5vmK",0.00477,0.292,"over","numeracy high",0.31,0.3,"decreased error",480,"R_3rPydNfjakAlFnL","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","middle school",2,3,696,"R_3lFcUWnw4BZ5vmK",52,"> 4'000€
+>5'900 CHF",8,11,"okay"
+"342",229409893555364,"R_3IRfQog8wLv6Z2l",0.114,0.444,"over","R_XOg10LwL1qoLu25","R_XOg10LwL1qoLu25",-0.13,0.425,"under","numeracy low",0.019,0,"no change",620,"R_3IRfQog8wLv6Z2l","male","Germany","> 4'000€
+>5'900 CHF","degree",2,3,838,"R_XOg10LwL1qoLu25",64,"> 4'000€
+>5'900 CHF",10,13,"okay"
+"343",229409893555368,"R_1ozl0QYygIw2niA",0.18,0.477,"over","R_27k8PbNPolq0QAU","R_27k8PbNPolq0QAU",-0.0485,0.632,"under","numeracy high",-0.155,-0.2,"increased error",1811,"R_1ozl0QYygIw2niA","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","degree",3,5,1791,"R_27k8PbNPolq0QAU",57,"2'500- 4'000€
+<4'300- 5'899CHF",30,29,"okay"
+"344",229409893555379,"R_3JeLqCpCZJ4m1X8",0.162,0.489,"over","R_2s1MfU0zDpR0Jca","R_2s1MfU0zDpR0Jca",-0.32,0.547,"under","numeracy high",-0.058,-0.1,"increased error",1235,"R_3JeLqCpCZJ4m1X8","male","Germany","> 4'000€
+>5'900 CHF","degree",1,7,1011,"R_2s1MfU0zDpR0Jca",44,"> 4'000€
+>5'900 CHF",20,16,"okay"
+"345",229409893556412,"R_3n7ordFES5aQFbd",0.154,0.6,"over","R_1qX9y9uKlkCAb4j","R_1qX9y9uKlkCAb4j",0.352,0.494,"over","numeracy high",0.106,0.1,"decreased error",714,"R_3n7ordFES5aQFbd","female","Germany","> 4'000€
+>5'900 CHF","obligatory school",2,6,1117,"R_1qX9y9uKlkCAb4j",60,"> 4'000€
+>5'900 CHF",11,18,"okay"
+"346",229409893556414,"R_12DTHefOjls1akp",-0.179,0.467,"under","R_yEXDxhzyve1juHD","R_yEXDxhzyve1juHD",0.156,0.399,"over","numeracy low",0.068,0.1,"decreased error",1025,"R_12DTHefOjls1akp","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","degree",5,6,1282,"R_yEXDxhzyve1juHD",39,"2'500- 4'000€
+<4'300- 5'899CHF",17,21,"okay"
+"347",229409893556415,"R_1rdfPw9w9wywNly",0.824,0.824,"over","R_2qsbwlWVgx3U2Ga","R_2qsbwlWVgx3U2Ga",0.489,0.541,"over","numeracy low",0.283,0.3,"decreased error",1486,"R_1rdfPw9w9wywNly","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",2,8,6308,"R_2qsbwlWVgx3U2Ga",77,"> 4'000€
+>5'900 CHF",24,105,"okay"
+"348",229409893557466,"R_bmjQH4KlClbZu7L",-1.14,1.14,"under","R_2RXiWR7wst6Q1iP","R_2RXiWR7wst6Q1iP",-1.22,1.22,"under","numeracy low",-0.0800000000000001,-0.1,"increased error",3592,"R_bmjQH4KlClbZu7L","female","Germany","<1'500€
+<3'100CHF","obligatory school",1,5,3508,"R_2RXiWR7wst6Q1iP",65,"<1'500€
+<3'100CHF",59,58,"okay"
+"349",229409893558495,"R_2q9IHqiHtkEFt79",-0.533,0.533,"under","R_1mw9V9ozzWi1LAn","R_1mw9V9ozzWi1LAn",-1.39,1.39,"under","numeracy low",-0.857,-0.9,"increased error",1287,"R_2q9IHqiHtkEFt79","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",2,5,1244,"R_1mw9V9ozzWi1LAn",70,"2'500- 4'000€
+<4'300- 5'899CHF",21,20,"okay"
+"350",229409893558497,"R_1F4k8KPay3Z7kp4",0.204,0.482,"over","R_PBTyt7WzyZvjzhv","R_PBTyt7WzyZvjzhv",0.0618,0.422,"over","numeracy high",0.06,0.1,"decreased error",1425,"R_1F4k8KPay3Z7kp4","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","middle school",2,4,1615,"R_PBTyt7WzyZvjzhv",53,"2'500- 4'000€
+<4'300- 5'899CHF",23,26,"okay"
+"351",229409893558499,"R_1l51CHacIzAAOYr",-0.204,0.357,"under","R_blT9RFPb7Be5eRr","R_blT9RFPb7Be5eRr",-0.12,0.543,"under","numeracy low",-0.186,-0.2,"increased error",1410,"R_1l51CHacIzAAOYr","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",2,5,1705,"R_blT9RFPb7Be5eRr",60,"2'500- 4'000€
+<4'300- 5'899CHF",23,28,"okay"
+"352",229409893558502,"R_122NLeAz7IQz6Db",0.521,0.535,"over","R_24pwPmPBXaNb1Jp","R_24pwPmPBXaNb1Jp",0.805,0.908,"over","numeracy low",-0.373,-0.4,"increased error",985,"R_122NLeAz7IQz6Db","male","Germany","> 4'000€
+>5'900 CHF","degree",2,7,1151,"R_24pwPmPBXaNb1Jp",73,"> 4'000€
+>5'900 CHF",16,19,"okay"
+"353",229409893559298,"R_3F51HV2oo6MXsOu",-0.137,0.609,"under","R_ps0do9IuOyRiWQ1","R_ps0do9IuOyRiWQ1",0.238,0.431,"over","numeracy low",0.178,0.2,"decreased error",1004,"R_3F51HV2oo6MXsOu","male","Germany","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",1,5,1449,"R_ps0do9IuOyRiWQ1",61,"<1'500- 2'499€
+3'100-4'299CHF",16,24,"okay"
+"354",229409893559548,"R_QhTYlHh4BjieNG1",-0.476,0.597,"under","R_Ab5K7H4yk2GvGPn","R_Ab5K7H4yk2GvGPn",-0.565,0.579,"under","numeracy low",0.018,0,"no change",1243,"R_QhTYlHh4BjieNG1","male","Germany","> 4'000€
+>5'900 CHF","middle school",2,4,1187,"R_Ab5K7H4yk2GvGPn",60,"> 4'000€
+>5'900 CHF",20,19,"okay"
+"355",229409893560330,"R_1CpbbcLiMzHifTD",0.317,0.446,"over","R_2tbb14YphaE4xH6","R_2tbb14YphaE4xH6",-0.0705,0.371,"under","numeracy low",0.075,0.1,"decreased error",2423,"R_1CpbbcLiMzHifTD","male","Germany","> 4'000€
+>5'900 CHF","degree",2,3,10563,"R_2tbb14YphaE4xH6",75,"> 4'000€
+>5'900 CHF",40,176,"okay"
+"356",229409893561373,"R_3mJcyAkG7X9Gqel",-0.239,0.611,"under","R_3fZs2X9Bkox4pig","R_3fZs2X9Bkox4pig",0.0182,0.39,"over","numeracy low",0.221,0.2,"decreased error",688,"R_3mJcyAkG7X9Gqel","male","Germany","> 4'000€
+>5'900 CHF","obligatory school",2,6,788,"R_3fZs2X9Bkox4pig",36,"2'500- 4'000€
+<4'300- 5'899CHF",11,13,"okay"
+"357",229409893561381,"R_pQrbEXhp0JUxzQ5",0.213,0.605,"over","R_2AG1H1VH5t5XhR1","R_2AG1H1VH5t5XhR1",-0.289,0.575,"under","numeracy low",0.03,0,"no change",959,"R_pQrbEXhp0JUxzQ5","female","Germany","> 4'000€
+>5'900 CHF","obligatory school",5,5,1083,"R_2AG1H1VH5t5XhR1",67,"> 4'000€
+>5'900 CHF",15,18,"okay"
+"358",229409893562422,"R_3ozNcUtSC2durX2",0.167,0.508,"over","R_1n0hU9OFnulf6DQ","R_1n0hU9OFnulf6DQ",0.386,0.793,"over","numeracy low",-0.285,-0.3,"increased error",1710,"R_3ozNcUtSC2durX2","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","middle school",4,5,1257,"R_1n0hU9OFnulf6DQ",47,"> 4'000€
+>5'900 CHF",28,20,"okay"
+"359",229409893563459,"R_56b3rzqNRgjfHXj",0.211,0.82,"over","R_1FFDYiR7B3bxAQw","R_1FFDYiR7B3bxAQw",-0.386,0.65,"under","numeracy low",0.17,0.2,"decreased error",2161,"R_56b3rzqNRgjfHXj","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","middle school",4,5,927,"R_1FFDYiR7B3bxAQw",47,"2'500- 4'000€
+<4'300- 5'899CHF",36,15,"okay"
+"360",229409893563467,"R_3g5brc9bkrNMBRO",0.433,0.515,"over","R_3IXfO6cjcY5pjY5","R_3IXfO6cjcY5pjY5",0.192,0.682,"over","numeracy low",-0.167,-0.2,"increased error",1004,"R_3g5brc9bkrNMBRO","female","Germany","> 4'000€
+>5'900 CHF","middle school",2,8,2216,"R_3IXfO6cjcY5pjY5",63,"> 4'000€
+>5'900 CHF",16,36,"okay"
+"361",229409893563468,"R_3jfzT7WP5HxcBKx",0.202,0.469,"over","R_2RVM3Ml3yrbHgEd","R_2RVM3Ml3yrbHgEd",-0.0804,0.262,"under","numeracy low",0.207,0.2,"decreased error",2067,"R_3jfzT7WP5HxcBKx","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","degree",2,4,1799,"R_2RVM3Ml3yrbHgEd",68,"2'500- 4'000€
+<4'300- 5'899CHF",34,29,"okay"
+"362",229409893565555,"R_2CO2PyLQ0hXJVAk",-0.188,0.703,"under","R_PM2SPU5OqQOPebn","R_PM2SPU5OqQOPebn",-0.543,0.623,"under","numeracy high",0.08,0.1,"decreased error",1705,"R_2CO2PyLQ0hXJVAk","male","Germany","<1'500- 2'499€
+3'100-4'299CHF","degree",2,6,3376,"R_PM2SPU5OqQOPebn",70,"<1'500- 2'499€
+3'100-4'299CHF",28,56,"okay"
+"363",229409893566597,"R_3KoN0ess4bPK8mS",0.572,0.572,"over","R_2aCzseQ1RcQVYH4","R_2aCzseQ1RcQVYH4",-0.204,0.37,"under","numeracy low",0.202,0.2,"decreased error",1932,"R_3KoN0ess4bPK8mS","male","Germany","> 4'000€
+>5'900 CHF","obligatory school",2,4,1747,"R_2aCzseQ1RcQVYH4",32,"> 4'000€
+>5'900 CHF",32,29,"okay"
+"364",229409893567644,"R_1Hi6v3EBgholEqM",-0.0428,0.531,"under","R_W9DhX6A0Itwctt7","R_W9DhX6A0Itwctt7",-0.398,0.519,"under","numeracy high",0.012,0,"no change",1571,"R_1Hi6v3EBgholEqM","male","Germany","> 4'000€
+>5'900 CHF","obligatory school",2,5,1550,"R_W9DhX6A0Itwctt7",68,"> 4'000€
+>5'900 CHF",26,25,"okay"
+"365",229409893567654,"R_123mcZ5Ghsa8y8U",-0.378,0.674,"under","R_2pVN9xJPvGeQwTl","R_2pVN9xJPvGeQwTl",0.117,0.293,"over","numeracy low",0.381,0.4,"decreased error",1347,"R_123mcZ5Ghsa8y8U","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",2,9,1337,"R_2pVN9xJPvGeQwTl",56,"2'500- 4'000€
+<4'300- 5'899CHF",22,22,"okay"
+"366",229409893568680,"R_1LBcVCh8pm4Wlva",-0.67,0.67,"under","R_3QFrmHKrdNNttqa","R_3QFrmHKrdNNttqa",-0.57,0.641,"under","numeracy low",0.029,0,"no change",3278,"R_1LBcVCh8pm4Wlva","male","Germany","> 4'000€
+>5'900 CHF","middle school",2,6,4134,"R_3QFrmHKrdNNttqa",46,"> 4'000€
+>5'900 CHF",54,68,"okay"
+"367",229409893568695,"R_DC2Y31RhrgXdq2l",0.165,0.555,"over","R_2aFwdSvQ5kee5F5","R_2aFwdSvQ5kee5F5",0.285,0.869,"over","numeracy low",-0.314,-0.3,"increased error",1200,"R_DC2Y31RhrgXdq2l","female","Germany","> 4'000€
+>5'900 CHF","degree",2,3,1265,"R_2aFwdSvQ5kee5F5",60,"> 4'000€
+>5'900 CHF",20,21,"okay"
+"368",229409893569726,"R_vkwQtf0JK6KmhZ7",0.799,0.799,"over","R_spYzqIGhHy1QNSV","R_spYzqIGhHy1QNSV",0.61,0.628,"over","numeracy low",0.171,0.2,"decreased error",880,"R_vkwQtf0JK6KmhZ7","male","Germany","> 4'000€
+>5'900 CHF","middle school",3,5,644,"R_spYzqIGhHy1QNSV",45,"> 4'000€
+>5'900 CHF",14,10,"okay"
+"369",229409893570762,"R_3m9PmtY3H8o50hi",-0.982,1.01,"under","R_2v16SgaYMHNBq6S","R_2v16SgaYMHNBq6S",0.311,0.59,"over","numeracy low",0.42,0.4,"decreased error",1103,"R_3m9PmtY3H8o50hi","male","Germany","> 4'000€
+>5'900 CHF","obligatory school",2,3,1099,"R_2v16SgaYMHNBq6S",43,"> 4'000€
+>5'900 CHF",18,18,"okay"
+"370",229409893570768,"R_cGcZqyuNa9pLbdT",-0.0643,0.584,"under","R_3EFEwrUIE8Kac63","R_3EFEwrUIE8Kac63",-0.741,0.741,"under","numeracy low",-0.157,-0.2,"increased error",652,"R_cGcZqyuNa9pLbdT","female","Germany","<1'500€
+<3'100CHF","obligatory school",1,6,703,"R_3EFEwrUIE8Kac63",50,"<1'500€
+<3'100CHF",10,11,"okay"
+"371",229409893571809,"R_2SAHXl8MohUbUiF",0.318,0.469,"over","R_1pY7VZtwZ0xvste","R_1pY7VZtwZ0xvste",0.167,0.324,"over","numeracy low",0.145,0.1,"decreased error",1323,"R_2SAHXl8MohUbUiF","male","Germany","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",1,5,1991,"R_1pY7VZtwZ0xvste",50,"<1'500- 2'499€
+3'100-4'299CHF",22,33,"okay"
+"372",229409893572842,"R_2Pbst8kdZluDtvH",-0.638,1.03,"under","R_1j9BySKkUls71SL","R_1j9BySKkUls71SL",0.265,0.425,"over","numeracy low",0.605,0.6,"decreased error",1044,"R_2Pbst8kdZluDtvH","male","Germany","<1'500- 2'499€
+3'100-4'299CHF","middle school",2,6,6751,"R_1j9BySKkUls71SL",35,"<1'500- 2'499€
+3'100-4'299CHF",17,112,"okay"
+"373",229409893572855,"R_2EhtC7RpoGqCbe4",-0.0621,0.5,"under","R_10ZbpT2snlVjOtf","R_10ZbpT2snlVjOtf",-0.408,0.589,"under","numeracy low",-0.089,-0.1,"increased error",2923,"R_2EhtC7RpoGqCbe4","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","degree",2,6,3083,"R_10ZbpT2snlVjOtf",64,"> 4'000€
+>5'900 CHF",48,51,"okay"
+"374",229409893573634,"R_SW8meRihHCg4Ty9",0.733,0.751,"over","R_sBWpaqbVldDifhD","R_sBWpaqbVldDifhD",0.0545,0.468,"over","numeracy low",0.283,0.3,"decreased error",2996,"R_SW8meRihHCg4Ty9","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","middle school",2,6,1004,"R_sBWpaqbVldDifhD",60,"2'500- 4'000€
+<4'300- 5'899CHF",49,16,"okay"
+"375",229409893573885,"R_25XCGvSK7fFBeWQ",-0.44,0.543,"under","R_1Bw9BeGQL8DHYUF","R_1Bw9BeGQL8DHYUF",-0.63,0.853,"under","numeracy low",-0.31,-0.3,"increased error",277,"R_25XCGvSK7fFBeWQ","male","Germany","> 4'000€
+>5'900 CHF","no formal education",4,7,652,"R_1Bw9BeGQL8DHYUF",38,"> 4'000€
+>5'900 CHF",4,10,"speeder"
+"376",229409893573887,"R_3dSScqXqMRYGrp2",-0.0771,0.669,"under","R_2EczmD5SwSzay4A","R_2EczmD5SwSzay4A",0.287,0.665,"over","numeracy low",0.004,0,"no change",915,"R_3dSScqXqMRYGrp2","female","Germany","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",1,5,978,"R_2EczmD5SwSzay4A",47,"<1'500- 2'499€
+3'100-4'299CHF",15,16,"okay"
+"377",229409893574672,"R_2yqIknklBoBJSSa",-0.221,0.526,"under","R_24cprR80Slkcffl","R_24cprR80Slkcffl",-0.118,0.443,"under","numeracy high",0.083,0.1,"decreased error",2568,"R_2yqIknklBoBJSSa","female","Germany","> 4'000€
+>5'900 CHF","degree",2,6,1544,"R_24cprR80Slkcffl",41,"> 4'000€
+>5'900 CHF",42,25,"okay"
+"378",229409893574678,"R_2qr4N1GYDyUsOZy",0.623,0.65,"over","R_3Dv9CIgzor6PPpz","R_3Dv9CIgzor6PPpz",-1.61,1.61,"under","numeracy low",-0.96,-1,"increased error",810,"R_2qr4N1GYDyUsOZy","female","Germany","> 4'000€
+>5'900 CHF","degree",2,6,789,"R_3Dv9CIgzor6PPpz",58,"> 4'000€
+>5'900 CHF",13,13,"okay"
+"379",229409893574681,"R_3JyOgimkBE8Gpjf",0.169,0.415,"over","R_8crnxAqp8zqKv2V","R_8crnxAqp8zqKv2V",0.446,0.485,"over","numeracy low",-0.07,-0.1,"increased error",895,"R_3JyOgimkBE8Gpjf","female","Germany","> 4'000€
+>5'900 CHF","degree",2,5,1583,"R_8crnxAqp8zqKv2V",63,"> 4'000€
+>5'900 CHF",14,26,"okay"
+"380",229409893574684,"R_1KjrZK9wyaht0Yi",-0.12,0.393,"under","R_1jOhygKAl2j4uoW","R_1jOhygKAl2j4uoW",0.234,0.387,"over","numeracy high",0.006,0,"no change",982,"R_1KjrZK9wyaht0Yi","female","Germany","<1'500€
+<3'100CHF","middle school",1,3,1223,"R_1jOhygKAl2j4uoW",67,"<1'500€
+<3'100CHF",16,20,"okay"
+"381",229409893576768,"R_2TuahJYuP8wtEj0",0.343,0.482,"over","R_3hrrjVoBCW5aVLN","R_3hrrjVoBCW5aVLN",0.602,0.616,"over","numeracy high",-0.134,-0.1,"increased error",688,"R_2TuahJYuP8wtEj0","male","Germany","> 4'000€
+>5'900 CHF","degree",3,6,917,"R_3hrrjVoBCW5aVLN",50,"> 4'000€
+>5'900 CHF",11,15,"okay"
+"382",229409893578856,"R_1lsN4gAk00nyLx9",-0.717,0.717,"under","R_2sZMR3HZgebyC7G","R_2sZMR3HZgebyC7G",-0.283,0.744,"under","numeracy high",-0.027,0,"no change",1027,"R_1lsN4gAk00nyLx9","female","Germany","> 4'000€
+>5'900 CHF","degree",4,6,717,"R_2sZMR3HZgebyC7G",33,"> 4'000€
+>5'900 CHF",17,11,"okay"
+"383",229409893579886,"R_21ctbCYRWseYocx",0.783,0.783,"over","R_1dodXvys6NxgTR9","R_1dodXvys6NxgTR9",0.291,0.389,"over","numeracy high",0.394,0.4,"decreased error",1377,"R_21ctbCYRWseYocx","female","Germany","> 4'000€
+>5'900 CHF","middle school",3,5,1697,"R_1dodXvys6NxgTR9",56,"> 4'000€
+>5'900 CHF",22,28,"okay"
+"384",229409893579895,"R_3iOMuOrAkAbtEJ2",0.124,0.55,"over","R_3PMmGs7hhZ3d5jS","R_3PMmGs7hhZ3d5jS",0.261,0.501,"over","numeracy high",0.049,0,"no change",3852,"R_3iOMuOrAkAbtEJ2","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","middle school",2,3,1147,"R_3PMmGs7hhZ3d5jS",66,"2'500- 4'000€
+<4'300- 5'899CHF",64,19,"okay"
+"385",229409893580933,"R_3KBneCX9IEzrDZP",-0.798,0.869,"under","R_2B40DDGZ80mBEbc","R_2B40DDGZ80mBEbc",-0.0285,0.375,"under","numeracy low",0.494,0.5,"decreased error",966,"R_3KBneCX9IEzrDZP","female","Germany","> 4'000€
+>5'900 CHF","degree",2,6,914,"R_2B40DDGZ80mBEbc",35,"> 4'000€
+>5'900 CHF",16,15,"okay"
+"386",229409893580943,"R_2foMNPrTSlORSmT",0.68,0.699,"over","R_3HnNy5J0bdL2Jlz","R_3HnNy5J0bdL2Jlz",0.581,0.624,"over","numeracy low",0.075,0.1,"decreased error",560,"R_2foMNPrTSlORSmT","female","Germany","<1'500€
+<3'100CHF","degree",1,4,560,"R_3HnNy5J0bdL2Jlz",32,"<1'500€
+<3'100CHF",9,9,"okay"
+"387",229409893581988,"R_1LSfZXKQq13jmcJ",-0.17,0.518,"under","R_10pBdcRCpngqXjW","R_10pBdcRCpngqXjW",0.0446,0.427,"over","numeracy low",0.091,0.1,"decreased error",1341,"R_1LSfZXKQq13jmcJ","female","Germany","<1'500- 2'499€
+3'100-4'299CHF","middle school",2,3,1572,"R_10pBdcRCpngqXjW",66,"<1'500- 2'499€
+3'100-4'299CHF",22,26,"okay"
+"388",229409893583024,"R_78wNZOEKbYNeMIV",-0.235,0.269,"under","R_1Q3M5DRW0wNEKbT","R_1Q3M5DRW0wNEKbT",0.0948,0.366,"over","numeracy high",-0.097,-0.1,"increased error",1425,"R_78wNZOEKbYNeMIV","male","Germany","> 4'000€
+>5'900 CHF","degree",4,4,1308,"R_1Q3M5DRW0wNEKbT",47,"> 4'000€
+>5'900 CHF",23,21,"okay"
+"389",229409893584066,"R_2EGABATwmRGCMaX",-0.0584,0.367,"under","R_2zMd9bkt5QQ0oyj","R_2zMd9bkt5QQ0oyj",0.148,0.396,"over","numeracy low",-0.029,0,"no change",725,"R_2EGABATwmRGCMaX","male","Germany","<1'500€
+<3'100CHF","degree",1,6,835,"R_2zMd9bkt5QQ0oyj",30,"<1'500€
+<3'100CHF",12,13,"okay"
+"390",229409893585116,"R_XYxPFlYL5u6ZaRb",0.534,0.591,"over","R_10rCK8WbpwFbUPC","R_10rCK8WbpwFbUPC",0.371,0.619,"over","numeracy low",-0.028,0,"no change",3212,"R_XYxPFlYL5u6ZaRb","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","middle school",2,5,2258,"R_10rCK8WbpwFbUPC",69,"2'500- 4'000€
+<4'300- 5'899CHF",53,37,"okay"
+"391",229409893587194,"R_3mk3CS39VYERPJn",0.545,0.564,"over","R_1NgER6kVSAaUKmK","R_1NgER6kVSAaUKmK",0.32,0.702,"over","numeracy low",-0.138,-0.1,"increased error",654,"R_3mk3CS39VYERPJn","female","Germany","> 4'000€
+>5'900 CHF","degree",2,8,772,"R_1NgER6kVSAaUKmK",55,"2'500- 4'000€
+<4'300- 5'899CHF",10,12,"okay"
+"392",229409893587973,"R_2DMjCJGfAwhN96U",0.183,0.589,"over","R_3D6L59mSw4oauWc","R_3D6L59mSw4oauWc",-0.214,0.518,"under","numeracy low",0.071,0.1,"decreased error",13634,"R_2DMjCJGfAwhN96U","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",1,6,2289,"R_3D6L59mSw4oauWc",64,"2'500- 4'000€
+<4'300- 5'899CHF",227,38,"okay"
+"393",229409893587987,"R_2t4EE7jZaISZD1M",-0.0172,0.646,"under","R_2ZOinPgmmbRwYkw","R_2ZOinPgmmbRwYkw",0.557,0.635,"over","numeracy low",0.011,0,"no change",1140,"R_2t4EE7jZaISZD1M","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","middle school",4,5,874,"R_2ZOinPgmmbRwYkw",31,"2'500- 4'000€
+<4'300- 5'899CHF",19,14,"okay"
+"394",229409893589020,"R_3k012OMZ7fqwMMC",-0.607,0.722,"under","R_AGaw5ajbGRzKpwZ","R_AGaw5ajbGRzKpwZ",-0.558,0.68,"under","numeracy low",0.0419999999999999,0,"no change",662,"R_3k012OMZ7fqwMMC","female","Germany","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",1,5,728,"R_AGaw5ajbGRzKpwZ",59,"<1'500€
+<3'100CHF",11,12,"okay"
+"395",229409893589023,"R_vVRnuMRGprX0NG1",-0.39,0.423,"under","R_2uFsFqQJzrSQ0IV","R_2uFsFqQJzrSQ0IV",-0.352,0.521,"under","numeracy low",-0.098,-0.1,"increased error",1878,"R_vVRnuMRGprX0NG1","male","Germany","> 4'000€
+>5'900 CHF","degree",2,4,1927,"R_2uFsFqQJzrSQ0IV",69,"> 4'000€
+>5'900 CHF",31,32,"okay"
+"396",229409893589029,"R_1PTVJyJDELkhvLL",-0.614,0.716,"under","R_3HGnvl8ph4ituaK","R_3HGnvl8ph4ituaK",-0.698,0.698,"under","numeracy high",0.018,0,"no change",1363,"R_1PTVJyJDELkhvLL","male","Germany","> 4'000€
+>5'900 CHF","obligatory school",2,6,1660,"R_3HGnvl8ph4ituaK",68,"2'500- 4'000€
+<4'300- 5'899CHF",22,27,"okay"
+"397",229409893590069,"R_3fT913iGhVJfLu9",0.256,0.371,"over","R_3fV6xhcxV8bOpff","R_3fV6xhcxV8bOpff",-0.3,0.567,"under","numeracy high",-0.196,-0.2,"increased error",1092,"R_3fT913iGhVJfLu9","female","Germany","> 4'000€
+>5'900 CHF","degree",2,4,4184,"R_3fV6xhcxV8bOpff",58,"> 4'000€
+>5'900 CHF",18,69,"okay"
+"398",229409893592158,"R_3rVglKGmU72rokw",-0.417,0.554,"under","R_3NUFJAjAEqShdxY","R_3NUFJAjAEqShdxY",-0.53,0.564,"under","numeracy low",-0.0099999999999999,0,"no change",4990,"R_3rVglKGmU72rokw","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","degree",2,3,1143,"R_3NUFJAjAEqShdxY",64,"2'500- 4'000€
+<4'300- 5'899CHF",83,19,"okay"
+"399",229409893597348,"R_UAdBCN4Yr8bSg6d",-0.537,0.608,"under","R_3oACf4JerntqzmZ","R_3oACf4JerntqzmZ",-0.00892,0.503,"under","numeracy low",0.105,0.1,"decreased error",1118,"R_UAdBCN4Yr8bSg6d","female","Germany","<1'500€
+<3'100CHF","obligatory school",1,5,2687,"R_3oACf4JerntqzmZ",55,"<1'500€
+<3'100CHF",18,44,"okay"
+"400",229409893598399,"R_2Ei8K9LjcjDieE9",-0.285,0.55,"under","R_3P7edDRGQnc2Fot","R_3P7edDRGQnc2Fot",-0.244,0.306,"under","numeracy high",0.244,0.2,"decreased error",1632,"R_2Ei8K9LjcjDieE9","male","Germany","<1'500- 2'499€
+3'100-4'299CHF","middle school",3,5,2097,"R_3P7edDRGQnc2Fot",42,"<1'500- 2'499€
+3'100-4'299CHF",27,34,"okay"
+"401",229409893599427,"R_3DuWsXOXRqlPJNe",0.121,0.512,"over","R_299MMOiAM0CwBhl","R_299MMOiAM0CwBhl",-1.05,1.05,"under","numeracy low",-0.538,-0.5,"increased error",378,"R_3DuWsXOXRqlPJNe","male","Germany","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",2,9,1973,"R_299MMOiAM0CwBhl",38,"<1'500- 2'499€
+3'100-4'299CHF",6,32,"speeder"
+"402",229409893600486,"R_OwXTYGT5v9Kwh0Z",-0.427,0.542,"under","R_2CJps0uBujnODbe","R_2CJps0uBujnODbe",-0.755,0.875,"under","numeracy low",-0.333,-0.3,"increased error",1050,"R_OwXTYGT5v9Kwh0Z","male","Germany","> 4'000€
+>5'900 CHF","obligatory school",3,6,887,"R_2CJps0uBujnODbe",66,"> 4'000€
+>5'900 CHF",17,14,"okay"
+"403",229409893601517,"R_31i8IQNed13ckEX",0.707,0.726,"over","R_2AQl8SZjeBihLpa","R_2AQl8SZjeBihLpa",-0.217,0.341,"under","numeracy low",0.385,0.4,"decreased error",1195,"R_31i8IQNed13ckEX","female","Germany","<1'500€
+<3'100CHF","obligatory school",1,5,1245,"R_2AQl8SZjeBihLpa",49,"<1'500€
+<3'100CHF",19,20,"okay"
+"404",229409893603348,"R_29iyunHJ5FsrRr3",-0.12,0.51,"under","R_DkR6Ku8TUssOSel","R_DkR6Ku8TUssOSel",-1.74,1.74,"under","numeracy high",-1.23,-1.2,"increased error",3700,"R_29iyunHJ5FsrRr3","male","Germany","<1'500€
+<3'100CHF","middle school",1,6,1516,"R_DkR6Ku8TUssOSel",46,"<1'500€
+<3'100CHF",61,25,"okay"
+"405",229409893605426,"R_1Gy9AeUKqoHNGek",0.189,0.525,"over","R_2q3jFjpu8freoQG","R_2q3jFjpu8freoQG",-0.235,0.383,"under","numeracy low",0.142,0.1,"decreased error",1129,"R_1Gy9AeUKqoHNGek","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",2,6,1231,"R_2q3jFjpu8freoQG",54,"2'500- 4'000€
+<4'300- 5'899CHF",18,20,"okay"
+"406",229409893610648,"R_reEFFdzp0pypgY1",-0.0428,0.435,"under","R_2PAMXQWMnCShnhv","R_2PAMXQWMnCShnhv",0.0424,0.438,"over","numeracy low",-0.003,0,"no change",1324,"R_reEFFdzp0pypgY1","male","Germany","> 4'000€
+>5'900 CHF","degree",3,7,2514,"R_2PAMXQWMnCShnhv",69,"> 4'000€
+>5'900 CHF",22,41,"okay"
+"407",229409893611678,"R_ZfTrmuWaeRQvyQV",-0.433,0.772,"under","R_1CftvhEnlM7DryY","R_1CftvhEnlM7DryY",-0.342,0.665,"under","numeracy low",0.107,0.1,"decreased error",792,"R_ZfTrmuWaeRQvyQV","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",3,6,737,"R_1CftvhEnlM7DryY",33,"2'500- 4'000€
+<4'300- 5'899CHF",13,12,"okay"
+"408",229409893611680,"R_1LGa0LGSDycaZxU",0.123,0.394,"over","R_20MCNf1iYVfsbyx","R_20MCNf1iYVfsbyx",-0.142,0.482,"under","numeracy high",-0.088,-0.1,"increased error",2193,"R_1LGa0LGSDycaZxU","female","Germany","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",1,6,1895,"R_20MCNf1iYVfsbyx",61,"<1'500- 2'499€
+3'100-4'299CHF",36,31,"okay"
+"409",229409893614809,"R_2ANL6TUtu4Hof3w",-0.67,0.809,"under","R_3PMDY8ouNSnNQBG","R_3PMDY8ouNSnNQBG",0.155,0.578,"over","numeracy low",0.231,0.2,"decreased error",877,"R_2ANL6TUtu4Hof3w","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",2,7,1394,"R_3PMDY8ouNSnNQBG",52,"> 4'000€
+>5'900 CHF",14,23,"okay"
+"410",229409893614812,"R_VOwxgwGF00EjgMV",-0.67,0.741,"under","R_2zD6fkfpFXgQBFe","R_2zD6fkfpFXgQBFe",-0.823,0.823,"under","numeracy low",-0.082,-0.1,"increased error",1154,"R_VOwxgwGF00EjgMV","female","Germany","> 4'000€
+>5'900 CHF","middle school",2,4,968,"R_2zD6fkfpFXgQBFe",32,"> 4'000€
+>5'900 CHF",19,16,"okay"
+"411",229409893614815,"R_28UI6S5JgZB4fRG",-0.0386,0.27,"under","R_2trlsJrfwYEN5I7","R_2trlsJrfwYEN5I7",0.827,0.827,"over","numeracy low",-0.557,-0.6,"increased error",544,"R_28UI6S5JgZB4fRG","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","degree",5,3,702,"R_2trlsJrfwYEN5I7",42,"2'500- 4'000€
+<4'300- 5'899CHF",9,11,"okay"
+"412",229409893616893,"R_YXjZQPKE3SPGePf",0.0459,0.381,"over","R_2pWDY1aVJKk8Eky","R_2pWDY1aVJKk8Eky",0.279,0.472,"over","numeracy low",-0.091,-0.1,"increased error",4094,"R_YXjZQPKE3SPGePf","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","degree",2,7,2104,"R_2pWDY1aVJKk8Eky",66,"2'500- 4'000€
+<4'300- 5'899CHF",68,35,"okay"
+"413",229409893616894,"R_30eFsgfHEfrbmWW",-0.112,0.451,"under","R_ZEoQmdhCQs4tl1n","R_ZEoQmdhCQs4tl1n",0.124,0.571,"over","numeracy low",-0.12,-0.1,"increased error",7830,"R_30eFsgfHEfrbmWW","male","Germany","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",1,5,1840,"R_ZEoQmdhCQs4tl1n",40,"<1'500- 2'499€
+3'100-4'299CHF",130,30,"okay"
+"414",229409893617680,"R_2SJPRlqQcQIOxkn",-0.26,0.373,"under","R_1E9U1jO9sggxQfj","R_1E9U1jO9sggxQfj",0.478,0.548,"over","numeracy high",-0.175,-0.2,"increased error",6085,"R_2SJPRlqQcQIOxkn","male","Germany","> 4'000€
+>5'900 CHF","degree",2,2,969,"R_1E9U1jO9sggxQfj",41,"> 4'000€
+>5'900 CHF",101,16,"okay"
+"415",229409893618721,"R_2U3LCDoc3EnfZ8j",0.684,0.96,"over","R_1EXckHTPL38e8I3","R_1EXckHTPL38e8I3",0.662,0.863,"over","numeracy low",0.097,0.1,"decreased error",931,"R_2U3LCDoc3EnfZ8j","female","Germany","<1'500€
+<3'100CHF","obligatory school",1,5,823,"R_1EXckHTPL38e8I3",49,"<1'500€
+<3'100CHF",15,13,"okay"
+"416",229409893622879,"R_vxm08CwJ1qMwza9",-0.116,0.356,"under","R_1CjS9gr2pSxsjzJ","R_1CjS9gr2pSxsjzJ",-0.195,0.461,"under","numeracy low",-0.105,-0.1,"increased error",1770,"R_vxm08CwJ1qMwza9","female","Germany","> 4'000€
+>5'900 CHF","degree",2,5,2352,"R_1CjS9gr2pSxsjzJ",69,"> 4'000€
+>5'900 CHF",29,39,"okay"
+"417",229409893633038,"R_2YKaOUszkWKFNei",-0.406,0.546,"under","R_Tw1ucdf63mW2uel","R_Tw1ucdf63mW2uel",-0.711,0.711,"under","numeracy low",-0.165,-0.2,"increased error",873,"R_2YKaOUszkWKFNei","male","Germany","<1'500- 2'499€
+3'100-4'299CHF","middle school",2,4,584,"R_Tw1ucdf63mW2uel",69,"<1'500- 2'499€
+3'100-4'299CHF",14,9,"okay"
+"418",229409893634086,"R_2xUYwPj1A03RCX7",0.398,0.578,"over","R_2QRGPTuTFmph4Tw","R_2QRGPTuTFmph4Tw",0.295,0.363,"over","numeracy low",0.215,0.2,"decreased error",934,"R_2xUYwPj1A03RCX7","male","Germany","<1'500€
+<3'100CHF","obligatory school",1,3,888,"R_2QRGPTuTFmph4Tw",66,"<1'500€
+<3'100CHF",15,14,"okay"
+"419",229409893636180,"R_1DpZ2imN1WBm1c6",0.102,0.571,"over","R_3GBwXjMcRyWH99O","R_3GBwXjMcRyWH99O",0.59,0.687,"over","numeracy low",-0.116,-0.1,"increased error",624,"R_1DpZ2imN1WBm1c6","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","middle school",4,7,697,"R_3GBwXjMcRyWH99O",32,"<1'500- 2'499€
+3'100-4'299CHF",10,11,"okay"
+"420",229409893637217,"R_1hzJ87rgsFUNEvo",-0.449,0.57,"under","R_1dGnuEDDeFDb6qd","R_1dGnuEDDeFDb6qd",-0.0871,0.471,"under","numeracy low",0.099,0.1,"decreased error",1153,"R_1hzJ87rgsFUNEvo","female","Germany","> 4'000€
+>5'900 CHF","middle school",3,5,1480,"R_1dGnuEDDeFDb6qd",34,"> 4'000€
+>5'900 CHF",19,24,"okay"
+"421",229409893639303,"R_3MALkdLiaRwrGpH",-1.11,1.11,"under","R_2e4CoHK76vvECIM","R_2e4CoHK76vvECIM",-0.0804,0.627,"under","numeracy low",0.483,0.5,"decreased error",1226,"R_3MALkdLiaRwrGpH","male","Germany","> 4'000€
+>5'900 CHF","obligatory school",3,5,1037,"R_2e4CoHK76vvECIM",30,"> 4'000€
+>5'900 CHF",20,17,"okay"
+"422",229409893640352,"R_3OodzFvOU2GqQkk",0.162,0.385,"over","R_vB80xHW2znurhT3","R_vB80xHW2znurhT3",-0.0982,0.569,"under","numeracy low",-0.184,-0.2,"increased error",2657,"R_3OodzFvOU2GqQkk","male","Germany","> 4'000€
+>5'900 CHF","middle school",2,10,5428,"R_vB80xHW2znurhT3",46,"2'500- 4'000€
+<4'300- 5'899CHF",44,90,"okay"
+"423",229410206607464,"R_2tA4Z3u79YkHs3a",0.396,0.523,"over","R_0GLAzLpKzb2dj0t","R_0GLAzLpKzb2dj0t",0.336,0.473,"over","numeracy high",0.05,0.1,"decreased error",918,"R_2tA4Z3u79YkHs3a","male","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",1,8,809,"R_0GLAzLpKzb2dj0t",32,"2'500- 4'000€
+<4'300- 5'899CHF",15,13,"okay"
+"424",229410206609516,"R_25Sz5fHNDdvNDtK",0.459,0.608,"over","R_O6yvEF2xIRQ495D","R_O6yvEF2xIRQ495D",0.374,0.531,"over","numeracy low",0.077,0.1,"decreased error",1417,"R_25Sz5fHNDdvNDtK","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","middle school",5,6,625,"R_O6yvEF2xIRQ495D",29,"2'500- 4'000€
+<4'300- 5'899CHF",23,10,"okay"
+"425",229410206617741,"R_2hjRh8rlcPAgJEZ",-0.148,0.495,"under","R_2s1p24MNKJ6pXqN","R_2s1p24MNKJ6pXqN",-0.823,0.823,"under","numeracy low",-0.328,-0.3,"increased error",625,"R_2hjRh8rlcPAgJEZ","male","Switzerland","<1'500€
+<3'100CHF","obligatory school",1,9,794,"R_2s1p24MNKJ6pXqN",57,"<1'500€
+<3'100CHF",10,13,"okay"
+"426",229410206629043,"R_3oZsyLJXDsMjWiq",-0.152,0.622,"under","R_1o59gPx3PeNGzjI","R_1o59gPx3PeNGzjI",-0.071,0.606,"under","numeracy high",0.016,0,"no change",907,"R_3oZsyLJXDsMjWiq","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","degree",2,7,3316,"R_1o59gPx3PeNGzjI",31,"> 4'000€
+>5'900 CHF",15,55,"okay"
+"427",229410206632128,"R_3UJccoWYQtbscJX",0.856,0.856,"over","R_1DSURcJvOpaPjL4","R_1DSURcJvOpaPjL4",0.806,0.806,"over","numeracy low",0.0499999999999999,0,"no change",2780,"R_3UJccoWYQtbscJX","male","Switzerland","> 4'000€
+>5'900 CHF","obligatory school",4,5,2073,"R_1DSURcJvOpaPjL4",48,"> 4'000€
+>5'900 CHF",46,34,"okay"
+"428",229410206636238,"R_CZAnviMtBE31HVv",0.124,0.546,"over","R_BWhUQvzCcNKa6Fb","R_BWhUQvzCcNKa6Fb",-0.271,0.516,"under","numeracy low",0.03,0,"no change",2958,"R_CZAnviMtBE31HVv","male","Switzerland","> 4'000€
+>5'900 CHF","degree",2,8,4794,"R_BWhUQvzCcNKa6Fb",41,"> 4'000€
+>5'900 CHF",49,79,"okay"
+"429",229410206643426,"R_3dVWb8y2Jw8tFrk",0.68,0.699,"over","R_27xmPUAjYoTlGbO","R_27xmPUAjYoTlGbO",0.695,0.785,"over","numeracy low",-0.0860000000000001,-0.1,"increased error",495,"R_3dVWb8y2Jw8tFrk","female","Switzerland","> 4'000€
+>5'900 CHF","degree",4,4,1218,"R_27xmPUAjYoTlGbO",40,"> 4'000€
+>5'900 CHF",8,20,"okay"
+"430",229410206658574,"R_3q87cmTulglHFwQ",-0.894,0.894,"under","R_268x0qErskNtjpo","R_268x0qErskNtjpo",0.343,0.476,"over","numeracy low",0.418,0.4,"decreased error",2472,"R_3q87cmTulglHFwQ","male","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",2,4,1156,"R_268x0qErskNtjpo",63,"<1'500- 2'499€
+3'100-4'299CHF",41,19,"okay"
+"431",229410206661654,"R_3RmBbtpwmG8GnpU",0.285,0.49,"over","R_51PkHufroAjUffP","R_51PkHufroAjUffP",-0.683,0.831,"under","numeracy low",-0.341,-0.3,"increased error",714,"R_3RmBbtpwmG8GnpU","male","Switzerland","> 4'000€
+>5'900 CHF","degree",1,4,1118,"R_51PkHufroAjUffP",68,"> 4'000€
+>5'900 CHF",11,18,"okay"
+"432",229410206664732,"R_TkhXPO6S8FurRMB",0.526,0.644,"over","R_3KpGGIpTCeV26Qq","R_3KpGGIpTCeV26Qq",0.511,0.554,"over","numeracy high",0.09,0.1,"decreased error",1156,"R_TkhXPO6S8FurRMB","male","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","no formal education",3,6,1198,"R_3KpGGIpTCeV26Qq",54,"<1'500- 2'499€
+3'100-4'299CHF",19,19,"okay"
+"433",229410206693467,"R_3M4MHlRF1yGgnV6",-0.235,0.265,"under","R_2rAZ1Ka3wuVKPBW","R_2rAZ1Ka3wuVKPBW",0.275,0.464,"over","numeracy high",-0.199,-0.2,"increased error",6622,"R_3M4MHlRF1yGgnV6","male","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","degree",1,3,4070,"R_2rAZ1Ka3wuVKPBW",55,"<1'500- 2'499€
+3'100-4'299CHF",110,67,"okay"
+"434",229410206696544,"R_2WD4pFUT3BApAXg",0.144,0.546,"over","R_3KQ41GktMjIY1UM","R_3KQ41GktMjIY1UM",0.203,0.779,"over","numeracy low",-0.233,-0.2,"increased error",14635,"R_2WD4pFUT3BApAXg","female","Switzerland","> 4'000€
+>5'900 CHF","obligatory school",5,3,9230,"R_3KQ41GktMjIY1UM",56,"> 4'000€
+>5'900 CHF",243,153,"okay"
+"435",229410206775296,"R_3em2IQx1ybTeZrd",-0.408,0.724,"under","R_21adMr6FTICq8w7","R_21adMr6FTICq8w7",0.496,0.839,"over","numeracy high",-0.115,-0.1,"increased error",16026,"R_3em2IQx1ybTeZrd","male","Switzerland","> 4'000€
+>5'900 CHF","degree",4,7,10409,"R_21adMr6FTICq8w7",36,"> 4'000€
+>5'900 CHF",267,173,"okay"
+"436",229410206780427,"R_1i4KE9gxWSexZgC",0.456,0.484,"over","R_4GWm9Ta9Kjzy2E9","R_4GWm9Ta9Kjzy2E9",0.0921,0.746,"over","numeracy low",-0.262,-0.3,"increased error",1487,"R_1i4KE9gxWSexZgC","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",1,2,2047,"R_4GWm9Ta9Kjzy2E9",67,"<1'500€
+<3'100CHF",24,34,"okay"
+"437",229410206789674,"R_2CWJaPOnrUPAZRO",-0.552,0.698,"under","R_1cTvFzZh8rAXZLM","R_1cTvFzZh8rAXZLM",-0.963,1.28,"under","numeracy low",-0.582,-0.6,"increased error",731,"R_2CWJaPOnrUPAZRO","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","middle school",2,4,1389,"R_1cTvFzZh8rAXZLM",30,"> 4'000€
+>5'900 CHF",12,23,"okay"
+"438",229410206798905,"R_2YGt7n3mGj55f4P",0.64,0.64,"over","R_3nHJa8W4XzoQbm4","R_3nHJa8W4XzoQbm4",0.215,0.904,"over","numeracy high",-0.264,-0.3,"increased error",1182,"R_2YGt7n3mGj55f4P","female","Switzerland","> 4'000€
+>5'900 CHF","middle school",3,3,1373,"R_3nHJa8W4XzoQbm4",19,"> 4'000€
+>5'900 CHF",19,22,"okay"
+"439",229410206856398,"R_3L5dKXTyGrFzFXF",0.499,0.499,"over","R_TjiLF7QjzZx58Ax","R_TjiLF7QjzZx58Ax",-0.217,0.806,"under","numeracy low",-0.307,-0.3,"increased error",633,"R_3L5dKXTyGrFzFXF","female","Switzerland","> 4'000€
+>5'900 CHF","degree",2,5,563,"R_TjiLF7QjzZx58Ax",29,"> 4'000€
+>5'900 CHF",10,9,"okay"
+"440",229410206863586,"R_3OcYunjrJOatDOG",0.896,0.91,"over","R_1jMMgQWaTF17FdD","R_1jMMgQWaTF17FdD",0.489,0.866,"over","numeracy low",0.044,0,"no change",4185,"R_3OcYunjrJOatDOG","female","Switzerland","> 4'000€
+>5'900 CHF","obligatory school",2,6,957,"R_1jMMgQWaTF17FdD",30,"> 4'000€
+>5'900 CHF",69,15,"okay"
+"441",229410206924938,"R_saEufT8Fz6GNleN",-0.271,0.661,"under","R_3oTxjZRLervWm86","R_3oTxjZRLervWm86",0.302,0.648,"over","numeracy low",0.013,0,"no change",268,"R_saEufT8Fz6GNleN","male","Switzerland","> 4'000€
+>5'900 CHF","no formal education",3,9,586,"R_3oTxjZRLervWm86",20,"> 4'000€
+>5'900 CHF",4,9,"speeder"
+"442",229410206981135,"R_DSELwlHLoyxJU2Z",-0.118,0.528,"under","R_2uyAjmplIniR3LB","R_2uyAjmplIniR3LB",0.476,0.622,"over","numeracy high",-0.094,-0.1,"increased error",701,"R_DSELwlHLoyxJU2Z","male","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",2,4,940,"R_2uyAjmplIniR3LB",35,"2'500- 4'000€
+<4'300- 5'899CHF",11,15,"okay"
+"443",229410207067333,"R_2tqWuHdLJpCVjoh",0.123,0.429,"over","R_3gYIjoJuMp5WMCS","R_3gYIjoJuMp5WMCS",-0.493,0.674,"under","numeracy low",-0.245,-0.2,"increased error",1334,"R_2tqWuHdLJpCVjoh","male","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",1,3,1878,"R_3gYIjoJuMp5WMCS",73,"<1'500- 2'499€
+3'100-4'299CHF",22,31,"okay"
+"444",229410207199454,"R_1QAYO8t7hFR1nXp",-0.995,0.995,"under","R_4THnRrSaFkyGZoJ","R_4THnRrSaFkyGZoJ",-1.59,1.59,"under","numeracy low",-0.595,-0.6,"increased error",511,"R_1QAYO8t7hFR1nXp","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","no formal education",2,8,508,"R_4THnRrSaFkyGZoJ",31,"2'500- 4'000€
+<4'300- 5'899CHF",8,8,"okay"
+"445",229410207207669,"R_27paz7ivFJBQEwk",-1.32,1.32,"under","R_2YKwMWQVUVMr2UE","R_2YKwMWQVUVMr2UE",0.547,0.566,"over","numeracy high",0.754,0.8,"decreased error",1145,"R_27paz7ivFJBQEwk","male","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","middle school",2,7,980,"R_2YKwMWQVUVMr2UE",31,"2'500- 4'000€
+<4'300- 5'899CHF",19,16,"okay"
+"446",229410207311898,"R_2bUdU71myo1l20P",0.307,0.407,"over","R_3eagtAH5SJ1436B","R_3eagtAH5SJ1436B",0.585,0.585,"over","numeracy high",-0.178,-0.2,"increased error",1471,"R_2bUdU71myo1l20P","male","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","degree",1,4,1070,"R_3eagtAH5SJ1436B",46,"> 4'000€
+>5'900 CHF",24,17,"okay"
+"447",229410207337591,"R_RDKEg3cbejfPs8F",0.21,0.785,"over","R_28CZFXMZNeee8Tb","R_28CZFXMZNeee8Tb",0.0411,0.416,"over","numeracy high",0.369,0.4,"decreased error",1296,"R_RDKEg3cbejfPs8F","male","Switzerland","> 4'000€
+>5'900 CHF","obligatory school",2,4,746,"R_28CZFXMZNeee8Tb",20,"> 4'000€
+>5'900 CHF",21,12,"okay"
+"448",229410207341703,"R_2QmmNeJLwl06yxm",0.217,0.577,"over","R_UfM3vqPCw8zV58l","R_UfM3vqPCw8zV58l",-0.114,0.558,"under","numeracy high",0.0189999999999999,0,"no change",2093,"R_2QmmNeJLwl06yxm","male","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","degree",5,5,1555,"R_UfM3vqPCw8zV58l",47,"2'500- 4'000€
+<4'300- 5'899CHF",34,25,"okay"
+"449",229410207373567,"R_VQFLZEC2uZrS2vn",-0.437,0.686,"under","R_1j7oxMkWVP5NSpt","R_1j7oxMkWVP5NSpt",0.0191,0.438,"over","numeracy high",0.248,0.2,"decreased error",1062,"R_VQFLZEC2uZrS2vn","male","Switzerland","> 4'000€
+>5'900 CHF","degree",2,4,895,"R_1j7oxMkWVP5NSpt",57,"> 4'000€
+>5'900 CHF",17,14,"okay"
+"450",229410207386675,"R_1Isk7x4MMVzR6oS",-0.198,0.751,"under","R_2EzrxrOnJkcxDmK","R_2EzrxrOnJkcxDmK",0.263,0.857,"over","numeracy low",-0.106,-0.1,"increased error",837,"R_1Isk7x4MMVzR6oS","female","Switzerland","<1'500€
+<3'100CHF","obligatory school",4,4,1092,"R_2EzrxrOnJkcxDmK",40,"<1'500- 2'499€
+3'100-4'299CHF",13,18,"okay"
+"451",229410207404169,"R_6W0EW3x1y8fjSX7",0.239,0.41,"over","R_wNNGSTRMiJnLG8h","R_wNNGSTRMiJnLG8h",0.268,0.451,"over","numeracy low",-0.041,0,"no change",1663,"R_6W0EW3x1y8fjSX7","male","Switzerland","> 4'000€
+>5'900 CHF","degree",5,9,1190,"R_wNNGSTRMiJnLG8h",25,"> 4'000€
+>5'900 CHF",27,19,"okay"
+"452",229410207421640,"R_1DwD6QWJ1LcwYXv",-0.908,0.908,"under","R_1CeTcMn0lbUzusP","R_1CeTcMn0lbUzusP",-1.22,1.22,"under","numeracy low",-0.312,-0.3,"increased error",1210,"R_1DwD6QWJ1LcwYXv","male","Switzerland","> 4'000€
+>5'900 CHF","degree",2,4,749,"R_1CeTcMn0lbUzusP",35,"> 4'000€
+>5'900 CHF",20,12,"okay"
+"453",229677069753462,"R_2zBiZ6H7AnnXdfc",-0.899,0.899,"under","R_20UodHACXAGHKfb","R_20UodHACXAGHKfb",-0.477,0.548,"under","numeracy low",0.351,0.4,"decreased error",748,"R_2zBiZ6H7AnnXdfc","male","Germany","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",2,5,2601,"R_20UodHACXAGHKfb",59,"<1'500- 2'499€
+3'100-4'299CHF",12,43,"okay"
+"454",229677069754505,"R_3O33BxctPZwg2Ip",0.33,0.448,"over","R_xDcHNv1rrVvbX7H","R_xDcHNv1rrVvbX7H",-0.389,0.422,"under","numeracy high",0.026,0,"no change",9819,"R_3O33BxctPZwg2Ip","male","Germany","> 4'000€
+>5'900 CHF","degree",2,4,5781,"R_xDcHNv1rrVvbX7H",51,"> 4'000€
+>5'900 CHF",163,96,"okay"
+"455",229677069754513,"R_1KjsPrPEuumwKtb",-1.69,1.69,"under","R_1Fb60FleWdn0RUE","R_1Fb60FleWdn0RUE",0.292,0.509,"over","numeracy low",1.181,1.2,"decreased error",513,"R_1KjsPrPEuumwKtb","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","degree",2,5,793,"R_1Fb60FleWdn0RUE",66,"2'500- 4'000€
+<4'300- 5'899CHF",8,13,"okay"
+"456",229677069754519,"R_1LM7eqPSPvv6cnA",-0.207,0.491,"under","R_26buS4VBqPDXu4Q","R_26buS4VBqPDXu4Q",-0.0731,0.244,"under","numeracy low",0.247,0.2,"decreased error",1766,"R_1LM7eqPSPvv6cnA","male","Germany","> 4'000€
+>5'900 CHF","degree",2,7,3718,"R_26buS4VBqPDXu4Q",54,"> 4'000€
+>5'900 CHF",29,61,"okay"
+"457",229677069755544,"R_25BgHpAMTkdum05",0.664,0.682,"over","R_2rU8sA0U715NiEp","R_2rU8sA0U715NiEp",-0.0428,0.446,"under","numeracy low",0.236,0.2,"decreased error",1104,"R_25BgHpAMTkdum05","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",2,4,1285,"R_2rU8sA0U715NiEp",75,"2'500- 4'000€
+<4'300- 5'899CHF",18,21,"okay"
+"458",229677069755550,"R_2EBhClLUXMckvNP",0.411,0.682,"over","R_2fxg9AHWtBi2GBP","R_2fxg9AHWtBi2GBP",0.245,0.399,"over","numeracy low",0.283,0.3,"decreased error",1083,"R_2EBhClLUXMckvNP","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",1,6,1582,"R_2fxg9AHWtBi2GBP",77,"2'500- 4'000€
+<4'300- 5'899CHF",18,26,"okay"
+"459",229677069755553,"R_27JPdjUCRJVPpPD",-0.67,0.79,"under","R_3NFkiMPlq1ujKz7","R_3NFkiMPlq1ujKz7",-0.391,0.611,"under","numeracy low",0.179,0.2,"decreased error",1195,"R_27JPdjUCRJVPpPD","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","no formal education",2,6,974,"R_3NFkiMPlq1ujKz7",62,"2'500- 4'000€
+<4'300- 5'899CHF",19,16,"okay"
+"460",229677069755561,"R_2QrlEjdJybtooPQ",-0.483,0.603,"under","R_3oHgVo6YiH2NtEO","R_3oHgVo6YiH2NtEO",-0.302,0.6,"under","numeracy low",0.003,0,"no change",1515,"R_2QrlEjdJybtooPQ","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","middle school",2,4,1534,"R_3oHgVo6YiH2NtEO",60,"2'500- 4'000€
+<4'300- 5'899CHF",25,25,"okay"
+"461",229677069756589,"R_1pQeLLBceDEDdP7",0.108,0.487,"over","R_cumm5I9DifLtTPz","R_cumm5I9DifLtTPz",0.42,0.577,"over","numeracy low",-0.09,-0.1,"increased error",1292,"R_1pQeLLBceDEDdP7","female","Germany","> 4'000€
+>5'900 CHF","degree",3,3,1564,"R_cumm5I9DifLtTPz",59,"> 4'000€
+>5'900 CHF",21,26,"okay"
+"462",229677069756595,"R_21suA2PX6p1Ism0",-0.592,0.87,"under","R_3EaPiC8QBqrdCzv","R_3EaPiC8QBqrdCzv",0.229,0.588,"over","numeracy low",0.282,0.3,"decreased error",514,"R_21suA2PX6p1Ism0","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","middle school",1,8,568,"R_3EaPiC8QBqrdCzv",61,"2'500- 4'000€
+<4'300- 5'899CHF",8,9,"okay"
+"463",229677069756609,"R_27I3NTchpL5dg6a",-0.664,0.746,"under","R_1H6Rjj0awqzoXyO","R_1H6Rjj0awqzoXyO",-0.12,0.417,"under","numeracy low",0.329,0.3,"decreased error",632,"R_27I3NTchpL5dg6a","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",1,6,780,"R_1H6Rjj0awqzoXyO",70,"2'500- 4'000€
+<4'300- 5'899CHF",10,13,"okay"
+"464",229677069757642,"R_3smqZ13umEbseql",0.561,0.579,"over","R_2AHkbMeJiEZwITa","R_2AHkbMeJiEZwITa",-0.195,0.456,"under","numeracy low",0.123,0.1,"decreased error",1395,"R_3smqZ13umEbseql","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","middle school",2,5,1281,"R_2AHkbMeJiEZwITa",59,"2'500- 4'000€
+<4'300- 5'899CHF",23,21,"okay"
+"465",229677069757645,"R_RkjQBLarFrYu2hH",-0.44,0.543,"under","R_2uInyNC7MnrJsWt","R_2uInyNC7MnrJsWt",0.389,0.535,"over","numeracy low",0.00800000000000001,0,"no change",1150,"R_RkjQBLarFrYu2hH","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",2,7,973,"R_2uInyNC7MnrJsWt",71,"2'500- 4'000€
+<4'300- 5'899CHF",19,16,"okay"
+"466",229677069757653,"R_2rx5p2njpd38417",-0.23,0.527,"under","R_1odmUPPKrKX7yt0","R_1odmUPPKrKX7yt0",-0.671,0.731,"under","numeracy low",-0.204,-0.2,"increased error",1095,"R_2rx5p2njpd38417","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","middle school",2,3,1152,"R_1odmUPPKrKX7yt0",64,"2'500- 4'000€
+<4'300- 5'899CHF",18,19,"okay"
+"467",229677069760763,"R_3MflwzT4T2kJUka",0.126,0.474,"over","R_vHoduaMDXqcc6RP","R_vHoduaMDXqcc6RP",-0.122,0.611,"under","numeracy low",-0.137,-0.1,"increased error",2046,"R_3MflwzT4T2kJUka","female","Germany","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",1,5,1732,"R_vHoduaMDXqcc6RP",66,"<1'500- 2'499€
+3'100-4'299CHF",34,28,"okay"
+"468",229677069762575,"R_eEdxNEPfZcUq0Y9",-0.803,1.05,"under","R_27TNjzQrRpz3JWy","R_27TNjzQrRpz3JWy",0.241,0.619,"over","numeracy low",0.431,0.4,"decreased error",1351,"R_eEdxNEPfZcUq0Y9","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",2,5,1679,"R_27TNjzQrRpz3JWy",65,"2'500- 4'000€
+<4'300- 5'899CHF",22,27,"okay"
+"469",229677069763602,"R_1OOWbFEaUfw4nNq",0.123,0.393,"over","R_3gZRuNUJsE7IDtm","R_3gZRuNUJsE7IDtm",0.0864,0.464,"over","numeracy low",-0.071,-0.1,"increased error",812,"R_1OOWbFEaUfw4nNq","male","Germany","> 4'000€
+>5'900 CHF","middle school",2,3,1025,"R_3gZRuNUJsE7IDtm",62,"> 4'000€
+>5'900 CHF",13,17,"okay"
+"470",229677069763603,"R_25BnA7CPqUqo20h",0.283,0.463,"over","R_1Dw12dAWVKw9xMK","R_1Dw12dAWVKw9xMK",-0.3,0.671,"under","numeracy low",-0.208,-0.2,"increased error",580,"R_25BnA7CPqUqo20h","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","middle school",4,6,5028,"R_1Dw12dAWVKw9xMK",52,"2'500- 4'000€
+<4'300- 5'899CHF",9,83,"okay"
+"471",229677069768795,"R_3EA57iob7rXBswf",-1.16,1.16,"under","R_1f3YXfeCEsOPSlV","R_1f3YXfeCEsOPSlV",-1.08,1.08,"under","numeracy high",0.0799999999999998,0.1,"decreased error",689,"R_3EA57iob7rXBswf","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",2,3,947,"R_1f3YXfeCEsOPSlV",74,"2'500- 4'000€
+<4'300- 5'899CHF",11,15,"okay"
+"472",229677069770882,"R_2BfYn1I2a51vRhw",0.0246,0.216,"over","R_5pvosAPSGgsbplv","R_5pvosAPSGgsbplv",-0.21,0.403,"under","numeracy high",-0.187,-0.2,"increased error",2085,"R_2BfYn1I2a51vRhw","male","Germany","> 4'000€
+>5'900 CHF","middle school",4,4,1520,"R_5pvosAPSGgsbplv",55,"> 4'000€
+>5'900 CHF",34,25,"okay"
+"473",229677069770890,"R_2PnuGLktFgYFVth",-0.751,0.822,"under","R_2P6WvCjxDtRXpfh","R_2P6WvCjxDtRXpfh",-0.27,0.618,"under","numeracy low",0.204,0.2,"decreased error",1375,"R_2PnuGLktFgYFVth","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",2,2,1445,"R_2P6WvCjxDtRXpfh",70,"2'500- 4'000€
+<4'300- 5'899CHF",22,24,"okay"
+"474",229677069772955,"R_1Cf6yTr5MYyJtR8",0.221,0.425,"over","R_88FkXzzd92InUJP","R_88FkXzzd92InUJP",0.205,0.441,"over","numeracy low",-0.016,0,"no change",1387,"R_1Cf6yTr5MYyJtR8","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","middle school",2,6,1571,"R_88FkXzzd92InUJP",73,"2'500- 4'000€
+<4'300- 5'899CHF",23,26,"okay"
+"475",229677069772958,"R_1DvYPnMPDojvXzI",0.665,0.665,"over","R_3PufoRoPfelYFwl","R_3PufoRoPfelYFwl",0.535,0.549,"over","numeracy high",0.116,0.1,"decreased error",3240,"R_1DvYPnMPDojvXzI","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","middle school",3,3,3940,"R_3PufoRoPfelYFwl",52,"> 4'000€
+>5'900 CHF",54,65,"okay"
+"476",229677069775045,"R_1otmNfK7mAWtgZD",-0.57,0.674,"under","R_1rw4iW8Em9oSO65","R_1rw4iW8Em9oSO65",-0.0131,0.502,"under","numeracy low",0.172,0.2,"decreased error",1051,"R_1otmNfK7mAWtgZD","male","Germany","> 4'000€
+>5'900 CHF","middle school",2,5,1350,"R_1rw4iW8Em9oSO65",54,"> 4'000€
+>5'900 CHF",17,22,"okay"
+"477",229677069777112,"R_1hH0gbNZowjmFne",0.336,0.628,"over","R_3qwf7JTBzYxKCgd","R_3qwf7JTBzYxKCgd",0.261,0.552,"over","numeracy low",0.076,0.1,"decreased error",1548,"R_1hH0gbNZowjmFne","female","Germany","<1'500- 2'499€
+3'100-4'299CHF","degree",2,5,2024,"R_3qwf7JTBzYxKCgd",79,"<1'500- 2'499€
+3'100-4'299CHF",25,33,"okay"
+"478",229677069777128,"R_3kHyP1LthBjvzfN",-0.0302,0.394,"under","R_d9Wr6T3DLx5oFd7","R_d9Wr6T3DLx5oFd7",-0.235,0.552,"under","numeracy low",-0.158,-0.2,"increased error",2016,"R_3kHyP1LthBjvzfN","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",2,5,2226,"R_d9Wr6T3DLx5oFd7",64,"2'500- 4'000€
+<4'300- 5'899CHF",33,37,"okay"
+"479",229677069779187,"R_3Gg0rh96RhxMnrW",-0.376,0.722,"under","R_23eQRGUU63p5ape","R_23eQRGUU63p5ape",-0.089,0.643,"under","numeracy low",0.079,0.1,"decreased error",979,"R_3Gg0rh96RhxMnrW","female","Germany","> 4'000€
+>5'900 CHF","degree",2,6,959,"R_23eQRGUU63p5ape",53,"> 4'000€
+>5'900 CHF",16,15,"okay"
+"480",229677069783098,"R_10TQ9M87QSuIqpq",-0.551,0.63,"under","R_1mt96mbxkfZ8oJc","R_1mt96mbxkfZ8oJc",-0.971,0.971,"under","numeracy low",-0.341,-0.3,"increased error",977,"R_10TQ9M87QSuIqpq","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",2,2,1317,"R_1mt96mbxkfZ8oJc",63,"2'500- 4'000€
+<4'300- 5'899CHF",16,21,"okay"
+"481",229677069783101,"R_3HXooKTTwVg4kvF",0.405,0.684,"over","R_1LU8zd8gVQJ9Ymv","R_1LU8zd8gVQJ9Ymv",0.439,0.521,"over","numeracy high",0.163,0.2,"decreased error",866,"R_3HXooKTTwVg4kvF","female","Germany","> 4'000€
+>5'900 CHF","degree",2,2,1022,"R_1LU8zd8gVQJ9Ymv",33,"> 4'000€
+>5'900 CHF",14,17,"okay"
+"482",229677069786216,"R_2PAnGcUY9OHQY0i",-0.151,0.552,"under","R_9Lwbu0dX4GYTTdT","R_9Lwbu0dX4GYTTdT",-0.515,0.515,"under","numeracy high",0.037,0,"no change",1031,"R_2PAnGcUY9OHQY0i","male","Germany","> 4'000€
+>5'900 CHF","degree",2,7,738,"R_9Lwbu0dX4GYTTdT",34,"> 4'000€
+>5'900 CHF",17,12,"okay"
+"483",229677069787271,"R_27BQw91OKVlhWPj",0.432,0.678,"over","R_3D22i7cfYJncBeS","R_3D22i7cfYJncBeS",-0.925,0.925,"under","numeracy low",-0.247,-0.2,"increased error",1023,"R_27BQw91OKVlhWPj","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","degree",2,4,1117,"R_3D22i7cfYJncBeS",62,"<1'500- 2'499€
+3'100-4'299CHF",17,18,"okay"
+"484",229677069789327,"R_2dFLAg1r8gfesUi",-0.168,0.595,"under","R_2UVPhEcZkIqzMpj","R_2UVPhEcZkIqzMpj",0.0602,0.404,"over","numeracy high",0.191,0.2,"decreased error",838,"R_2dFLAg1r8gfesUi","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","degree",2,6,939,"R_2UVPhEcZkIqzMpj",55,"2'500- 4'000€
+<4'300- 5'899CHF",13,15,"okay"
+"485",229677069796587,"R_2c0CCOxpaH46dQP",-0.336,0.479,"under","R_9XkdSTL43hLrWg1","R_9XkdSTL43hLrWg1",0.491,0.565,"over","numeracy low",-0.086,-0.1,"increased error",1651,"R_2c0CCOxpaH46dQP","female","Germany","<1'500- 2'499€
+3'100-4'299CHF","middle school",1,5,3427,"R_9XkdSTL43hLrWg1",65,"<1'500- 2'499€
+3'100-4'299CHF",27,57,"okay"
+"486",229677069801542,"R_3fOb75fcNvI7EOb",0.132,0.429,"over","R_1loWPZTW4yf5XH7","R_1loWPZTW4yf5XH7",-0.344,0.45,"under","numeracy low",-0.021,0,"no change",862,"R_3fOb75fcNvI7EOb","male","Germany","> 4'000€
+>5'900 CHF","degree",4,2,982,"R_1loWPZTW4yf5XH7",54,"> 4'000€
+>5'900 CHF",14,16,"okay"
+"487",229677069801550,"R_1I3Fm74ZDEJUWVt",-0.00667,0.447,"under","R_CdHSDDR8IXmD1jr","R_CdHSDDR8IXmD1jr",-0.701,0.875,"under","numeracy low",-0.428,-0.4,"increased error",984,"R_1I3Fm74ZDEJUWVt","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","middle school",4,4,1411,"R_CdHSDDR8IXmD1jr",30,"2'500- 4'000€
+<4'300- 5'899CHF",16,23,"okay"
+"488",229677069804668,"R_SBozdhH6aNgsCe5",0.29,0.437,"over","R_31nkaGKfULADQcy","R_31nkaGKfULADQcy",-0.333,0.486,"under","numeracy low",-0.049,0,"no change",1873,"R_SBozdhH6aNgsCe5","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",2,3,1259,"R_31nkaGKfULADQcy",59,"2'500- 4'000€
+<4'300- 5'899CHF",31,20,"okay"
+"489",229677069834245,"R_3dNb89opyPCGv1I",-0.36,0.489,"under","R_128Yrk2hM6RVtn2","R_128Yrk2hM6RVtn2",0.211,0.446,"over","numeracy high",0.043,0,"no change",1269,"R_3dNb89opyPCGv1I","male","Germany","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",2,6,2335,"R_128Yrk2hM6RVtn2",55,"2'500- 4'000€
+<4'300- 5'899CHF",21,38,"okay"
+"490",229678093098051,"R_3erVxLye9zFQbKQ",0.893,0.977,"over","R_Cf4IWwVU2VjiRI5","R_Cf4IWwVU2VjiRI5",0.274,0.462,"over","numeracy low",0.515,0.5,"decreased error",1046,"R_3erVxLye9zFQbKQ","male","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","degree",3,5,873,"R_Cf4IWwVU2VjiRI5",63,"2'500- 4'000€
+<4'300- 5'899CHF",17,14,"okay"
+"491",229678093101130,"R_30bK1uN4yIycFIn",0.367,0.443,"over","R_1dm0mgLEerYlg7d","R_1dm0mgLEerYlg7d",0.774,0.774,"over","numeracy low",-0.331,-0.3,"increased error",3532,"R_30bK1uN4yIycFIn","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","degree",1,5,3672,"R_1dm0mgLEerYlg7d",42,"2'500- 4'000€
+<4'300- 5'899CHF",58,61,"okay"
+"492",229678093101134,"R_1K8x1AoIHGdYEdL",-0.554,0.719,"under","R_22LmAhnuYngmKbY","R_22LmAhnuYngmKbY",-0.416,0.469,"under","numeracy low",0.25,0.2,"decreased error",1272,"R_1K8x1AoIHGdYEdL","male","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",2,6,1322,"R_22LmAhnuYngmKbY",71,"<1'500- 2'499€
+3'100-4'299CHF",21,22,"okay"
+"493",229678093102160,"R_XXRYu9bNC39zVXX",0.417,0.52,"over","R_3dG2OSaM6IKem2B","R_3dG2OSaM6IKem2B",0.0827,0.605,"over","numeracy low",-0.085,-0.1,"increased error",1787,"R_XXRYu9bNC39zVXX","female","Switzerland","<1'500€
+<3'100CHF","obligatory school",1,5,1748,"R_3dG2OSaM6IKem2B",64,"<1'500€
+<3'100CHF",29,29,"okay"
+"494",229678093105251,"R_33kIUzAwPAa1yng",0.0204,0.458,"over","R_1mmFq3cx5odSSLt","R_1mmFq3cx5odSSLt",0.299,0.531,"over","numeracy high",-0.073,-0.1,"increased error",1025,"R_33kIUzAwPAa1yng","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","degree",2,4,1322,"R_1mmFq3cx5odSSLt",61,"2'500- 4'000€
+<4'300- 5'899CHF",17,22,"okay"
+"495",229678093111417,"R_2EhFk9vlQYPpHee",-0.255,0.401,"under","R_2RaD1qLsjvheOt2","R_2RaD1qLsjvheOt2",-1.41,1.41,"under","numeracy low",-1.009,-1,"increased error",950,"R_2EhFk9vlQYPpHee","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","middle school",1,6,849,"R_2RaD1qLsjvheOt2",46,"2'500- 4'000€
+<4'300- 5'899CHF",15,14,"okay"
+"496",229678093112449,"R_3stNQFQ6wYJItgN",0.193,0.584,"over","R_vOUVtIULfb961Kp","R_vOUVtIULfb961Kp",-0.596,0.766,"under","numeracy low",-0.182,-0.2,"increased error",662,"R_3stNQFQ6wYJItgN","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",2,4,989,"R_vOUVtIULfb961Kp",65,"<1'500- 2'499€
+3'100-4'299CHF",11,16,"okay"
+"497",229678093115531,"R_1LI64yNOZO7C7l3",0.851,0.851,"over","R_30jwO1Q51T1Oqua","R_30jwO1Q51T1Oqua",0.485,0.622,"over","numeracy low",0.229,0.2,"decreased error",767,"R_1LI64yNOZO7C7l3","male","Switzerland","<1'500€
+<3'100CHF","obligatory school",1,7,866,"R_30jwO1Q51T1Oqua",52,"<1'500- 2'499€
+3'100-4'299CHF",12,14,"okay"
+"498",229678093130942,"R_2D0HsJW89BCf2CJ",-0.19,0.543,"under","R_2tunXP6UyGFpYHU","R_2tunXP6UyGFpYHU",-1.66,1.66,"under","numeracy low",-1.117,-1.1,"increased error",6757,"R_2D0HsJW89BCf2CJ","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","middle school",2,8,1129,"R_2tunXP6UyGFpYHU",41,"2'500- 4'000€
+<4'300- 5'899CHF",112,18,"okay"
+"499",229678093131973,"R_ZK76CrhFxQDLP21",0.43,0.676,"over","R_1ob4JLq5bEFQZX3","R_1ob4JLq5bEFQZX3",0.261,0.576,"over","numeracy high",0.1,0.1,"decreased error",1738,"R_ZK76CrhFxQDLP21","female","Switzerland","<1'500€
+<3'100CHF","degree",1,5,3306,"R_1ob4JLq5bEFQZX3",75,"<1'500€
+<3'100CHF",28,55,"okay"
+"500",229678093138135,"R_2AMfF4aom3GcQs1",-0.365,0.662,"under","R_cUssRwZ7X6KVAKR","R_cUssRwZ7X6KVAKR",0.378,0.538,"over","numeracy low",0.124,0.1,"decreased error",768,"R_2AMfF4aom3GcQs1","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",1,5,3493,"R_cUssRwZ7X6KVAKR",42,"2'500- 4'000€
+<4'300- 5'899CHF",12,58,"okay"
+"501",229678093141220,"R_2R1zKMVHMSfa4z7",-0.923,0.923,"under","R_TowBIbjzMvWm63v","R_TowBIbjzMvWm63v",0.135,0.503,"over","numeracy low",0.42,0.4,"decreased error",796,"R_2R1zKMVHMSfa4z7","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",2,6,885,"R_TowBIbjzMvWm63v",59,"2'500- 4'000€
+<4'300- 5'899CHF",13,14,"okay"
+"502",229678093154327,"R_0dg1Hw00DVaqtzz",-0.0742,0.403,"under","R_1DC5nrZ8uUaZwqY","R_1DC5nrZ8uUaZwqY",0.0941,0.434,"over","numeracy high",-0.031,0,"no change",1410,"R_0dg1Hw00DVaqtzz","male","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","degree",1,5,1528,"R_1DC5nrZ8uUaZwqY",41,"2'500- 4'000€
+<4'300- 5'899CHF",23,25,"okay"
+"503",229678093158445,"R_3L5PQsiTJgy6Y7j",0.551,0.592,"over","R_2ya14O4rS4r6z6L","R_2ya14O4rS4r6z6L",0.721,0.759,"over","numeracy low",-0.167,-0.2,"increased error",2944,"R_3L5PQsiTJgy6Y7j","male","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","middle school",1,5,1171,"R_2ya14O4rS4r6z6L",41,"2'500- 4'000€
+<4'300- 5'899CHF",49,19,"okay"
+"504",229678093162569,"R_2zu5nbshAH7KEPO",1.04,1.04,"over","R_331IDX0zbNRfPC5","R_331IDX0zbNRfPC5",0.735,0.749,"over","numeracy low",0.291,0.3,"decreased error",542,"R_2zu5nbshAH7KEPO","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",2,6,903,"R_331IDX0zbNRfPC5",73,"<1'500- 2'499€
+3'100-4'299CHF",9,15,"okay"
+"505",229678093163595,"R_1mwQU5GVzlTar7A",0.186,0.485,"over","R_2CZMbro8CP9Uu5t","R_2CZMbro8CP9Uu5t",-0.166,0.668,"under","numeracy low",-0.183,-0.2,"increased error",1232,"R_1mwQU5GVzlTar7A","male","Switzerland","<1'500€
+<3'100CHF","obligatory school",1,3,1794,"R_2CZMbro8CP9Uu5t",58,"<1'500- 2'499€
+3'100-4'299CHF",20,29,"okay"
+"506",229678093165654,"R_3oAPxeuf0OCltUD",0.352,0.621,"over","R_3GpNBQ5CgxNdsMz","R_3GpNBQ5CgxNdsMz",-0.327,0.457,"under","numeracy low",0.164,0.2,"decreased error",1472,"R_3oAPxeuf0OCltUD","male","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","degree",1,6,1579,"R_3GpNBQ5CgxNdsMz",52,"<1'500- 2'499€
+3'100-4'299CHF",24,26,"okay"
+"507",229678093166682,"R_56fnmbvJywu4sKJ",0.18,0.558,"over","R_3HFoTLJEFC5wC4x","R_3HFoTLJEFC5wC4x",0.751,0.751,"over","numeracy low",-0.193,-0.2,"increased error",4308,"R_56fnmbvJywu4sKJ","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",2,5,1744,"R_3HFoTLJEFC5wC4x",40,"2'500- 4'000€
+<4'300- 5'899CHF",71,29,"okay"
+"508",229678093170793,"R_325AB8k9M8UQxlw",-0.0218,0.444,"under","R_27dSC2bMDR9Y5Nq","R_27dSC2bMDR9Y5Nq",-0.227,0.383,"under","numeracy low",0.061,0.1,"decreased error",1040,"R_325AB8k9M8UQxlw","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","degree",1,5,1185,"R_27dSC2bMDR9Y5Nq",66,"<1'500- 2'499€
+3'100-4'299CHF",17,19,"okay"
+"509",229678093184174,"R_1I4608oEAcr8qZ5",-1.02,1.02,"under","R_3KTwRSPp3KkukEt","R_3KTwRSPp3KkukEt",-0.269,0.39,"under","numeracy high",0.63,0.6,"decreased error",1630,"R_1I4608oEAcr8qZ5","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","middle school",1,6,1488,"R_3KTwRSPp3KkukEt",63,"<1'500- 2'499€
+3'100-4'299CHF",27,24,"okay"
+"510",229678093198559,"R_OlhgC04azJYZ9qp",-1.17,1.17,"under","R_9Yp1rttWTLA5JjX","R_9Yp1rttWTLA5JjX",0.173,0.555,"over","numeracy high",0.615,0.6,"decreased error",1730,"R_OlhgC04azJYZ9qp","male","Switzerland","<1'500€
+<3'100CHF","obligatory school",1,6,3848,"R_9Yp1rttWTLA5JjX",44,"<1'500€
+<3'100CHF",28,64,"okay"
+"511",229678093210632,"R_T7oDEcrvfbIAgQF",-0.202,0.381,"under","R_DNPrKhvZCScA1eV","R_DNPrKhvZCScA1eV",-0.277,0.43,"under","numeracy low",-0.049,0,"no change",3058,"R_T7oDEcrvfbIAgQF","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","degree",1,6,2843,"R_DNPrKhvZCScA1eV",71,"2'500- 4'000€
+<4'300- 5'899CHF",50,47,"okay"
+"512",229678093212684,"R_uw85ACVWObqwt5n",-0.524,0.542,"under","R_3D8h1NrjCM66rpq","R_3D8h1NrjCM66rpq",0.277,0.443,"over","numeracy low",0.099,0.1,"decreased error",1115,"R_uw85ACVWObqwt5n","male","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",1,7,1338,"R_3D8h1NrjCM66rpq",45,"2'500- 4'000€
+<4'300- 5'899CHF",18,22,"okay"
+"513",229678093212685,"R_dmnxzIsmPDooyOZ",0.59,0.647,"over","R_1FsrFDQpo9ZXqH5","R_1FsrFDQpo9ZXqH5",0.846,0.846,"over","numeracy high",-0.199,-0.2,"increased error",1344,"R_dmnxzIsmPDooyOZ","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","degree",4,2,1854,"R_1FsrFDQpo9ZXqH5",46,"<1'500- 2'499€
+3'100-4'299CHF",22,30,"okay"
+"514",229678093228064,"R_2sbx1HBRGkytKUq",-1.38,1.38,"under","R_1dH1iYOib9kW6Yk","R_1dH1iYOib9kW6Yk",-0.158,0.502,"under","numeracy low",0.878,0.9,"decreased error",1353,"R_2sbx1HBRGkytKUq","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",1,4,1874,"R_1dH1iYOib9kW6Yk",71,"<1'500- 2'499€
+3'100-4'299CHF",22,31,"okay"
+"515",229678093236281,"R_2E0smvzVa5RkXjW",0.414,0.63,"over","R_3Kwkto5OYOMGaGx","R_3Kwkto5OYOMGaGx",-0.32,0.511,"under","numeracy low",0.119,0.1,"decreased error",1641,"R_2E0smvzVa5RkXjW","male","Switzerland","<1'500€
+<3'100CHF","degree",1,2,1246,"R_3Kwkto5OYOMGaGx",72,"<1'500€
+<3'100CHF",27,20,"okay"
+"516",229678093243470,"R_12i4SXq1sTQbnI2",-0.759,1.08,"under","R_3PB2Ltxuh03nSYU","R_3PB2Ltxuh03nSYU",-1.56,1.56,"under","numeracy low",-0.48,-0.5,"increased error",2686,"R_12i4SXq1sTQbnI2","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","middle school",1,6,831,"R_3PB2Ltxuh03nSYU",46,"2'500- 4'000€
+<4'300- 5'899CHF",44,13,"okay"
+"517",229678093252715,"R_DTxi23dLWEU3Lm9",0.08,0.486,"over","R_2YmNX6Oye45BteD","R_2YmNX6Oye45BteD",0.305,0.538,"over","numeracy low",-0.052,-0.1,"increased error",1327,"R_DTxi23dLWEU3Lm9","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",1,3,1328,"R_2YmNX6Oye45BteD",71,"<1'500- 2'499€
+3'100-4'299CHF",22,22,"okay"
+"518",229678093260930,"R_3ebnID09JFlJTeF",0.193,0.398,"over","R_2t673KXh7dRiqrM","R_2t673KXh7dRiqrM",0.378,0.511,"over","numeracy low",-0.113,-0.1,"increased error",1815,"R_3ebnID09JFlJTeF","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",1,3,2430,"R_2t673KXh7dRiqrM",75,"<1'500- 2'499€
+3'100-4'299CHF",30,40,"okay"
+"519",229678093261955,"R_ah3CqRoRJKXemNb",0.167,0.403,"over","R_1FET35ZNzpaPbdF","R_1FET35ZNzpaPbdF",-0.44,0.619,"under","numeracy low",-0.216,-0.2,"increased error",1115,"R_ah3CqRoRJKXemNb","male","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","degree",3,2,1802,"R_1FET35ZNzpaPbdF",74,"> 4'000€
+>5'900 CHF",18,30,"okay"
+"520",229678093268122,"R_sOmW6gSKvNJ5Si5",0.27,0.654,"over","R_9Xgz23SK1HLZnWN","R_9Xgz23SK1HLZnWN",-0.405,0.57,"under","numeracy high",0.0840000000000001,0.1,"decreased error",1336,"R_sOmW6gSKvNJ5Si5","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","degree",1,6,1483,"R_9Xgz23SK1HLZnWN",55,"<1'500- 2'499€
+3'100-4'299CHF",22,24,"okay"
+"521",229678093270176,"R_12zZPiBUIW0qjxi",0.532,0.669,"over","R_3NEcJYl36tldrhz","R_3NEcJYl36tldrhz",0.176,0.488,"over","numeracy low",0.181,0.2,"decreased error",2102,"R_12zZPiBUIW0qjxi","male","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",2,5,2848,"R_3NEcJYl36tldrhz",75,"<1'500- 2'499€
+3'100-4'299CHF",35,47,"okay"
+"522",229678093275314,"R_2aOZbvUCWCaZgT8",0.108,0.481,"over","R_3lPRoXD0peSUgP1","R_3lPRoXD0peSUgP1",-0.183,0.604,"under","numeracy low",-0.123,-0.1,"increased error",13989,"R_2aOZbvUCWCaZgT8","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","degree",2,5,1475,"R_3lPRoXD0peSUgP1",68,"2'500- 4'000€
+<4'300- 5'899CHF",233,24,"okay"
+"523",229678093284551,"R_3GBUvUfh9Q3gNlv",0.06,0.38,"over","R_3Qy41xx43VBVI2J","R_3Qy41xx43VBVI2J",-0.103,0.31,"under","numeracy high",0.07,0.1,"decreased error",2525,"R_3GBUvUfh9Q3gNlv","male","Switzerland","<1'500€
+<3'100CHF","obligatory school",1,4,3919,"R_3Qy41xx43VBVI2J",56,"<1'500€
+<3'100CHF",42,65,"okay"
+"524",229678093294826,"R_21aGdDDHglzuebV",0.808,0.808,"over","R_3EmcbAxB2fgWfm5","R_3EmcbAxB2fgWfm5",-0.199,0.592,"under","numeracy high",0.216,0.2,"decreased error",646,"R_21aGdDDHglzuebV","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","degree",2,4,811,"R_3EmcbAxB2fgWfm5",64,"2'500- 4'000€
+<4'300- 5'899CHF",10,13,"okay"
+"525",229678093298939,"R_e4N6cNACFRrujZf",0.21,0.498,"over","R_3Pq4dwxmvP7IV7W","R_3Pq4dwxmvP7IV7W",0.317,0.454,"over","numeracy high",0.044,0,"no change",2476,"R_e4N6cNACFRrujZf","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",2,4,2338,"R_3Pq4dwxmvP7IV7W",59,"<1'500- 2'499€
+3'100-4'299CHF",41,38,"okay"
+"526",229678093302790,"R_3nH7erFm3FlZqRm",-0.346,0.494,"under","R_2bN5F89p3dp47h6","R_2bN5F89p3dp47h6",-0.467,0.625,"under","numeracy low",-0.131,-0.1,"increased error",781,"R_3nH7erFm3FlZqRm","female","Switzerland","<1'500€
+<3'100CHF","degree",2,3,971,"R_2bN5F89p3dp47h6",45,"<1'500€
+<3'100CHF",13,16,"okay"
+"527",229678093312036,"R_3nGzUm4aNDYJiLY",0.602,0.765,"over","R_xhgwIdsmKhptaSZ","R_xhgwIdsmKhptaSZ",0.0954,0.823,"over","numeracy low",-0.0579999999999999,-0.1,"increased error",785,"R_3nGzUm4aNDYJiLY","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","degree",4,5,796,"R_xhgwIdsmKhptaSZ",41,"<1'500- 2'499€
+3'100-4'299CHF",13,13,"okay"
+"528",229678093313064,"R_2Vqd3pgSyhpvGMs",0.574,0.668,"over","R_26f1OmYAyKKQTeV","R_26f1OmYAyKKQTeV",0.362,0.515,"over","numeracy low",0.153,0.2,"decreased error",913,"R_2Vqd3pgSyhpvGMs","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",1,1,1010,"R_26f1OmYAyKKQTeV",63,"<1'500- 2'499€
+3'100-4'299CHF",15,16,"okay"
+"529",229678093326426,"R_3FQecw6aCDx1shm",-0.283,0.805,"under","R_1Km3m54TPU3JKM1","R_1Km3m54TPU3JKM1",0.568,0.625,"over","numeracy low",0.18,0.2,"decreased error",3536,"R_3FQecw6aCDx1shm","male","Switzerland","<1'500€
+<3'100CHF","degree",1,4,1780,"R_1Km3m54TPU3JKM1",59,"<1'500€
+<3'100CHF",58,29,"okay"
+"530",229678093331563,"R_3jebqMrrxWLoj9G",0.746,0.746,"over","R_9XKo56LagUvx42d","R_9XKo56LagUvx42d",0.523,0.715,"over","numeracy low",0.031,0,"no change",2472,"R_3jebqMrrxWLoj9G","male","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",2,6,1679,"R_9XKo56LagUvx42d",78,"2'500- 4'000€
+<4'300- 5'899CHF",41,27,"okay"
+"531",229678093336703,"R_3fiTHcHYD6kYayJ",-0.44,0.543,"under","R_2th9gAtAIbanbIK","R_2th9gAtAIbanbIK",-0.0683,0.502,"under","numeracy low",0.041,0,"no change",579,"R_3fiTHcHYD6kYayJ","female","Switzerland","<1'500€
+<3'100CHF","degree",1,6,872,"R_2th9gAtAIbanbIK",44,"<1'500€
+<3'100CHF",9,14,"okay"
+"532",229678093358306,"R_An6PzcN4iqwNczv",0.185,0.718,"over","R_2q2wBpEDDTOLQAr","R_2q2wBpEDDTOLQAr",0.0552,0.908,"over","numeracy low",-0.19,-0.2,"increased error",799,"R_An6PzcN4iqwNczv","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","degree",1,5,1450,"R_2q2wBpEDDTOLQAr",40,"<1'500- 2'499€
+3'100-4'299CHF",13,24,"okay"
+"533",229678093372428,"R_0OolMie4oWOnlJv",-0.0843,0.32,"under","R_2492pCKHqf5dlKi","R_2492pCKHqf5dlKi",-0.208,0.353,"under","numeracy high",-0.033,0,"no change",747,"R_0OolMie4oWOnlJv","male","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","middle school",3,8,1097,"R_2492pCKHqf5dlKi",41,"2'500- 4'000€
+<4'300- 5'899CHF",12,18,"okay"
+"534",229678093381676,"R_vk2QpnGK6FqBB0l",-0.553,0.624,"under","R_2vZhhzJLS8XEt1K","R_2vZhhzJLS8XEt1K",-0.436,0.745,"under","numeracy low",-0.121,-0.1,"increased error",1273,"R_vk2QpnGK6FqBB0l","male","Switzerland","<1'500€
+<3'100CHF","obligatory school",1,7,1642,"R_2vZhhzJLS8XEt1K",50,"<1'500€
+<3'100CHF",21,27,"okay"
+"535",229678093381679,"R_20MeHHXsTnlbV9o",0.288,0.631,"over","R_263IFUYHOUdE9SR","R_263IFUYHOUdE9SR",0.525,0.713,"over","numeracy low",-0.082,-0.1,"increased error",910,"R_20MeHHXsTnlbV9o","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","degree",1,6,2142,"R_263IFUYHOUdE9SR",54,"2'500- 4'000€
+<4'300- 5'899CHF",15,35,"okay"
+"536",229678093384755,"R_3isYhi6yhVinQCi",0.183,0.415,"over","R_2qlSogoBK0vIz2z","R_2qlSogoBK0vIz2z",-0.386,0.833,"under","numeracy low",-0.418,-0.4,"increased error",999,"R_3isYhi6yhVinQCi","female","Switzerland","<1'500€
+<3'100CHF","degree",1,5,1318,"R_2qlSogoBK0vIz2z",42,"<1'500€
+<3'100CHF",16,21,"okay"
+"537",229678093386810,"R_2uEfXyZcIgJfUr6",-0.0123,0.36,"under","R_AG05TbDyvhvnphD","R_AG05TbDyvhvnphD",0.152,0.538,"over","numeracy high",-0.178,-0.2,"increased error",1237,"R_2uEfXyZcIgJfUr6","male","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","middle school",4,2,853,"R_AG05TbDyvhvnphD",38,"2'500- 4'000€
+<4'300- 5'899CHF",20,14,"okay"
+"538",229678093404309,"R_2dyI7M4jUgDJyVI",0.211,0.851,"over","R_2wt1y2Xbl9pcLpW","R_2wt1y2Xbl9pcLpW",0.552,0.658,"over","numeracy low",0.193,0.2,"decreased error",934,"R_2dyI7M4jUgDJyVI","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","degree",3,6,573,"R_2wt1y2Xbl9pcLpW",40,"<1'500€
+<3'100CHF",15,9,"okay"
+"539",229678093404311,"R_RkNj7zIK81KGgMN",-0.16,0.45,"under","R_30bGOYP8zubfggO","R_30bGOYP8zubfggO",-0.164,0.589,"under","numeracy low",-0.139,-0.1,"increased error",1512,"R_RkNj7zIK81KGgMN","male","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","middle school",2,3,2048,"R_30bGOYP8zubfggO",80,"<1'500- 2'499€
+3'100-4'299CHF",25,34,"okay"
+"540",229678093412574,"R_dmTENL4WFRAmWml",-0.628,0.628,"under","R_2CwZWrVSNkvn7hm","R_2CwZWrVSNkvn7hm",-0.156,0.607,"under","numeracy low",0.021,0,"no change",858,"R_dmTENL4WFRAmWml","male","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","degree",2,5,2200,"R_2CwZWrVSNkvn7hm",43,"<1'500- 2'499€
+3'100-4'299CHF",14,36,"okay"
+"541",229678093414635,"R_734AAwGylkq2Pe1",0.0481,0.454,"over","R_1pFFiHfQdEkz93a","R_1pFFiHfQdEkz93a",-0.389,0.598,"under","numeracy low",-0.144,-0.1,"increased error",1616,"R_734AAwGylkq2Pe1","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","degree",1,8,1478,"R_1pFFiHfQdEkz93a",66,"<1'500- 2'499€
+3'100-4'299CHF",26,24,"okay"
+"542",229678093415665,"R_1K3H42hqGnqinn0",0.469,0.808,"over","R_3rGtK5dTnqFVCjc","R_3rGtK5dTnqFVCjc",-0.704,0.906,"under","numeracy low",-0.098,-0.1,"increased error",4052,"R_1K3H42hqGnqinn0","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",2,5,3292,"R_3rGtK5dTnqFVCjc",38,"<1'500- 2'499€
+3'100-4'299CHF",67,54,"okay"
+"543",229678093430898,"R_DcnnxSaLoAkL3rz",-0.0463,0.562,"under","R_OCI2HeR32mrC0fv","R_OCI2HeR32mrC0fv",-0.106,0.506,"under","numeracy low",0.056,0.1,"decreased error",1560,"R_DcnnxSaLoAkL3rz","male","Switzerland","<1'500€
+<3'100CHF","obligatory school",1,6,1203,"R_OCI2HeR32mrC0fv",41,"<1'500€
+<3'100CHF",26,20,"okay"
+"544",229678093431930,"R_qWboZA7SfPjsI8N",-0.253,0.368,"under","R_2tAodbyDXek1lmO","R_2tAodbyDXek1lmO",-0.527,0.747,"under","numeracy low",-0.379,-0.4,"increased error",1224,"R_qWboZA7SfPjsI8N","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","middle school",1,3,2122,"R_2tAodbyDXek1lmO",53,"2'500- 4'000€
+<4'300- 5'899CHF",20,35,"okay"
+"545",229678093431933,"R_2OTofi6rpYevv5M",-0.517,0.74,"under","R_1gznfQwU0vN5Ydh","R_1gznfQwU0vN5Ydh",0.461,0.664,"over","numeracy low",0.076,0.1,"decreased error",905,"R_2OTofi6rpYevv5M","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","degree",4,7,1252,"R_1gznfQwU0vN5Ydh",32,"2'500- 4'000€
+<4'300- 5'899CHF",15,20,"okay"
+"546",229678093435043,"R_269XIaqM07m1U0K",0.886,0.886,"over","R_3KSHZzbgYF0hmWN","R_3KSHZzbgYF0hmWN",0.351,0.524,"over","numeracy high",0.362,0.4,"decreased error",819,"R_269XIaqM07m1U0K","male","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",4,7,871,"R_3KSHZzbgYF0hmWN",34,"2'500- 4'000€
+<4'300- 5'899CHF",13,14,"okay"
+"547",229678093438137,"R_dmyfvnVwZSS6qCR",0.867,0.867,"over","R_3O0UASSJuVz1wKV","R_3O0UASSJuVz1wKV",0.511,0.863,"over","numeracy low",0.004,0,"no change",1241,"R_dmyfvnVwZSS6qCR","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",1,8,4976,"R_3O0UASSJuVz1wKV",68,"2'500- 4'000€
+<4'300- 5'899CHF",20,82,"okay"
+"548",229678093439181,"R_qK1zOTwMlZ8NCOR",0.145,0.334,"over","R_tWWP8sTyFYX40tH","R_tWWP8sTyFYX40tH",-0.607,0.926,"under","numeracy low",-0.592,-0.6,"increased error",989,"R_qK1zOTwMlZ8NCOR","male","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","degree",1,3,806,"R_tWWP8sTyFYX40tH",32,"> 4'000€
+>5'900 CHF",16,13,"okay"
+"549",229678093439187,"R_3G1dEpQidltZ7UV",0.289,0.501,"over","R_2yrOKnTx9VJIJYc","R_2yrOKnTx9VJIJYc",0.632,0.651,"over","numeracy high",-0.15,-0.2,"increased error",4695,"R_3G1dEpQidltZ7UV","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","degree",3,3,1048,"R_2yrOKnTx9VJIJYc",45,"2'500- 4'000€
+<4'300- 5'899CHF",78,17,"okay"
+"550",229678093440221,"R_2tgvC1GeI8QufUE",0.084,0.441,"over","R_RFtxxKxqDaFLHtT","R_RFtxxKxqDaFLHtT",0.0389,0.432,"over","numeracy low",0.00900000000000001,0,"no change",1517,"R_2tgvC1GeI8QufUE","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","degree",1,6,1675,"R_RFtxxKxqDaFLHtT",45,"2'500- 4'000€
+<4'300- 5'899CHF",25,27,"okay"
+"551",229678093440224,"R_3Myrqdw0pzbDQkz",-0.178,0.954,"under","R_2xS2aNnxwYu52vT","R_2xS2aNnxwYu52vT",-0.467,0.766,"under","numeracy low",0.188,0.2,"decreased error",826,"R_3Myrqdw0pzbDQkz","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","middle school",3,5,809,"R_2xS2aNnxwYu52vT",31,"> 4'000€
+>5'900 CHF",13,13,"okay"
+"552",229758201742380,"R_1dtQ89qnhvDRtCJ",0.542,0.624,"over","R_3nNQbVPzRGKWTvf","R_3nNQbVPzRGKWTvf",-0.185,0.532,"under","numeracy high",0.092,0.1,"decreased error",1575,"R_1dtQ89qnhvDRtCJ","female","Germany","> 4'000€
+>5'900 CHF","middle school",3,5,5168,"R_3nNQbVPzRGKWTvf",70,"> 4'000€
+>5'900 CHF",26,86,"okay"
+"553",229758453882067,"R_1pWkYnvOiwS0XUO",0.537,0.881,"over","R_2Y9WhVvkCDyq3KU","R_2Y9WhVvkCDyq3KU",0.604,0.699,"over","numeracy low",0.182,0.2,"decreased error",1060,"R_1pWkYnvOiwS0XUO","male","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",1,2,1059,"R_2Y9WhVvkCDyq3KU",69,"<1'500- 2'499€
+3'100-4'299CHF",17,17,"okay"
+"554",229758453883093,"R_1LRQAdfNJTKMgGI",0.521,0.767,"over","R_RrWEqa504IT11n3","R_RrWEqa504IT11n3",-0.54,0.781,"under","numeracy low",-0.014,0,"no change",2821,"R_1LRQAdfNJTKMgGI","male","Switzerland","<1'500€
+<3'100CHF","degree",1,6,2732,"R_RrWEqa504IT11n3",46,"<1'500€
+<3'100CHF",47,45,"okay"
+"555",229758453888227,"R_1ogUn1QrTtO0BPT",0.814,0.829,"over","R_1I4WlAa3OiJqVwK","R_1I4WlAa3OiJqVwK",0.255,0.676,"over","numeracy low",0.153,0.2,"decreased error",754,"R_1ogUn1QrTtO0BPT","female","Switzerland","<1'500€
+<3'100CHF","obligatory school",1,6,968,"R_1I4WlAa3OiJqVwK",62,"<1'500€
+<3'100CHF",12,16,"okay"
+"556",229758453932074,"R_1pE9CDJuuBYcoF8",-0.333,0.582,"under","R_1LFH0LOWi9Yz49r","R_1LFH0LOWi9Yz49r",-0.348,0.422,"under","numeracy high",0.16,0.2,"decreased error",1640,"R_1pE9CDJuuBYcoF8","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","degree",1,6,1706,"R_1LFH0LOWi9Yz49r",51,"<1'500- 2'499€
+3'100-4'299CHF",27,28,"okay"
+"557",229758453977189,"R_3qjukVIGc9vju6U",0.124,0.669,"over","R_3hg7VuBZdF9ke2k","R_3hg7VuBZdF9ke2k",0.135,0.247,"over","numeracy high",0.422,0.4,"decreased error",1060,"R_3qjukVIGc9vju6U","male","Switzerland","<1'500€
+<3'100CHF","degree",2,4,1217,"R_3hg7VuBZdF9ke2k",65,"<1'500€
+<3'100CHF",17,20,"okay"
+"558",229758454067427,"R_3EhflsDKTC83CQE",0.62,0.653,"over","R_3m32qTstvhmJ84V","R_3m32qTstvhmJ84V",0.189,0.603,"over","numeracy high",0.05,0.1,"decreased error",1200,"R_3EhflsDKTC83CQE","female","Switzerland","<1'500€
+<3'100CHF","degree",2,7,1753,"R_3m32qTstvhmJ84V",58,"<1'500€
+<3'100CHF",20,29,"okay"
+"559",229758454074603,"R_302jU1hKGFVorVA",-0.0443,0.394,"under","R_RWADUC9j2nEiRYl","R_RWADUC9j2nEiRYl",-0.0584,0.712,"under","numeracy low",-0.318,-0.3,"increased error",11558,"R_302jU1hKGFVorVA","female","Switzerland","<1'500€
+<3'100CHF","obligatory school",1,7,1505,"R_RWADUC9j2nEiRYl",54,"<1'500€
+<3'100CHF",192,25,"okay"
+"560",229758454221926,"R_2Sw6rAOun21Rl28",0.17,0.581,"over","R_1esHTNUUBMqaFT4","R_1esHTNUUBMqaFT4",0.814,0.814,"over","numeracy low",-0.233,-0.2,"increased error",1284,"R_2Sw6rAOun21Rl28","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",2,6,1306,"R_1esHTNUUBMqaFT4",80,"<1'500€
+<3'100CHF",21,21,"okay"
+"561",229758454231173,"R_1rfrFquUHpIwJiu",0.283,0.629,"over","R_3fpDyJOpJ1Eg7nH","R_3fpDyJOpJ1Eg7nH",0.43,0.637,"over","numeracy high",-0.00800000000000001,0,"no change",1707,"R_1rfrFquUHpIwJiu","male","Switzerland","<1'500€
+<3'100CHF","no formal education",1,5,1529,"R_3fpDyJOpJ1Eg7nH",60,"<1'500€
+<3'100CHF",28,25,"okay"
+"562",229758454236304,"R_2AS87J6lireNMJW",0.61,0.61,"over","R_2ghsWopwxNyadTb","R_2ghsWopwxNyadTb",0.101,0.509,"over","numeracy high",0.101,0.1,"decreased error",634,"R_2AS87J6lireNMJW","male","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","degree",5,3,909,"R_2ghsWopwxNyadTb",44,"<1'500- 2'499€
+3'100-4'299CHF",10,15,"okay"
+"563",229855351959799,"R_3JgBBxNJzTEfspb",0.164,0.55,"over","R_3rGmsRvbFb1g0f8","R_3rGmsRvbFb1g0f8",0.12,0.305,"over","numeracy high",0.245,0.2,"decreased error",1575,"R_3JgBBxNJzTEfspb","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","degree",2,5,1274,"R_3rGmsRvbFb1g0f8",65,"2'500- 4'000€
+<4'300- 5'899CHF",26,21,"okay"
+"564",229855351994462,"R_1fl2MTowCfCRhG0",-0.216,0.406,"under","R_2E4XZ1gU8UuEcy2","R_2E4XZ1gU8UuEcy2",-0.779,0.779,"under","numeracy low",-0.373,-0.4,"increased error",1814,"R_1fl2MTowCfCRhG0","female","Germany","> 4'000€
+>5'900 CHF","middle school",2,6,1929,"R_2E4XZ1gU8UuEcy2",67,"> 4'000€
+>5'900 CHF",30,32,"okay"
+"565",229855351994463,"R_2bNQX6i4Gfq2gKY",0.748,0.787,"over","R_3MxtBVkHFb0eckC","R_3MxtBVkHFb0eckC",-0.0568,0.499,"under","numeracy low",0.288,0.3,"decreased error",1094,"R_2bNQX6i4Gfq2gKY","female","Germany","> 4'000€
+>5'900 CHF","no formal education",2,7,1077,"R_3MxtBVkHFb0eckC",62,"> 4'000€
+>5'900 CHF",18,17,"okay"
+"566",229855351995491,"R_3MPu31AzdohRMko",0.658,0.676,"over","R_1hYcEowvUwVWBqw","R_1hYcEowvUwVWBqw",-0.286,0.286,"under","numeracy high",0.39,0.4,"decreased error",1361,"R_3MPu31AzdohRMko","female","Germany","> 4'000€
+>5'900 CHF","degree",2,3,5132,"R_1hYcEowvUwVWBqw",61,"> 4'000€
+>5'900 CHF",22,85,"okay"
+"567",229855351995492,"R_21bvhgPlUiTqwQa",0.68,0.773,"over","R_YcCAFctVTYMnngZ","R_YcCAFctVTYMnngZ",-0.642,0.731,"under","numeracy low",0.042,0,"no change",984,"R_21bvhgPlUiTqwQa","female","Germany","> 4'000€
+>5'900 CHF","obligatory school",2,6,2032,"R_YcCAFctVTYMnngZ",61,"> 4'000€
+>5'900 CHF",16,33,"okay"
+"568",229855352002681,"R_1LvCjhF0EEOqlAp",-0.577,0.626,"under","R_12fHiuDKnfCHBwJ","R_12fHiuDKnfCHBwJ",-0.0606,0.443,"under","numeracy high",0.183,0.2,"decreased error",286,"R_1LvCjhF0EEOqlAp","female","Germany","> 4'000€
+>5'900 CHF","degree",3,9,954,"R_12fHiuDKnfCHBwJ",60,"> 4'000€
+>5'900 CHF",4,15,"speeder"
+"569",229855352005760,"R_1KpqCfkR85ApDEQ",0.312,0.424,"over","R_1OI9sjzqAoq5VTd","R_1OI9sjzqAoq5VTd",0.403,0.547,"over","numeracy low",-0.123,-0.1,"increased error",1740,"R_1KpqCfkR85ApDEQ","female","Germany","> 4'000€
+>5'900 CHF","degree",2,5,2016,"R_1OI9sjzqAoq5VTd",65,"> 4'000€
+>5'900 CHF",29,33,"okay"
+"570",229855352032472,"R_12KA26bT3vvPUxO",0.411,0.528,"over","R_3K7ud1ITarVlcMF","R_3K7ud1ITarVlcMF",0.0679,0.617,"over","numeracy low",-0.089,-0.1,"increased error",1337,"R_12KA26bT3vvPUxO","female","Germany","> 4'000€
+>5'900 CHF","degree",2,5,1690,"R_3K7ud1ITarVlcMF",65,"> 4'000€
+>5'900 CHF",22,28,"okay"
+"571",229855352035555,"R_3mmgNPJTsI2HNu0",-0.38,0.5,"under","R_2WNnfEbzmLI06mJ","R_2WNnfEbzmLI06mJ",0.394,0.458,"over","numeracy high",0.042,0,"no change",633,"R_3mmgNPJTsI2HNu0","female","Germany","> 4'000€
+>5'900 CHF","no formal education",3,7,857,"R_2WNnfEbzmLI06mJ",63,"> 4'000€
+>5'900 CHF",10,14,"okay"
+"572",229855352039662,"R_1prLq4RJil17Iht",-0.239,0.555,"under","R_1QcQf40hnZ8IGIv","R_1QcQf40hnZ8IGIv",-0.176,0.465,"under","numeracy low",0.09,0.1,"decreased error",1986,"R_1prLq4RJil17Iht","female","Germany","> 4'000€
+>5'900 CHF","middle school",2,6,1955,"R_1QcQf40hnZ8IGIv",64,"> 4'000€
+>5'900 CHF",33,32,"okay"
+"573",229855352053806,"R_3PcaIkbjoodjNKU",0.43,0.596,"over","R_30kjJ6aflGnLwCZ","R_30kjJ6aflGnLwCZ",0.322,0.479,"over","numeracy low",0.117,0.1,"decreased error",1918,"R_3PcaIkbjoodjNKU","female","Germany","> 4'000€
+>5'900 CHF","degree",2,4,1964,"R_30kjJ6aflGnLwCZ",67,"> 4'000€
+>5'900 CHF",31,32,"okay"
+"574",229855352055869,"R_1LUSiI51StMj2fs",0.257,0.369,"over","R_3HTDoD3sdEXRJ69","R_3HTDoD3sdEXRJ69",-0.0401,0.418,"under","numeracy high",-0.049,0,"no change",1377,"R_1LUSiI51StMj2fs","female","Germany","> 4'000€
+>5'900 CHF","obligatory school",2,4,1323,"R_3HTDoD3sdEXRJ69",61,"> 4'000€
+>5'900 CHF",22,22,"okay"
+"575",229855352122461,"R_1mgS3o7laschj5y",-0.54,0.686,"under","R_2CQ8YyzW1RpRmOa","R_2CQ8YyzW1RpRmOa",-1.04,1.04,"under","numeracy low",-0.354,-0.4,"increased error",11618,"R_1mgS3o7laschj5y","female","Germany","> 4'000€
+>5'900 CHF","obligatory school",2,6,1456,"R_2CQ8YyzW1RpRmOa",70,"> 4'000€
+>5'900 CHF",193,24,"okay"
+"576",229855352122474,"R_3qrrZIPKi2hix0x",-0.12,0.598,"under","R_28Gxw9vDZkw4AFl","R_28Gxw9vDZkw4AFl",-0.909,0.974,"under","numeracy low",-0.376,-0.4,"increased error",619,"R_3qrrZIPKi2hix0x","female","Germany","> 4'000€
+>5'900 CHF","middle school",2,6,656,"R_28Gxw9vDZkw4AFl",77,"> 4'000€
+>5'900 CHF",10,10,"okay"
+"577",229855352125597,"R_1QLVecSrgBB3TF7",-0.868,0.939,"under","R_3CINlYRwGPISJ35","R_3CINlYRwGPISJ35",-0.406,0.532,"under","numeracy low",0.407,0.4,"decreased error",1015,"R_1QLVecSrgBB3TF7","female","Germany","> 4'000€
+>5'900 CHF","degree",2,5,1557,"R_3CINlYRwGPISJ35",68,"> 4'000€
+>5'900 CHF",16,25,"okay"
+"578",229855352130794,"R_23dhBmmmpedny6z",0.0268,0.381,"over","R_2Bm2KJXRyABauyk","R_2Bm2KJXRyABauyk",-0.0329,0.345,"under","numeracy low",0.036,0,"no change",766,"R_23dhBmmmpedny6z","female","Germany","2'500- 4'000€
+<4'300- 5'899CHF","degree",2,4,845,"R_2Bm2KJXRyABauyk",61,"> 4'000€
+>5'900 CHF",12,14,"okay"
+"579",229855352130795,"R_3jfFKwL3nFTv5jm",0.0602,0.741,"over","R_qQGtOT7apnfrtvj","R_qQGtOT7apnfrtvj",-0.483,0.787,"under","numeracy low",-0.046,0,"no change",1057,"R_3jfFKwL3nFTv5jm","female","Germany","> 4'000€
+>5'900 CHF","degree",2,3,1345,"R_qQGtOT7apnfrtvj",74,"> 4'000€
+>5'900 CHF",17,22,"okay"
+"580",229937962964147,"R_2BqCqINqXblVi4A",0.601,0.695,"over","R_3GvpTnsgO0dN7v3","R_3GvpTnsgO0dN7v3",0.622,0.658,"over","numeracy high",0.0369999999999999,0,"no change",984,"R_2BqCqINqXblVi4A","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","middle school",1,8,1053,"R_3GvpTnsgO0dN7v3",71,"<1'500- 2'499€
+3'100-4'299CHF",16,17,"okay"
+"581",229937962990809,"R_2fa3tzzYgAN6xyI",-1.44,1.44,"under","R_OwY0BjyA8AlUB3z","R_OwY0BjyA8AlUB3z",-0.0549,0.475,"under","numeracy low",0.965,1,"decreased error",663,"R_2fa3tzzYgAN6xyI","male","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",1,3,1166,"R_OwY0BjyA8AlUB3z",58,"2'500- 4'000€
+<4'300- 5'899CHF",11,19,"okay"
+"582",229937963021321,"R_DA9FaF7eBDE68E1",0.736,0.754,"over","R_0wTi4jmliqouWu5","R_0wTi4jmliqouWu5",0.523,0.542,"over","numeracy low",0.212,0.2,"decreased error",1790,"R_DA9FaF7eBDE68E1","male","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",1,4,1760,"R_0wTi4jmliqouWu5",58,"<1'500- 2'499€
+3'100-4'299CHF",29,29,"okay"
+"583",229937963061289,"R_3w0BMiOH7kDSo6J",-0.16,0.637,"under","R_A0evhkLCvzpJ2Jb","R_A0evhkLCvzpJ2Jb",-0.67,0.832,"under","numeracy low",-0.195,-0.2,"increased error",1596,"R_3w0BMiOH7kDSo6J","male","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","degree",4,8,3734,"R_A0evhkLCvzpJ2Jb",67,"2'500- 4'000€
+<4'300- 5'899CHF",26,62,"okay"
+"584",229937963133014,"R_UAdT6lmfGZMm2s1",0.652,0.779,"over","R_3hxUPG9N0GYg3od","R_3hxUPG9N0GYg3od",-0.499,1.15,"under","numeracy low",-0.371,-0.4,"increased error",1172,"R_UAdT6lmfGZMm2s1","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","middle school",1,5,992,"R_3hxUPG9N0GYg3od",57,"<1'500€
+<3'100CHF",19,16,"okay"
+"585",229937963154540,"R_2CeRAdFGYdyKpNa",-0.343,0.637,"under","R_1rMMLys7a9QDlKp","R_1rMMLys7a9QDlKp",-0.279,0.644,"under","numeracy low",-0.00700000000000001,0,"no change",1749,"R_2CeRAdFGYdyKpNa","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",2,5,1792,"R_1rMMLys7a9QDlKp",43,"<1'500- 2'499€
+3'100-4'299CHF",29,29,"okay"
+"586",229937963228341,"R_3iUSBNvBL2gkwBY",0.245,0.668,"over","R_2AFo5duAc0IHQXg","R_2AFo5duAc0IHQXg",0.217,0.528,"over","numeracy low",0.14,0.1,"decreased error",1140,"R_3iUSBNvBL2gkwBY","male","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",2,3,2482,"R_2AFo5duAc0IHQXg",57,"<1'500- 2'499€
+3'100-4'299CHF",19,41,"okay"
+"587",229937963274473,"R_3egCMFrdwh16DEi",-0.684,0.731,"under","R_2xRFAHf3m984KjF","R_2xRFAHf3m984KjF",-0.0386,0.469,"under","numeracy low",0.262,0.3,"decreased error",1571,"R_3egCMFrdwh16DEi","male","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","middle school",1,8,1714,"R_2xRFAHf3m984KjF",67,"<1'500- 2'499€
+3'100-4'299CHF",26,28,"okay"
+"588",229937963303953,"R_56ZTAc0Vrn5PXLr",-0.639,0.639,"under","R_XMrlfKuFlmyYBMd","R_XMrlfKuFlmyYBMd",0.526,0.609,"over","numeracy low",0.03,0,"no change",118536,"R_56ZTAc0Vrn5PXLr","male","Switzerland","<1'500€
+<3'100CHF","obligatory school",4,6,27668,"R_XMrlfKuFlmyYBMd",64,"<1'500€
+<3'100CHF",1975,461,"okay"
+"589",229937963317277,"R_w0jR8UNaqCDVHXz",0.297,0.461,"over","R_3KJHMzL3J7PD1Ha","R_3KJHMzL3J7PD1Ha",0.332,0.516,"over","numeracy low",-0.055,-0.1,"increased error",1196,"R_w0jR8UNaqCDVHXz","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","degree",1,4,1762,"R_3KJHMzL3J7PD1Ha",60,"2'500- 4'000€
+<4'300- 5'899CHF",19,29,"okay"
+"590",229937963343935,"R_26loy7keZ66nKb4",0.0888,0.536,"over","R_RnnchR9GUfX0ytz","R_RnnchR9GUfX0ytz",0.387,0.813,"over","numeracy low",-0.277,-0.3,"increased error",1537,"R_26loy7keZ66nKb4","male","Switzerland","<1'500€
+<3'100CHF","degree",2,7,1810,"R_RnnchR9GUfX0ytz",70,"<1'500€
+<3'100CHF",25,30,"okay"
+"591",229937963356233,"R_1obtEN1KAT8Ivsq",0.305,0.534,"over","R_3MPAl1HRGhuO15w","R_3MPAl1HRGhuO15w",0.189,0.555,"over","numeracy low",-0.021,0,"no change",1305,"R_1obtEN1KAT8Ivsq","female","Switzerland","<1'500€
+<3'100CHF","obligatory school",1,8,3158,"R_3MPAl1HRGhuO15w",69,"<1'500€
+<3'100CHF",21,52,"okay"
+"592",229937963399296,"R_3n3tEncCO9Vv2PD",0.751,0.77,"over","R_1jZcZ1S8MccWXlw","R_1jZcZ1S8MccWXlw",-0.308,0.586,"under","numeracy high",0.184,0.2,"decreased error",1149,"R_3n3tEncCO9Vv2PD","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","middle school",2,6,1383,"R_1jZcZ1S8MccWXlw",65,"2'500- 4'000€
+<4'300- 5'899CHF",19,23,"okay"
+"593",229937963436224,"R_C9T1efwFZ6VT9Lz",0.934,0.934,"over","R_2zx96JsJgGlf2Gl","R_2zx96JsJgGlf2Gl",0.978,0.978,"over","numeracy low",-0.0439999999999999,0,"no change",1777,"R_C9T1efwFZ6VT9Lz","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",3,6,1803,"R_2zx96JsJgGlf2Gl",45,"<1'500€
+<3'100CHF",29,30,"okay"
+"594",229937963517143,"R_2rjd6OSW7yoXCFy",-0.474,0.647,"under","R_uwVUl5YWIGbnhiF","R_uwVUl5YWIGbnhiF",-0.0485,0.52,"under","numeracy low",0.127,0.1,"decreased error",1620,"R_2rjd6OSW7yoXCFy","male","Switzerland","> 4'000€
+>5'900 CHF","degree",3,5,1728,"R_uwVUl5YWIGbnhiF",75,"> 4'000€
+>5'900 CHF",27,28,"okay"
+"595",230296024624230,"R_1rfEcoDe8h656K4",-0.0386,0.625,"under","R_sA7Re0aES3EZ7vH","R_sA7Re0aES3EZ7vH",-0.000948,0.567,"under","numeracy high",0.058,0.1,"decreased error",9134,"R_1rfEcoDe8h656K4","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","degree",4,3,864,"R_sA7Re0aES3EZ7vH",27,"2'500- 4'000€
+<4'300- 5'899CHF",152,14,"okay"
+"596",230296025033849,"R_2vZGx1OZkobeeEs",-0.279,0.558,"under","R_2uOMTtyh1bXg9ty","R_2uOMTtyh1bXg9ty",-0.229,0.426,"under","numeracy low",0.132,0.1,"decreased error",784,"R_2vZGx1OZkobeeEs","male","Switzerland","<1'500€
+<3'100CHF","middle school",4,2,825,"R_2uOMTtyh1bXg9ty",23,"<1'500€
+<3'100CHF",13,13,"okay"
+"597",230296025094160,"R_tZ0bYpiNyMj4pt7",-0.0804,0.625,"under","R_1jIJHh1689WJ1Wf","R_1jIJHh1689WJ1Wf",0.314,0.743,"over","numeracy low",-0.118,-0.1,"increased error",1122,"R_tZ0bYpiNyMj4pt7","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",1,4,1615,"R_1jIJHh1689WJ1Wf",54,"<1'500- 2'499€
+3'100-4'299CHF",18,26,"okay"
+"598",230296025238534,"R_10ZfwML5Q6HbOBv",0.442,0.683,"over","R_1pyPj6pxQTGpmoY","R_1pyPj6pxQTGpmoY",0.307,0.623,"over","numeracy low",0.06,0.1,"decreased error",975,"R_10ZfwML5Q6HbOBv","female","Switzerland","<1'500- 2'499€
+3'100-4'299CHF","obligatory school",4,4,1272,"R_1pyPj6pxQTGpmoY",36,"<1'500- 2'499€
+3'100-4'299CHF",16,21,"okay"
+"599",230296025317508,"R_3lxk1s9I4JxWjBb",0.567,0.75,"over","R_RFF8tBoS3es1VRf","R_RFF8tBoS3es1VRf",0.499,0.632,"over","numeracy low",0.118,0.1,"decreased error",1190,"R_3lxk1s9I4JxWjBb","female","Switzerland","<1'500€
+<3'100CHF","middle school",5,6,907,"R_RFF8tBoS3es1VRf",44,"<1'500€
+<3'100CHF",19,15,"okay"
+"600",230469411954784,"R_DUAN8s8VqapyYCt",-0.571,0.815,"under","R_1LFmb4Bx13gTnD3","R_1LFmb4Bx13gTnD3",0.147,0.756,"over","numeracy high",0.0589999999999999,0.1,"decreased error",2104,"R_DUAN8s8VqapyYCt","male","Switzerland","> 4'000€
+>5'900 CHF","degree",2,3,4582,"R_1LFmb4Bx13gTnD3",63,"> 4'000€
+>5'900 CHF",35,76,"okay"
+"601",230469411956853,"R_ba4nkvzYlW6JNIt",0.874,0.874,"over","R_3XeseMFKEK1HLwd","R_3XeseMFKEK1HLwd",-0.455,0.733,"under","numeracy low",0.141,0.1,"decreased error",3939,"R_ba4nkvzYlW6JNIt","female","Switzerland","> 4'000€
+>5'900 CHF","obligatory school",5,5,2905,"R_3XeseMFKEK1HLwd",40,"> 4'000€
+>5'900 CHF",65,48,"okay"
+"602",230469411957892,"R_1gNKKT2BjaM2i4g",0.102,0.416,"over","R_1cYyqwuVjx1HrFm","R_1cYyqwuVjx1HrFm",0.412,0.668,"over","numeracy low",-0.252,-0.3,"increased error",1811,"R_1gNKKT2BjaM2i4g","male","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","obligatory school",2,6,2535,"R_1cYyqwuVjx1HrFm",73,"2'500- 4'000€
+<4'300- 5'899CHF",30,42,"okay"
+"603",230469411958921,"R_2EAdFWU1xsp70SE",0.904,0.904,"over","R_1F95ZqBmJuJUOkw","R_1F95ZqBmJuJUOkw",0.545,0.702,"over","numeracy low",0.202,0.2,"decreased error",1326,"R_2EAdFWU1xsp70SE","male","Switzerland","> 4'000€
+>5'900 CHF","degree",2,5,2625,"R_1F95ZqBmJuJUOkw",75,"> 4'000€
+>5'900 CHF",22,43,"okay"
+"604",230469411962007,"R_2EiZqFF8frpKsNn",0.0747,0.518,"over","R_Wc9R39yolT7MThT","R_Wc9R39yolT7MThT",0.755,0.798,"over","numeracy low",-0.28,-0.3,"increased error",874,"R_2EiZqFF8frpKsNn","female","Switzerland","> 4'000€
+>5'900 CHF","middle school",2,5,1002,"R_Wc9R39yolT7MThT",55,"> 4'000€
+>5'900 CHF",14,16,"okay"
+"605",230469411964067,"R_1M0xHfneKLAhQMR",0.27,0.511,"over","R_2V8sidAyrLfM799","R_2V8sidAyrLfM799",0.423,0.54,"over","numeracy low",-0.029,0,"no change",2386,"R_1M0xHfneKLAhQMR","male","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","middle school",4,2,721,"R_2V8sidAyrLfM799",58,"2'500- 4'000€
+<4'300- 5'899CHF",39,12,"okay"
+"606",230469411967151,"R_6DpxhlmL4FDsp0J",-0.578,0.786,"under","R_1QcuoKglTc1aR2c","R_1QcuoKglTc1aR2c",0.659,0.659,"over","numeracy low",0.127,0.1,"decreased error",1002,"R_6DpxhlmL4FDsp0J","female","Switzerland","2'500- 4'000€
+<4'300- 5'899CHF","degree",1,7,1531,"R_1QcuoKglTc1aR2c",58,"2'500- 4'000€
+<4'300- 5'899CHF",16,25,"okay"
+"607",230469411984631,"R_3DitLG2nqStwZRY",-0.858,0.858,"under","R_31szBB0IAUEKR80","R_31szBB0IAUEKR80",-0.412,0.413,"under","numeracy high",0.445,0.4,"decreased error",674,"R_3DitLG2nqStwZRY","male","Switzerland","> 4'000€
+>5'900 CHF","degree",3,6,805,"R_31szBB0IAUEKR80",66,"> 4'000€
+>5'900 CHF",11,13,"okay"
+"608",230469411989522,"R_3MK93DIT6IwDRoX",-0.493,0.768,"under","R_2YQxuPlsGNs1gax","R_2YQxuPlsGNs1gax",-0.195,0.504,"under","numeracy low",0.264,0.3,"decreased error",1600,"R_3MK93DIT6IwDRoX","male","Switzerland","> 4'000€
+>5'900 CHF","no formal education",2,6,1859,"R_2YQxuPlsGNs1gax",63,"> 4'000€
+>5'900 CHF",26,30,"okay"
+"609",230469412011106,"R_3nkhpGIGldYlgAR",0.11,0.633,"over","R_1OZvYMVO8FhOvaF","R_1OZvYMVO8FhOvaF",0.29,0.606,"over","numeracy low",0.027,0,"no change",1111,"R_3nkhpGIGldYlgAR","male","Switzerland","> 4'000€
+>5'900 CHF","degree",1,6,1378,"R_1OZvYMVO8FhOvaF",69,"> 4'000€
+>5'900 CHF",18,22,"okay"

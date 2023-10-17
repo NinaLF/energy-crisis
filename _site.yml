@@ -1,7 +1,7 @@
-name: "my-website"
+name: "Energy crisis analyses documentation"
 output_dir: "docs"
 navbar:
-  title: "My Website"
+  title: "Documentation of energy crisis analyses"
   left:
     - text: "Index"
       href: index.html
@@ -13,6 +13,10 @@ navbar:
       href: analyses-product-choices.html
     - text: "Analyses policy support"
       href: analyses-policy-new.html
-
-
+    - text: "Analyses policy support supplementary"
+      href: analyses-policy-supplementary.html
+    - text: "Analyses judgment supplementary"
+      href: analyses-judgment-supplementary.html
+    - text: "Analyses product choices supplementary"
+      href: analyses-product-choices-supplementary.html
  

@@ -19,7 +19,7 @@ knitr::opts_chunk$set(class.source = "CSSoutput",
 ```
 
 ```{r functions, include=FALSE}
-setwd("/Users/nfrings/Library/Mobile Documents/com~apple~CloudDocs/Documents/PhD/Studies/Winter studie/results")
+setwd("/Users/nfrings/Documents/PhD/Studies/Winter studie/results/energy-crisis")
 #setwd("/Users/ninafrings/Documents/PhD/Studies/Winter studie/results")
 
 library(tidyverse)
@@ -211,7 +211,7 @@ tab_model(model.H4a.both)
 ```{r}
 plot_model(model.H4a.both,type="pred",terms=c("concern.scaled","energy.level"),
                     colors=c( "#15A000", "#0070C0")) +
-                    xlim(-2,2) +
+                    xlim(-1.5, 1.5) +
                     labs(x="Climate change concern", y= "Predicted prob. of energy efficient choice",title="d", color=paste0("Energy efficiency", "\n" ,"difference in choice") ) + ylim(0,1) +
                     theme(plot.caption = element_text(hjust = 0),
                     plot.title.position = "plot",
@@ -252,7 +252,7 @@ tab_model(model.H4a.error.both)
 ```{r}
 plot_model(model.H4a.error.both,
                     type="pred",terms=c("mean.error_scaled","energy.level"),
-                    colors=c( "#15A000", "#0070C0")) + xlim(-2,2) +
+                    colors=c( "#15A000", "#0070C0")) + xlim(-1.5, 1.5) +
   labs(x="Judgment error",  y= "Predicted prob. of energy efficient choice", title="c", 
        color=paste0("Energy efficiency", "\n" ,"difference in choice") ) + ylim(0,1) +
   theme(plot.caption = element_text(hjust = 0),
@@ -468,7 +468,7 @@ tab_model(model.H4a.both_clean)
 ```{r, fig.width = 13, fig.height = 8 }
 Fig3d <- plot_model(model.H4a.both_clean,type="pred",terms=c("concern.scaled","energy.level"),
                     colors=c( "#15A000", "#0070C0")) +
-                    xlim(-2,2) +
+                    xlim(-1.5, 1.5) +
                     labs(x="Climate change concern", y= "Predicted prob. of energy efficient choice",title="d", color=paste0("Energy efficiency", "\n" ,"difference in choice") ) + ylim(0,1) +
                     theme(plot.caption = element_text(hjust = 0),
                     plot.title.position = "plot",
@@ -508,7 +508,7 @@ tab_model(model.H4a.error.both_clean)
 ```{r, fig.width = 13, fig.height = 8 }
 Fig3c <- plot_model(model.H4a.error.both_clean,
                     type="pred",terms=c("mean.error_scaled","energy.level"),
-                    colors=c( "#15A000", "#0070C0")) + xlim(-2,2) +
+                    colors=c( "#15A000", "#0070C0")) + xlim(-1.5, 1.5) +
   labs(x="Judgment error",  y= "Predicted prob. of energy efficient choice", title="c", 
        color=paste0("Energy efficiency", "\n" ,"difference in choice") ) + ylim(0,1) +
   theme(plot.caption = element_text(hjust = 0),
@@ -667,9 +667,11 @@ Fig3b <- ggplot(pred_2, aes(x = wave2, y = predicted)) + scale_color_manual(valu
 /
 
 All plots together
-```{r, fig.width = 16, fig.height = 12 }
- (Fig3a | Fig3b)  / (Fig3c + Fig3d)
+```{r, fig.width = 20, fig.height = 14 }
+All.fig <- (Fig3a | Fig3b)  / (Fig3c + Fig3d)
+All.fig
 ```
+
 
 
 #### controlling for 2022 energy price
@@ -703,5 +705,39 @@ plot_model(model.choice.price.diff.w2, type="emm", terms=c("energy.level","rel_p
 ```
 
 
+#### absolute price effect
+```{r}
+
+
+model.choice.price.diff.w2.2 <- glmer(choice ~  price.diff*wave*energy.level    +
+                                           concern.scaled  + mean.error_scaled+ price.level +
+                                           age +
+                                           gender + income + education + (1 |m) ,
+                                    data=data.product.waves.long.price_clean, family = binomial(link = "probit"))
+Anova(model.choice.price.diff.w2.2, type=2)
+
+plot_model(model.choice.price.diff.w2.2, type="emm", terms=c("energy.level","price.diff"), colors=c("#F6BE00", "#ff8c00", "#a50000"))
+
+```
+
+```{r energy.price}
+## distribution of energy difference
+data.energy.plz.total.id.exc_clean <- data.energy.plz.total.id.exc[!c(data.energy.plz.total.id.exc$m %in% data.accuracy.pattern$m), ]
+ggplot(data.energy.plz.total.id.exc_clean, aes(x=rel_price_difference)) +
+  geom_histogram(bins=100) + theme_minimal() +
+    theme(plot.caption = element_text(hjust = 0),
+          plot.title.position = "plot",
+          plot.caption.position =  "plot",
+          plot.title = element_text(size = 23, face = "bold"),
+          axis.title  = element_text(size = 23),
+          axis.text = element_text(size = 21),
+          legend.title = element_text(size = 19, face="plain"),
+          strip.text  = element_text(size = 19, face="plain"),
+          legend.text = element_text(size = 19)) + 
+    labs(y="amount of individuals experiencing this energy price difference",
+         x="relative energy price difference") 
+         
+
+```
 
 

@@ -10,7 +10,7 @@
 
 
 
-<meta name="date" content="2023-10-02" />
+<meta name="date" content="2023-10-16" />
 
 <title>analyses policy new</title>
 
@@ -239,7 +239,7 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">My Website</a>
+      <a class="navbar-brand" href="index.html">Documentation of energy crisis analyses</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -258,6 +258,15 @@ $(document).ready(function () {
 <li>
   <a href="analyses-policy-new.html">Analyses policy support</a>
 </li>
+<li>
+  <a href="analyses-policy-supplementary.html">Analyses policy support supplementary</a>
+</li>
+<li>
+  <a href="analyses-judgment-supplementary.html">Analyses judgment supplementary</a>
+</li>
+<li>
+  <a href="analyses-product-choices-supplementary.html">Analyses product choices supplementary</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -271,7 +280,7 @@ $(document).ready(function () {
 
 
 <h1 class="title toc-ignore">analyses policy new</h1>
-<h4 class="date">2023-10-02</h4>
+<h4 class="date">2023-10-16</h4>
 
 </div>
 
@@ -359,7 +368,6 @@ estimate H1b</a></li>
 </ul></li>
 <li><a href="#h1b-plot-both-waves" id="toc-h1b-plot-both-waves">H1b plot
 both waves</a></li>
-<li><a href="#both-plots" id="toc-both-plots">both plots</a></li>
 <li><a href="#model-comparison-h1b-versus-h1"
 id="toc-model-comparison-h1b-versus-h1">model comparison H1b versus
 H1</a></li>
@@ -375,6 +383,12 @@ waves for energy independence</a></li>
 <li><a href="#changes-across-waves-for-energy-independence-by-country"
 id="toc-changes-across-waves-for-energy-independence-by-country">Changes
 across waves for energy independence by country</a></li>
+</ul></li>
+<li><a href="#graphical-representation-policy-support"
+id="toc-graphical-representation-policy-support">Graphical
+representation policy support</a>
+<ul>
+<li><a href="#all-plots" id="toc-all-plots">all plots</a></li>
 </ul></li>
 </ul>
 </div>
@@ -5824,12 +5838,9 @@ Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
 </div>
 <div id="h1b-plot-both-waves" class="section level3">
 <h3>H1b plot both waves</h3>
-<pre><code>## Data were &#39;prettified&#39;. Consider using `terms=&quot;concern.scaled [all]&quot;` to get smooth plots.</code></pre>
+<pre><code>## Data were &#39;prettified&#39;. Consider using `terms=&quot;concern.scaled [all]&quot;` to
+##   get smooth plots.</code></pre>
 <p><img src="analyses-policy-new_files/figure-html/fig1b-1.png" width="1536" style="display: block; margin: auto;" /></p>
-</div>
-<div id="both-plots" class="section level3">
-<h3>both plots</h3>
-<p><img src="analyses-policy-new_files/figure-html/plots-1.png" width="1824" style="display: block; margin: auto;" /></p>
 </div>
 <div id="model-comparison-h1b-versus-h1" class="section level3">
 <h3>model comparison H1b versus H1</h3>
@@ -5837,9 +5848,12 @@ Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
 ## Models:
 ## model.both.waves.2.c: decision ~ wave + co2 + tax + energieabhaengigkeit + zeitpunkt + country + age + gender + education + income + (1 + co2 + tax + energieabhaengigkeit + zeitpunkt | m)
 ## model.H1b.both.waves2.d: decision ~ wave + energieabhaengigkeit + tax + co2 + zeitpunkt * concern.scaled + country + age + gender + education + income + (1 + co2 + tax + energieabhaengigkeit + zeitpunkt | m)
-##                         npar   AIC   BIC logLik deviance  Chisq Df Pr(&gt;Chisq)    
-## model.both.waves.2.c      30 31757 32009 -15848    31697                         
-## model.H1b.both.waves2.d   32 31519 31788 -15727    31455 242.09  2  &lt; 2.2e-16 ***
+##                         npar   AIC   BIC logLik deviance  Chisq Df Pr(&gt;Chisq)
+## model.both.waves.2.c      30 31757 32009 -15848    31697                     
+## model.H1b.both.waves2.d   32 31519 31788 -15727    31455 242.09  2  &lt; 2.2e-16
+##                            
+## model.both.waves.2.c       
+## model.H1b.both.waves2.d ***
 ## ---
 ## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
 </div>
@@ -6630,6 +6644,15 @@ Marginal R<sup>2</sup> / Conditional R<sup>2</sup>
 </td>
 </tr>
 </table>
+</div>
+</div>
+<div id="graphical-representation-policy-support"
+class="section level2">
+<h2>Graphical representation policy support</h2>
+<p><img src="analyses-policy-new_files/figure-html/Fig1c-1.png" width="1536" style="display: block; margin: auto;" /></p>
+<div id="all-plots" class="section level3">
+<h3>all plots</h3>
+<p><img src="analyses-policy-new_files/figure-html/Figures1-1.png" width="1536" style="display: block; margin: auto;" /></p>
 </div>
 </div>
 
